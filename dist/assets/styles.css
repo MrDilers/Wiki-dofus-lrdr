@@ -33,7 +33,7 @@ body {
     repeating-linear-gradient(135deg, rgba(240, 192, 64, 0.045) 0 1px, transparent 1px 11px),
     #0a0618;
   color: var(--text);
-  font-family: Inter, "Segoe UI", Arial, sans-serif;
+  font-family: "Trebuchet MS", Verdana, "Segoe UI", Arial, sans-serif;
 }
 
 body.home-layout {
@@ -82,7 +82,7 @@ body.home-layout::after {
   width: var(--size);
   height: var(--size);
   background: var(--gold-soft);
-  box-shadow: 0 0 18px rgba(240, 192, 64, 0.88);
+  box-shadow: 0 0 16px rgba(240, 192, 64, 0.82), 0 0 32px rgba(160, 100, 255, 0.18);
   opacity: 0;
   transform: translate3d(0, 0, 0);
   animation: moteRise 12s linear infinite;
@@ -216,7 +216,7 @@ a {
   margin: 0 0 10px;
   color: var(--gold);
   font-size: 0.78rem;
-  font-weight: 800;
+  font-weight: 900;
   letter-spacing: 0.08em;
   text-transform: uppercase;
 }
@@ -233,6 +233,8 @@ h1 {
   margin-bottom: 16px;
   font-size: clamp(2.3rem, 7vw, 5.8rem);
   line-height: 0.95;
+  font-family: "Trebuchet MS", Verdana, "Segoe UI", Arial, sans-serif;
+  font-weight: 900;
 }
 
 h2 {
@@ -295,6 +297,7 @@ h3 {
   text-shadow: 0 2px 20px rgba(0, 0, 0, 0.6);
   transform: translateY(0);
   animation: homeBrandIn 680ms ease-out both;
+  font-family: "Trebuchet MS", Verdana, "Segoe UI", Arial, sans-serif;
 }
 
 .home-brand strong,
@@ -325,6 +328,7 @@ h3 {
   margin-bottom: 22px;
   color: var(--text);
   text-shadow: 0 8px 44px rgba(0, 0, 0, 0.62);
+  letter-spacing: 0;
 }
 
 .home-hero-meta {
@@ -358,12 +362,12 @@ h3 {
   position: relative;
   overflow: hidden;
   display: grid;
-  min-height: 148px;
+  min-height: 154px;
   align-content: space-between;
   gap: 20px;
-  padding: 20px;
-  border: 1px solid rgba(240, 192, 64, 0.26);
-  clip-path: polygon(18px 0, 100% 0, 100% calc(100% - 18px), calc(100% - 18px) 100%, 0 100%, 0 18px);
+  padding: 20px 22px 20px 72px;
+  border: 1px solid rgba(240, 192, 64, 0.32);
+  clip-path: polygon(28px 0, calc(100% - 10px) 0, 100% 50%, calc(100% - 10px) 100%, 28px 100%, 0 50%);
   background:
     linear-gradient(180deg, rgba(13, 8, 28, 0.72), rgba(5, 3, 14, 0.82)),
     linear-gradient(135deg, rgba(240, 192, 64, 0.1), rgba(160, 100, 255, 0.08));
@@ -385,21 +389,27 @@ h3 {
   content: "";
   position: absolute;
   inset: 0;
-  background:
-    linear-gradient(120deg, transparent 0%, rgba(240, 192, 64, 0.14) 42%, transparent 62%),
-    radial-gradient(circle at 85% 18%, rgba(160, 100, 255, 0.24), transparent 14rem);
-  opacity: 0.9;
-  transform: translateX(-110%);
-  transition: transform 620ms ease;
+  background: linear-gradient(90deg, transparent 0%, rgba(255, 230, 128, 0.05) 28%, rgba(255, 230, 128, 0.42) 48%, rgba(160, 100, 255, 0.12) 58%, transparent 78%);
+  opacity: 0;
+  transform: translateX(-130%);
+  transition: transform 760ms ease, opacity 180ms ease;
   pointer-events: none;
 }
 
 .home-card::after {
   content: "";
   position: absolute;
-  inset: auto 20px 18px 20px;
-  height: 1px;
-  background: linear-gradient(90deg, rgba(240, 192, 64, 0.72), rgba(160, 100, 255, 0.12));
+  left: 23px;
+  top: 50%;
+  width: 34px;
+  height: 34px;
+  border: 1px solid rgba(240, 192, 64, 0.48);
+  background:
+    radial-gradient(circle, rgba(240, 192, 64, 0.3), transparent 54%),
+    rgba(10, 6, 24, 0.66);
+  box-shadow: inset 0 0 16px rgba(240, 192, 64, 0.16), 0 0 18px rgba(240, 192, 64, 0.12);
+  clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+  transform: translateY(-50%) rotate(45deg);
 }
 
 .home-card:nth-child(1) {
@@ -424,14 +434,22 @@ h3 {
 }
 
 .home-card-index {
+  position: absolute;
+  left: 31px;
+  top: 50%;
+  transform: translateY(-50%);
   color: var(--gold);
+  font-size: 0.78rem;
   font-weight: 900;
+  text-shadow: 0 0 14px rgba(240, 192, 64, 0.35);
 }
 
 .home-card strong {
   display: block;
   margin-bottom: 8px;
-  font-size: 1.45rem;
+  font-size: 1.55rem;
+  font-weight: 900;
+  text-shadow: 0 2px 18px rgba(0, 0, 0, 0.42);
 }
 
 .home-card p {
@@ -448,11 +466,36 @@ h3 {
   text-transform: uppercase;
 }
 
+.home-card-action {
+  position: absolute;
+  right: 28px;
+  bottom: 24px;
+  display: inline-grid;
+  place-items: center;
+  min-width: 96px;
+  min-height: 38px;
+  padding: 0 18px;
+  border: 1px solid rgba(240, 192, 64, 0.5);
+  background: rgba(240, 192, 64, 0.12);
+  color: var(--gold-soft);
+  font-size: 0.82rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  clip-path: polygon(14px 0, 100% 0, calc(100% - 14px) 100%, 0 100%);
+  box-shadow: 0 0 22px rgba(240, 192, 64, 0.14);
+  transition: transform 180ms ease, background 180ms ease;
+}
+
+.home-card.is-ready:hover .home-card-action {
+  transform: translateX(6px);
+  background: rgba(240, 192, 64, 0.2);
+}
+
 .home-card-featured {
   isolation: isolate;
   min-height: 370px;
-  padding: 30px;
-  clip-path: polygon(34px 0, 100% 0, 100% calc(100% - 34px), calc(100% - 34px) 100%, 0 100%, 0 34px);
+  padding: 34px 38px 34px 118px;
+  clip-path: polygon(48px 0, calc(100% - 22px) 0, 100% 50%, calc(100% - 22px) 100%, 48px 100%, 0 50%);
 }
 
 .home-card-featured strong {
@@ -460,33 +503,15 @@ h3 {
   line-height: 0.9;
 }
 
-.home-card-aura {
-  position: absolute;
-  inset: auto -12% -34% auto;
-  width: min(38vw, 440px);
-  aspect-ratio: 1;
-  border: 1px solid rgba(240, 192, 64, 0.28);
-  background:
-    radial-gradient(circle, rgba(240, 192, 64, 0.22), transparent 38%),
-    conic-gradient(from 0deg, transparent, rgba(240, 192, 64, 0.46), transparent 34%, rgba(160, 100, 255, 0.3), transparent 72%);
-  clip-path: polygon(50% 0, 61% 34%, 98% 35%, 68% 57%, 79% 92%, 50% 71%, 21% 92%, 32% 57%, 2% 35%, 39% 34%);
-  filter: blur(0.2px);
-  opacity: 0.7;
-  animation: rotateAura 16s linear infinite;
+.home-card-featured::after {
+  left: 32px;
+  width: 58px;
+  height: 58px;
 }
 
-.home-card-rune {
-  position: absolute;
-  right: 26px;
-  top: 24px;
-  width: 86px;
-  aspect-ratio: 1;
-  border: 1px solid rgba(240, 192, 64, 0.54);
-  box-shadow:
-    inset 0 0 24px rgba(240, 192, 64, 0.16),
-    0 0 28px rgba(240, 192, 64, 0.22);
-  clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
-  animation: runeFloat 4.8s ease-in-out infinite;
+.home-card-featured .home-card-index {
+  left: 45px;
+  font-size: 1rem;
 }
 
 .home-card-list {
@@ -504,7 +529,8 @@ h3 {
 }
 
 .home-card.is-ready:hover::before {
-  transform: translateX(95%);
+  opacity: 1;
+  transform: translateX(130%);
 }
 
 .home-card.is-disabled {
@@ -515,6 +541,11 @@ h3 {
   opacity: 0.88;
   border-color: rgba(160, 100, 255, 0.45);
   transform: translateY(-2px);
+}
+
+.home-card.is-disabled:hover::before {
+  opacity: 0.7;
+  transform: translateX(130%);
 }
 
 @keyframes atmosphereShift {
@@ -571,22 +602,6 @@ h3 {
   }
   50% {
     box-shadow: 0 0 24px rgba(240, 192, 64, 0.18);
-  }
-}
-
-@keyframes rotateAura {
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes runeFloat {
-  0%,
-  100% {
-    transform: translateY(0) rotate(45deg);
-  }
-  50% {
-    transform: translateY(8px) rotate(52deg);
   }
 }
 
@@ -792,8 +807,6 @@ input {
   .home-card::before,
   .home-motes span,
   body.home-layout::after,
-  .home-card-aura,
-  .home-card-rune,
   .home-hero,
   .home-brand,
   .home-hero-meta span {

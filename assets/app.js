@@ -15,11 +15,11 @@ function initHomeEffects() {
   const cards = document.querySelector(".home-categories");
   if (!home || !motes) return;
 
-  motes.innerHTML = Array.from({ length: 26 }, (_, index) => {
-    const left = (index * 37) % 100;
-    const delay = (index % 9) * -1.7;
-    const size = 3 + (index % 4);
-    const drift = 18 + (index % 6) * 7;
+  motes.innerHTML = Array.from({ length: 42 }, (_, index) => {
+    const left = (index * 29) % 100;
+    const delay = (index % 14) * -1.15;
+    const size = 2 + (index % 5);
+    const drift = 14 + (index % 8) * 6;
     return `<span style="--x:${left}%;--delay:${delay}s;--size:${size}px;--drift:${drift}px"></span>`;
   }).join("");
 
