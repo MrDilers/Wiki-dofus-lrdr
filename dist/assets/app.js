@@ -270,10 +270,22 @@ function renderPanoCard(item) {
       <p>${item.summary}</p>
       <div class="tag-row">${item.tags.map((tag) => `<span class="tag">${tag}</span>`).join("")}</div>
       <div class="pano-images">
-        ${item.images.map((image) => `<img src="${image}" alt="${item.name}">`).join("")}
+        ${item.images.map((image) => `<button class="pano-image-button" type="button" data-image-src="${image}" data-image-alt="${item.name}"><img src="${image}" alt="${item.name}"></button>`).join("")}
       </div>
     </article>
   `;
+}
+
+function openImageDialog(src, alt) {
+  const dialog = $("#imageDialog");
+  const image = $("#imageDialogImg");
+  const caption = $("#imageDialogCaption");
+  if (!dialog || !image || !caption) return;
+
+  image.src = src;
+  image.alt = alt;
+  caption.textContent = alt;
+  dialog.showModal();
 }
 
 function renderWiki() {
@@ -368,6 +380,17 @@ async function init() {
   });
 
   $("#closeDialog")?.addEventListener("click", () => $("#classDialog").close());
+
+  $("#wikiSections")?.addEventListener("click", (event) => {
+    const button = event.target.closest("[data-image-src]");
+    if (!button) return;
+    openImageDialog(button.dataset.imageSrc, button.dataset.imageAlt);
+  });
+
+  $("#closeImageDialog")?.addEventListener("click", () => $("#imageDialog").close());
+  $("#imageDialog")?.addEventListener("click", (event) => {
+    if (event.target.id === "imageDialog") event.target.close();
+  });
 }
 
 init().catch((error) => {
