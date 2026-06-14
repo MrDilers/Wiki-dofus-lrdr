@@ -1,16 +1,20 @@
 :root {
   color-scheme: dark;
-  --bg: #100d0b;
-  --panel: #1b1712;
-  --panel-2: #251f17;
-  --line: #3d3324;
-  --text: #f6ead4;
-  --muted: #b8a98f;
-  --gold: #e1b45f;
-  --red: #b94a3d;
-  --green: #78a85d;
-  --blue: #64a8bf;
-  --shadow: 0 18px 60px rgba(0, 0, 0, 0.35);
+  --bg: #0a0618;
+  --panel: #120c22;
+  --panel-2: #1a1206;
+  --line: rgba(240, 192, 64, 0.24);
+  --line-strong: rgba(240, 192, 64, 0.55);
+  --text: #f0e6cc;
+  --muted: rgba(235, 215, 255, 0.72);
+  --gold: #f0c040;
+  --gold-soft: #ffe680;
+  --violet: #a064ff;
+  --violet-deep: #8246dc;
+  --red: #ff8080;
+  --green: #9fc56f;
+  --blue: #84c8ff;
+  --shadow: 0 18px 60px rgba(0, 0, 0, 0.48);
 }
 
 * {
@@ -25,8 +29,9 @@ body {
   margin: 0;
   min-height: 100vh;
   background:
-    radial-gradient(circle at top left, rgba(225, 180, 95, 0.12), transparent 32rem),
-    linear-gradient(135deg, #100d0b 0%, #17120e 54%, #0e1110 100%);
+    linear-gradient(180deg, rgba(10, 6, 24, 0.96), rgba(10, 6, 24, 0.98)),
+    repeating-linear-gradient(135deg, rgba(240, 192, 64, 0.045) 0 1px, transparent 1px 11px),
+    #0a0618;
   color: var(--text);
   font-family: Inter, "Segoe UI", Arial, sans-serif;
 }
@@ -41,7 +46,7 @@ a {
   width: 280px;
   padding: 22px 18px;
   border-right: 1px solid var(--line);
-  background: rgba(16, 13, 11, 0.86);
+  background: rgba(2, 5, 3, 0.88);
   backdrop-filter: blur(14px);
   overflow-y: auto;
   z-index: 2;
@@ -61,8 +66,8 @@ a {
   width: 44px;
   height: 44px;
   border: 1px solid #6d5730;
-  background: linear-gradient(135deg, #3c2717, #8b6831);
-  color: #ffe8ad;
+  background: linear-gradient(135deg, rgba(240, 192, 64, 0.18), rgba(160, 100, 255, 0.34));
+  color: var(--gold-soft);
   font-weight: 800;
 }
 
@@ -94,7 +99,7 @@ a {
 .nav a:hover,
 .nav a.active {
   border-color: var(--line);
-  background: var(--panel-2);
+  background: rgba(240, 192, 64, 0.08);
   color: var(--text);
 }
 
@@ -156,7 +161,9 @@ h3 {
 .team-grid article,
 .class-card {
   border: 1px solid var(--line);
-  background: linear-gradient(180deg, rgba(37, 31, 23, 0.92), rgba(27, 23, 18, 0.92));
+  background:
+    linear-gradient(180deg, rgba(18, 12, 34, 0.95), rgba(7, 4, 18, 0.94)),
+    linear-gradient(135deg, rgba(240, 192, 64, 0.08), rgba(160, 100, 255, 0.08));
   box-shadow: var(--shadow);
 }
 
@@ -167,7 +174,7 @@ h3 {
 .hero-panel span {
   display: inline-block;
   margin-bottom: 18px;
-  color: var(--green);
+  color: var(--gold-soft);
   font-weight: 800;
 }
 
@@ -180,7 +187,7 @@ h3 {
   gap: 18px;
   align-items: end;
   padding: 20px 0;
-  background: rgba(16, 13, 11, 0.88);
+  background: rgba(10, 6, 24, 0.9);
   backdrop-filter: blur(10px);
 }
 
@@ -196,7 +203,7 @@ input {
   min-height: 46px;
   padding: 0 14px;
   border: 1px solid var(--line);
-  background: #0d0b09;
+  background: rgba(0, 0, 0, 0.4);
   color: var(--text);
   font: inherit;
 }
@@ -210,7 +217,7 @@ input {
 .chip,
 .icon-button {
   border: 1px solid var(--line);
-  background: #18130f;
+  background: rgba(18, 12, 34, 0.95);
   color: var(--text);
   cursor: pointer;
 }
@@ -223,7 +230,8 @@ input {
 
 .chip.active {
   border-color: var(--gold);
-  color: #ffe4a4;
+  background: rgba(240, 192, 64, 0.12);
+  color: var(--gold-soft);
 }
 
 .team-section,
@@ -282,7 +290,8 @@ input {
 .tag {
   padding: 5px 8px;
   border: 1px solid rgba(225, 180, 95, 0.28);
-  color: #f5d38d;
+  background: rgba(130, 70, 220, 0.18);
+  color: #f0c040;
   font-size: 0.8rem;
 }
 
@@ -295,8 +304,8 @@ input {
 
 .spell-list span {
   padding: 4px 7px;
-  background: rgba(120, 168, 93, 0.12);
-  color: #cfe3bd;
+  background: rgba(240, 192, 64, 0.1);
+  color: rgba(240, 230, 204, 0.92);
   font-size: 0.78rem;
 }
 
@@ -309,11 +318,16 @@ input {
 .button {
   min-height: 40px;
   padding: 0 12px;
-  border: 1px solid #6d5730;
-  background: #2c2115;
+  border: 1px solid var(--line-strong);
+  background: linear-gradient(180deg, rgba(240, 192, 64, 0.24), rgba(200, 154, 16, 0.18));
   color: var(--text);
   cursor: pointer;
   font-weight: 800;
+}
+
+.button:hover {
+  border-color: var(--gold);
+  color: var(--gold-soft);
 }
 
 .dialog {
@@ -355,8 +369,8 @@ input {
   overflow: auto;
   padding: 14px;
   border: 1px solid var(--line);
-  background: #0c0a08;
-  color: #d9ccb4;
+  background: rgba(0, 0, 0, 0.45);
+  color: rgba(240, 230, 204, 0.9);
   white-space: pre-wrap;
   line-height: 1.5;
 }
