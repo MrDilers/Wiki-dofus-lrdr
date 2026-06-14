@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Wiki LRDR - Classes</title>
+    <link rel="stylesheet" href="assets/styles.css">
+  </head>
+  <body>
+    <aside class="sidebar">
+      <a class="brand" href="#top" aria-label="Accueil">
+        <span class="brand-mark">LR</span>
+        <span>
+          <strong>La Revanche de Rétro</strong>
+          <small>Wiki classes 1.34</small>
+        </span>
+      </a>
+      <nav id="classNav" class="nav" aria-label="Classes"></nav>
+    </aside>
+
+    <main id="top" class="shell">
+      <section class="hero">
+        <div>
+          <p class="eyebrow">Serveur privé Dofus 1.34</p>
+          <h1>Classes et sorts modifiés</h1>
+          <p class="lead">Base consultable issue du PDF classe, avec pages sources, OCR, conseils d'éléments et synergies PvM 200.</p>
+        </div>
+        <div class="hero-panel">
+          <span id="classCount">12 classes</span>
+          <strong>Team PvM 200</strong>
+          <p>Pandawa, Feca, Eniripsa, Enutrof, Cra, Iop, Osamodas, Sacrieur.</p>
+        </div>
+      </section>
+
+      <section class="toolbar" aria-label="Recherche et filtres">
+        <label class="search">
+          <span>Recherche</span>
+          <input id="searchInput" type="search" placeholder="Sort, élément, rôle, classe...">
+        </label>
+        <div id="elementFilters" class="chips" aria-label="Filtres éléments"></div>
+      </section>
+
+      <section id="team" class="team-section">
+        <div class="section-head">
+          <p class="eyebrow">Composition conseillée</p>
+          <h2>Team PvM 200</h2>
+        </div>
+        <div class="team-grid">
+          <article>
+            <h3>Contrôle du terrain</h3>
+            <p>Pandawa place, Enutrof ralentit, Feca sécurise. Le combat devient lisible avant les gros tours de dégâts.</p>
+          </article>
+          <article>
+            <h3>Burst préparé</h3>
+            <p>Cra nettoie à distance, Iop termine les cibles prioritaires, Osamodas amplifie les tours décisifs.</p>
+          </article>
+          <article>
+            <h3>Stabilité</h3>
+            <p>Eniripsa maintient les PA et les soins, Sacrieur absorbe la pression quand la mêlée devient inévitable.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-head">
+        <p class="eyebrow">Fiches</p>
+        <h2>Classes</h2>
+      </section>
+      <section id="classesGrid" class="classes-grid" aria-live="polite"></section>
+    </main>
+
+    <dialog id="classDialog" class="dialog">
+      <button id="closeDialog" class="icon-button" aria-label="Fermer">×</button>
+      <div id="dialogContent"></div>
+    </dialog>
+
+    <script src="data/wiki-data.js"></script>
+    <script src="assets/app.js"></script>
+  </body>
+</html>

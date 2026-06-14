@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "extract:classes": "node tools/extract-pdf.js \"C:\\Users\\Shadow\\Downloads\\Wiki-Classe-LRDR.pdf\" assets\\pages",
+    "ocr:classes": "node tools/ocr-pages.js assets\\pages data\\ocr",
+    "build:data": "node tools/build-static-data.js",
+    "serve": "node tools/serve.js"
+  },
+  "dependencies": {
+    "@tesseract.js-data/fra": "^1.0.0",
+    "pdf-parse": "^2.4.5",
+    "tesseract.js": "^7.0.0"
+  }
+}

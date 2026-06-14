@@ -1,0 +1,122 @@
+[
+  {
+    "id": "cra",
+    "name": "Cra",
+    "pages": [1, 2],
+    "elements": ["Terre", "Air"],
+    "roles": ["Distance", "Entrave", "Dégâts"],
+    "build": "Orientation Terre/Air pour profiter des nouvelles flèches de dégâts et de retrait. Priorité portée, coups critiques et sagesse si le retrait devient central.",
+    "pvm": "Très fort en ouverture de combat: placement à distance, focus de cible et ralentissement des menaces avant qu'elles touchent la team.",
+    "synergies": ["Pandawa", "Enutrof", "Xelor"]
+  },
+  {
+    "id": "sadida",
+    "name": "Sadida",
+    "pages": [2, 3],
+    "elements": ["Feu", "Terre", "Air"],
+    "roles": ["Zone", "Entrave", "Pression"],
+    "build": "Mode multi ou Terre/Feu selon les jets disponibles. La classe gagne en valeur quand elle joue autour des zones et des tours de relance.",
+    "pvm": "Pose un tempo solide en PvM: dégâts répétés, gêne de déplacement et couverture de zone.",
+    "synergies": ["Enutrof", "Feca", "Cra"]
+  },
+  {
+    "id": "sacrieur",
+    "name": "Sacrieur",
+    "pages": [4, 5],
+    "elements": ["Eau", "Terre"],
+    "roles": ["Tank", "Placement", "Vol de vie"],
+    "build": "Eau/Terre durable avec vitalité élevée. Les sorts de vol et de contact demandent un stuff capable d'encaisser les tours d'exposition.",
+    "pvm": "Pilier de mêlée: absorbe la pression, stabilise les monstres dangereux et facilite les tours de burst.",
+    "synergies": ["Feca", "Eniripsa", "Pandawa"]
+  },
+  {
+    "id": "pandawa",
+    "name": "Pandawa",
+    "pages": [5, 6],
+    "elements": ["Terre", "Feu"],
+    "roles": ["Placement", "Vulnérabilité", "Burst"],
+    "build": "Terre/Feu ou Terre principal. Privilégier l'initiative, la portée utile et assez de résistance pour porter/jeter sous pression.",
+    "pvm": "Le meilleur ouvreur de team: isole les cibles, prépare les zones et rend les tours de dégâts beaucoup plus propres.",
+    "synergies": ["Cra", "Iop", "Feca"]
+  },
+  {
+    "id": "feca",
+    "name": "Feca",
+    "pages": [6, 7],
+    "elements": ["Feu", "Eau", "Terre"],
+    "roles": ["Protection", "Zone", "Contrôle"],
+    "build": "Mode tanky avec éléments adaptés aux glyphes et attaques modifiées. Les résistances et la portée de contrôle valent autant que les dégâts.",
+    "pvm": "Sécurise les combats longs: réduction des dégâts, zones défensives et verrouillage d'un couloir.",
+    "synergies": ["Sacrieur", "Sadida", "Eniripsa"]
+  },
+  {
+    "id": "osamodas",
+    "name": "Osamodas",
+    "pages": [8, 9, 10],
+    "elements": ["Air", "Terre"],
+    "roles": ["Soutien", "Boost", "Invocations"],
+    "build": "Air/Soutien ou mix utilitaire. Viser PA, portée de sort et survie pour maintenir les boosts sur plusieurs tours.",
+    "pvm": "Amplifie les damage dealers et stabilise les combats grâce aux invocations, aux boosts et aux relances de tempo.",
+    "synergies": ["Iop", "Cra", "Eniripsa"]
+  },
+  {
+    "id": "enutrof",
+    "name": "Enutrof",
+    "pages": [10, 11],
+    "elements": ["Feu", "Terre", "Eau"],
+    "roles": ["Retrait PM", "Drop", "Entrave"],
+    "build": "Sagesse/Eau ou bi-élément utilitaire selon le contenu. Le retrait PM reste la valeur sûre pour les donjons 200.",
+    "pvm": "Ralentit le combat à l'avantage de la team et rend les vagues plus faciles à gérer.",
+    "synergies": ["Cra", "Sadida", "Xelor"]
+  },
+  {
+    "id": "sram",
+    "name": "Sram",
+    "pages": [11, 12],
+    "elements": ["Eau", "Terre"],
+    "roles": ["Pièges", "Burst", "Contrôle"],
+    "build": "Eau/Terre avec dommages fixes et mobilité. Les pièges demandent un jeu propre autour du placement allié.",
+    "pvm": "Excellent pour préparer une zone meurtrière ou finir une cible isolée après placement Pandawa.",
+    "synergies": ["Pandawa", "Xelor", "Feca"]
+  },
+  {
+    "id": "xelor",
+    "name": "Xelor",
+    "pages": [12, 13, 14],
+    "elements": ["Eau", "Feu"],
+    "roles": ["Retrait PA", "Tempo", "Dégâts"],
+    "build": "Sagesse/élément selon besoin de retrait. Plus la team joue contrôle, plus le Xelor devient rentable.",
+    "pvm": "Coupe les tours dangereux et aide à lisser les dégâts reçus sur les combats à mécaniques.",
+    "synergies": ["Enutrof", "Cra", "Sram"]
+  },
+  {
+    "id": "ecaflip",
+    "name": "Ecaflip",
+    "pages": [14, 15],
+    "elements": ["Air", "Feu", "Terre", "Eau"],
+    "roles": ["Dégâts", "Aléatoire", "Sustain"],
+    "build": "Multi-élément offensif si l'équipement suit, sinon Air/Feu ou Terre selon les sorts priorisés.",
+    "pvm": "Damage dealer flexible qui profite énormément des placements et des boosts.",
+    "synergies": ["Pandawa", "Osamodas", "Eniripsa"]
+  },
+  {
+    "id": "eniripsa",
+    "name": "Eniripsa",
+    "pages": [15, 16],
+    "elements": ["Feu", "Eau"],
+    "roles": ["Soin", "PA", "Soutien"],
+    "build": "Feu/Soin avec option Eau pour le vol de vie. Garder de la portée et de la vitalité pour rester hors danger.",
+    "pvm": "Assure la continuité de la team: PA, soins et maintien des damage dealers sur les tours critiques.",
+    "synergies": ["Sacrieur", "Iop", "Feca"]
+  },
+  {
+    "id": "iop",
+    "name": "Iop",
+    "pages": [16, 17],
+    "elements": ["Eau", "Feu", "Terre"],
+    "roles": ["Burst", "Mêlée", "Finisher"],
+    "build": "Mode burst avec PA élevés, dommages et résistances correctes. Le Iop donne le meilleur quand la team lui prépare une cible nette.",
+    "pvm": "Finisher principal: transforme un bon tour de placement en élimination rapide d'une menace.",
+    "synergies": ["Pandawa", "Osamodas", "Eniripsa"]
+  }
+]
