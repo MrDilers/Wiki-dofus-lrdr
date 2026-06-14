@@ -467,8 +467,8 @@ window.LRDR_WIKI = {
         "Les captures montrent des exemples de bonus: prospection, sagesse, vitalite, dommages, caracteristiques, portee, PM et PA selon le palier atteint."
       ],
       "images": [
-        "assets/wiki/bonus/image.webp",
-        "assets/wiki/bonus/image1.webp"
+        "assets/wiki/bonus/bonus-guilde-paliers-02-08.webp",
+        "assets/wiki/bonus/bonus-guilde-paliers-01-07.webp"
       ]
     },
     {
@@ -483,7 +483,7 @@ window.LRDR_WIKI = {
         "Ce PNJ est utile quand vous avez des kamas a investir et que vous acceptez une part de hasard."
       ],
       "images": [
-        "assets/wiki/pnj/image.webp"
+        "assets/wiki/pnj/maitre-hasard-dialogue.webp"
       ]
     },
     {
@@ -557,7 +557,7 @@ window.LRDR_WIKI = {
         "Plus le bouclier est nourri, plus il gagne en puissance et en statistiques.",
         "Le systeme sert de progression longue duree: on ameliore l'objet petit a petit pendant l'aventure."
       ],
-      "video": "assets/wiki/evolutifs/20260516-2210-52.9973606.mp4"
+      "video": "assets/wiki/evolutifs/bouclier-evolutif-demo.mp4"
     },
     {
       "id": "dofus-evolutif",

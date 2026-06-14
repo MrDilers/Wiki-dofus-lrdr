@@ -3,6 +3,8 @@
     "extract:classes": "node tools/extract-pdf.js \"C:\\Users\\Shadow\\Downloads\\Wiki-Classe-LRDR.pdf\" assets\\pages",
     "ocr:classes": "node tools/ocr-pages.js assets\\pages data\\ocr",
     "build:data": "node tools/build-static-data.js",
+    "build:wiki": "node tools/build-wiki-content.js",
+    "check": "node --check assets/app.js && node --check tools/build-wiki-content.js && node --check tools/build-static-data.js",
     "serve": "node tools/serve.js"
   },
   "dependencies": {

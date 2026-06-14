@@ -12,6 +12,7 @@ const elements = ["Tous", "Terre", "Feu", "Eau", "Air"];
 const wikiFilters = ["Tous", "Panoplies", "Bonus", "PNJ", "Equipements evolutifs", "Donjons"];
 const $ = (selector) => document.querySelector(selector);
 
+// Effets visuels de la page d'accueil.
 function initHomeEffects() {
   const home = document.querySelector(".home-layout");
   const motes = document.querySelector(".home-motes");
@@ -77,8 +78,9 @@ function filterFromHash(hash = window.location.hash) {
   return wikiFilters.find((filter) => sectionSlug(filter) === target || (filter === "Panoplies" && target === "panoplies")) || "";
 }
 
+// Menu lateral commun aux pages internes.
 function renderNav() {
-  if (!$("#classNav")) return;
+  if (!$("#siteNav")) return;
   const currentPage = window.location.pathname.split("/").pop() || "index.html";
   const onClasses = currentPage === "classes.html";
   const onWiki = currentPage === "wiki.html";
@@ -99,7 +101,7 @@ function renderNav() {
     })
     .join("");
 
-  $("#classNav").innerHTML = `
+  $("#siteNav").innerHTML = `
     <a class="nav-home" href="index.html"${navCurrent("index.html")}><span>Home</span><small>Accueil</small></a>
     <div class="nav-section-title">Categories</div>
     <a class="nav-category" href="classes.html"${navCurrent("classes.html")}><span>Classes</span><small>${state.classes.length}</small></a>
@@ -108,6 +110,7 @@ function renderNav() {
   `;
 }
 
+// Recherche et filtres de la page Classes.
 function renderFilters() {
   if (!$("#elementFilters")) return;
   $("#elementFilters").innerHTML = elements
@@ -199,6 +202,7 @@ function renderDialog(classItem) {
   $("#classDialog").showModal();
 }
 
+// Recherche, filtres et rendu de la page Wiki.
 function sectionSlug(category) {
   return normalize(category).replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 }
@@ -366,6 +370,7 @@ function bindWikiHashNavigation() {
   window.addEventListener("hashchange", initHashFilter);
 }
 
+// Initialisation commune.
 async function init() {
   if (window.LRDR_CLASSES && window.LRDR_PAGES) {
     state.classes = window.LRDR_CLASSES;
