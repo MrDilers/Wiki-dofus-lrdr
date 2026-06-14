@@ -36,14 +36,17 @@ function extractSpells(text) {
 }
 
 function renderNav() {
+  const currentPage = window.location.pathname.split("/").pop() || "index.html";
+  const homeCurrent = currentPage === "index.html" ? ' aria-current="page"' : "";
+  const classesCurrent = currentPage === "classes.html" || currentPage === "classes" ? ' aria-current="page"' : "";
   const classLinks = state.classes
     .map((item) => `<a class="nav-child" href="classes.html#${item.id}"><span>${item.name}</span><small>${item.elements.join("/")}</small></a>`)
     .join("");
 
   $("#classNav").innerHTML = `
-    <a class="nav-home" href="index.html"><span>Home</span><small>Accueil</small></a>
+    <a class="nav-home" href="index.html"${homeCurrent}><span>Home</span><small>Accueil</small></a>
     <div class="nav-section-title">Categories</div>
-    <a class="nav-category" href="classes.html"><span>Classes</span><small>${state.classes.length}</small></a>
+    <a class="nav-category" href="classes.html"${classesCurrent}><span>Classes</span><small>${state.classes.length}</small></a>
     <div class="nav-children">
       ${classLinks}
     </div>
@@ -85,7 +88,7 @@ function renderClasses() {
       $("#classCount").textContent = `${state.classes.length} classe${state.classes.length > 1 ? "s" : ""}`;
     }
     if ($("#homeClassCount")) {
-      $("#homeClassCount").textContent = `${state.classes.length} fiche${state.classes.length > 1 ? "s" : ""}`;
+      $("#homeClassCount").textContent = `${state.classes.length} fiche${state.classes.length > 1 ? "s" : ""} disponibles`;
     }
     return;
   }
