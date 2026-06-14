@@ -611,16 +611,12 @@ h3 {
 }
 
 .toolbar {
-  position: sticky;
-  top: 0;
-  z-index: 1;
   display: grid;
   grid-template-columns: minmax(240px, 480px) 1fr;
   gap: 18px;
   align-items: end;
   padding: 20px 0;
-  background: rgba(10, 6, 24, 0.9);
-  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--line);
 }
 
 .search span {
