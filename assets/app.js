@@ -37,13 +37,13 @@ function extractSpells(text) {
 
 function renderNav() {
   const classLinks = state.classes
-    .map((item) => `<a class="nav-child" href="#${item.id}"><span>${item.name}</span><small>${item.elements.join("/")}</small></a>`)
+    .map((item) => `<a class="nav-child" href="classes.html#${item.id}"><span>${item.name}</span><small>${item.elements.join("/")}</small></a>`)
     .join("");
 
   $("#classNav").innerHTML = `
-    <a class="nav-home" href="#home"><span>Home</span><small>Accueil</small></a>
+    <a class="nav-home" href="index.html"><span>Home</span><small>Accueil</small></a>
     <div class="nav-section-title">Categories</div>
-    <a class="nav-category" href="#classes"><span>Classes</span><small>${state.classes.length}</small></a>
+    <a class="nav-category" href="classes.html"><span>Classes</span><small>${state.classes.length}</small></a>
     <div class="nav-children">
       ${classLinks}
     </div>
@@ -51,6 +51,7 @@ function renderNav() {
 }
 
 function renderFilters() {
+  if (!$("#elementFilters")) return;
   $("#elementFilters").innerHTML = elements
     .map((element) => `<button class="chip ${state.element === element ? "active" : ""}" data-element="${element}">${element}</button>`)
     .join("");
@@ -79,9 +80,21 @@ function matchesClass(item) {
 }
 
 function renderClasses() {
+  if (!$("#classesGrid")) {
+    if ($("#classCount")) {
+      $("#classCount").textContent = `${state.classes.length} classe${state.classes.length > 1 ? "s" : ""}`;
+    }
+    if ($("#homeClassCount")) {
+      $("#homeClassCount").textContent = `${state.classes.length} fiche${state.classes.length > 1 ? "s" : ""}`;
+    }
+    return;
+  }
+
   const visible = state.classes.filter(matchesClass);
   $("#classCount").textContent = `${visible.length} classe${visible.length > 1 ? "s" : ""}`;
-  $("#homeClassCount").textContent = `${state.classes.length} fiche${state.classes.length > 1 ? "s" : ""}`;
+  if ($("#homeClassCount")) {
+    $("#homeClassCount").textContent = `${state.classes.length} fiche${state.classes.length > 1 ? "s" : ""}`;
+  }
   $("#classesGrid").innerHTML = visible
     .map((item) => {
       const spells = extractSpells(pageText(item));
@@ -157,18 +170,18 @@ async function init() {
   renderFilters();
   renderClasses();
 
-  $("#searchInput").addEventListener("input", (event) => {
+  $("#searchInput")?.addEventListener("input", (event) => {
     state.query = event.target.value;
     renderClasses();
   });
 
-  $("#classesGrid").addEventListener("click", (event) => {
+  $("#classesGrid")?.addEventListener("click", (event) => {
     const button = event.target.closest("[data-open]");
     if (!button) return;
     renderDialog(state.classes.find((item) => item.id === button.dataset.open));
   });
 
-  $("#closeDialog").addEventListener("click", () => $("#classDialog").close());
+  $("#closeDialog")?.addEventListener("click", () => $("#classDialog").close());
 }
 
 init().catch((error) => {

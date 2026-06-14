@@ -143,6 +143,16 @@ a {
   border-bottom: 1px solid var(--line);
 }
 
+.category-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 300px;
+  gap: 28px;
+  align-items: end;
+  min-height: 230px;
+  padding-bottom: 28px;
+  border-bottom: 1px solid var(--line);
+}
+
 .eyebrow {
   margin: 0 0 10px;
   color: var(--gold);
@@ -463,6 +473,7 @@ input {
   }
 
   .hero,
+  .category-hero,
   .toolbar,
   .dialog-layout {
     grid-template-columns: 1fr;
