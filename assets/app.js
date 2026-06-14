@@ -9,6 +9,30 @@ const elements = ["Tous", "Terre", "Feu", "Eau", "Air"];
 
 const $ = (selector) => document.querySelector(selector);
 
+function initHomeEffects() {
+  const home = document.querySelector(".home-layout");
+  const motes = document.querySelector(".home-motes");
+  const cards = document.querySelector(".home-categories");
+  if (!home || !motes) return;
+
+  motes.innerHTML = Array.from({ length: 26 }, (_, index) => {
+    const left = (index * 37) % 100;
+    const delay = (index % 9) * -1.7;
+    const size = 3 + (index % 4);
+    const drift = 18 + (index % 6) * 7;
+    return `<span style="--x:${left}%;--delay:${delay}s;--size:${size}px;--drift:${drift}px"></span>`;
+  }).join("");
+
+  if (!cards || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+
+  window.addEventListener("pointermove", (event) => {
+    const x = (event.clientX / window.innerWidth - 0.5).toFixed(3);
+    const y = (event.clientY / window.innerHeight - 0.5).toFixed(3);
+    home.style.setProperty("--mx", x);
+    home.style.setProperty("--my", y);
+  }, { passive: true });
+}
+
 function normalize(value) {
   return value
     .toString()
@@ -173,6 +197,7 @@ async function init() {
   renderNav();
   renderFilters();
   renderClasses();
+  initHomeEffects();
 
   $("#searchInput")?.addEventListener("input", (event) => {
     state.query = event.target.value;
