@@ -11,6 +11,8 @@ const types = {
   ".js": "text/javascript; charset=utf-8",
   ".json": "application/json; charset=utf-8",
   ".png": "image/png",
+  ".webp": "image/webp",
+  ".mp4": "video/mp4",
 };
 
 function send(response, status, body, type = "text/plain; charset=utf-8") {

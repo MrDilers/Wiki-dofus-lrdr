@@ -4,14 +4,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Wiki LRDR - Classes</title>
-    <link rel="stylesheet" href="assets/styles.css?v=7">
+    <link rel="stylesheet" href="assets/styles.css?v=8">
   </head>
   <body>
     <aside class="sidebar">
       <a class="brand" href="index.html" aria-label="Accueil">
         <span class="brand-mark">LR</span>
         <span>
-          <strong>La Revanche de Rétro</strong>
+          <strong>La Revanche de Retro</strong>
           <small>Wiki Dofus 1.34</small>
         </span>
       </a>
@@ -21,32 +21,33 @@
     <main id="top" class="shell">
       <section id="classes" class="category-hero">
         <div>
-          <p class="eyebrow">Catégorie</p>
+          <p class="eyebrow">Categorie</p>
           <h1>Classes</h1>
         </div>
         <div class="hero-panel">
           <span id="classCount">12 classes</span>
-          <strong>Sorts modifiés</strong>
+          <strong>Sorts modifies</strong>
         </div>
       </section>
 
       <section class="toolbar" aria-label="Recherche et filtres">
         <label class="search">
           <span>Recherche</span>
-          <input id="searchInput" type="search" placeholder="Sort, élément, rôle, classe...">
+          <input id="searchInput" type="search" placeholder="Sort, element, role, classe...">
         </label>
-        <div id="elementFilters" class="chips" aria-label="Filtres éléments"></div>
+        <div id="elementFilters" class="chips" aria-label="Filtres elements"></div>
       </section>
 
       <section id="classesGrid" class="classes-grid" aria-live="polite"></section>
     </main>
 
     <dialog id="classDialog" class="dialog">
-      <button id="closeDialog" class="icon-button" aria-label="Fermer">×</button>
+      <button id="closeDialog" class="icon-button" aria-label="Fermer">x</button>
       <div id="dialogContent"></div>
     </dialog>
 
     <script src="data/wiki-data.js"></script>
-    <script src="assets/app.js?v=7"></script>
+    <script src="data/wiki-content.js"></script>
+    <script src="assets/app.js?v=8"></script>
   </body>
 </html>

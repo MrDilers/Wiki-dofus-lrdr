@@ -1,3 +1,6 @@
 node_modules/
 fra.traineddata
 npm-debug.log*
+server.log
+server.err
+wiki image et texte/

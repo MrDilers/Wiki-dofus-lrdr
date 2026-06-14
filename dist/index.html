@@ -4,28 +4,28 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Wiki LRDR</title>
-    <link rel="stylesheet" href="assets/styles.css?v=7">
+    <link rel="stylesheet" href="assets/styles.css?v=8">
   </head>
   <body class="home-layout">
     <div class="home-motes" aria-hidden="true"></div>
     <main class="home-shell">
       <header class="home-topbar">
         <a class="home-brand" href="index.html" aria-label="Accueil">
-        <span class="brand-mark">LR</span>
-        <span>
-          <strong>La Revanche de Rétro</strong>
-          <small>Wiki Dofus 1.34</small>
-        </span>
+          <span class="brand-mark">LR</span>
+          <span>
+            <strong>La Revanche de Retro</strong>
+            <small>Wiki Dofus 1.34</small>
+          </span>
         </a>
       </header>
 
       <section id="home" class="home-page">
         <section class="home-hero">
-          <p class="eyebrow">Serveur privé Dofus 1.34</p>
-          <h1>Wiki La Revanche de Rétro</h1>
+          <p class="eyebrow">Serveur prive Dofus 1.34</p>
+          <h1>Wiki La Revanche de Retro</h1>
           <div class="home-hero-meta">
             <span id="classCount">12 classes</span>
-            <span>Base de données</span>
+            <span>Base de donnees</span>
           </div>
         </section>
 
@@ -34,44 +34,52 @@
             <span class="home-card-index">01</span>
             <div>
               <strong>Classes</strong>
-              <p>Sorts modifiés, effets, éléments.</p>
+              <p>Sorts modifies, effets, elements.</p>
             </div>
             <small id="homeClassCount">12 fiches disponibles</small>
             <b class="home-card-action">Entrer</b>
           </a>
 
           <div class="home-card-list">
-            <div class="home-card is-disabled">
+            <a class="home-card is-ready" href="wiki.html#panoplies">
               <span class="home-card-index">02</span>
               <div>
-                <strong>Equipements</strong>
-                <p>Panoplies et objets clés.</p>
+                <strong>Panoplies</strong>
+                <p>Nouveaux sets, bonus visibles et familles d'equipement.</p>
               </div>
-              <small>A venir</small>
-            </div>
-            <div class="home-card is-disabled">
+              <small id="homePanoCount">36 fiches</small>
+            </a>
+            <a class="home-card is-ready" href="wiki.html#bonus">
               <span class="home-card-index">03</span>
               <div>
-                <strong>Donjons</strong>
-                <p>Boss et mécaniques.</p>
+                <strong>Bonus</strong>
+                <p>Bonus de guilde et avantages de progression.</p>
               </div>
-              <small>A venir</small>
-            </div>
-            <div class="home-card is-disabled">
+              <small>Guides serveur</small>
+            </a>
+            <a class="home-card is-ready" href="wiki.html#pnj">
               <span class="home-card-index">04</span>
               <div>
-                <strong>Autres guides</strong>
-                <p>Ressources et astuces.</p>
+                <strong>PNJ</strong>
+                <p>Maitre Hasard, Metarias et echanges utiles.</p>
               </div>
-              <small>A venir</small>
-            </div>
+              <small>Recettes incluses</small>
+            </a>
+            <a class="home-card is-ready" href="wiki.html#donjons">
+              <span class="home-card-index">05</span>
+              <div>
+                <strong>Donjons</strong>
+                <p>Streak, regles et recompenses de palier.</p>
+              </div>
+              <small>Progression PvM</small>
+            </a>
           </div>
         </section>
       </section>
-
     </main>
 
     <script src="data/wiki-data.js"></script>
-    <script src="assets/app.js?v=7"></script>
+    <script src="data/wiki-content.js"></script>
+    <script src="assets/app.js?v=8"></script>
   </body>
 </html>
