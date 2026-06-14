@@ -36,9 +36,18 @@ function extractSpells(text) {
 }
 
 function renderNav() {
-  $("#classNav").innerHTML = state.classes
-    .map((item) => `<a href="#${item.id}"><span>${item.name}</span><small>${item.elements.join("/")}</small></a>`)
+  const classLinks = state.classes
+    .map((item) => `<a class="nav-child" href="#${item.id}"><span>${item.name}</span><small>${item.elements.join("/")}</small></a>`)
     .join("");
+
+  $("#classNav").innerHTML = `
+    <a class="nav-home" href="#top"><span>Home</span><small>Accueil</small></a>
+    <div class="nav-section-title">Categories</div>
+    <a class="nav-category" href="#classes"><span>Classes</span><small>${state.classes.length}</small></a>
+    <div class="nav-children">
+      ${classLinks}
+    </div>
+  `;
 }
 
 function renderFilters() {
