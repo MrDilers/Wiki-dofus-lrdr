@@ -41,7 +41,7 @@ function renderNav() {
     .join("");
 
   $("#classNav").innerHTML = `
-    <a class="nav-home" href="#top"><span>Home</span><small>Accueil</small></a>
+    <a class="nav-home" href="#home"><span>Home</span><small>Accueil</small></a>
     <div class="nav-section-title">Categories</div>
     <a class="nav-category" href="#classes"><span>Classes</span><small>${state.classes.length}</small></a>
     <div class="nav-children">
@@ -81,6 +81,7 @@ function matchesClass(item) {
 function renderClasses() {
   const visible = state.classes.filter(matchesClass);
   $("#classCount").textContent = `${visible.length} classe${visible.length > 1 ? "s" : ""}`;
+  $("#homeClassCount").textContent = `${state.classes.length} fiche${state.classes.length > 1 ? "s" : ""}`;
   $("#classesGrid").innerHTML = visible
     .map((item) => {
       const spells = extractSpells(pageText(item));

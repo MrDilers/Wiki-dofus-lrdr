@@ -202,6 +202,57 @@ h3 {
   font-weight: 800;
 }
 
+.home-page,
+.section-head {
+  scroll-margin-top: 20px;
+}
+
+.home-categories {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px;
+  padding: 24px 0 40px;
+  border-bottom: 1px solid var(--line);
+}
+
+.home-card {
+  display: grid;
+  min-height: 150px;
+  align-content: space-between;
+  padding: 18px;
+  border: 1px solid var(--line);
+  background:
+    linear-gradient(180deg, rgba(18, 12, 34, 0.92), rgba(7, 4, 18, 0.92)),
+    linear-gradient(135deg, rgba(240, 192, 64, 0.08), rgba(160, 100, 255, 0.08));
+  color: var(--text);
+  text-decoration: none;
+  box-shadow: var(--shadow);
+}
+
+.home-card span {
+  color: var(--gold);
+  font-weight: 900;
+}
+
+.home-card strong {
+  font-size: 1.45rem;
+}
+
+.home-card small {
+  color: var(--muted);
+}
+
+.home-card.is-ready:hover {
+  border-color: var(--line-strong);
+  background:
+    linear-gradient(180deg, rgba(30, 20, 48, 0.95), rgba(12, 8, 28, 0.95)),
+    linear-gradient(135deg, rgba(240, 192, 64, 0.16), rgba(160, 100, 255, 0.1));
+}
+
+.home-card.is-disabled {
+  opacity: 0.58;
+}
+
 .toolbar {
   position: sticky;
   top: 0;
@@ -417,6 +468,7 @@ input {
     grid-template-columns: 1fr;
   }
 
+  .home-categories,
   .classes-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -427,6 +479,7 @@ input {
     padding-inline: 14px;
   }
 
+  .home-categories,
   .classes-grid {
     grid-template-columns: 1fr;
   }
