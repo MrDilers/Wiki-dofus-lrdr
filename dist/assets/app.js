@@ -102,13 +102,8 @@ function renderNav() {
   $("#classNav").innerHTML = `
     <a class="nav-home" href="index.html"${navCurrent("index.html")}><span>Home</span><small>Accueil</small></a>
     <div class="nav-section-title">Categories</div>
-    <details class="nav-group"${onClasses ? " open" : ""}>
-      <summary class="nav-category"${navCurrent("classes.html")}><span>Classes</span><small>${state.classes.length}</small></summary>
-      <div class="nav-children">
-        <a class="nav-child nav-child-main" href="classes.html"><span>Voir toutes les classes</span><small>Page</small></a>
-        ${classLinks}
-      </div>
-    </details>
+    <a class="nav-category" href="classes.html"${navCurrent("classes.html")}><span>Classes</span><small>${state.classes.length}</small></a>
+    ${onClasses ? `<div class="nav-children">${classLinks}</div>` : ""}
     <details class="nav-group"${onWiki ? " open" : ""}>
       <summary class="nav-category"${navCurrent("wiki.html")}><span>Guides wiki</span><small>${state.wiki.panoplies.length + state.wiki.guides.length}</small></summary>
       <div class="nav-children">${wikiLinks}</div>
