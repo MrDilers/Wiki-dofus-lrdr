@@ -36,6 +36,34 @@ body {
   font-family: Inter, "Segoe UI", Arial, sans-serif;
 }
 
+body.home-layout {
+  position: relative;
+  overflow-x: hidden;
+  background: #0a0618;
+}
+
+body.home-layout::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -2;
+  background:
+    linear-gradient(90deg, rgba(10, 6, 24, 0.84) 0%, rgba(10, 6, 24, 0.5) 42%, rgba(10, 6, 24, 0.78) 100%),
+    linear-gradient(180deg, rgba(10, 6, 24, 0.18) 0%, rgba(10, 6, 24, 0.98) 100%),
+    url("media/lrdr-home-hero.png") center / cover no-repeat;
+}
+
+body.home-layout::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background:
+    repeating-linear-gradient(135deg, rgba(240, 192, 64, 0.045) 0 1px, transparent 1px 14px),
+    radial-gradient(circle at 72% 24%, rgba(240, 192, 64, 0.2), transparent 22rem);
+  pointer-events: none;
+}
+
 a {
   color: inherit;
 }
@@ -139,20 +167,6 @@ a {
   padding: 34px clamp(18px, 4vw, 56px) 60px;
 }
 
-.home-layout .sidebar {
-  display: none;
-}
-
-.home-layout .shell {
-  margin-left: 0;
-  min-height: 100vh;
-  padding-inline: clamp(22px, 6vw, 96px);
-}
-
-.home-layout .hero {
-  min-height: 360px;
-}
-
 .hero {
   display: grid;
   grid-template-columns: minmax(0, 1fr) 340px;
@@ -232,59 +246,127 @@ h3 {
   font-weight: 800;
 }
 
-.home-page,
-.section-head {
-  scroll-margin-top: 20px;
+.home-shell {
+  display: grid;
+  min-height: 100vh;
+  padding: clamp(18px, 4vw, 48px);
+}
+
+.home-topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 54px;
+}
+
+.home-brand {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  color: var(--text);
+  text-decoration: none;
+  text-shadow: 0 2px 20px rgba(0, 0, 0, 0.6);
+}
+
+.home-brand strong,
+.home-brand small {
+  display: block;
+}
+
+.home-brand small {
+  color: var(--muted);
+}
+
+.home-page {
+  display: grid;
+  grid-template-rows: minmax(260px, 1fr) auto;
+  gap: clamp(24px, 4vw, 52px);
+  align-content: end;
+  padding-top: clamp(40px, 7vh, 92px);
+}
+
+.home-hero {
+  max-width: 980px;
+  align-self: end;
+}
+
+.home-hero h1 {
+  max-width: 920px;
+  margin-bottom: 22px;
+  color: var(--text);
+  text-shadow: 0 8px 44px rgba(0, 0, 0, 0.62);
+}
+
+.home-hero-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.home-hero-meta span {
+  min-height: 34px;
+  padding: 7px 11px;
+  border: 1px solid rgba(240, 192, 64, 0.34);
+  background: rgba(10, 6, 24, 0.58);
+  color: var(--gold-soft);
+  font-size: 0.82rem;
+  font-weight: 900;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  backdrop-filter: blur(12px);
 }
 
 .home-categories {
   display: grid;
-  grid-template-columns: minmax(320px, 1.25fr) minmax(280px, 0.85fr);
-  gap: 16px;
-  padding: 24px 0 40px;
-  border-bottom: 1px solid var(--line);
+  grid-template-columns: minmax(340px, 1.15fr) minmax(300px, 0.85fr);
+  gap: 18px;
+  align-items: stretch;
 }
 
 .home-card {
   position: relative;
   overflow: hidden;
   display: grid;
-  min-height: 150px;
+  min-height: 148px;
   align-content: space-between;
   gap: 20px;
-  padding: 18px;
-  border: 1px solid var(--line);
+  padding: 20px;
+  border: 1px solid rgba(240, 192, 64, 0.26);
   background:
-    linear-gradient(180deg, rgba(18, 12, 34, 0.92), rgba(7, 4, 18, 0.92)),
-    linear-gradient(135deg, rgba(240, 192, 64, 0.08), rgba(160, 100, 255, 0.08));
+    linear-gradient(180deg, rgba(13, 8, 28, 0.72), rgba(5, 3, 14, 0.82)),
+    linear-gradient(135deg, rgba(240, 192, 64, 0.1), rgba(160, 100, 255, 0.08));
   color: var(--text);
   text-decoration: none;
-  box-shadow: var(--shadow);
-  transform: translateY(0);
+  box-shadow: 0 22px 80px rgba(0, 0, 0, 0.38);
+  backdrop-filter: blur(14px);
+  transform: translateY(0) scale(1);
   transition:
-    transform 180ms ease,
-    border-color 180ms ease,
-    background 180ms ease,
-    box-shadow 180ms ease;
+    transform 220ms ease,
+    border-color 220ms ease,
+    background 220ms ease,
+    box-shadow 220ms ease,
+    opacity 220ms ease;
 }
 
 .home-card::before {
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(120deg, transparent 0%, rgba(240, 192, 64, 0.12) 42%, transparent 62%);
-  transform: translateX(-120%);
-  transition: transform 520ms ease;
+  background:
+    linear-gradient(120deg, transparent 0%, rgba(240, 192, 64, 0.14) 42%, transparent 62%),
+    radial-gradient(circle at 85% 18%, rgba(160, 100, 255, 0.24), transparent 14rem);
+  opacity: 0.9;
+  transform: translateX(-110%);
+  transition: transform 620ms ease;
   pointer-events: none;
 }
 
 .home-card::after {
   content: "";
   position: absolute;
-  inset: auto 18px 16px 18px;
+  inset: auto 20px 18px 20px;
   height: 1px;
-  background: linear-gradient(90deg, rgba(240, 192, 64, 0.62), rgba(160, 100, 255, 0.1));
-  opacity: 0.55;
+  background: linear-gradient(90deg, rgba(240, 192, 64, 0.72), rgba(160, 100, 255, 0.12));
 }
 
 .home-card > * {
@@ -312,46 +394,47 @@ h3 {
 
 .home-card small {
   color: var(--muted);
-  font-weight: 800;
-  text-transform: uppercase;
+  font-weight: 900;
   letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 .home-card-featured {
-  min-height: 380px;
-  padding: 28px;
+  min-height: 370px;
+  padding: 30px;
 }
 
 .home-card-featured strong {
-  font-size: clamp(2.2rem, 5vw, 4.4rem);
-  line-height: 0.95;
+  font-size: clamp(2.8rem, 6vw, 5.6rem);
+  line-height: 0.9;
 }
 
 .home-card-list {
   display: grid;
-  gap: 16px;
+  gap: 18px;
 }
 
 .home-card.is-ready:hover {
-  transform: translateY(-4px);
-  border-color: var(--line-strong);
+  transform: translateY(-6px) scale(1.01);
+  border-color: rgba(240, 192, 64, 0.68);
   background:
-    linear-gradient(180deg, rgba(30, 20, 48, 0.95), rgba(12, 8, 28, 0.95)),
-    linear-gradient(135deg, rgba(240, 192, 64, 0.16), rgba(160, 100, 255, 0.1));
-  box-shadow: 0 22px 80px rgba(0, 0, 0, 0.58);
+    linear-gradient(180deg, rgba(24, 15, 45, 0.82), rgba(7, 4, 18, 0.88)),
+    linear-gradient(135deg, rgba(240, 192, 64, 0.16), rgba(160, 100, 255, 0.12));
+  box-shadow: 0 30px 96px rgba(0, 0, 0, 0.62);
 }
 
 .home-card.is-ready:hover::before {
-  transform: translateX(120%);
+  transform: translateX(95%);
 }
 
 .home-card.is-disabled {
-  opacity: 0.58;
+  opacity: 0.68;
 }
 
 .home-card.is-disabled:hover {
-  opacity: 0.74;
-  border-color: rgba(160, 100, 255, 0.4);
+  opacity: 0.88;
+  border-color: rgba(160, 100, 255, 0.45);
+  transform: translateY(-2px);
 }
 
 .toolbar {

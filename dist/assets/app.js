@@ -36,6 +36,7 @@ function extractSpells(text) {
 }
 
 function renderNav() {
+  if (!$("#classNav")) return;
   const currentPage = window.location.pathname.split("/").pop() || "index.html";
   const homeCurrent = currentPage === "index.html" ? ' aria-current="page"' : "";
   const classesCurrent = currentPage === "classes.html" || currentPage === "classes" ? ' aria-current="page"' : "";
