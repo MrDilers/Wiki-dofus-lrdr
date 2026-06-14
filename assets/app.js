@@ -71,6 +71,12 @@ function navCurrent(pageName) {
   return currentPage === pageName ? ' aria-current="page"' : "";
 }
 
+function filterFromHash(hash = window.location.hash) {
+  const target = hash.replace("#", "");
+  if (!target) return "";
+  return wikiFilters.find((filter) => sectionSlug(filter) === target || (filter === "Panoplies" && target === "panoplies")) || "";
+}
+
 function renderNav() {
   if (!$("#classNav")) return;
   const currentPage = window.location.pathname.split("/").pop() || "index.html";
@@ -87,7 +93,10 @@ function renderNav() {
     ["wiki.html#equipements-evolutifs", "Evolutifs", "Objets"],
     ["wiki.html#donjons", "Donjons", "Streak"],
   ]
-    .map(([href, label, meta]) => `<a class="nav-child" href="${href}"><span>${label}</span><small>${meta}</small></a>`)
+    .map(([href, label, meta]) => {
+      const active = onWiki && state.wikiFilter === label ? ' aria-current="page"' : "";
+      return `<a class="nav-child" href="${href}"${active}><span>${label}</span><small>${meta}</small></a>`;
+    })
     .join("");
 
   $("#classNav").innerHTML = `
@@ -241,6 +250,11 @@ function renderWikiFilters() {
       state.wikiFilter = button.dataset.wikiFilter;
       renderWikiFilters();
       renderWiki();
+      renderNav();
+      if (state.wikiFilter !== "Tous") {
+        const slug = state.wikiFilter === "Panoplies" ? "panoplies" : sectionSlug(state.wikiFilter);
+        history.replaceState(null, "", `#${slug}`);
+      }
     },
     { once: true },
   );
@@ -344,14 +358,20 @@ function renderWiki() {
 }
 
 function initHashFilter() {
-  if (!$("#wikiSections") || !window.location.hash) return;
-  const target = window.location.hash.replace("#", "");
-  const matchingFilter = wikiFilters.find((filter) => sectionSlug(filter) === target || (filter === "Panoplies" && target === "panoplies"));
+  if (!$("#wikiSections")) return;
+  const matchingFilter = filterFromHash();
   if (matchingFilter) {
     state.wikiFilter = matchingFilter;
     renderWikiFilters();
     renderWiki();
+    renderNav();
+    requestAnimationFrame(() => document.getElementById(window.location.hash.replace("#", ""))?.scrollIntoView({ block: "start" }));
   }
+}
+
+function bindWikiHashNavigation() {
+  if (!$("#wikiSections")) return;
+  window.addEventListener("hashchange", initHashFilter);
 }
 
 async function init() {
@@ -377,6 +397,7 @@ async function init() {
   renderWikiFilters();
   renderWiki();
   initHashFilter();
+  bindWikiHashNavigation();
   initHomeEffects();
 
   $("#searchInput")?.addEventListener("input", (event) => {
