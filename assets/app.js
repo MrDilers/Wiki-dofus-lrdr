@@ -73,21 +73,37 @@ function navCurrent(pageName) {
 
 function renderNav() {
   if (!$("#classNav")) return;
+  const currentPage = window.location.pathname.split("/").pop() || "index.html";
+  const onClasses = currentPage === "classes.html";
+  const onWiki = currentPage === "wiki.html";
 
   const classLinks = state.classes
     .map((item) => `<a class="nav-child" href="classes.html#${item.id}"><span>${item.name}</span><small>${item.elements.join("/")}</small></a>`)
+    .join("");
+  const wikiLinks = [
+    ["wiki.html#panoplies", "Panoplies", state.wiki.panoplies.length],
+    ["wiki.html#bonus", "Bonus", "Guilde"],
+    ["wiki.html#pnj", "PNJ", "Guides"],
+    ["wiki.html#equipements-evolutifs", "Evolutifs", "Objets"],
+    ["wiki.html#donjons", "Donjons", "Streak"],
+  ]
+    .map(([href, label, meta]) => `<a class="nav-child" href="${href}"><span>${label}</span><small>${meta}</small></a>`)
     .join("");
 
   $("#classNav").innerHTML = `
     <a class="nav-home" href="index.html"${navCurrent("index.html")}><span>Home</span><small>Accueil</small></a>
     <div class="nav-section-title">Categories</div>
-    <a class="nav-category" href="classes.html"${navCurrent("classes.html")}><span>Classes</span><small>${state.classes.length}</small></a>
-    <div class="nav-children">${classLinks}</div>
-    <a class="nav-category" href="wiki.html#panoplies"${navCurrent("wiki.html")}><span>Panoplies</span><small>${state.wiki.panoplies.length}</small></a>
-    <a class="nav-category" href="wiki.html#bonus"><span>Bonus</span><small>Guilde</small></a>
-    <a class="nav-category" href="wiki.html#pnj"><span>PNJ</span><small>Guides</small></a>
-    <a class="nav-category" href="wiki.html#equipements-evolutifs"><span>Evolutifs</span><small>Objets</small></a>
-    <a class="nav-category" href="wiki.html#donjons"><span>Donjons</span><small>Streak</small></a>
+    <details class="nav-group"${onClasses ? " open" : ""}>
+      <summary class="nav-category"${navCurrent("classes.html")}><span>Classes</span><small>${state.classes.length}</small></summary>
+      <div class="nav-children">
+        <a class="nav-child nav-child-main" href="classes.html"><span>Voir toutes les classes</span><small>Page</small></a>
+        ${classLinks}
+      </div>
+    </details>
+    <details class="nav-group"${onWiki ? " open" : ""}>
+      <summary class="nav-category"${navCurrent("wiki.html")}><span>Guides wiki</span><small>${state.wiki.panoplies.length + state.wiki.guides.length}</small></summary>
+      <div class="nav-children">${wikiLinks}</div>
+    </details>
   `;
 }
 
