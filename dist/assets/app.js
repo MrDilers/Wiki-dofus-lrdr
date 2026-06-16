@@ -12,6 +12,20 @@ const state = {
 const elements = ["Tous", "Terre", "Feu", "Eau", "Air"];
 const wikiFilters = ["Tous", "Panoplies", "Bonus", "PNJ", "Equipements evolutifs", "Donjons"];
 const $ = (selector) => document.querySelector(selector);
+const classIcons = {
+  iop: "⚔️",
+  cra: "🏹",
+  eniripsa: "✨",
+  sadida: "🌿",
+  osamodas: "⚗️",
+  xelor: "🔮",
+  enutrof: "🌊",
+  sacrieur: "💀",
+  sram: "🌪️",
+  pandawa: "🐼",
+  ecaflip: "🌸",
+  feca: "🛡️",
+};
 
 // Effets visuels de la page d'accueil.
 function initHomeEffects() {
@@ -170,24 +184,13 @@ function renderClasses() {
   $("#classCount").textContent = `${visible.length} classe${visible.length > 1 ? "s" : ""}`;
   $("#classesGrid").innerHTML = visible
     .map((item) => {
+      const icon = classIcons[item.id] || "✦";
       return `
-        <article id="${item.id}" class="class-card">
-          <header>
-            <div>
-              <p class="eyebrow">Pages ${item.pages.join(", ")}</p>
-              <h3>${item.name}</h3>
-            </div>
-            <span class="muted">${item.roles[0]}</span>
-          </header>
-          <div class="tag-row">
-            ${item.elements.map((element) => `<span class="tag">${element}</span>`).join("")}
-            ${item.roles.map((role) => `<span class="tag">${role}</span>`).join("")}
-          </div>
-          <p>${item.build}</p>
-          <p><strong>PvM.</strong> ${item.pvm}</p>
-          <div class="card-actions">
-            <button class="button" data-open="${item.id}">Voir la fiche</button>
-          </div>
+        <article id="${item.id}" class="class-chip wiki-class-chip" data-open="${item.id}" tabindex="0" aria-label="Voir la fiche ${item.name}">
+          <span class="class-icon" aria-hidden="true">${icon}</span>
+          <span class="class-name">${item.name}</span>
+          <span class="class-meta">${item.elements.join(" / ")}</span>
+          <span class="class-action">Voir la fiche</span>
         </article>
       `;
     })
@@ -429,6 +432,14 @@ async function init() {
   $("#classesGrid")?.addEventListener("click", (event) => {
     const button = event.target.closest("[data-open]");
     if (!button) return;
+    renderDialog(state.classes.find((item) => item.id === button.dataset.open));
+  });
+
+  $("#classesGrid")?.addEventListener("keydown", (event) => {
+    if (event.key !== "Enter" && event.key !== " ") return;
+    const button = event.target.closest("[data-open]");
+    if (!button) return;
+    event.preventDefault();
     renderDialog(state.classes.find((item) => item.id === button.dataset.open));
   });
 

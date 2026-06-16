@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&display=swap");
+
 :root {
   color-scheme: dark;
   --bg: #0a0618;
@@ -255,8 +257,7 @@ h3 {
   line-height: 1.7;
 }
 
-.hero-panel,
-.class-card {
+.hero-panel {
   border: 1px solid var(--line);
   background:
     linear-gradient(180deg, rgba(18, 12, 34, 0.95), rgba(7, 4, 18, 0.94)),
@@ -670,34 +671,110 @@ input {
 
 .classes-grid {
   display: grid;
-  gap: 16px;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 12px;
 }
 
-.class-card p {
-  color: var(--muted);
-  line-height: 1.6;
-}
-
-.classes-grid {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-}
-
-.class-card {
+.class-chip {
+  position: relative;
+  overflow: hidden;
   display: grid;
-  gap: 14px;
-  min-height: 320px;
-  padding: 18px;
+  align-content: center;
+  justify-items: center;
+  min-height: 142px;
+  padding: 16px 8px;
+  border: 1px solid rgba(200, 154, 16, 0.22);
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.4);
+  text-align: center;
+  cursor: pointer;
+  transition:
+    transform 300ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 300ms ease,
+    box-shadow 300ms ease,
+    background 300ms ease;
 }
 
-.class-card header {
-  display: flex;
-  justify-content: space-between;
-  gap: 14px;
-  align-items: start;
+.class-chip::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(ellipse at 50% 0, rgba(240, 192, 64, 0.08) 0, transparent 70%),
+    linear-gradient(90deg, transparent, rgba(255, 230, 128, 0.14), transparent);
+  opacity: 0;
+  transform: translateX(-80%);
+  transition: opacity 300ms ease, transform 640ms ease;
+  pointer-events: none;
 }
 
-.class-card h3 {
-  font-size: 1.55rem;
+.class-chip:hover,
+.class-chip:focus-visible {
+  border-color: rgba(240, 192, 64, 0.5);
+  background: rgba(6, 3, 14, 0.66);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.65), 0 0 14px rgba(240, 192, 64, 0.12);
+  outline: none;
+  transform: translateY(-3px);
+}
+
+.class-chip:hover::before,
+.class-chip:focus-visible::before {
+  opacity: 1;
+  transform: translateX(80%);
+}
+
+.class-chip .class-icon {
+  position: relative;
+  z-index: 1;
+  display: block;
+  margin-bottom: 7px;
+  font-size: 1.9rem;
+  filter: drop-shadow(0 0 7px rgba(240, 192, 64, 0.5));
+}
+
+.class-chip .class-name {
+  position: relative;
+  z-index: 1;
+  color: rgba(245, 237, 213, 0.78);
+  font-family: "Cinzel", "Trebuchet MS", Verdana, sans-serif;
+  font-size: 0.72rem;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.class-meta {
+  position: relative;
+  z-index: 1;
+  margin-top: 7px;
+  color: rgba(235, 215, 255, 0.62);
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.class-action {
+  position: relative;
+  z-index: 1;
+  margin-top: 12px;
+  padding: 5px 9px;
+  border: 1px solid rgba(240, 192, 64, 0.28);
+  background: rgba(160, 100, 255, 0.12);
+  color: var(--gold-soft);
+  font-size: 0.62rem;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  opacity: 0.78;
+  transition: opacity 200ms ease, border-color 200ms ease, background 200ms ease;
+}
+
+.class-chip:hover .class-action,
+.class-chip:focus-visible .class-action {
+  border-color: rgba(240, 192, 64, 0.5);
+  background: rgba(240, 192, 64, 0.12);
+  opacity: 1;
 }
 
 .tag-row {
@@ -1091,10 +1168,13 @@ input {
   .category-hero,
   .toolbar,
   .home-categories,
-  .classes-grid,
   .pano-grid,
   .guide-grid {
     grid-template-columns: 1fr;
+  }
+
+  .classes-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
 
@@ -1104,9 +1184,12 @@ input {
   }
 
   .home-categories,
-  .classes-grid,
   .pano-grid,
   .guide-grid {
     grid-template-columns: 1fr;
+  }
+
+  .classes-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
