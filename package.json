@@ -4,7 +4,8 @@
     "ocr:classes": "node tools/ocr-pages.js assets\\pages data\\ocr",
     "build:data": "node tools/build-static-data.js",
     "build:wiki": "node tools/build-wiki-content.js",
-    "check": "node --check assets/app.js && node --check tools/build-wiki-content.js && node --check tools/build-static-data.js",
+    "extract:spells": "node tools/extract-spell-panels.js",
+    "check": "node --check assets/app.js && node --check tools/build-wiki-content.js && node --check tools/build-static-data.js && node --check tools/extract-spell-panels.js",
     "serve": "node tools/serve.js"
   },
   "dependencies": {

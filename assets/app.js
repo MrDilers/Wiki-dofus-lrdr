@@ -1,6 +1,7 @@
 const state = {
   classes: [],
   pages: [],
+  spellPanels: {},
   wiki: { panoplies: [], guides: [] },
   query: "",
   element: "Tous",
@@ -67,54 +68,19 @@ function extractSpells(text) {
     .slice(0, 7);
 }
 
-function cleanSpellLine(line) {
-  return line
-    .replace(/[|()[\]{}<>]/g, " ")
-    .replace(/\s+/g, " ")
-    .trim();
-}
-
-function extractSpellCards(text, limit = 6) {
-  const lines = text.split(/\n/).map(cleanSpellLine).filter(Boolean);
-  const names = extractSpells(text).slice(0, limit);
-
-  return names.map((name) => {
-    const index = lines.findIndex((line) => line.includes(name));
-    const nearby = lines.slice(Math.max(index, 0), Math.max(index, 0) + 10);
-    const description =
-      nearby.find((line) => line.length > 48 && !/effets|autres|probabilite|niveau requis|niveaux/i.test(line)) ||
-      "Description issue de la fiche classe. Ouvrir la fiche complete pour lire la capture source.";
-    const effect =
-      nearby.find((line) => /dommages|vole|pdv|pa|pm|po|soin|augmente|recul|chance|force|agilite|intelligence/i.test(line)) ||
-      "Effets visibles sur la capture source.";
-
-    return {
-      name,
-      description,
-      effect,
-      meta: "Sort modifie",
-    };
-  });
-}
-
-function renderSpellWindows(spells, options = {}) {
+function renderSpellPanels(classId, options = {}) {
+  const panels = (state.spellPanels[classId] || []).slice(0, options.limit || 99);
   const compact = options.compact ? " compact" : "";
   return `
-    <div class="spell-window-grid${compact}">
-      ${spells
-        .map((spell) => `
-          <article class="spell-window">
-            <header>
-              <strong>${spell.name}</strong>
-              <span>${spell.meta}</span>
-            </header>
-            <div class="spell-window-body">
-              <p>${spell.description}</p>
-              <div class="spell-effect">
-                <b>Effets</b>
-                <span>${spell.effect}</span>
-              </div>
-            </div>
+    <div class="spell-panel-grid${compact}">
+      ${panels
+        .map((panel) => `
+          <article class="spell-panel-card">
+            <img src="${panel.image}" alt="${panel.name}">
+            <footer>
+              <strong>${panel.name}</strong>
+              <span>Page ${panel.page}</span>
+            </footer>
           </article>
         `)
         .join("")}
@@ -203,7 +169,6 @@ function renderClasses() {
   $("#classCount").textContent = `${visible.length} classe${visible.length > 1 ? "s" : ""}`;
   $("#classesGrid").innerHTML = visible
     .map((item) => {
-      const spells = extractSpellCards(pageText(item), 3);
       return `
         <article id="${item.id}" class="class-card">
           <header>
@@ -218,7 +183,7 @@ function renderClasses() {
             ${item.roles.map((role) => `<span class="tag">${role}</span>`).join("")}
           </div>
           <p>${item.build}</p>
-          ${renderSpellWindows(spells, { compact: true })}
+          ${renderSpellPanels(item.id, { compact: true, limit: 3 })}
           <p><strong>PvM.</strong> ${item.pvm}</p>
           <div class="card-actions">
             <button class="button" data-open="${item.id}">Voir la fiche</button>
@@ -232,7 +197,6 @@ function renderClasses() {
 function renderDialog(classItem) {
   const pages = state.pages.filter((page) => classItem.pages.includes(page.page));
   const text = pages.map((page) => `Page ${page.page}\n${page.text}`).join("\n\n");
-  const spells = extractSpellCards(text, 8);
   $("#dialogContent").innerHTML = `
     <div class="dialog-body">
       <p class="eyebrow">Fiche classe</p>
@@ -247,7 +211,7 @@ function renderDialog(classItem) {
           <p class="eyebrow">Grimoire</p>
           <h3>Sorts modifies</h3>
         </div>
-        ${renderSpellWindows(spells)}
+        ${renderSpellPanels(classItem.id)}
       </section>
       <div class="dialog-layout">
         <aside>
@@ -449,6 +413,9 @@ async function init() {
 
   if (window.LRDR_WIKI) {
     state.wiki = window.LRDR_WIKI;
+  }
+  if (window.LRDR_SPELL_PANELS) {
+    state.spellPanels = window.LRDR_SPELL_PANELS;
   }
 
   renderNav();

@@ -14,8 +14,10 @@ Site statique du wiki Dofus 1.34 pour le serveur La Revanche de Retro.
 - `assets/styles.css` : design complet du site.
 - `assets/media/` : visuels generaux du site, comme l'image d'accueil.
 - `assets/pages/` : images extraites du PDF des classes.
+- `assets/spells/` : panneaux de sorts decoupes depuis les pages du PDF.
 - `assets/wiki/` : images et videos utilisees dans les guides serveur.
 - `data/wiki-data.js` : donnees des classes et OCR deja preparees.
+- `data/spell-panels.js` : liste des panneaux de sorts affiches dans les classes.
 - `data/wiki-content.js` : contenu des guides serveur et liste des panoplies.
 - `tools/` : scripts utilitaires pour generer ou verifier les donnees.
 - `dist/` : copie publiee par Netlify. Quand une page, un style, un script ou un media change, il faut garder `dist` synchronise.

@@ -12,6 +12,7 @@ Wiki dofus/
     styles.css               Feuille de style principale
     media/                   Images globales du site
     pages/                   Captures des pages du PDF classes
+    spells/                  Panneaux de sorts decoupes depuis le PDF
     wiki/
       bonus/                 Captures des bonus serveur
       evolutifs/             Videos/images des objets evolutifs
@@ -19,6 +20,7 @@ Wiki dofus/
       pnj/                   Captures des PNJ
   data/
     wiki-data.js             Donnees classes + OCR prepare
+    spell-panels.js          Donnees des panneaux de sorts par classe
     wiki-content.js          Donnees guides serveur + panoplies
     ocr/                     Textes OCR bruts des classes
     raw/                     Extractions brutes
