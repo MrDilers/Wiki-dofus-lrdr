@@ -714,18 +714,96 @@ input {
   font-size: 0.8rem;
 }
 
-.spell-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
-  min-height: 34px;
+.spell-window-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
 }
 
-.spell-list span {
-  padding: 4px 7px;
-  background: rgba(240, 192, 64, 0.1);
-  color: rgba(240, 230, 204, 0.92);
-  font-size: 0.78rem;
+.spell-window-grid.compact {
+  grid-template-columns: 1fr;
+  gap: 8px;
+}
+
+.spell-window {
+  overflow: hidden;
+  border: 1px solid #5f5037;
+  background: #c8c09b;
+  color: #332a1d;
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.28);
+}
+
+.spell-window header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  min-height: 38px;
+  padding: 7px 10px;
+  border-bottom: 1px solid rgba(42, 34, 22, 0.35);
+  background: linear-gradient(180deg, #4b412f, #30281f);
+  color: #f3c34f;
+}
+
+.spell-window header strong {
+  font-size: 0.98rem;
+  line-height: 1.1;
+}
+
+.spell-window header span {
+  flex: 0 0 auto;
+  color: #d9cfb4;
+  font-size: 0.72rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.spell-window-body {
+  display: grid;
+  gap: 10px;
+  padding: 10px;
+}
+
+.spell-window-body p {
+  margin: 0;
+  color: #3a3021;
+  font-size: 0.9rem;
+  line-height: 1.45;
+}
+
+.spell-effect {
+  display: grid;
+  gap: 4px;
+  padding: 8px;
+  border: 1px solid rgba(76, 62, 40, 0.35);
+  background: rgba(239, 230, 190, 0.48);
+}
+
+.spell-effect b {
+  color: #704b11;
+  font-size: 0.76rem;
+  text-transform: uppercase;
+}
+
+.spell-effect span {
+  color: #315d25;
+  font-weight: 800;
+  line-height: 1.35;
+}
+
+.spell-dialog-section {
+  display: grid;
+  gap: 14px;
+  margin: 18px 0 22px;
+}
+
+.compact-head {
+  padding: 0;
+}
+
+.compact-head h3 {
+  margin-bottom: 0;
+  font-size: 1.45rem;
 }
 
 .card-actions {
@@ -1041,7 +1119,8 @@ input {
   .home-categories,
   .classes-grid,
   .pano-grid,
-  .guide-grid {
+  .guide-grid,
+  .spell-window-grid {
     grid-template-columns: 1fr;
   }
 }
@@ -1054,7 +1133,8 @@ input {
   .home-categories,
   .classes-grid,
   .pano-grid,
-  .guide-grid {
+  .guide-grid,
+  .spell-window-grid {
     grid-template-columns: 1fr;
   }
 }

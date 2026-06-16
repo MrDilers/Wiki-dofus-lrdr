@@ -67,6 +67,61 @@ function extractSpells(text) {
     .slice(0, 7);
 }
 
+function cleanSpellLine(line) {
+  return line
+    .replace(/[|()[\]{}<>]/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function extractSpellCards(text, limit = 6) {
+  const lines = text.split(/\n/).map(cleanSpellLine).filter(Boolean);
+  const names = extractSpells(text).slice(0, limit);
+
+  return names.map((name) => {
+    const index = lines.findIndex((line) => line.includes(name));
+    const nearby = lines.slice(Math.max(index, 0), Math.max(index, 0) + 10);
+    const description =
+      nearby.find((line) => line.length > 48 && !/effets|autres|probabilite|niveau requis|niveaux/i.test(line)) ||
+      "Description issue de la fiche classe. Ouvrir la fiche complete pour lire la capture source.";
+    const effect =
+      nearby.find((line) => /dommages|vole|pdv|pa|pm|po|soin|augmente|recul|chance|force|agilite|intelligence/i.test(line)) ||
+      "Effets visibles sur la capture source.";
+
+    return {
+      name,
+      description,
+      effect,
+      meta: "Sort modifie",
+    };
+  });
+}
+
+function renderSpellWindows(spells, options = {}) {
+  const compact = options.compact ? " compact" : "";
+  return `
+    <div class="spell-window-grid${compact}">
+      ${spells
+        .map((spell) => `
+          <article class="spell-window">
+            <header>
+              <strong>${spell.name}</strong>
+              <span>${spell.meta}</span>
+            </header>
+            <div class="spell-window-body">
+              <p>${spell.description}</p>
+              <div class="spell-effect">
+                <b>Effets</b>
+                <span>${spell.effect}</span>
+              </div>
+            </div>
+          </article>
+        `)
+        .join("")}
+    </div>
+  `;
+}
+
 function navCurrent(pageName) {
   const currentPage = window.location.pathname.split("/").pop() || "index.html";
   return currentPage === pageName ? ' aria-current="page"' : "";
@@ -148,7 +203,7 @@ function renderClasses() {
   $("#classCount").textContent = `${visible.length} classe${visible.length > 1 ? "s" : ""}`;
   $("#classesGrid").innerHTML = visible
     .map((item) => {
-      const spells = extractSpells(pageText(item));
+      const spells = extractSpellCards(pageText(item), 3);
       return `
         <article id="${item.id}" class="class-card">
           <header>
@@ -163,7 +218,7 @@ function renderClasses() {
             ${item.roles.map((role) => `<span class="tag">${role}</span>`).join("")}
           </div>
           <p>${item.build}</p>
-          <div class="spell-list">${spells.map((spell) => `<span>${spell}</span>`).join("")}</div>
+          ${renderSpellWindows(spells, { compact: true })}
           <p><strong>PvM.</strong> ${item.pvm}</p>
           <div class="card-actions">
             <button class="button" data-open="${item.id}">Voir la fiche</button>
@@ -177,6 +232,7 @@ function renderClasses() {
 function renderDialog(classItem) {
   const pages = state.pages.filter((page) => classItem.pages.includes(page.page));
   const text = pages.map((page) => `Page ${page.page}\n${page.text}`).join("\n\n");
+  const spells = extractSpellCards(text, 8);
   $("#dialogContent").innerHTML = `
     <div class="dialog-body">
       <p class="eyebrow">Fiche classe</p>
@@ -186,6 +242,13 @@ function renderDialog(classItem) {
         ${classItem.elements.map((element) => `<span class="tag">${element}</span>`).join("")}
         ${classItem.synergies.map((name) => `<span class="tag">Synergie: ${name}</span>`).join("")}
       </div>
+      <section class="spell-dialog-section">
+        <div class="section-head compact-head">
+          <p class="eyebrow">Grimoire</p>
+          <h3>Sorts modifies</h3>
+        </div>
+        ${renderSpellWindows(spells)}
+      </section>
       <div class="dialog-layout">
         <aside>
           <h3>Conseil build</h3>
