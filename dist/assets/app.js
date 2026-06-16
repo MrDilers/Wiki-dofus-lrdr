@@ -70,18 +70,19 @@ function extractSpells(text) {
 
 function renderSpellPanels(classId, options = {}) {
   const panels = (state.spellPanels[classId] || []).slice(0, options.limit || 99);
-  const compact = options.compact ? " compact" : "";
   return `
-    <div class="spell-panel-grid${compact}">
+    <div class="spell-panel-list">
       ${panels
         .map((panel) => `
-          <article class="spell-panel-card">
-            <img src="${panel.image}" alt="${panel.name}">
-            <footer>
+          <details class="class-detail spell-detail">
+            <summary>
               <strong>${panel.name}</strong>
               <span>Page ${panel.page}</span>
-            </footer>
-          </article>
+            </summary>
+            <div class="spell-panel-card">
+              <img src="${panel.image}" alt="${panel.name}">
+            </div>
+          </details>
         `)
         .join("")}
     </div>
@@ -183,7 +184,6 @@ function renderClasses() {
             ${item.roles.map((role) => `<span class="tag">${role}</span>`).join("")}
           </div>
           <p>${item.build}</p>
-          ${renderSpellPanels(item.id, { compact: true, limit: 3 })}
           <p><strong>PvM.</strong> ${item.pvm}</p>
           <div class="card-actions">
             <button class="button" data-open="${item.id}">Voir la fiche</button>
@@ -206,23 +206,37 @@ function renderDialog(classItem) {
         ${classItem.elements.map((element) => `<span class="tag">${element}</span>`).join("")}
         ${classItem.synergies.map((name) => `<span class="tag">Synergie: ${name}</span>`).join("")}
       </div>
-      <section class="spell-dialog-section">
-        <div class="section-head compact-head">
-          <p class="eyebrow">Grimoire</p>
-          <h3>Sorts modifies</h3>
-        </div>
-        ${renderSpellPanels(classItem.id)}
-      </section>
-      <div class="dialog-layout">
-        <aside>
-          <h3>Conseil build</h3>
-          <p class="muted">${classItem.build}</p>
-          <h3>OCR source</h3>
+      <div class="class-detail-list">
+        <details class="class-detail">
+          <summary>
+            <strong>Conseil build</strong>
+            <span>Orientation</span>
+          </summary>
+          <p>${classItem.build}</p>
+        </details>
+        <details class="class-detail">
+          <summary>
+            <strong>Sorts modifies</strong>
+            <span>${(state.spellPanels[classItem.id] || []).length} sorts</span>
+          </summary>
+          ${renderSpellPanels(classItem.id)}
+        </details>
+        <details class="class-detail">
+          <summary>
+            <strong>OCR source</strong>
+            <span>Texte brut</span>
+          </summary>
           <div class="ocr-box">${text}</div>
-        </aside>
-        <div class="page-stack">
-          ${pages.map((page) => `<img src="${page.image}" alt="${classItem.name}, page ${page.page}">`).join("")}
-        </div>
+        </details>
+        <details class="class-detail">
+          <summary>
+            <strong>Pages PDF</strong>
+            <span>${pages.length} page${pages.length > 1 ? "s" : ""}</span>
+          </summary>
+          <div class="page-stack">
+            ${pages.map((page) => `<img src="${page.image}" alt="${classItem.name}, page ${page.page}">`).join("")}
+          </div>
+        </details>
       </div>
     </div>
   `;
