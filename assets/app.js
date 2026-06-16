@@ -118,12 +118,8 @@ function filterFromHash(hash = window.location.hash) {
 function renderNav() {
   if (!$("#siteNav")) return;
   const currentPage = window.location.pathname.split("/").pop() || "index.html";
-  const onClasses = currentPage === "classes.html";
   const onWiki = currentPage === "wiki.html";
 
-  const classLinks = state.classes
-    .map((item) => `<a class="nav-child" href="classes.html#${item.id}"><span>${item.name}</span><small>${item.elements.join("/")}</small></a>`)
-    .join("");
   const wikiLinks = [
     ["wiki.html#panoplies", "Panoplies", state.wiki.panoplies.length],
     ["wiki.html#bonus", "Bonus", "Guilde"],
@@ -141,7 +137,6 @@ function renderNav() {
     <a class="nav-home" href="index.html"${navCurrent("index.html")}><span>Home</span><small>Accueil</small></a>
     <div class="nav-section-title">Categories</div>
     <a class="nav-category" href="classes.html"${navCurrent("classes.html")}><span>Classes</span><small>${state.classes.length}</small></a>
-    ${onClasses ? `<div class="nav-children">${classLinks}</div>` : ""}
     ${wikiLinks}
   `;
 }
