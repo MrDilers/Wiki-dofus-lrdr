@@ -780,9 +780,6 @@ input {
   text-transform: uppercase;
 }
 
-.class-detail > p,
-.class-detail > .ocr-box,
-.class-detail > .page-stack,
 .class-detail > .spell-panel-list {
   margin: 12px;
 }

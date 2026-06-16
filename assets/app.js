@@ -195,8 +195,6 @@ function renderClasses() {
 }
 
 function renderDialog(classItem) {
-  const pages = state.pages.filter((page) => classItem.pages.includes(page.page));
-  const text = pages.map((page) => `Page ${page.page}\n${page.text}`).join("\n\n");
   $("#dialogContent").innerHTML = `
     <div class="dialog-body">
       <p class="eyebrow">Fiche classe</p>
@@ -209,33 +207,10 @@ function renderDialog(classItem) {
       <div class="class-detail-list">
         <details class="class-detail">
           <summary>
-            <strong>Conseil build</strong>
-            <span>Orientation</span>
-          </summary>
-          <p>${classItem.build}</p>
-        </details>
-        <details class="class-detail">
-          <summary>
             <strong>Sorts modifies</strong>
             <span>${(state.spellPanels[classItem.id] || []).length} sorts</span>
           </summary>
           ${renderSpellPanels(classItem.id)}
-        </details>
-        <details class="class-detail">
-          <summary>
-            <strong>OCR source</strong>
-            <span>Texte brut</span>
-          </summary>
-          <div class="ocr-box">${text}</div>
-        </details>
-        <details class="class-detail">
-          <summary>
-            <strong>Pages PDF</strong>
-            <span>${pages.length} page${pages.length > 1 ? "s" : ""}</span>
-          </summary>
-          <div class="page-stack">
-            ${pages.map((page) => `<img src="${page.image}" alt="${classItem.name}, page ${page.page}">`).join("")}
-          </div>
         </details>
       </div>
     </div>
