@@ -185,7 +185,6 @@ function renderClasses() {
           <span class="class-icon" aria-hidden="true">${icon}</span>
           <span class="class-name">${item.name}</span>
           <span class="class-meta">${item.elements.join(" / ")}</span>
-          <span class="class-action">Voir la fiche</span>
         </article>
       `;
     })
