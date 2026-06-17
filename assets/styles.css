@@ -969,7 +969,7 @@ input {
 .spell-tab-panel ul {
   display: grid;
   gap: 5px;
-  min-height: 0;
+  min-height: 100px;
   margin: 0;
   padding: 6px;
   list-style: none;
