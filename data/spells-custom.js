@@ -1,11 +1,11 @@
 window.LRDR_CUSTOM_SPELLS = {
   "cra": [
     {
-      "id": "souffle-de-l-humus",
+      "id": "souffle-de-l-humuss",
       "name": "Souffle de l'Humus",
       "element": "Terre",
       "icon": "assets/icons/spells/cra/souffle-de-l-humus.png",
-      "requiredLevel": 1,
+      "requiredLevel": "1",
       "selectedLevel": 5,
       "levels": [
         1,
@@ -35,19 +35,52 @@ window.LRDR_CUSTOM_SPELLS = {
         }
       ],
       "characteristics": [
-        ["Probabilite de coup critique", "1/30"],
-        ["Probabilite d'echec", "1/100"],
-        ["Nb. de lancers par tour", "-"],
-        ["Nb. de lancers par tour par joueur", "1"],
-        ["Nb. de tours entre deux lancers", "-"]
+        [
+          "Probabilite de coup critique",
+          "1/30"
+        ],
+        [
+          "Probabilite d'echec",
+          "1/100"
+        ],
+        [
+          "Nb. de lancers par tour",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour par joueur",
+          "1"
+        ],
+        [
+          "Nb. de tours entre deux lancers",
+          "-"
+        ]
       ],
       "rules": [
-        ["Portee modifiable", true],
-        ["Ligne de vue", true],
-        ["Lancer en ligne", false],
-        ["Cellules libres", false],
-        ["EC fini le tour", false],
-        ["CC actuels", "1/30"]
+        [
+          "Portee modifiable",
+          true
+        ],
+        [
+          "Ligne de vue",
+          true
+        ],
+        [
+          "Lancer en ligne",
+          false
+        ],
+        [
+          "Cellules libres",
+          false
+        ],
+        [
+          "EC fini le tour",
+          false
+        ],
+        [
+          "CC actuels",
+          "1/30"
+        ]
       ]
     },
     {
@@ -85,19 +118,52 @@ window.LRDR_CUSTOM_SPELLS = {
         }
       ],
       "characteristics": [
-        ["Probabilite de coup critique", "1/40"],
-        ["Probabilite d'echec", "1/100"],
-        ["Nb. de lancers par tour", "2"],
-        ["Nb. de lancers par tour par joueur", "-"],
-        ["Nb. de tours entre deux lancers", "-"]
+        [
+          "Probabilite de coup critique",
+          "1/40"
+        ],
+        [
+          "Probabilite d'echec",
+          "1/100"
+        ],
+        [
+          "Nb. de lancers par tour",
+          "2"
+        ],
+        [
+          "Nb. de lancers par tour par joueur",
+          "-"
+        ],
+        [
+          "Nb. de tours entre deux lancers",
+          "-"
+        ]
       ],
       "rules": [
-        ["Portee modifiable", true],
-        ["Ligne de vue", false],
-        ["Lancer en ligne", false],
-        ["Cellules libres", false],
-        ["EC fini le tour", false],
-        ["CC actuels", "1/40"]
+        [
+          "Portee modifiable",
+          true
+        ],
+        [
+          "Ligne de vue",
+          false
+        ],
+        [
+          "Lancer en ligne",
+          false
+        ],
+        [
+          "Cellules libres",
+          false
+        ],
+        [
+          "EC fini le tour",
+          false
+        ],
+        [
+          "CC actuels",
+          "1/40"
+        ]
       ]
     },
     {
@@ -139,19 +205,52 @@ window.LRDR_CUSTOM_SPELLS = {
         }
       ],
       "characteristics": [
-        ["Probabilite de coup critique", "1/40"],
-        ["Probabilite d'echec", "1/100"],
-        ["Nb. de lancers par tour", "2"],
-        ["Nb. de lancers par tour par joueur", "1"],
-        ["Nb. de tours entre deux lancers", "-"]
+        [
+          "Probabilite de coup critique",
+          "1/40"
+        ],
+        [
+          "Probabilite d'echec",
+          "1/100"
+        ],
+        [
+          "Nb. de lancers par tour",
+          "2"
+        ],
+        [
+          "Nb. de lancers par tour par joueur",
+          "1"
+        ],
+        [
+          "Nb. de tours entre deux lancers",
+          "-"
+        ]
       ],
       "rules": [
-        ["Portee modifiable", true],
-        ["Ligne de vue", true],
-        ["Lancer en ligne", false],
-        ["Cellules libres", false],
-        ["EC fini le tour", false],
-        ["CC actuels", "1/40"]
+        [
+          "Portee modifiable",
+          true
+        ],
+        [
+          "Ligne de vue",
+          true
+        ],
+        [
+          "Lancer en ligne",
+          false
+        ],
+        [
+          "Cellules libres",
+          false
+        ],
+        [
+          "EC fini le tour",
+          false
+        ],
+        [
+          "CC actuels",
+          "1/40"
+        ]
       ]
     },
     {
@@ -192,19 +291,52 @@ window.LRDR_CUSTOM_SPELLS = {
         }
       ],
       "characteristics": [
-        ["Probabilite de coup critique", "1/40"],
-        ["Probabilite d'echec", "1/100"],
-        ["Nb. de lancers par tour", "-"],
-        ["Nb. de lancers par tour par joueur", "2"],
-        ["Nb. de tours entre deux lancers", "-"]
+        [
+          "Probabilite de coup critique",
+          "1/40"
+        ],
+        [
+          "Probabilite d'echec",
+          "1/100"
+        ],
+        [
+          "Nb. de lancers par tour",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour par joueur",
+          "2"
+        ],
+        [
+          "Nb. de tours entre deux lancers",
+          "-"
+        ]
       ],
       "rules": [
-        ["Portee modifiable", true],
-        ["Ligne de vue", false],
-        ["Lancer en ligne", false],
-        ["Cellules libres", false],
-        ["EC fini le tour", false],
-        ["CC actuels", "1/40"]
+        [
+          "Portee modifiable",
+          true
+        ],
+        [
+          "Ligne de vue",
+          false
+        ],
+        [
+          "Lancer en ligne",
+          false
+        ],
+        [
+          "Cellules libres",
+          false
+        ],
+        [
+          "EC fini le tour",
+          false
+        ],
+        [
+          "CC actuels",
+          "1/40"
+        ]
       ]
     },
     {
@@ -242,19 +374,52 @@ window.LRDR_CUSTOM_SPELLS = {
         }
       ],
       "characteristics": [
-        ["Probabilite de coup critique", "-"],
-        ["Probabilite d'echec", "-"],
-        ["Nb. de lancers par tour", "-"],
-        ["Nb. de lancers par tour par joueur", "-"],
-        ["Nb. de tours entre deux lancers", "-"]
+        [
+          "Probabilite de coup critique",
+          "-"
+        ],
+        [
+          "Probabilite d'echec",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour par joueur",
+          "-"
+        ],
+        [
+          "Nb. de tours entre deux lancers",
+          "-"
+        ]
       ],
       "rules": [
-        ["Portee modifiable", "-"],
-        ["Ligne de vue", "-"],
-        ["Lancer en ligne", "-"],
-        ["Cellules libres", "-"],
-        ["EC fini le tour", "-"],
-        ["CC actuels", "-"]
+        [
+          "Portee modifiable",
+          "-"
+        ],
+        [
+          "Ligne de vue",
+          "-"
+        ],
+        [
+          "Lancer en ligne",
+          "-"
+        ],
+        [
+          "Cellules libres",
+          "-"
+        ],
+        [
+          "EC fini le tour",
+          "-"
+        ],
+        [
+          "CC actuels",
+          "-"
+        ]
       ]
     },
     {
@@ -292,19 +457,52 @@ window.LRDR_CUSTOM_SPELLS = {
         }
       ],
       "characteristics": [
-        ["Probabilite de coup critique", "-"],
-        ["Probabilite d'echec", "-"],
-        ["Nb. de lancers par tour", "-"],
-        ["Nb. de lancers par tour par joueur", "-"],
-        ["Nb. de tours entre deux lancers", "-"]
+        [
+          "Probabilite de coup critique",
+          "-"
+        ],
+        [
+          "Probabilite d'echec",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour par joueur",
+          "-"
+        ],
+        [
+          "Nb. de tours entre deux lancers",
+          "-"
+        ]
       ],
       "rules": [
-        ["Portee modifiable", "-"],
-        ["Ligne de vue", "-"],
-        ["Lancer en ligne", "-"],
-        ["Cellules libres", "-"],
-        ["EC fini le tour", "-"],
-        ["CC actuels", "-"]
+        [
+          "Portee modifiable",
+          "-"
+        ],
+        [
+          "Ligne de vue",
+          "-"
+        ],
+        [
+          "Lancer en ligne",
+          "-"
+        ],
+        [
+          "Cellules libres",
+          "-"
+        ],
+        [
+          "EC fini le tour",
+          "-"
+        ],
+        [
+          "CC actuels",
+          "-"
+        ]
       ]
     }
   ],
@@ -343,19 +541,52 @@ window.LRDR_CUSTOM_SPELLS = {
         }
       ],
       "characteristics": [
-        ["Probabilite de coup critique", "1/45"],
-        ["Probabilite d'echec", "1/100"],
-        ["Nb. de lancers par tour", "-"],
-        ["Nb. de lancers par tour par joueur", "2"],
-        ["Nb. de tours entre deux lancers", "-"]
+        [
+          "Probabilite de coup critique",
+          "1/45"
+        ],
+        [
+          "Probabilite d'echec",
+          "1/100"
+        ],
+        [
+          "Nb. de lancers par tour",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour par joueur",
+          "2"
+        ],
+        [
+          "Nb. de tours entre deux lancers",
+          "-"
+        ]
       ],
       "rules": [
-        ["Portee modifiable", true],
-        ["Ligne de vue", true],
-        ["Lancer en ligne", false],
-        ["Cellules libres", false],
-        ["EC fini le tour", false],
-        ["CC actuels", "1/45"]
+        [
+          "Portee modifiable",
+          true
+        ],
+        [
+          "Ligne de vue",
+          true
+        ],
+        [
+          "Lancer en ligne",
+          false
+        ],
+        [
+          "Cellules libres",
+          false
+        ],
+        [
+          "EC fini le tour",
+          false
+        ],
+        [
+          "CC actuels",
+          "1/45"
+        ]
       ]
     },
     {
@@ -396,19 +627,52 @@ window.LRDR_CUSTOM_SPELLS = {
         }
       ],
       "characteristics": [
-        ["Probabilite de coup critique", "1/50"],
-        ["Probabilite d'echec", "1/100"],
-        ["Nb. de lancers par tour", "-"],
-        ["Nb. de lancers par tour par joueur", "-"],
-        ["Nb. de tours entre deux lancers", "-"]
+        [
+          "Probabilite de coup critique",
+          "1/50"
+        ],
+        [
+          "Probabilite d'echec",
+          "1/100"
+        ],
+        [
+          "Nb. de lancers par tour",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour par joueur",
+          "-"
+        ],
+        [
+          "Nb. de tours entre deux lancers",
+          "-"
+        ]
       ],
       "rules": [
-        ["Portee modifiable", true],
-        ["Ligne de vue", true],
-        ["Lancer en ligne", false],
-        ["Cellules libres", false],
-        ["EC fini le tour", false],
-        ["CC actuels", "1/50"]
+        [
+          "Portee modifiable",
+          true
+        ],
+        [
+          "Ligne de vue",
+          true
+        ],
+        [
+          "Lancer en ligne",
+          false
+        ],
+        [
+          "Cellules libres",
+          false
+        ],
+        [
+          "EC fini le tour",
+          false
+        ],
+        [
+          "CC actuels",
+          "1/50"
+        ]
       ]
     },
     {
@@ -446,19 +710,52 @@ window.LRDR_CUSTOM_SPELLS = {
         }
       ],
       "characteristics": [
-        ["Probabilite de coup critique", "-"],
-        ["Probabilite d'echec", "-"],
-        ["Nb. de lancers par tour", "-"],
-        ["Nb. de lancers par tour par joueur", "-"],
-        ["Nb. de tours entre deux lancers", "-"]
+        [
+          "Probabilite de coup critique",
+          "-"
+        ],
+        [
+          "Probabilite d'echec",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour par joueur",
+          "-"
+        ],
+        [
+          "Nb. de tours entre deux lancers",
+          "-"
+        ]
       ],
       "rules": [
-        ["Portee modifiable", "-"],
-        ["Ligne de vue", "-"],
-        ["Lancer en ligne", "-"],
-        ["Cellules libres", "-"],
-        ["EC fini le tour", "-"],
-        ["CC actuels", "-"]
+        [
+          "Portee modifiable",
+          "-"
+        ],
+        [
+          "Ligne de vue",
+          "-"
+        ],
+        [
+          "Lancer en ligne",
+          "-"
+        ],
+        [
+          "Cellules libres",
+          "-"
+        ],
+        [
+          "EC fini le tour",
+          "-"
+        ],
+        [
+          "CC actuels",
+          "-"
+        ]
       ]
     },
     {
@@ -496,19 +793,52 @@ window.LRDR_CUSTOM_SPELLS = {
         }
       ],
       "characteristics": [
-        ["Probabilite de coup critique", "-"],
-        ["Probabilite d'echec", "-"],
-        ["Nb. de lancers par tour", "-"],
-        ["Nb. de lancers par tour par joueur", "-"],
-        ["Nb. de tours entre deux lancers", "-"]
+        [
+          "Probabilite de coup critique",
+          "-"
+        ],
+        [
+          "Probabilite d'echec",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour par joueur",
+          "-"
+        ],
+        [
+          "Nb. de tours entre deux lancers",
+          "-"
+        ]
       ],
       "rules": [
-        ["Portee modifiable", "-"],
-        ["Ligne de vue", "-"],
-        ["Lancer en ligne", "-"],
-        ["Cellules libres", "-"],
-        ["EC fini le tour", "-"],
-        ["CC actuels", "-"]
+        [
+          "Portee modifiable",
+          "-"
+        ],
+        [
+          "Ligne de vue",
+          "-"
+        ],
+        [
+          "Lancer en ligne",
+          "-"
+        ],
+        [
+          "Cellules libres",
+          "-"
+        ],
+        [
+          "EC fini le tour",
+          "-"
+        ],
+        [
+          "CC actuels",
+          "-"
+        ]
       ]
     },
     {
@@ -546,19 +876,52 @@ window.LRDR_CUSTOM_SPELLS = {
         }
       ],
       "characteristics": [
-        ["Probabilite de coup critique", "-"],
-        ["Probabilite d'echec", "-"],
-        ["Nb. de lancers par tour", "-"],
-        ["Nb. de lancers par tour par joueur", "-"],
-        ["Nb. de tours entre deux lancers", "-"]
+        [
+          "Probabilite de coup critique",
+          "-"
+        ],
+        [
+          "Probabilite d'echec",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour par joueur",
+          "-"
+        ],
+        [
+          "Nb. de tours entre deux lancers",
+          "-"
+        ]
       ],
       "rules": [
-        ["Portee modifiable", "-"],
-        ["Ligne de vue", "-"],
-        ["Lancer en ligne", "-"],
-        ["Cellules libres", "-"],
-        ["EC fini le tour", "-"],
-        ["CC actuels", "-"]
+        [
+          "Portee modifiable",
+          "-"
+        ],
+        [
+          "Ligne de vue",
+          "-"
+        ],
+        [
+          "Lancer en ligne",
+          "-"
+        ],
+        [
+          "Cellules libres",
+          "-"
+        ],
+        [
+          "EC fini le tour",
+          "-"
+        ],
+        [
+          "CC actuels",
+          "-"
+        ]
       ]
     },
     {
@@ -596,19 +959,52 @@ window.LRDR_CUSTOM_SPELLS = {
         }
       ],
       "characteristics": [
-        ["Probabilite de coup critique", "-"],
-        ["Probabilite d'echec", "-"],
-        ["Nb. de lancers par tour", "-"],
-        ["Nb. de lancers par tour par joueur", "-"],
-        ["Nb. de tours entre deux lancers", "-"]
+        [
+          "Probabilite de coup critique",
+          "-"
+        ],
+        [
+          "Probabilite d'echec",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour par joueur",
+          "-"
+        ],
+        [
+          "Nb. de tours entre deux lancers",
+          "-"
+        ]
       ],
       "rules": [
-        ["Portee modifiable", "-"],
-        ["Ligne de vue", "-"],
-        ["Lancer en ligne", "-"],
-        ["Cellules libres", "-"],
-        ["EC fini le tour", "-"],
-        ["CC actuels", "-"]
+        [
+          "Portee modifiable",
+          "-"
+        ],
+        [
+          "Ligne de vue",
+          "-"
+        ],
+        [
+          "Lancer en ligne",
+          "-"
+        ],
+        [
+          "Cellules libres",
+          "-"
+        ],
+        [
+          "EC fini le tour",
+          "-"
+        ],
+        [
+          "CC actuels",
+          "-"
+        ]
       ]
     },
     {
@@ -646,19 +1042,52 @@ window.LRDR_CUSTOM_SPELLS = {
         }
       ],
       "characteristics": [
-        ["Probabilite de coup critique", "-"],
-        ["Probabilite d'echec", "-"],
-        ["Nb. de lancers par tour", "-"],
-        ["Nb. de lancers par tour par joueur", "-"],
-        ["Nb. de tours entre deux lancers", "-"]
+        [
+          "Probabilite de coup critique",
+          "-"
+        ],
+        [
+          "Probabilite d'echec",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour par joueur",
+          "-"
+        ],
+        [
+          "Nb. de tours entre deux lancers",
+          "-"
+        ]
       ],
       "rules": [
-        ["Portee modifiable", "-"],
-        ["Ligne de vue", "-"],
-        ["Lancer en ligne", "-"],
-        ["Cellules libres", "-"],
-        ["EC fini le tour", "-"],
-        ["CC actuels", "-"]
+        [
+          "Portee modifiable",
+          "-"
+        ],
+        [
+          "Ligne de vue",
+          "-"
+        ],
+        [
+          "Lancer en ligne",
+          "-"
+        ],
+        [
+          "Cellules libres",
+          "-"
+        ],
+        [
+          "EC fini le tour",
+          "-"
+        ],
+        [
+          "CC actuels",
+          "-"
+        ]
       ]
     }
   ],
@@ -698,19 +1127,52 @@ window.LRDR_CUSTOM_SPELLS = {
         }
       ],
       "characteristics": [
-        ["Probabilite de coup critique", "-"],
-        ["Probabilite d'echec", "-"],
-        ["Nb. de lancers par tour", "-"],
-        ["Nb. de lancers par tour par joueur", "-"],
-        ["Nb. de tours entre deux lancers", "-"]
+        [
+          "Probabilite de coup critique",
+          "-"
+        ],
+        [
+          "Probabilite d'echec",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour par joueur",
+          "-"
+        ],
+        [
+          "Nb. de tours entre deux lancers",
+          "-"
+        ]
       ],
       "rules": [
-        ["Portee modifiable", "-"],
-        ["Ligne de vue", "-"],
-        ["Lancer en ligne", "-"],
-        ["Cellules libres", "-"],
-        ["EC fini le tour", "-"],
-        ["CC actuels", "-"]
+        [
+          "Portee modifiable",
+          "-"
+        ],
+        [
+          "Ligne de vue",
+          "-"
+        ],
+        [
+          "Lancer en ligne",
+          "-"
+        ],
+        [
+          "Cellules libres",
+          "-"
+        ],
+        [
+          "EC fini le tour",
+          "-"
+        ],
+        [
+          "CC actuels",
+          "-"
+        ]
       ]
     },
     {
@@ -748,19 +1210,52 @@ window.LRDR_CUSTOM_SPELLS = {
         }
       ],
       "characteristics": [
-        ["Probabilite de coup critique", "-"],
-        ["Probabilite d'echec", "-"],
-        ["Nb. de lancers par tour", "-"],
-        ["Nb. de lancers par tour par joueur", "-"],
-        ["Nb. de tours entre deux lancers", "-"]
+        [
+          "Probabilite de coup critique",
+          "-"
+        ],
+        [
+          "Probabilite d'echec",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour par joueur",
+          "-"
+        ],
+        [
+          "Nb. de tours entre deux lancers",
+          "-"
+        ]
       ],
       "rules": [
-        ["Portee modifiable", "-"],
-        ["Ligne de vue", "-"],
-        ["Lancer en ligne", "-"],
-        ["Cellules libres", "-"],
-        ["EC fini le tour", "-"],
-        ["CC actuels", "-"]
+        [
+          "Portee modifiable",
+          "-"
+        ],
+        [
+          "Ligne de vue",
+          "-"
+        ],
+        [
+          "Lancer en ligne",
+          "-"
+        ],
+        [
+          "Cellules libres",
+          "-"
+        ],
+        [
+          "EC fini le tour",
+          "-"
+        ],
+        [
+          "CC actuels",
+          "-"
+        ]
       ]
     },
     {
@@ -798,19 +1293,52 @@ window.LRDR_CUSTOM_SPELLS = {
         }
       ],
       "characteristics": [
-        ["Probabilite de coup critique", "-"],
-        ["Probabilite d'echec", "-"],
-        ["Nb. de lancers par tour", "-"],
-        ["Nb. de lancers par tour par joueur", "-"],
-        ["Nb. de tours entre deux lancers", "-"]
+        [
+          "Probabilite de coup critique",
+          "-"
+        ],
+        [
+          "Probabilite d'echec",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour par joueur",
+          "-"
+        ],
+        [
+          "Nb. de tours entre deux lancers",
+          "-"
+        ]
       ],
       "rules": [
-        ["Portee modifiable", "-"],
-        ["Ligne de vue", "-"],
-        ["Lancer en ligne", "-"],
-        ["Cellules libres", "-"],
-        ["EC fini le tour", "-"],
-        ["CC actuels", "-"]
+        [
+          "Portee modifiable",
+          "-"
+        ],
+        [
+          "Ligne de vue",
+          "-"
+        ],
+        [
+          "Lancer en ligne",
+          "-"
+        ],
+        [
+          "Cellules libres",
+          "-"
+        ],
+        [
+          "EC fini le tour",
+          "-"
+        ],
+        [
+          "CC actuels",
+          "-"
+        ]
       ]
     },
     {
@@ -848,19 +1376,52 @@ window.LRDR_CUSTOM_SPELLS = {
         }
       ],
       "characteristics": [
-        ["Probabilite de coup critique", "-"],
-        ["Probabilite d'echec", "-"],
-        ["Nb. de lancers par tour", "-"],
-        ["Nb. de lancers par tour par joueur", "-"],
-        ["Nb. de tours entre deux lancers", "-"]
+        [
+          "Probabilite de coup critique",
+          "-"
+        ],
+        [
+          "Probabilite d'echec",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour par joueur",
+          "-"
+        ],
+        [
+          "Nb. de tours entre deux lancers",
+          "-"
+        ]
       ],
       "rules": [
-        ["Portee modifiable", "-"],
-        ["Ligne de vue", "-"],
-        ["Lancer en ligne", "-"],
-        ["Cellules libres", "-"],
-        ["EC fini le tour", "-"],
-        ["CC actuels", "-"]
+        [
+          "Portee modifiable",
+          "-"
+        ],
+        [
+          "Ligne de vue",
+          "-"
+        ],
+        [
+          "Lancer en ligne",
+          "-"
+        ],
+        [
+          "Cellules libres",
+          "-"
+        ],
+        [
+          "EC fini le tour",
+          "-"
+        ],
+        [
+          "CC actuels",
+          "-"
+        ]
       ]
     },
     {
@@ -898,19 +1459,52 @@ window.LRDR_CUSTOM_SPELLS = {
         }
       ],
       "characteristics": [
-        ["Probabilite de coup critique", "-"],
-        ["Probabilite d'echec", "-"],
-        ["Nb. de lancers par tour", "-"],
-        ["Nb. de lancers par tour par joueur", "-"],
-        ["Nb. de tours entre deux lancers", "-"]
+        [
+          "Probabilite de coup critique",
+          "-"
+        ],
+        [
+          "Probabilite d'echec",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour par joueur",
+          "-"
+        ],
+        [
+          "Nb. de tours entre deux lancers",
+          "-"
+        ]
       ],
       "rules": [
-        ["Portee modifiable", "-"],
-        ["Ligne de vue", "-"],
-        ["Lancer en ligne", "-"],
-        ["Cellules libres", "-"],
-        ["EC fini le tour", "-"],
-        ["CC actuels", "-"]
+        [
+          "Portee modifiable",
+          "-"
+        ],
+        [
+          "Ligne de vue",
+          "-"
+        ],
+        [
+          "Lancer en ligne",
+          "-"
+        ],
+        [
+          "Cellules libres",
+          "-"
+        ],
+        [
+          "EC fini le tour",
+          "-"
+        ],
+        [
+          "CC actuels",
+          "-"
+        ]
       ]
     }
   ],
@@ -950,19 +1544,52 @@ window.LRDR_CUSTOM_SPELLS = {
         }
       ],
       "characteristics": [
-        ["Probabilite de coup critique", "-"],
-        ["Probabilite d'echec", "-"],
-        ["Nb. de lancers par tour", "-"],
-        ["Nb. de lancers par tour par joueur", "-"],
-        ["Nb. de tours entre deux lancers", "-"]
+        [
+          "Probabilite de coup critique",
+          "-"
+        ],
+        [
+          "Probabilite d'echec",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour par joueur",
+          "-"
+        ],
+        [
+          "Nb. de tours entre deux lancers",
+          "-"
+        ]
       ],
       "rules": [
-        ["Portee modifiable", "-"],
-        ["Ligne de vue", "-"],
-        ["Lancer en ligne", "-"],
-        ["Cellules libres", "-"],
-        ["EC fini le tour", "-"],
-        ["CC actuels", "-"]
+        [
+          "Portee modifiable",
+          "-"
+        ],
+        [
+          "Ligne de vue",
+          "-"
+        ],
+        [
+          "Lancer en ligne",
+          "-"
+        ],
+        [
+          "Cellules libres",
+          "-"
+        ],
+        [
+          "EC fini le tour",
+          "-"
+        ],
+        [
+          "CC actuels",
+          "-"
+        ]
       ]
     },
     {
@@ -1000,19 +1627,52 @@ window.LRDR_CUSTOM_SPELLS = {
         }
       ],
       "characteristics": [
-        ["Probabilite de coup critique", "-"],
-        ["Probabilite d'echec", "-"],
-        ["Nb. de lancers par tour", "-"],
-        ["Nb. de lancers par tour par joueur", "-"],
-        ["Nb. de tours entre deux lancers", "-"]
+        [
+          "Probabilite de coup critique",
+          "-"
+        ],
+        [
+          "Probabilite d'echec",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour par joueur",
+          "-"
+        ],
+        [
+          "Nb. de tours entre deux lancers",
+          "-"
+        ]
       ],
       "rules": [
-        ["Portee modifiable", "-"],
-        ["Ligne de vue", "-"],
-        ["Lancer en ligne", "-"],
-        ["Cellules libres", "-"],
-        ["EC fini le tour", "-"],
-        ["CC actuels", "-"]
+        [
+          "Portee modifiable",
+          "-"
+        ],
+        [
+          "Ligne de vue",
+          "-"
+        ],
+        [
+          "Lancer en ligne",
+          "-"
+        ],
+        [
+          "Cellules libres",
+          "-"
+        ],
+        [
+          "EC fini le tour",
+          "-"
+        ],
+        [
+          "CC actuels",
+          "-"
+        ]
       ]
     },
     {
@@ -1050,19 +1710,52 @@ window.LRDR_CUSTOM_SPELLS = {
         }
       ],
       "characteristics": [
-        ["Probabilite de coup critique", "-"],
-        ["Probabilite d'echec", "-"],
-        ["Nb. de lancers par tour", "-"],
-        ["Nb. de lancers par tour par joueur", "-"],
-        ["Nb. de tours entre deux lancers", "-"]
+        [
+          "Probabilite de coup critique",
+          "-"
+        ],
+        [
+          "Probabilite d'echec",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour par joueur",
+          "-"
+        ],
+        [
+          "Nb. de tours entre deux lancers",
+          "-"
+        ]
       ],
       "rules": [
-        ["Portee modifiable", "-"],
-        ["Ligne de vue", "-"],
-        ["Lancer en ligne", "-"],
-        ["Cellules libres", "-"],
-        ["EC fini le tour", "-"],
-        ["CC actuels", "-"]
+        [
+          "Portee modifiable",
+          "-"
+        ],
+        [
+          "Ligne de vue",
+          "-"
+        ],
+        [
+          "Lancer en ligne",
+          "-"
+        ],
+        [
+          "Cellules libres",
+          "-"
+        ],
+        [
+          "EC fini le tour",
+          "-"
+        ],
+        [
+          "CC actuels",
+          "-"
+        ]
       ]
     },
     {
@@ -1100,19 +1793,52 @@ window.LRDR_CUSTOM_SPELLS = {
         }
       ],
       "characteristics": [
-        ["Probabilite de coup critique", "-"],
-        ["Probabilite d'echec", "-"],
-        ["Nb. de lancers par tour", "-"],
-        ["Nb. de lancers par tour par joueur", "-"],
-        ["Nb. de tours entre deux lancers", "-"]
+        [
+          "Probabilite de coup critique",
+          "-"
+        ],
+        [
+          "Probabilite d'echec",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour par joueur",
+          "-"
+        ],
+        [
+          "Nb. de tours entre deux lancers",
+          "-"
+        ]
       ],
       "rules": [
-        ["Portee modifiable", "-"],
-        ["Ligne de vue", "-"],
-        ["Lancer en ligne", "-"],
-        ["Cellules libres", "-"],
-        ["EC fini le tour", "-"],
-        ["CC actuels", "-"]
+        [
+          "Portee modifiable",
+          "-"
+        ],
+        [
+          "Ligne de vue",
+          "-"
+        ],
+        [
+          "Lancer en ligne",
+          "-"
+        ],
+        [
+          "Cellules libres",
+          "-"
+        ],
+        [
+          "EC fini le tour",
+          "-"
+        ],
+        [
+          "CC actuels",
+          "-"
+        ]
       ]
     },
     {
@@ -1150,19 +1876,52 @@ window.LRDR_CUSTOM_SPELLS = {
         }
       ],
       "characteristics": [
-        ["Probabilite de coup critique", "-"],
-        ["Probabilite d'echec", "-"],
-        ["Nb. de lancers par tour", "-"],
-        ["Nb. de lancers par tour par joueur", "-"],
-        ["Nb. de tours entre deux lancers", "-"]
+        [
+          "Probabilite de coup critique",
+          "-"
+        ],
+        [
+          "Probabilite d'echec",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour par joueur",
+          "-"
+        ],
+        [
+          "Nb. de tours entre deux lancers",
+          "-"
+        ]
       ],
       "rules": [
-        ["Portee modifiable", "-"],
-        ["Ligne de vue", "-"],
-        ["Lancer en ligne", "-"],
-        ["Cellules libres", "-"],
-        ["EC fini le tour", "-"],
-        ["CC actuels", "-"]
+        [
+          "Portee modifiable",
+          "-"
+        ],
+        [
+          "Ligne de vue",
+          "-"
+        ],
+        [
+          "Lancer en ligne",
+          "-"
+        ],
+        [
+          "Cellules libres",
+          "-"
+        ],
+        [
+          "EC fini le tour",
+          "-"
+        ],
+        [
+          "CC actuels",
+          "-"
+        ]
       ]
     },
     {
@@ -1200,19 +1959,52 @@ window.LRDR_CUSTOM_SPELLS = {
         }
       ],
       "characteristics": [
-        ["Probabilite de coup critique", "-"],
-        ["Probabilite d'echec", "-"],
-        ["Nb. de lancers par tour", "-"],
-        ["Nb. de lancers par tour par joueur", "-"],
-        ["Nb. de tours entre deux lancers", "-"]
+        [
+          "Probabilite de coup critique",
+          "-"
+        ],
+        [
+          "Probabilite d'echec",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour par joueur",
+          "-"
+        ],
+        [
+          "Nb. de tours entre deux lancers",
+          "-"
+        ]
       ],
       "rules": [
-        ["Portee modifiable", "-"],
-        ["Ligne de vue", "-"],
-        ["Lancer en ligne", "-"],
-        ["Cellules libres", "-"],
-        ["EC fini le tour", "-"],
-        ["CC actuels", "-"]
+        [
+          "Portee modifiable",
+          "-"
+        ],
+        [
+          "Ligne de vue",
+          "-"
+        ],
+        [
+          "Lancer en ligne",
+          "-"
+        ],
+        [
+          "Cellules libres",
+          "-"
+        ],
+        [
+          "EC fini le tour",
+          "-"
+        ],
+        [
+          "CC actuels",
+          "-"
+        ]
       ]
     }
   ],
@@ -1252,19 +2044,52 @@ window.LRDR_CUSTOM_SPELLS = {
         }
       ],
       "characteristics": [
-        ["Probabilite de coup critique", "-"],
-        ["Probabilite d'echec", "-"],
-        ["Nb. de lancers par tour", "-"],
-        ["Nb. de lancers par tour par joueur", "-"],
-        ["Nb. de tours entre deux lancers", "-"]
+        [
+          "Probabilite de coup critique",
+          "-"
+        ],
+        [
+          "Probabilite d'echec",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour par joueur",
+          "-"
+        ],
+        [
+          "Nb. de tours entre deux lancers",
+          "-"
+        ]
       ],
       "rules": [
-        ["Portee modifiable", "-"],
-        ["Ligne de vue", "-"],
-        ["Lancer en ligne", "-"],
-        ["Cellules libres", "-"],
-        ["EC fini le tour", "-"],
-        ["CC actuels", "-"]
+        [
+          "Portee modifiable",
+          "-"
+        ],
+        [
+          "Ligne de vue",
+          "-"
+        ],
+        [
+          "Lancer en ligne",
+          "-"
+        ],
+        [
+          "Cellules libres",
+          "-"
+        ],
+        [
+          "EC fini le tour",
+          "-"
+        ],
+        [
+          "CC actuels",
+          "-"
+        ]
       ]
     },
     {
@@ -1302,19 +2127,52 @@ window.LRDR_CUSTOM_SPELLS = {
         }
       ],
       "characteristics": [
-        ["Probabilite de coup critique", "-"],
-        ["Probabilite d'echec", "-"],
-        ["Nb. de lancers par tour", "-"],
-        ["Nb. de lancers par tour par joueur", "-"],
-        ["Nb. de tours entre deux lancers", "-"]
+        [
+          "Probabilite de coup critique",
+          "-"
+        ],
+        [
+          "Probabilite d'echec",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour par joueur",
+          "-"
+        ],
+        [
+          "Nb. de tours entre deux lancers",
+          "-"
+        ]
       ],
       "rules": [
-        ["Portee modifiable", "-"],
-        ["Ligne de vue", "-"],
-        ["Lancer en ligne", "-"],
-        ["Cellules libres", "-"],
-        ["EC fini le tour", "-"],
-        ["CC actuels", "-"]
+        [
+          "Portee modifiable",
+          "-"
+        ],
+        [
+          "Ligne de vue",
+          "-"
+        ],
+        [
+          "Lancer en ligne",
+          "-"
+        ],
+        [
+          "Cellules libres",
+          "-"
+        ],
+        [
+          "EC fini le tour",
+          "-"
+        ],
+        [
+          "CC actuels",
+          "-"
+        ]
       ]
     },
     {
@@ -1352,19 +2210,52 @@ window.LRDR_CUSTOM_SPELLS = {
         }
       ],
       "characteristics": [
-        ["Probabilite de coup critique", "-"],
-        ["Probabilite d'echec", "-"],
-        ["Nb. de lancers par tour", "-"],
-        ["Nb. de lancers par tour par joueur", "-"],
-        ["Nb. de tours entre deux lancers", "-"]
+        [
+          "Probabilite de coup critique",
+          "-"
+        ],
+        [
+          "Probabilite d'echec",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour par joueur",
+          "-"
+        ],
+        [
+          "Nb. de tours entre deux lancers",
+          "-"
+        ]
       ],
       "rules": [
-        ["Portee modifiable", "-"],
-        ["Ligne de vue", "-"],
-        ["Lancer en ligne", "-"],
-        ["Cellules libres", "-"],
-        ["EC fini le tour", "-"],
-        ["CC actuels", "-"]
+        [
+          "Portee modifiable",
+          "-"
+        ],
+        [
+          "Ligne de vue",
+          "-"
+        ],
+        [
+          "Lancer en ligne",
+          "-"
+        ],
+        [
+          "Cellules libres",
+          "-"
+        ],
+        [
+          "EC fini le tour",
+          "-"
+        ],
+        [
+          "CC actuels",
+          "-"
+        ]
       ]
     },
     {
@@ -1402,19 +2293,52 @@ window.LRDR_CUSTOM_SPELLS = {
         }
       ],
       "characteristics": [
-        ["Probabilite de coup critique", "-"],
-        ["Probabilite d'echec", "-"],
-        ["Nb. de lancers par tour", "-"],
-        ["Nb. de lancers par tour par joueur", "-"],
-        ["Nb. de tours entre deux lancers", "-"]
+        [
+          "Probabilite de coup critique",
+          "-"
+        ],
+        [
+          "Probabilite d'echec",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour par joueur",
+          "-"
+        ],
+        [
+          "Nb. de tours entre deux lancers",
+          "-"
+        ]
       ],
       "rules": [
-        ["Portee modifiable", "-"],
-        ["Ligne de vue", "-"],
-        ["Lancer en ligne", "-"],
-        ["Cellules libres", "-"],
-        ["EC fini le tour", "-"],
-        ["CC actuels", "-"]
+        [
+          "Portee modifiable",
+          "-"
+        ],
+        [
+          "Ligne de vue",
+          "-"
+        ],
+        [
+          "Lancer en ligne",
+          "-"
+        ],
+        [
+          "Cellules libres",
+          "-"
+        ],
+        [
+          "EC fini le tour",
+          "-"
+        ],
+        [
+          "CC actuels",
+          "-"
+        ]
       ]
     },
     {
@@ -1452,19 +2376,52 @@ window.LRDR_CUSTOM_SPELLS = {
         }
       ],
       "characteristics": [
-        ["Probabilite de coup critique", "-"],
-        ["Probabilite d'echec", "-"],
-        ["Nb. de lancers par tour", "-"],
-        ["Nb. de lancers par tour par joueur", "-"],
-        ["Nb. de tours entre deux lancers", "-"]
+        [
+          "Probabilite de coup critique",
+          "-"
+        ],
+        [
+          "Probabilite d'echec",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour par joueur",
+          "-"
+        ],
+        [
+          "Nb. de tours entre deux lancers",
+          "-"
+        ]
       ],
       "rules": [
-        ["Portee modifiable", "-"],
-        ["Ligne de vue", "-"],
-        ["Lancer en ligne", "-"],
-        ["Cellules libres", "-"],
-        ["EC fini le tour", "-"],
-        ["CC actuels", "-"]
+        [
+          "Portee modifiable",
+          "-"
+        ],
+        [
+          "Ligne de vue",
+          "-"
+        ],
+        [
+          "Lancer en ligne",
+          "-"
+        ],
+        [
+          "Cellules libres",
+          "-"
+        ],
+        [
+          "EC fini le tour",
+          "-"
+        ],
+        [
+          "CC actuels",
+          "-"
+        ]
       ]
     },
     {
@@ -1502,19 +2459,52 @@ window.LRDR_CUSTOM_SPELLS = {
         }
       ],
       "characteristics": [
-        ["Probabilite de coup critique", "-"],
-        ["Probabilite d'echec", "-"],
-        ["Nb. de lancers par tour", "-"],
-        ["Nb. de lancers par tour par joueur", "-"],
-        ["Nb. de tours entre deux lancers", "-"]
+        [
+          "Probabilite de coup critique",
+          "-"
+        ],
+        [
+          "Probabilite d'echec",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour par joueur",
+          "-"
+        ],
+        [
+          "Nb. de tours entre deux lancers",
+          "-"
+        ]
       ],
       "rules": [
-        ["Portee modifiable", "-"],
-        ["Ligne de vue", "-"],
-        ["Lancer en ligne", "-"],
-        ["Cellules libres", "-"],
-        ["EC fini le tour", "-"],
-        ["CC actuels", "-"]
+        [
+          "Portee modifiable",
+          "-"
+        ],
+        [
+          "Ligne de vue",
+          "-"
+        ],
+        [
+          "Lancer en ligne",
+          "-"
+        ],
+        [
+          "Cellules libres",
+          "-"
+        ],
+        [
+          "EC fini le tour",
+          "-"
+        ],
+        [
+          "CC actuels",
+          "-"
+        ]
       ]
     }
   ],
@@ -1554,19 +2544,52 @@ window.LRDR_CUSTOM_SPELLS = {
         }
       ],
       "characteristics": [
-        ["Probabilite de coup critique", "-"],
-        ["Probabilite d'echec", "-"],
-        ["Nb. de lancers par tour", "-"],
-        ["Nb. de lancers par tour par joueur", "-"],
-        ["Nb. de tours entre deux lancers", "-"]
+        [
+          "Probabilite de coup critique",
+          "-"
+        ],
+        [
+          "Probabilite d'echec",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour par joueur",
+          "-"
+        ],
+        [
+          "Nb. de tours entre deux lancers",
+          "-"
+        ]
       ],
       "rules": [
-        ["Portee modifiable", "-"],
-        ["Ligne de vue", "-"],
-        ["Lancer en ligne", "-"],
-        ["Cellules libres", "-"],
-        ["EC fini le tour", "-"],
-        ["CC actuels", "-"]
+        [
+          "Portee modifiable",
+          "-"
+        ],
+        [
+          "Ligne de vue",
+          "-"
+        ],
+        [
+          "Lancer en ligne",
+          "-"
+        ],
+        [
+          "Cellules libres",
+          "-"
+        ],
+        [
+          "EC fini le tour",
+          "-"
+        ],
+        [
+          "CC actuels",
+          "-"
+        ]
       ]
     },
     {
@@ -1604,19 +2627,52 @@ window.LRDR_CUSTOM_SPELLS = {
         }
       ],
       "characteristics": [
-        ["Probabilite de coup critique", "-"],
-        ["Probabilite d'echec", "-"],
-        ["Nb. de lancers par tour", "-"],
-        ["Nb. de lancers par tour par joueur", "-"],
-        ["Nb. de tours entre deux lancers", "-"]
+        [
+          "Probabilite de coup critique",
+          "-"
+        ],
+        [
+          "Probabilite d'echec",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour par joueur",
+          "-"
+        ],
+        [
+          "Nb. de tours entre deux lancers",
+          "-"
+        ]
       ],
       "rules": [
-        ["Portee modifiable", "-"],
-        ["Ligne de vue", "-"],
-        ["Lancer en ligne", "-"],
-        ["Cellules libres", "-"],
-        ["EC fini le tour", "-"],
-        ["CC actuels", "-"]
+        [
+          "Portee modifiable",
+          "-"
+        ],
+        [
+          "Ligne de vue",
+          "-"
+        ],
+        [
+          "Lancer en ligne",
+          "-"
+        ],
+        [
+          "Cellules libres",
+          "-"
+        ],
+        [
+          "EC fini le tour",
+          "-"
+        ],
+        [
+          "CC actuels",
+          "-"
+        ]
       ]
     },
     {
@@ -1654,19 +2710,52 @@ window.LRDR_CUSTOM_SPELLS = {
         }
       ],
       "characteristics": [
-        ["Probabilite de coup critique", "-"],
-        ["Probabilite d'echec", "-"],
-        ["Nb. de lancers par tour", "-"],
-        ["Nb. de lancers par tour par joueur", "-"],
-        ["Nb. de tours entre deux lancers", "-"]
+        [
+          "Probabilite de coup critique",
+          "-"
+        ],
+        [
+          "Probabilite d'echec",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour par joueur",
+          "-"
+        ],
+        [
+          "Nb. de tours entre deux lancers",
+          "-"
+        ]
       ],
       "rules": [
-        ["Portee modifiable", "-"],
-        ["Ligne de vue", "-"],
-        ["Lancer en ligne", "-"],
-        ["Cellules libres", "-"],
-        ["EC fini le tour", "-"],
-        ["CC actuels", "-"]
+        [
+          "Portee modifiable",
+          "-"
+        ],
+        [
+          "Ligne de vue",
+          "-"
+        ],
+        [
+          "Lancer en ligne",
+          "-"
+        ],
+        [
+          "Cellules libres",
+          "-"
+        ],
+        [
+          "EC fini le tour",
+          "-"
+        ],
+        [
+          "CC actuels",
+          "-"
+        ]
       ]
     },
     {
@@ -1704,19 +2793,52 @@ window.LRDR_CUSTOM_SPELLS = {
         }
       ],
       "characteristics": [
-        ["Probabilite de coup critique", "-"],
-        ["Probabilite d'echec", "-"],
-        ["Nb. de lancers par tour", "-"],
-        ["Nb. de lancers par tour par joueur", "-"],
-        ["Nb. de tours entre deux lancers", "-"]
+        [
+          "Probabilite de coup critique",
+          "-"
+        ],
+        [
+          "Probabilite d'echec",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour par joueur",
+          "-"
+        ],
+        [
+          "Nb. de tours entre deux lancers",
+          "-"
+        ]
       ],
       "rules": [
-        ["Portee modifiable", "-"],
-        ["Ligne de vue", "-"],
-        ["Lancer en ligne", "-"],
-        ["Cellules libres", "-"],
-        ["EC fini le tour", "-"],
-        ["CC actuels", "-"]
+        [
+          "Portee modifiable",
+          "-"
+        ],
+        [
+          "Ligne de vue",
+          "-"
+        ],
+        [
+          "Lancer en ligne",
+          "-"
+        ],
+        [
+          "Cellules libres",
+          "-"
+        ],
+        [
+          "EC fini le tour",
+          "-"
+        ],
+        [
+          "CC actuels",
+          "-"
+        ]
       ]
     },
     {
@@ -1754,19 +2876,52 @@ window.LRDR_CUSTOM_SPELLS = {
         }
       ],
       "characteristics": [
-        ["Probabilite de coup critique", "-"],
-        ["Probabilite d'echec", "-"],
-        ["Nb. de lancers par tour", "-"],
-        ["Nb. de lancers par tour par joueur", "-"],
-        ["Nb. de tours entre deux lancers", "-"]
+        [
+          "Probabilite de coup critique",
+          "-"
+        ],
+        [
+          "Probabilite d'echec",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour par joueur",
+          "-"
+        ],
+        [
+          "Nb. de tours entre deux lancers",
+          "-"
+        ]
       ],
       "rules": [
-        ["Portee modifiable", "-"],
-        ["Ligne de vue", "-"],
-        ["Lancer en ligne", "-"],
-        ["Cellules libres", "-"],
-        ["EC fini le tour", "-"],
-        ["CC actuels", "-"]
+        [
+          "Portee modifiable",
+          "-"
+        ],
+        [
+          "Ligne de vue",
+          "-"
+        ],
+        [
+          "Lancer en ligne",
+          "-"
+        ],
+        [
+          "Cellules libres",
+          "-"
+        ],
+        [
+          "EC fini le tour",
+          "-"
+        ],
+        [
+          "CC actuels",
+          "-"
+        ]
       ]
     },
     {
@@ -1804,19 +2959,52 @@ window.LRDR_CUSTOM_SPELLS = {
         }
       ],
       "characteristics": [
-        ["Probabilite de coup critique", "-"],
-        ["Probabilite d'echec", "-"],
-        ["Nb. de lancers par tour", "-"],
-        ["Nb. de lancers par tour par joueur", "-"],
-        ["Nb. de tours entre deux lancers", "-"]
+        [
+          "Probabilite de coup critique",
+          "-"
+        ],
+        [
+          "Probabilite d'echec",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour par joueur",
+          "-"
+        ],
+        [
+          "Nb. de tours entre deux lancers",
+          "-"
+        ]
       ],
       "rules": [
-        ["Portee modifiable", "-"],
-        ["Ligne de vue", "-"],
-        ["Lancer en ligne", "-"],
-        ["Cellules libres", "-"],
-        ["EC fini le tour", "-"],
-        ["CC actuels", "-"]
+        [
+          "Portee modifiable",
+          "-"
+        ],
+        [
+          "Ligne de vue",
+          "-"
+        ],
+        [
+          "Lancer en ligne",
+          "-"
+        ],
+        [
+          "Cellules libres",
+          "-"
+        ],
+        [
+          "EC fini le tour",
+          "-"
+        ],
+        [
+          "CC actuels",
+          "-"
+        ]
       ]
     },
     {
@@ -1854,19 +3042,52 @@ window.LRDR_CUSTOM_SPELLS = {
         }
       ],
       "characteristics": [
-        ["Probabilite de coup critique", "-"],
-        ["Probabilite d'echec", "-"],
-        ["Nb. de lancers par tour", "-"],
-        ["Nb. de lancers par tour par joueur", "-"],
-        ["Nb. de tours entre deux lancers", "-"]
+        [
+          "Probabilite de coup critique",
+          "-"
+        ],
+        [
+          "Probabilite d'echec",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour par joueur",
+          "-"
+        ],
+        [
+          "Nb. de tours entre deux lancers",
+          "-"
+        ]
       ],
       "rules": [
-        ["Portee modifiable", "-"],
-        ["Ligne de vue", "-"],
-        ["Lancer en ligne", "-"],
-        ["Cellules libres", "-"],
-        ["EC fini le tour", "-"],
-        ["CC actuels", "-"]
+        [
+          "Portee modifiable",
+          "-"
+        ],
+        [
+          "Ligne de vue",
+          "-"
+        ],
+        [
+          "Lancer en ligne",
+          "-"
+        ],
+        [
+          "Cellules libres",
+          "-"
+        ],
+        [
+          "EC fini le tour",
+          "-"
+        ],
+        [
+          "CC actuels",
+          "-"
+        ]
       ]
     },
     {
@@ -1904,19 +3125,52 @@ window.LRDR_CUSTOM_SPELLS = {
         }
       ],
       "characteristics": [
-        ["Probabilite de coup critique", "-"],
-        ["Probabilite d'echec", "-"],
-        ["Nb. de lancers par tour", "-"],
-        ["Nb. de lancers par tour par joueur", "-"],
-        ["Nb. de tours entre deux lancers", "-"]
+        [
+          "Probabilite de coup critique",
+          "-"
+        ],
+        [
+          "Probabilite d'echec",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour par joueur",
+          "-"
+        ],
+        [
+          "Nb. de tours entre deux lancers",
+          "-"
+        ]
       ],
       "rules": [
-        ["Portee modifiable", "-"],
-        ["Ligne de vue", "-"],
-        ["Lancer en ligne", "-"],
-        ["Cellules libres", "-"],
-        ["EC fini le tour", "-"],
-        ["CC actuels", "-"]
+        [
+          "Portee modifiable",
+          "-"
+        ],
+        [
+          "Ligne de vue",
+          "-"
+        ],
+        [
+          "Lancer en ligne",
+          "-"
+        ],
+        [
+          "Cellules libres",
+          "-"
+        ],
+        [
+          "EC fini le tour",
+          "-"
+        ],
+        [
+          "CC actuels",
+          "-"
+        ]
       ]
     },
     {
@@ -1954,19 +3208,52 @@ window.LRDR_CUSTOM_SPELLS = {
         }
       ],
       "characteristics": [
-        ["Probabilite de coup critique", "-"],
-        ["Probabilite d'echec", "-"],
-        ["Nb. de lancers par tour", "-"],
-        ["Nb. de lancers par tour par joueur", "-"],
-        ["Nb. de tours entre deux lancers", "-"]
+        [
+          "Probabilite de coup critique",
+          "-"
+        ],
+        [
+          "Probabilite d'echec",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour par joueur",
+          "-"
+        ],
+        [
+          "Nb. de tours entre deux lancers",
+          "-"
+        ]
       ],
       "rules": [
-        ["Portee modifiable", "-"],
-        ["Ligne de vue", "-"],
-        ["Lancer en ligne", "-"],
-        ["Cellules libres", "-"],
-        ["EC fini le tour", "-"],
-        ["CC actuels", "-"]
+        [
+          "Portee modifiable",
+          "-"
+        ],
+        [
+          "Ligne de vue",
+          "-"
+        ],
+        [
+          "Lancer en ligne",
+          "-"
+        ],
+        [
+          "Cellules libres",
+          "-"
+        ],
+        [
+          "EC fini le tour",
+          "-"
+        ],
+        [
+          "CC actuels",
+          "-"
+        ]
       ]
     }
   ],
@@ -2006,19 +3293,52 @@ window.LRDR_CUSTOM_SPELLS = {
         }
       ],
       "characteristics": [
-        ["Probabilite de coup critique", "-"],
-        ["Probabilite d'echec", "-"],
-        ["Nb. de lancers par tour", "-"],
-        ["Nb. de lancers par tour par joueur", "-"],
-        ["Nb. de tours entre deux lancers", "-"]
+        [
+          "Probabilite de coup critique",
+          "-"
+        ],
+        [
+          "Probabilite d'echec",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour par joueur",
+          "-"
+        ],
+        [
+          "Nb. de tours entre deux lancers",
+          "-"
+        ]
       ],
       "rules": [
-        ["Portee modifiable", "-"],
-        ["Ligne de vue", "-"],
-        ["Lancer en ligne", "-"],
-        ["Cellules libres", "-"],
-        ["EC fini le tour", "-"],
-        ["CC actuels", "-"]
+        [
+          "Portee modifiable",
+          "-"
+        ],
+        [
+          "Ligne de vue",
+          "-"
+        ],
+        [
+          "Lancer en ligne",
+          "-"
+        ],
+        [
+          "Cellules libres",
+          "-"
+        ],
+        [
+          "EC fini le tour",
+          "-"
+        ],
+        [
+          "CC actuels",
+          "-"
+        ]
       ]
     },
     {
@@ -2056,19 +3376,52 @@ window.LRDR_CUSTOM_SPELLS = {
         }
       ],
       "characteristics": [
-        ["Probabilite de coup critique", "-"],
-        ["Probabilite d'echec", "-"],
-        ["Nb. de lancers par tour", "-"],
-        ["Nb. de lancers par tour par joueur", "-"],
-        ["Nb. de tours entre deux lancers", "-"]
+        [
+          "Probabilite de coup critique",
+          "-"
+        ],
+        [
+          "Probabilite d'echec",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour par joueur",
+          "-"
+        ],
+        [
+          "Nb. de tours entre deux lancers",
+          "-"
+        ]
       ],
       "rules": [
-        ["Portee modifiable", "-"],
-        ["Ligne de vue", "-"],
-        ["Lancer en ligne", "-"],
-        ["Cellules libres", "-"],
-        ["EC fini le tour", "-"],
-        ["CC actuels", "-"]
+        [
+          "Portee modifiable",
+          "-"
+        ],
+        [
+          "Ligne de vue",
+          "-"
+        ],
+        [
+          "Lancer en ligne",
+          "-"
+        ],
+        [
+          "Cellules libres",
+          "-"
+        ],
+        [
+          "EC fini le tour",
+          "-"
+        ],
+        [
+          "CC actuels",
+          "-"
+        ]
       ]
     },
     {
@@ -2106,19 +3459,52 @@ window.LRDR_CUSTOM_SPELLS = {
         }
       ],
       "characteristics": [
-        ["Probabilite de coup critique", "-"],
-        ["Probabilite d'echec", "-"],
-        ["Nb. de lancers par tour", "-"],
-        ["Nb. de lancers par tour par joueur", "-"],
-        ["Nb. de tours entre deux lancers", "-"]
+        [
+          "Probabilite de coup critique",
+          "-"
+        ],
+        [
+          "Probabilite d'echec",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour par joueur",
+          "-"
+        ],
+        [
+          "Nb. de tours entre deux lancers",
+          "-"
+        ]
       ],
       "rules": [
-        ["Portee modifiable", "-"],
-        ["Ligne de vue", "-"],
-        ["Lancer en ligne", "-"],
-        ["Cellules libres", "-"],
-        ["EC fini le tour", "-"],
-        ["CC actuels", "-"]
+        [
+          "Portee modifiable",
+          "-"
+        ],
+        [
+          "Ligne de vue",
+          "-"
+        ],
+        [
+          "Lancer en ligne",
+          "-"
+        ],
+        [
+          "Cellules libres",
+          "-"
+        ],
+        [
+          "EC fini le tour",
+          "-"
+        ],
+        [
+          "CC actuels",
+          "-"
+        ]
       ]
     },
     {
@@ -2156,19 +3542,52 @@ window.LRDR_CUSTOM_SPELLS = {
         }
       ],
       "characteristics": [
-        ["Probabilite de coup critique", "-"],
-        ["Probabilite d'echec", "-"],
-        ["Nb. de lancers par tour", "-"],
-        ["Nb. de lancers par tour par joueur", "-"],
-        ["Nb. de tours entre deux lancers", "-"]
+        [
+          "Probabilite de coup critique",
+          "-"
+        ],
+        [
+          "Probabilite d'echec",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour par joueur",
+          "-"
+        ],
+        [
+          "Nb. de tours entre deux lancers",
+          "-"
+        ]
       ],
       "rules": [
-        ["Portee modifiable", "-"],
-        ["Ligne de vue", "-"],
-        ["Lancer en ligne", "-"],
-        ["Cellules libres", "-"],
-        ["EC fini le tour", "-"],
-        ["CC actuels", "-"]
+        [
+          "Portee modifiable",
+          "-"
+        ],
+        [
+          "Ligne de vue",
+          "-"
+        ],
+        [
+          "Lancer en ligne",
+          "-"
+        ],
+        [
+          "Cellules libres",
+          "-"
+        ],
+        [
+          "EC fini le tour",
+          "-"
+        ],
+        [
+          "CC actuels",
+          "-"
+        ]
       ]
     },
     {
@@ -2206,19 +3625,52 @@ window.LRDR_CUSTOM_SPELLS = {
         }
       ],
       "characteristics": [
-        ["Probabilite de coup critique", "-"],
-        ["Probabilite d'echec", "-"],
-        ["Nb. de lancers par tour", "-"],
-        ["Nb. de lancers par tour par joueur", "-"],
-        ["Nb. de tours entre deux lancers", "-"]
+        [
+          "Probabilite de coup critique",
+          "-"
+        ],
+        [
+          "Probabilite d'echec",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour par joueur",
+          "-"
+        ],
+        [
+          "Nb. de tours entre deux lancers",
+          "-"
+        ]
       ],
       "rules": [
-        ["Portee modifiable", "-"],
-        ["Ligne de vue", "-"],
-        ["Lancer en ligne", "-"],
-        ["Cellules libres", "-"],
-        ["EC fini le tour", "-"],
-        ["CC actuels", "-"]
+        [
+          "Portee modifiable",
+          "-"
+        ],
+        [
+          "Ligne de vue",
+          "-"
+        ],
+        [
+          "Lancer en ligne",
+          "-"
+        ],
+        [
+          "Cellules libres",
+          "-"
+        ],
+        [
+          "EC fini le tour",
+          "-"
+        ],
+        [
+          "CC actuels",
+          "-"
+        ]
       ]
     },
     {
@@ -2256,19 +3708,52 @@ window.LRDR_CUSTOM_SPELLS = {
         }
       ],
       "characteristics": [
-        ["Probabilite de coup critique", "-"],
-        ["Probabilite d'echec", "-"],
-        ["Nb. de lancers par tour", "-"],
-        ["Nb. de lancers par tour par joueur", "-"],
-        ["Nb. de tours entre deux lancers", "-"]
+        [
+          "Probabilite de coup critique",
+          "-"
+        ],
+        [
+          "Probabilite d'echec",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour par joueur",
+          "-"
+        ],
+        [
+          "Nb. de tours entre deux lancers",
+          "-"
+        ]
       ],
       "rules": [
-        ["Portee modifiable", "-"],
-        ["Ligne de vue", "-"],
-        ["Lancer en ligne", "-"],
-        ["Cellules libres", "-"],
-        ["EC fini le tour", "-"],
-        ["CC actuels", "-"]
+        [
+          "Portee modifiable",
+          "-"
+        ],
+        [
+          "Ligne de vue",
+          "-"
+        ],
+        [
+          "Lancer en ligne",
+          "-"
+        ],
+        [
+          "Cellules libres",
+          "-"
+        ],
+        [
+          "EC fini le tour",
+          "-"
+        ],
+        [
+          "CC actuels",
+          "-"
+        ]
       ]
     }
   ],
@@ -2308,19 +3793,52 @@ window.LRDR_CUSTOM_SPELLS = {
         }
       ],
       "characteristics": [
-        ["Probabilite de coup critique", "-"],
-        ["Probabilite d'echec", "-"],
-        ["Nb. de lancers par tour", "-"],
-        ["Nb. de lancers par tour par joueur", "-"],
-        ["Nb. de tours entre deux lancers", "-"]
+        [
+          "Probabilite de coup critique",
+          "-"
+        ],
+        [
+          "Probabilite d'echec",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour par joueur",
+          "-"
+        ],
+        [
+          "Nb. de tours entre deux lancers",
+          "-"
+        ]
       ],
       "rules": [
-        ["Portee modifiable", "-"],
-        ["Ligne de vue", "-"],
-        ["Lancer en ligne", "-"],
-        ["Cellules libres", "-"],
-        ["EC fini le tour", "-"],
-        ["CC actuels", "-"]
+        [
+          "Portee modifiable",
+          "-"
+        ],
+        [
+          "Ligne de vue",
+          "-"
+        ],
+        [
+          "Lancer en ligne",
+          "-"
+        ],
+        [
+          "Cellules libres",
+          "-"
+        ],
+        [
+          "EC fini le tour",
+          "-"
+        ],
+        [
+          "CC actuels",
+          "-"
+        ]
       ]
     },
     {
@@ -2358,19 +3876,52 @@ window.LRDR_CUSTOM_SPELLS = {
         }
       ],
       "characteristics": [
-        ["Probabilite de coup critique", "-"],
-        ["Probabilite d'echec", "-"],
-        ["Nb. de lancers par tour", "-"],
-        ["Nb. de lancers par tour par joueur", "-"],
-        ["Nb. de tours entre deux lancers", "-"]
+        [
+          "Probabilite de coup critique",
+          "-"
+        ],
+        [
+          "Probabilite d'echec",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour par joueur",
+          "-"
+        ],
+        [
+          "Nb. de tours entre deux lancers",
+          "-"
+        ]
       ],
       "rules": [
-        ["Portee modifiable", "-"],
-        ["Ligne de vue", "-"],
-        ["Lancer en ligne", "-"],
-        ["Cellules libres", "-"],
-        ["EC fini le tour", "-"],
-        ["CC actuels", "-"]
+        [
+          "Portee modifiable",
+          "-"
+        ],
+        [
+          "Ligne de vue",
+          "-"
+        ],
+        [
+          "Lancer en ligne",
+          "-"
+        ],
+        [
+          "Cellules libres",
+          "-"
+        ],
+        [
+          "EC fini le tour",
+          "-"
+        ],
+        [
+          "CC actuels",
+          "-"
+        ]
       ]
     },
     {
@@ -2408,19 +3959,52 @@ window.LRDR_CUSTOM_SPELLS = {
         }
       ],
       "characteristics": [
-        ["Probabilite de coup critique", "-"],
-        ["Probabilite d'echec", "-"],
-        ["Nb. de lancers par tour", "-"],
-        ["Nb. de lancers par tour par joueur", "-"],
-        ["Nb. de tours entre deux lancers", "-"]
+        [
+          "Probabilite de coup critique",
+          "-"
+        ],
+        [
+          "Probabilite d'echec",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour par joueur",
+          "-"
+        ],
+        [
+          "Nb. de tours entre deux lancers",
+          "-"
+        ]
       ],
       "rules": [
-        ["Portee modifiable", "-"],
-        ["Ligne de vue", "-"],
-        ["Lancer en ligne", "-"],
-        ["Cellules libres", "-"],
-        ["EC fini le tour", "-"],
-        ["CC actuels", "-"]
+        [
+          "Portee modifiable",
+          "-"
+        ],
+        [
+          "Ligne de vue",
+          "-"
+        ],
+        [
+          "Lancer en ligne",
+          "-"
+        ],
+        [
+          "Cellules libres",
+          "-"
+        ],
+        [
+          "EC fini le tour",
+          "-"
+        ],
+        [
+          "CC actuels",
+          "-"
+        ]
       ]
     },
     {
@@ -2458,19 +4042,52 @@ window.LRDR_CUSTOM_SPELLS = {
         }
       ],
       "characteristics": [
-        ["Probabilite de coup critique", "-"],
-        ["Probabilite d'echec", "-"],
-        ["Nb. de lancers par tour", "-"],
-        ["Nb. de lancers par tour par joueur", "-"],
-        ["Nb. de tours entre deux lancers", "-"]
+        [
+          "Probabilite de coup critique",
+          "-"
+        ],
+        [
+          "Probabilite d'echec",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour par joueur",
+          "-"
+        ],
+        [
+          "Nb. de tours entre deux lancers",
+          "-"
+        ]
       ],
       "rules": [
-        ["Portee modifiable", "-"],
-        ["Ligne de vue", "-"],
-        ["Lancer en ligne", "-"],
-        ["Cellules libres", "-"],
-        ["EC fini le tour", "-"],
-        ["CC actuels", "-"]
+        [
+          "Portee modifiable",
+          "-"
+        ],
+        [
+          "Ligne de vue",
+          "-"
+        ],
+        [
+          "Lancer en ligne",
+          "-"
+        ],
+        [
+          "Cellules libres",
+          "-"
+        ],
+        [
+          "EC fini le tour",
+          "-"
+        ],
+        [
+          "CC actuels",
+          "-"
+        ]
       ]
     },
     {
@@ -2508,19 +4125,52 @@ window.LRDR_CUSTOM_SPELLS = {
         }
       ],
       "characteristics": [
-        ["Probabilite de coup critique", "-"],
-        ["Probabilite d'echec", "-"],
-        ["Nb. de lancers par tour", "-"],
-        ["Nb. de lancers par tour par joueur", "-"],
-        ["Nb. de tours entre deux lancers", "-"]
+        [
+          "Probabilite de coup critique",
+          "-"
+        ],
+        [
+          "Probabilite d'echec",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour par joueur",
+          "-"
+        ],
+        [
+          "Nb. de tours entre deux lancers",
+          "-"
+        ]
       ],
       "rules": [
-        ["Portee modifiable", "-"],
-        ["Ligne de vue", "-"],
-        ["Lancer en ligne", "-"],
-        ["Cellules libres", "-"],
-        ["EC fini le tour", "-"],
-        ["CC actuels", "-"]
+        [
+          "Portee modifiable",
+          "-"
+        ],
+        [
+          "Ligne de vue",
+          "-"
+        ],
+        [
+          "Lancer en ligne",
+          "-"
+        ],
+        [
+          "Cellules libres",
+          "-"
+        ],
+        [
+          "EC fini le tour",
+          "-"
+        ],
+        [
+          "CC actuels",
+          "-"
+        ]
       ]
     },
     {
@@ -2558,19 +4208,52 @@ window.LRDR_CUSTOM_SPELLS = {
         }
       ],
       "characteristics": [
-        ["Probabilite de coup critique", "-"],
-        ["Probabilite d'echec", "-"],
-        ["Nb. de lancers par tour", "-"],
-        ["Nb. de lancers par tour par joueur", "-"],
-        ["Nb. de tours entre deux lancers", "-"]
+        [
+          "Probabilite de coup critique",
+          "-"
+        ],
+        [
+          "Probabilite d'echec",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour par joueur",
+          "-"
+        ],
+        [
+          "Nb. de tours entre deux lancers",
+          "-"
+        ]
       ],
       "rules": [
-        ["Portee modifiable", "-"],
-        ["Ligne de vue", "-"],
-        ["Lancer en ligne", "-"],
-        ["Cellules libres", "-"],
-        ["EC fini le tour", "-"],
-        ["CC actuels", "-"]
+        [
+          "Portee modifiable",
+          "-"
+        ],
+        [
+          "Ligne de vue",
+          "-"
+        ],
+        [
+          "Lancer en ligne",
+          "-"
+        ],
+        [
+          "Cellules libres",
+          "-"
+        ],
+        [
+          "EC fini le tour",
+          "-"
+        ],
+        [
+          "CC actuels",
+          "-"
+        ]
       ]
     }
   ],
@@ -2610,19 +4293,52 @@ window.LRDR_CUSTOM_SPELLS = {
         }
       ],
       "characteristics": [
-        ["Probabilite de coup critique", "-"],
-        ["Probabilite d'echec", "-"],
-        ["Nb. de lancers par tour", "-"],
-        ["Nb. de lancers par tour par joueur", "-"],
-        ["Nb. de tours entre deux lancers", "-"]
+        [
+          "Probabilite de coup critique",
+          "-"
+        ],
+        [
+          "Probabilite d'echec",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour par joueur",
+          "-"
+        ],
+        [
+          "Nb. de tours entre deux lancers",
+          "-"
+        ]
       ],
       "rules": [
-        ["Portee modifiable", "-"],
-        ["Ligne de vue", "-"],
-        ["Lancer en ligne", "-"],
-        ["Cellules libres", "-"],
-        ["EC fini le tour", "-"],
-        ["CC actuels", "-"]
+        [
+          "Portee modifiable",
+          "-"
+        ],
+        [
+          "Ligne de vue",
+          "-"
+        ],
+        [
+          "Lancer en ligne",
+          "-"
+        ],
+        [
+          "Cellules libres",
+          "-"
+        ],
+        [
+          "EC fini le tour",
+          "-"
+        ],
+        [
+          "CC actuels",
+          "-"
+        ]
       ]
     },
     {
@@ -2660,19 +4376,52 @@ window.LRDR_CUSTOM_SPELLS = {
         }
       ],
       "characteristics": [
-        ["Probabilite de coup critique", "-"],
-        ["Probabilite d'echec", "-"],
-        ["Nb. de lancers par tour", "-"],
-        ["Nb. de lancers par tour par joueur", "-"],
-        ["Nb. de tours entre deux lancers", "-"]
+        [
+          "Probabilite de coup critique",
+          "-"
+        ],
+        [
+          "Probabilite d'echec",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour par joueur",
+          "-"
+        ],
+        [
+          "Nb. de tours entre deux lancers",
+          "-"
+        ]
       ],
       "rules": [
-        ["Portee modifiable", "-"],
-        ["Ligne de vue", "-"],
-        ["Lancer en ligne", "-"],
-        ["Cellules libres", "-"],
-        ["EC fini le tour", "-"],
-        ["CC actuels", "-"]
+        [
+          "Portee modifiable",
+          "-"
+        ],
+        [
+          "Ligne de vue",
+          "-"
+        ],
+        [
+          "Lancer en ligne",
+          "-"
+        ],
+        [
+          "Cellules libres",
+          "-"
+        ],
+        [
+          "EC fini le tour",
+          "-"
+        ],
+        [
+          "CC actuels",
+          "-"
+        ]
       ]
     },
     {
@@ -2710,19 +4459,52 @@ window.LRDR_CUSTOM_SPELLS = {
         }
       ],
       "characteristics": [
-        ["Probabilite de coup critique", "-"],
-        ["Probabilite d'echec", "-"],
-        ["Nb. de lancers par tour", "-"],
-        ["Nb. de lancers par tour par joueur", "-"],
-        ["Nb. de tours entre deux lancers", "-"]
+        [
+          "Probabilite de coup critique",
+          "-"
+        ],
+        [
+          "Probabilite d'echec",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour par joueur",
+          "-"
+        ],
+        [
+          "Nb. de tours entre deux lancers",
+          "-"
+        ]
       ],
       "rules": [
-        ["Portee modifiable", "-"],
-        ["Ligne de vue", "-"],
-        ["Lancer en ligne", "-"],
-        ["Cellules libres", "-"],
-        ["EC fini le tour", "-"],
-        ["CC actuels", "-"]
+        [
+          "Portee modifiable",
+          "-"
+        ],
+        [
+          "Ligne de vue",
+          "-"
+        ],
+        [
+          "Lancer en ligne",
+          "-"
+        ],
+        [
+          "Cellules libres",
+          "-"
+        ],
+        [
+          "EC fini le tour",
+          "-"
+        ],
+        [
+          "CC actuels",
+          "-"
+        ]
       ]
     },
     {
@@ -2760,19 +4542,52 @@ window.LRDR_CUSTOM_SPELLS = {
         }
       ],
       "characteristics": [
-        ["Probabilite de coup critique", "-"],
-        ["Probabilite d'echec", "-"],
-        ["Nb. de lancers par tour", "-"],
-        ["Nb. de lancers par tour par joueur", "-"],
-        ["Nb. de tours entre deux lancers", "-"]
+        [
+          "Probabilite de coup critique",
+          "-"
+        ],
+        [
+          "Probabilite d'echec",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour par joueur",
+          "-"
+        ],
+        [
+          "Nb. de tours entre deux lancers",
+          "-"
+        ]
       ],
       "rules": [
-        ["Portee modifiable", "-"],
-        ["Ligne de vue", "-"],
-        ["Lancer en ligne", "-"],
-        ["Cellules libres", "-"],
-        ["EC fini le tour", "-"],
-        ["CC actuels", "-"]
+        [
+          "Portee modifiable",
+          "-"
+        ],
+        [
+          "Ligne de vue",
+          "-"
+        ],
+        [
+          "Lancer en ligne",
+          "-"
+        ],
+        [
+          "Cellules libres",
+          "-"
+        ],
+        [
+          "EC fini le tour",
+          "-"
+        ],
+        [
+          "CC actuels",
+          "-"
+        ]
       ]
     },
     {
@@ -2810,19 +4625,52 @@ window.LRDR_CUSTOM_SPELLS = {
         }
       ],
       "characteristics": [
-        ["Probabilite de coup critique", "-"],
-        ["Probabilite d'echec", "-"],
-        ["Nb. de lancers par tour", "-"],
-        ["Nb. de lancers par tour par joueur", "-"],
-        ["Nb. de tours entre deux lancers", "-"]
+        [
+          "Probabilite de coup critique",
+          "-"
+        ],
+        [
+          "Probabilite d'echec",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour par joueur",
+          "-"
+        ],
+        [
+          "Nb. de tours entre deux lancers",
+          "-"
+        ]
       ],
       "rules": [
-        ["Portee modifiable", "-"],
-        ["Ligne de vue", "-"],
-        ["Lancer en ligne", "-"],
-        ["Cellules libres", "-"],
-        ["EC fini le tour", "-"],
-        ["CC actuels", "-"]
+        [
+          "Portee modifiable",
+          "-"
+        ],
+        [
+          "Ligne de vue",
+          "-"
+        ],
+        [
+          "Lancer en ligne",
+          "-"
+        ],
+        [
+          "Cellules libres",
+          "-"
+        ],
+        [
+          "EC fini le tour",
+          "-"
+        ],
+        [
+          "CC actuels",
+          "-"
+        ]
       ]
     },
     {
@@ -2860,19 +4708,52 @@ window.LRDR_CUSTOM_SPELLS = {
         }
       ],
       "characteristics": [
-        ["Probabilite de coup critique", "-"],
-        ["Probabilite d'echec", "-"],
-        ["Nb. de lancers par tour", "-"],
-        ["Nb. de lancers par tour par joueur", "-"],
-        ["Nb. de tours entre deux lancers", "-"]
+        [
+          "Probabilite de coup critique",
+          "-"
+        ],
+        [
+          "Probabilite d'echec",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour par joueur",
+          "-"
+        ],
+        [
+          "Nb. de tours entre deux lancers",
+          "-"
+        ]
       ],
       "rules": [
-        ["Portee modifiable", "-"],
-        ["Ligne de vue", "-"],
-        ["Lancer en ligne", "-"],
-        ["Cellules libres", "-"],
-        ["EC fini le tour", "-"],
-        ["CC actuels", "-"]
+        [
+          "Portee modifiable",
+          "-"
+        ],
+        [
+          "Ligne de vue",
+          "-"
+        ],
+        [
+          "Lancer en ligne",
+          "-"
+        ],
+        [
+          "Cellules libres",
+          "-"
+        ],
+        [
+          "EC fini le tour",
+          "-"
+        ],
+        [
+          "CC actuels",
+          "-"
+        ]
       ]
     },
     {
@@ -2910,19 +4791,52 @@ window.LRDR_CUSTOM_SPELLS = {
         }
       ],
       "characteristics": [
-        ["Probabilite de coup critique", "-"],
-        ["Probabilite d'echec", "-"],
-        ["Nb. de lancers par tour", "-"],
-        ["Nb. de lancers par tour par joueur", "-"],
-        ["Nb. de tours entre deux lancers", "-"]
+        [
+          "Probabilite de coup critique",
+          "-"
+        ],
+        [
+          "Probabilite d'echec",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour par joueur",
+          "-"
+        ],
+        [
+          "Nb. de tours entre deux lancers",
+          "-"
+        ]
       ],
       "rules": [
-        ["Portee modifiable", "-"],
-        ["Ligne de vue", "-"],
-        ["Lancer en ligne", "-"],
-        ["Cellules libres", "-"],
-        ["EC fini le tour", "-"],
-        ["CC actuels", "-"]
+        [
+          "Portee modifiable",
+          "-"
+        ],
+        [
+          "Ligne de vue",
+          "-"
+        ],
+        [
+          "Lancer en ligne",
+          "-"
+        ],
+        [
+          "Cellules libres",
+          "-"
+        ],
+        [
+          "EC fini le tour",
+          "-"
+        ],
+        [
+          "CC actuels",
+          "-"
+        ]
       ]
     }
   ],
@@ -2962,19 +4876,52 @@ window.LRDR_CUSTOM_SPELLS = {
         }
       ],
       "characteristics": [
-        ["Probabilite de coup critique", "-"],
-        ["Probabilite d'echec", "-"],
-        ["Nb. de lancers par tour", "-"],
-        ["Nb. de lancers par tour par joueur", "-"],
-        ["Nb. de tours entre deux lancers", "-"]
+        [
+          "Probabilite de coup critique",
+          "-"
+        ],
+        [
+          "Probabilite d'echec",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour par joueur",
+          "-"
+        ],
+        [
+          "Nb. de tours entre deux lancers",
+          "-"
+        ]
       ],
       "rules": [
-        ["Portee modifiable", "-"],
-        ["Ligne de vue", "-"],
-        ["Lancer en ligne", "-"],
-        ["Cellules libres", "-"],
-        ["EC fini le tour", "-"],
-        ["CC actuels", "-"]
+        [
+          "Portee modifiable",
+          "-"
+        ],
+        [
+          "Ligne de vue",
+          "-"
+        ],
+        [
+          "Lancer en ligne",
+          "-"
+        ],
+        [
+          "Cellules libres",
+          "-"
+        ],
+        [
+          "EC fini le tour",
+          "-"
+        ],
+        [
+          "CC actuels",
+          "-"
+        ]
       ]
     },
     {
@@ -3012,19 +4959,52 @@ window.LRDR_CUSTOM_SPELLS = {
         }
       ],
       "characteristics": [
-        ["Probabilite de coup critique", "-"],
-        ["Probabilite d'echec", "-"],
-        ["Nb. de lancers par tour", "-"],
-        ["Nb. de lancers par tour par joueur", "-"],
-        ["Nb. de tours entre deux lancers", "-"]
+        [
+          "Probabilite de coup critique",
+          "-"
+        ],
+        [
+          "Probabilite d'echec",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour par joueur",
+          "-"
+        ],
+        [
+          "Nb. de tours entre deux lancers",
+          "-"
+        ]
       ],
       "rules": [
-        ["Portee modifiable", "-"],
-        ["Ligne de vue", "-"],
-        ["Lancer en ligne", "-"],
-        ["Cellules libres", "-"],
-        ["EC fini le tour", "-"],
-        ["CC actuels", "-"]
+        [
+          "Portee modifiable",
+          "-"
+        ],
+        [
+          "Ligne de vue",
+          "-"
+        ],
+        [
+          "Lancer en ligne",
+          "-"
+        ],
+        [
+          "Cellules libres",
+          "-"
+        ],
+        [
+          "EC fini le tour",
+          "-"
+        ],
+        [
+          "CC actuels",
+          "-"
+        ]
       ]
     },
     {
@@ -3062,19 +5042,52 @@ window.LRDR_CUSTOM_SPELLS = {
         }
       ],
       "characteristics": [
-        ["Probabilite de coup critique", "-"],
-        ["Probabilite d'echec", "-"],
-        ["Nb. de lancers par tour", "-"],
-        ["Nb. de lancers par tour par joueur", "-"],
-        ["Nb. de tours entre deux lancers", "-"]
+        [
+          "Probabilite de coup critique",
+          "-"
+        ],
+        [
+          "Probabilite d'echec",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour par joueur",
+          "-"
+        ],
+        [
+          "Nb. de tours entre deux lancers",
+          "-"
+        ]
       ],
       "rules": [
-        ["Portee modifiable", "-"],
-        ["Ligne de vue", "-"],
-        ["Lancer en ligne", "-"],
-        ["Cellules libres", "-"],
-        ["EC fini le tour", "-"],
-        ["CC actuels", "-"]
+        [
+          "Portee modifiable",
+          "-"
+        ],
+        [
+          "Ligne de vue",
+          "-"
+        ],
+        [
+          "Lancer en ligne",
+          "-"
+        ],
+        [
+          "Cellules libres",
+          "-"
+        ],
+        [
+          "EC fini le tour",
+          "-"
+        ],
+        [
+          "CC actuels",
+          "-"
+        ]
       ]
     },
     {
@@ -3112,19 +5125,52 @@ window.LRDR_CUSTOM_SPELLS = {
         }
       ],
       "characteristics": [
-        ["Probabilite de coup critique", "-"],
-        ["Probabilite d'echec", "-"],
-        ["Nb. de lancers par tour", "-"],
-        ["Nb. de lancers par tour par joueur", "-"],
-        ["Nb. de tours entre deux lancers", "-"]
+        [
+          "Probabilite de coup critique",
+          "-"
+        ],
+        [
+          "Probabilite d'echec",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour par joueur",
+          "-"
+        ],
+        [
+          "Nb. de tours entre deux lancers",
+          "-"
+        ]
       ],
       "rules": [
-        ["Portee modifiable", "-"],
-        ["Ligne de vue", "-"],
-        ["Lancer en ligne", "-"],
-        ["Cellules libres", "-"],
-        ["EC fini le tour", "-"],
-        ["CC actuels", "-"]
+        [
+          "Portee modifiable",
+          "-"
+        ],
+        [
+          "Ligne de vue",
+          "-"
+        ],
+        [
+          "Lancer en ligne",
+          "-"
+        ],
+        [
+          "Cellules libres",
+          "-"
+        ],
+        [
+          "EC fini le tour",
+          "-"
+        ],
+        [
+          "CC actuels",
+          "-"
+        ]
       ]
     },
     {
@@ -3162,19 +5208,52 @@ window.LRDR_CUSTOM_SPELLS = {
         }
       ],
       "characteristics": [
-        ["Probabilite de coup critique", "-"],
-        ["Probabilite d'echec", "-"],
-        ["Nb. de lancers par tour", "-"],
-        ["Nb. de lancers par tour par joueur", "-"],
-        ["Nb. de tours entre deux lancers", "-"]
+        [
+          "Probabilite de coup critique",
+          "-"
+        ],
+        [
+          "Probabilite d'echec",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour par joueur",
+          "-"
+        ],
+        [
+          "Nb. de tours entre deux lancers",
+          "-"
+        ]
       ],
       "rules": [
-        ["Portee modifiable", "-"],
-        ["Ligne de vue", "-"],
-        ["Lancer en ligne", "-"],
-        ["Cellules libres", "-"],
-        ["EC fini le tour", "-"],
-        ["CC actuels", "-"]
+        [
+          "Portee modifiable",
+          "-"
+        ],
+        [
+          "Ligne de vue",
+          "-"
+        ],
+        [
+          "Lancer en ligne",
+          "-"
+        ],
+        [
+          "Cellules libres",
+          "-"
+        ],
+        [
+          "EC fini le tour",
+          "-"
+        ],
+        [
+          "CC actuels",
+          "-"
+        ]
       ]
     }
   ],
@@ -3214,19 +5293,52 @@ window.LRDR_CUSTOM_SPELLS = {
         }
       ],
       "characteristics": [
-        ["Probabilite de coup critique", "-"],
-        ["Probabilite d'echec", "-"],
-        ["Nb. de lancers par tour", "-"],
-        ["Nb. de lancers par tour par joueur", "-"],
-        ["Nb. de tours entre deux lancers", "-"]
+        [
+          "Probabilite de coup critique",
+          "-"
+        ],
+        [
+          "Probabilite d'echec",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour par joueur",
+          "-"
+        ],
+        [
+          "Nb. de tours entre deux lancers",
+          "-"
+        ]
       ],
       "rules": [
-        ["Portee modifiable", "-"],
-        ["Ligne de vue", "-"],
-        ["Lancer en ligne", "-"],
-        ["Cellules libres", "-"],
-        ["EC fini le tour", "-"],
-        ["CC actuels", "-"]
+        [
+          "Portee modifiable",
+          "-"
+        ],
+        [
+          "Ligne de vue",
+          "-"
+        ],
+        [
+          "Lancer en ligne",
+          "-"
+        ],
+        [
+          "Cellules libres",
+          "-"
+        ],
+        [
+          "EC fini le tour",
+          "-"
+        ],
+        [
+          "CC actuels",
+          "-"
+        ]
       ]
     },
     {
@@ -3264,19 +5376,52 @@ window.LRDR_CUSTOM_SPELLS = {
         }
       ],
       "characteristics": [
-        ["Probabilite de coup critique", "-"],
-        ["Probabilite d'echec", "-"],
-        ["Nb. de lancers par tour", "-"],
-        ["Nb. de lancers par tour par joueur", "-"],
-        ["Nb. de tours entre deux lancers", "-"]
+        [
+          "Probabilite de coup critique",
+          "-"
+        ],
+        [
+          "Probabilite d'echec",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour par joueur",
+          "-"
+        ],
+        [
+          "Nb. de tours entre deux lancers",
+          "-"
+        ]
       ],
       "rules": [
-        ["Portee modifiable", "-"],
-        ["Ligne de vue", "-"],
-        ["Lancer en ligne", "-"],
-        ["Cellules libres", "-"],
-        ["EC fini le tour", "-"],
-        ["CC actuels", "-"]
+        [
+          "Portee modifiable",
+          "-"
+        ],
+        [
+          "Ligne de vue",
+          "-"
+        ],
+        [
+          "Lancer en ligne",
+          "-"
+        ],
+        [
+          "Cellules libres",
+          "-"
+        ],
+        [
+          "EC fini le tour",
+          "-"
+        ],
+        [
+          "CC actuels",
+          "-"
+        ]
       ]
     },
     {
@@ -3314,19 +5459,52 @@ window.LRDR_CUSTOM_SPELLS = {
         }
       ],
       "characteristics": [
-        ["Probabilite de coup critique", "-"],
-        ["Probabilite d'echec", "-"],
-        ["Nb. de lancers par tour", "-"],
-        ["Nb. de lancers par tour par joueur", "-"],
-        ["Nb. de tours entre deux lancers", "-"]
+        [
+          "Probabilite de coup critique",
+          "-"
+        ],
+        [
+          "Probabilite d'echec",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour par joueur",
+          "-"
+        ],
+        [
+          "Nb. de tours entre deux lancers",
+          "-"
+        ]
       ],
       "rules": [
-        ["Portee modifiable", "-"],
-        ["Ligne de vue", "-"],
-        ["Lancer en ligne", "-"],
-        ["Cellules libres", "-"],
-        ["EC fini le tour", "-"],
-        ["CC actuels", "-"]
+        [
+          "Portee modifiable",
+          "-"
+        ],
+        [
+          "Ligne de vue",
+          "-"
+        ],
+        [
+          "Lancer en ligne",
+          "-"
+        ],
+        [
+          "Cellules libres",
+          "-"
+        ],
+        [
+          "EC fini le tour",
+          "-"
+        ],
+        [
+          "CC actuels",
+          "-"
+        ]
       ]
     },
     {
@@ -3364,19 +5542,52 @@ window.LRDR_CUSTOM_SPELLS = {
         }
       ],
       "characteristics": [
-        ["Probabilite de coup critique", "-"],
-        ["Probabilite d'echec", "-"],
-        ["Nb. de lancers par tour", "-"],
-        ["Nb. de lancers par tour par joueur", "-"],
-        ["Nb. de tours entre deux lancers", "-"]
+        [
+          "Probabilite de coup critique",
+          "-"
+        ],
+        [
+          "Probabilite d'echec",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour par joueur",
+          "-"
+        ],
+        [
+          "Nb. de tours entre deux lancers",
+          "-"
+        ]
       ],
       "rules": [
-        ["Portee modifiable", "-"],
-        ["Ligne de vue", "-"],
-        ["Lancer en ligne", "-"],
-        ["Cellules libres", "-"],
-        ["EC fini le tour", "-"],
-        ["CC actuels", "-"]
+        [
+          "Portee modifiable",
+          "-"
+        ],
+        [
+          "Ligne de vue",
+          "-"
+        ],
+        [
+          "Lancer en ligne",
+          "-"
+        ],
+        [
+          "Cellules libres",
+          "-"
+        ],
+        [
+          "EC fini le tour",
+          "-"
+        ],
+        [
+          "CC actuels",
+          "-"
+        ]
       ]
     },
     {
@@ -3414,19 +5625,52 @@ window.LRDR_CUSTOM_SPELLS = {
         }
       ],
       "characteristics": [
-        ["Probabilite de coup critique", "-"],
-        ["Probabilite d'echec", "-"],
-        ["Nb. de lancers par tour", "-"],
-        ["Nb. de lancers par tour par joueur", "-"],
-        ["Nb. de tours entre deux lancers", "-"]
+        [
+          "Probabilite de coup critique",
+          "-"
+        ],
+        [
+          "Probabilite d'echec",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour par joueur",
+          "-"
+        ],
+        [
+          "Nb. de tours entre deux lancers",
+          "-"
+        ]
       ],
       "rules": [
-        ["Portee modifiable", "-"],
-        ["Ligne de vue", "-"],
-        ["Lancer en ligne", "-"],
-        ["Cellules libres", "-"],
-        ["EC fini le tour", "-"],
-        ["CC actuels", "-"]
+        [
+          "Portee modifiable",
+          "-"
+        ],
+        [
+          "Ligne de vue",
+          "-"
+        ],
+        [
+          "Lancer en ligne",
+          "-"
+        ],
+        [
+          "Cellules libres",
+          "-"
+        ],
+        [
+          "EC fini le tour",
+          "-"
+        ],
+        [
+          "CC actuels",
+          "-"
+        ]
       ]
     },
     {
@@ -3464,19 +5708,52 @@ window.LRDR_CUSTOM_SPELLS = {
         }
       ],
       "characteristics": [
-        ["Probabilite de coup critique", "-"],
-        ["Probabilite d'echec", "-"],
-        ["Nb. de lancers par tour", "-"],
-        ["Nb. de lancers par tour par joueur", "-"],
-        ["Nb. de tours entre deux lancers", "-"]
+        [
+          "Probabilite de coup critique",
+          "-"
+        ],
+        [
+          "Probabilite d'echec",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour par joueur",
+          "-"
+        ],
+        [
+          "Nb. de tours entre deux lancers",
+          "-"
+        ]
       ],
       "rules": [
-        ["Portee modifiable", "-"],
-        ["Ligne de vue", "-"],
-        ["Lancer en ligne", "-"],
-        ["Cellules libres", "-"],
-        ["EC fini le tour", "-"],
-        ["CC actuels", "-"]
+        [
+          "Portee modifiable",
+          "-"
+        ],
+        [
+          "Ligne de vue",
+          "-"
+        ],
+        [
+          "Lancer en ligne",
+          "-"
+        ],
+        [
+          "Cellules libres",
+          "-"
+        ],
+        [
+          "EC fini le tour",
+          "-"
+        ],
+        [
+          "CC actuels",
+          "-"
+        ]
       ]
     }
   ],
@@ -3516,19 +5793,52 @@ window.LRDR_CUSTOM_SPELLS = {
         }
       ],
       "characteristics": [
-        ["Probabilite de coup critique", "-"],
-        ["Probabilite d'echec", "-"],
-        ["Nb. de lancers par tour", "-"],
-        ["Nb. de lancers par tour par joueur", "-"],
-        ["Nb. de tours entre deux lancers", "-"]
+        [
+          "Probabilite de coup critique",
+          "-"
+        ],
+        [
+          "Probabilite d'echec",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour par joueur",
+          "-"
+        ],
+        [
+          "Nb. de tours entre deux lancers",
+          "-"
+        ]
       ],
       "rules": [
-        ["Portee modifiable", "-"],
-        ["Ligne de vue", "-"],
-        ["Lancer en ligne", "-"],
-        ["Cellules libres", "-"],
-        ["EC fini le tour", "-"],
-        ["CC actuels", "-"]
+        [
+          "Portee modifiable",
+          "-"
+        ],
+        [
+          "Ligne de vue",
+          "-"
+        ],
+        [
+          "Lancer en ligne",
+          "-"
+        ],
+        [
+          "Cellules libres",
+          "-"
+        ],
+        [
+          "EC fini le tour",
+          "-"
+        ],
+        [
+          "CC actuels",
+          "-"
+        ]
       ]
     },
     {
@@ -3566,19 +5876,52 @@ window.LRDR_CUSTOM_SPELLS = {
         }
       ],
       "characteristics": [
-        ["Probabilite de coup critique", "-"],
-        ["Probabilite d'echec", "-"],
-        ["Nb. de lancers par tour", "-"],
-        ["Nb. de lancers par tour par joueur", "-"],
-        ["Nb. de tours entre deux lancers", "-"]
+        [
+          "Probabilite de coup critique",
+          "-"
+        ],
+        [
+          "Probabilite d'echec",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour par joueur",
+          "-"
+        ],
+        [
+          "Nb. de tours entre deux lancers",
+          "-"
+        ]
       ],
       "rules": [
-        ["Portee modifiable", "-"],
-        ["Ligne de vue", "-"],
-        ["Lancer en ligne", "-"],
-        ["Cellules libres", "-"],
-        ["EC fini le tour", "-"],
-        ["CC actuels", "-"]
+        [
+          "Portee modifiable",
+          "-"
+        ],
+        [
+          "Ligne de vue",
+          "-"
+        ],
+        [
+          "Lancer en ligne",
+          "-"
+        ],
+        [
+          "Cellules libres",
+          "-"
+        ],
+        [
+          "EC fini le tour",
+          "-"
+        ],
+        [
+          "CC actuels",
+          "-"
+        ]
       ]
     },
     {
@@ -3616,19 +5959,52 @@ window.LRDR_CUSTOM_SPELLS = {
         }
       ],
       "characteristics": [
-        ["Probabilite de coup critique", "-"],
-        ["Probabilite d'echec", "-"],
-        ["Nb. de lancers par tour", "-"],
-        ["Nb. de lancers par tour par joueur", "-"],
-        ["Nb. de tours entre deux lancers", "-"]
+        [
+          "Probabilite de coup critique",
+          "-"
+        ],
+        [
+          "Probabilite d'echec",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour par joueur",
+          "-"
+        ],
+        [
+          "Nb. de tours entre deux lancers",
+          "-"
+        ]
       ],
       "rules": [
-        ["Portee modifiable", "-"],
-        ["Ligne de vue", "-"],
-        ["Lancer en ligne", "-"],
-        ["Cellules libres", "-"],
-        ["EC fini le tour", "-"],
-        ["CC actuels", "-"]
+        [
+          "Portee modifiable",
+          "-"
+        ],
+        [
+          "Ligne de vue",
+          "-"
+        ],
+        [
+          "Lancer en ligne",
+          "-"
+        ],
+        [
+          "Cellules libres",
+          "-"
+        ],
+        [
+          "EC fini le tour",
+          "-"
+        ],
+        [
+          "CC actuels",
+          "-"
+        ]
       ]
     },
     {
@@ -3666,19 +6042,52 @@ window.LRDR_CUSTOM_SPELLS = {
         }
       ],
       "characteristics": [
-        ["Probabilite de coup critique", "-"],
-        ["Probabilite d'echec", "-"],
-        ["Nb. de lancers par tour", "-"],
-        ["Nb. de lancers par tour par joueur", "-"],
-        ["Nb. de tours entre deux lancers", "-"]
+        [
+          "Probabilite de coup critique",
+          "-"
+        ],
+        [
+          "Probabilite d'echec",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour par joueur",
+          "-"
+        ],
+        [
+          "Nb. de tours entre deux lancers",
+          "-"
+        ]
       ],
       "rules": [
-        ["Portee modifiable", "-"],
-        ["Ligne de vue", "-"],
-        ["Lancer en ligne", "-"],
-        ["Cellules libres", "-"],
-        ["EC fini le tour", "-"],
-        ["CC actuels", "-"]
+        [
+          "Portee modifiable",
+          "-"
+        ],
+        [
+          "Ligne de vue",
+          "-"
+        ],
+        [
+          "Lancer en ligne",
+          "-"
+        ],
+        [
+          "Cellules libres",
+          "-"
+        ],
+        [
+          "EC fini le tour",
+          "-"
+        ],
+        [
+          "CC actuels",
+          "-"
+        ]
       ]
     },
     {
@@ -3716,19 +6125,52 @@ window.LRDR_CUSTOM_SPELLS = {
         }
       ],
       "characteristics": [
-        ["Probabilite de coup critique", "-"],
-        ["Probabilite d'echec", "-"],
-        ["Nb. de lancers par tour", "-"],
-        ["Nb. de lancers par tour par joueur", "-"],
-        ["Nb. de tours entre deux lancers", "-"]
+        [
+          "Probabilite de coup critique",
+          "-"
+        ],
+        [
+          "Probabilite d'echec",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour",
+          "-"
+        ],
+        [
+          "Nb. de lancers par tour par joueur",
+          "-"
+        ],
+        [
+          "Nb. de tours entre deux lancers",
+          "-"
+        ]
       ],
       "rules": [
-        ["Portee modifiable", "-"],
-        ["Ligne de vue", "-"],
-        ["Lancer en ligne", "-"],
-        ["Cellules libres", "-"],
-        ["EC fini le tour", "-"],
-        ["CC actuels", "-"]
+        [
+          "Portee modifiable",
+          "-"
+        ],
+        [
+          "Ligne de vue",
+          "-"
+        ],
+        [
+          "Lancer en ligne",
+          "-"
+        ],
+        [
+          "Cellules libres",
+          "-"
+        ],
+        [
+          "EC fini le tour",
+          "-"
+        ],
+        [
+          "CC actuels",
+          "-"
+        ]
       ]
     }
   ]
