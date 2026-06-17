@@ -1474,6 +1474,28 @@ input {
     padding-inline: 14px;
   }
 
+  .dialog {
+    width: calc(100vw - 8px);
+  }
+
+  .dialog-body {
+    padding: 12px 8px;
+  }
+
+  .dialog-layout {
+    gap: 12px;
+  }
+
+  .spell-card {
+    width: calc(100% - 2px);
+    margin: 6px auto;
+  }
+
+  .spell-card-head {
+    grid-template-columns: 52px minmax(0, 1fr) minmax(96px, auto);
+    padding-inline: 10px;
+  }
+
   .home-categories,
   .pano-grid,
   .guide-grid {
