@@ -104,8 +104,8 @@ function renderSpellEffect(effect) {
   return `
     <li class="spell-effect-row" data-element="${escapeHtml(effect.element || "Neutre")}">
       <span class="spell-effect-mark" aria-hidden="true"></span>
-      <span>${escapeHtml(effect.text)}</span>
-      ${effect.meta ? `<small>${escapeHtml(effect.meta)}</small>` : ""}
+      <span title="${escapeHtml(effect.text)}">${escapeHtml(effect.text)}</span>
+      ${effect.meta ? `<small title="${escapeHtml(effect.meta)}">${escapeHtml(effect.meta)}</small>` : ""}
     </li>
   `;
 }
@@ -116,9 +116,9 @@ function renderSpellCard(spell) {
       <header class="spell-card-head">
         <img class="spell-card-icon" src="${escapeHtml(spell.icon)}" alt="">
         <div class="spell-card-title">
-          <h4>${escapeHtml(spell.name)}</h4>
-          <span>Niveau requis : ${escapeHtml(spell.requiredLevel)}</span>
+          <h4 title="${escapeHtml(spell.name)}">${escapeHtml(spell.name)}</h4>
         </div>
+        <span class="spell-card-required" title="Niveau requis : ${escapeHtml(spell.requiredLevel)}">Niv. requis : ${escapeHtml(spell.requiredLevel)}</span>
         <div class="spell-card-levels" aria-label="Niveaux du sort">
           <span>Niveaux du sort :</span>
           ${(spell.levels || []).map((level) => `<b class="${level === spell.selectedLevel ? "active" : ""}">${level}</b>`).join("")}
@@ -128,7 +128,7 @@ function renderSpellCard(spell) {
           <strong>${escapeHtml(spell.ap)}</strong>
         </div>
       </header>
-      <p class="spell-card-description">${escapeHtml(spell.description)}</p>
+      <p class="spell-card-description" title="${escapeHtml(spell.description)}">${escapeHtml(spell.description)}</p>
       <section class="spell-card-effects">
         <h5>Effets</h5>
         <div class="spell-tabs">
@@ -148,13 +148,13 @@ function renderSpellCard(spell) {
         <h5>Autres caracteristiques</h5>
         <div class="spell-stat-grid">
           <div>
-            ${(spell.characteristics || []).map(([label, value]) => `<p><span>${escapeHtml(label)}</span><strong>${escapeHtml(value)}</strong></p>`).join("")}
+            ${(spell.characteristics || []).map(([label, value]) => `<p><span title="${escapeHtml(label)}">${escapeHtml(label)}</span><strong title="${escapeHtml(value)}">${escapeHtml(value)}</strong></p>`).join("")}
           </div>
           <div>
             ${(spell.rules || [])
               .map(([label, value]) => {
                 const formatted = typeof value === "boolean" ? `<em class="${value ? "yes" : "no"}">${value ? "✓" : "×"}</em>` : `<strong>${escapeHtml(value)}</strong>`;
-                return `<p><span>${escapeHtml(label)}</span>${formatted}</p>`;
+                return `<p><span title="${escapeHtml(label)}">${escapeHtml(label)}</span>${formatted}</p>`;
               })
               .join("")}
           </div>
