@@ -1,5 +1,13 @@
 (function () {
   const STORAGE_KEY = "lrdr-spell-editor-draft";
+  const TOKEN_KEY = "lrdr-spell-editor-github-token";
+  const AUTO_PUBLISH_KEY = "lrdr-spell-editor-auto-publish";
+  const GITHUB_REPO = {
+    owner: "MrDilers",
+    repo: "Wiki-dofus-lrdr",
+    branch: "master",
+    files: ["data/spells-custom.js", "dist/data/spells-custom.js"],
+  };
   const state = {
     data: clone(window.LRDR_CUSTOM_SPELLS || {}),
     original: clone(window.LRDR_CUSTOM_SPELLS || {}),
@@ -7,6 +15,7 @@
     classId: "",
     spellIndex: 0,
     fileHandle: null,
+    publishing: false,
     sourceFrameOpen: false,
   };
 
@@ -50,6 +59,23 @@
 
   function setStatus(message) {
     $("#statusText").textContent = message;
+  }
+
+  function getGithubToken() {
+    return ($("#githubToken").value || localStorage.getItem(TOKEN_KEY) || "").trim();
+  }
+
+  function setPublishing(isPublishing) {
+    state.publishing = isPublishing;
+    ["#applySpell", "#publishGithub", "#saveGithubToken", "#clearGithubToken", "#copyFile", "#downloadFile"].forEach((selector) => {
+      const button = $(selector);
+      if (button) button.disabled = isPublishing;
+    });
+  }
+
+  function initPublishControls() {
+    $("#githubToken").value = localStorage.getItem(TOKEN_KEY) || "";
+    $("#autoPublish").checked = localStorage.getItem(AUTO_PUBLISH_KEY) !== "false";
   }
 
   function currentSpell() {
@@ -263,13 +289,16 @@
     $("#sourceDialog").showModal();
   }
 
-  function applyForm() {
+  async function applyForm() {
     const spell = readForm();
     state.data[state.classId][state.spellIndex] = spell;
     localStorage.setItem(STORAGE_KEY, serialize(state.data));
     renderSpellSelect();
     fillForm();
     setStatus("Modification appliquee en brouillon");
+    if ($("#autoPublish").checked) {
+      await publishToGithub(spell.name);
+    }
   }
 
   function serialize(data) {
@@ -280,6 +309,95 @@
     const holder = { window: {} };
     Function("window", `${text}; return window.LRDR_CUSTOM_SPELLS;`)(holder.window);
     return holder.window.LRDR_CUSTOM_SPELLS;
+  }
+
+  function textToBase64(text) {
+    const bytes = new TextEncoder().encode(text);
+    const chunks = [];
+    const size = 0x8000;
+    for (let index = 0; index < bytes.length; index += size) {
+      chunks.push(String.fromCharCode(...bytes.subarray(index, index + size)));
+    }
+    return btoa(chunks.join(""));
+  }
+
+  async function githubRequest(path, options = {}) {
+    const token = getGithubToken();
+    if (!token) throw new Error("Token GitHub manquant.");
+    const response = await fetch(`https://api.github.com${path}`, {
+      ...options,
+      headers: {
+        Accept: "application/vnd.github+json",
+        Authorization: `Bearer ${token}`,
+        "Content-Type": "application/json",
+        "X-GitHub-Api-Version": "2022-11-28",
+        ...(options.headers || {}),
+      },
+    });
+    const text = await response.text();
+    const payload = text ? JSON.parse(text) : {};
+    if (!response.ok) {
+      throw new Error(payload.message || `${response.status} ${response.statusText}`);
+    }
+    return payload;
+  }
+
+  async function publishToGithub(spellName = "sorts") {
+    const token = getGithubToken();
+    if (!token) {
+      setStatus("Modification appliquee en brouillon. Ajoute un token GitHub pour publier en ligne.");
+      return false;
+    }
+
+    setPublishing(true);
+    setStatus("Publication GitHub en cours...");
+    try {
+      const content = serialize(state.data);
+      const repoPath = `/repos/${GITHUB_REPO.owner}/${GITHUB_REPO.repo}`;
+      const ref = await githubRequest(`${repoPath}/git/ref/heads/${GITHUB_REPO.branch}`);
+      const headSha = ref.object.sha;
+      const headCommit = await githubRequest(`${repoPath}/git/commits/${headSha}`);
+      const blob = await githubRequest(`${repoPath}/git/blobs`, {
+        method: "POST",
+        body: JSON.stringify({
+          content: textToBase64(content),
+          encoding: "base64",
+        }),
+      });
+      const tree = await githubRequest(`${repoPath}/git/trees`, {
+        method: "POST",
+        body: JSON.stringify({
+          base_tree: headCommit.tree.sha,
+          tree: GITHUB_REPO.files.map((path) => ({
+            path,
+            mode: "100644",
+            type: "blob",
+            sha: blob.sha,
+          })),
+        }),
+      });
+      const commit = await githubRequest(`${repoPath}/git/commits`, {
+        method: "POST",
+        body: JSON.stringify({
+          message: `Mise a jour sort LRDR: ${spellName}`,
+          tree: tree.sha,
+          parents: [headSha],
+        }),
+      });
+      await githubRequest(`${repoPath}/git/refs/heads/${GITHUB_REPO.branch}`, {
+        method: "PATCH",
+        body: JSON.stringify({ sha: commit.sha }),
+      });
+      localStorage.removeItem(STORAGE_KEY);
+      state.original = clone(state.data);
+      setStatus("Publie sur GitHub. Le site se mettra a jour dans quelques secondes.");
+      return true;
+    } catch (error) {
+      setStatus(`Publication impossible : ${error.message}`);
+      return false;
+    } finally {
+      setPublishing(false);
+    }
   }
 
   async function copyFile() {
@@ -368,7 +486,7 @@
 
   $("#spellForm").addEventListener("submit", (event) => {
     event.preventDefault();
-    applyForm();
+    applyForm().catch((error) => setStatus(error.message));
   });
 
   Object.values(fields).forEach((field) => {
@@ -377,6 +495,26 @@
 
   $("#copyFile").addEventListener("click", copyFile);
   $("#downloadFile").addEventListener("click", downloadFile);
+  $("#saveGithubToken").addEventListener("click", () => {
+    const token = getGithubToken();
+    if (!token) {
+      setStatus("Aucun token GitHub a garder.");
+      return;
+    }
+    localStorage.setItem(TOKEN_KEY, token);
+    $("#githubToken").value = token;
+    setStatus("Token GitHub garde sur ce navigateur.");
+  });
+  $("#clearGithubToken").addEventListener("click", () => {
+    localStorage.removeItem(TOKEN_KEY);
+    $("#githubToken").value = "";
+    setStatus("Token GitHub oublie.");
+  });
+  $("#autoPublish").addEventListener("change", (event) => {
+    localStorage.setItem(AUTO_PUBLISH_KEY, event.target.checked ? "true" : "false");
+    setStatus(event.target.checked ? "Publication directe activee." : "Publication directe desactivee.");
+  });
+  $("#publishGithub").addEventListener("click", () => publishToGithub(currentSpell()?.name || "sorts"));
   $("#openLocalFile").addEventListener("click", () => openLocalFile().catch((error) => setStatus(error.message)));
   $("#saveLocalFile").addEventListener("click", () => saveLocalFile().catch((error) => setStatus(error.message)));
   $("#toggleSourceFrame").addEventListener("click", () => {
@@ -394,6 +532,7 @@
     if (event.target.id === "sourceDialog") event.target.close();
   });
 
+  initPublishControls();
   restoreDraft();
   render();
 })();

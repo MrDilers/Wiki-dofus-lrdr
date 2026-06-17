@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Editeur temporaire - Sorts LRDR</title>
-    <link rel="stylesheet" href="spell-editor.css?v=3">
+    <link rel="stylesheet" href="spell-editor.css?v=4">
   </head>
   <body>
     <main class="editor-shell">
@@ -12,7 +12,7 @@
         <div>
           <p class="eyebrow">Outil temporaire</p>
           <h1>Editeur de sorts</h1>
-          <p>Modifie les donnees, applique les changements, puis exporte le fichier <strong>spells-custom.js</strong>.</p>
+          <p>Modifie les donnees puis clique sur <strong>Appliquer</strong>. Avec un token GitHub configure, la modification est publiee directement.</p>
         </div>
         <div class="header-actions">
           <button id="openLocalFile" type="button">Ouvrir fichier local</button>
@@ -24,7 +24,28 @@
 
       <section class="notice">
         <strong>Important.</strong>
-        Cette page ne touche pas au wiki public tant que le fichier exporte n'est pas remplace dans le projet puis pousse sur GitHub.
+        Le token GitHub reste uniquement dans ce navigateur. Ne le colle jamais dans un fichier du projet.
+      </section>
+
+      <section class="publish-panel">
+        <div>
+          <p class="eyebrow">Publication GitHub</p>
+          <h2>Publication directe</h2>
+          <p>Quand le token est renseigne, le bouton <strong>Appliquer</strong> met a jour le fichier des sorts sur GitHub.</p>
+        </div>
+        <label class="token-field">
+          Token GitHub
+          <input id="githubToken" type="password" autocomplete="off" placeholder="github_pat_...">
+        </label>
+        <label class="publish-toggle">
+          <input id="autoPublish" type="checkbox" checked>
+          Publier quand je clique sur Appliquer
+        </label>
+        <div class="publish-actions">
+          <button id="saveGithubToken" type="button">Garder le token</button>
+          <button id="clearGithubToken" type="button">Oublier</button>
+          <button id="publishGithub" type="button">Publier maintenant</button>
+        </div>
       </section>
 
       <section class="editor-grid">
@@ -126,6 +147,6 @@
 
     <script src="../data/spell-panels.js"></script>
     <script src="../data/spells-custom.js"></script>
-    <script src="spell-editor.js?v=3"></script>
+    <script src="spell-editor.js?v=4"></script>
   </body>
 </html>
