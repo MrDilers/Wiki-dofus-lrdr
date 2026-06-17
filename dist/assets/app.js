@@ -284,13 +284,7 @@ function renderDialog(classItem) {
         ${classItem.synergies.map((name) => `<span class="tag">Synergie: ${name}</span>`).join("")}
       </div>
       <div class="class-detail-list">
-        <details class="class-detail">
-          <summary>
-            <strong>Sorts modifies</strong>
-            <span>${(state.spellPanels[classItem.id] || []).length} sorts</span>
-          </summary>
-          ${renderSpellPanels(classItem.id)}
-        </details>
+        ${renderSpellPanels(classItem.id)}
       </div>
     </div>
   `;

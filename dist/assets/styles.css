@@ -948,6 +948,14 @@ input {
   --spell-effect: #46bd8d;
 }
 
+.spell-effect-row[data-element="Feu"] {
+  --spell-effect: #df4938;
+}
+
+.spell-effect-row[data-element="Neutre"] {
+  --spell-effect: #b98948;
+}
+
 .spell-effect-row small {
   color: var(--spell-element-dark, #52662b);
   font-weight: 900;
