@@ -2,7 +2,7 @@ window.LRDR_CUSTOM_SPELLS = {
   "cra": [
     {
       "id": "souffle-de-l-humus",
-      "name": "Souffle de l'Humus",
+      "name": "Souffle de l'Humuss",
       "element": "Terre",
       "icon": "assets/icons/spells/cra/souffle-de-l-humus.png",
       "requiredLevel": "3",
