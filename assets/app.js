@@ -111,6 +111,7 @@ function renderSpellEffect(effect) {
 }
 
 function renderSpellCard(spell) {
+  const tabs = spell.tabs || [];
   return `
     <article class="spell-card" data-element="${escapeHtml(spell.element)}">
       <header class="spell-card-head">
@@ -132,10 +133,18 @@ function renderSpellCard(spell) {
       <section class="spell-card-effects">
         <h5>Effets</h5>
         <div class="spell-tabs">
-          ${(spell.tabs || [])
+          <div class="spell-tab-buttons" role="tablist" aria-label="Types d'effets">
+            ${tabs
+              .map((tab, index) => `
+                <button class="spell-tab-button ${index === 0 ? "active" : ""}" type="button" role="tab" aria-selected="${index === 0 ? "true" : "false"}" data-spell-tab="${index}">
+                  ${escapeHtml(tab.label)}
+                </button>
+              `)
+              .join("")}
+          </div>
+          ${tabs
             .map((tab, index) => `
-              <div class="spell-tab ${index === 0 ? "active" : ""}">
-                <span>${escapeHtml(tab.label)}</span>
+              <div class="spell-tab-panel ${index === 0 ? "active" : ""}" role="tabpanel" data-spell-panel="${index}" ${index === 0 ? "" : "hidden"}>
                 <ul>
                   ${(tab.effects || []).length ? tab.effects.map(renderSpellEffect).join("") : `<li class="spell-effect-empty">Aucun effet renseigne.</li>`}
                 </ul>
@@ -194,6 +203,22 @@ function renderSpellPanels(classId, options = {}) {
         .join("")}
     </div>
   `;
+}
+
+function activateSpellTab(button) {
+  const card = button.closest(".spell-card");
+  if (!card) return;
+  const target = button.dataset.spellTab;
+  card.querySelectorAll("[data-spell-tab]").forEach((tabButton) => {
+    const active = tabButton.dataset.spellTab === target;
+    tabButton.classList.toggle("active", active);
+    tabButton.setAttribute("aria-selected", active ? "true" : "false");
+  });
+  card.querySelectorAll("[data-spell-panel]").forEach((panel) => {
+    const active = panel.dataset.spellPanel === target;
+    panel.classList.toggle("active", active);
+    panel.hidden = !active;
+  });
 }
 
 function navCurrent(pageName) {
@@ -528,6 +553,11 @@ async function init() {
   });
 
   $("#closeDialog")?.addEventListener("click", () => $("#classDialog").close());
+  $("#dialogContent")?.addEventListener("click", (event) => {
+    const tabButton = event.target.closest("[data-spell-tab]");
+    if (!tabButton) return;
+    activateSpellTab(tabButton);
+  });
 
   $("#wikiSections")?.addEventListener("click", (event) => {
     const button = event.target.closest("[data-image-src]");
