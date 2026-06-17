@@ -155,6 +155,12 @@ function renderSpellCard(spell) {
           </div>
         </div>
       </section>
+      ${spell.sourceImage ? `
+        <details class="spell-source">
+          <summary>Source PDF</summary>
+          <img src="${escapeHtml(spell.sourceImage)}" alt="${escapeHtml(spell.name)}">
+        </details>
+      ` : ""}
     </article>
   `;
 }

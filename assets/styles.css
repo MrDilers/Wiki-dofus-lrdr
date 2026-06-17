@@ -1003,6 +1003,27 @@ input {
   color: #d02722;
 }
 
+.spell-source {
+  margin: 0 12px 12px;
+  border: 1px solid rgba(150, 139, 91, 0.35);
+  background: rgba(214, 207, 158, 0.34);
+}
+
+.spell-source summary {
+  min-height: 34px;
+  padding: 8px 10px;
+  background: rgba(168, 157, 109, 0.45);
+  color: #4d442c;
+  cursor: pointer;
+  font-weight: 800;
+}
+
+.spell-source img {
+  display: block;
+  width: 100%;
+  background: #ece6ca;
+}
+
 .class-detail {
   overflow: hidden;
   border: 1px solid var(--line);
