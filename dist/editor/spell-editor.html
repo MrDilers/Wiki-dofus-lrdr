@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Editeur temporaire - Sorts LRDR</title>
+    <link rel="stylesheet" href="spell-editor.css">
+  </head>
+  <body>
+    <main class="editor-shell">
+      <header class="editor-header">
+        <div>
+          <p class="eyebrow">Outil temporaire</p>
+          <h1>Editeur de sorts</h1>
+          <p>Modifie les donnees, applique les changements, puis exporte le fichier <strong>spells-custom.js</strong>.</p>
+        </div>
+        <div class="header-actions">
+          <button id="openLocalFile" type="button">Ouvrir fichier local</button>
+          <button id="saveLocalFile" type="button" disabled>Sauver localement</button>
+          <button id="downloadFile" type="button">Telecharger</button>
+          <button id="copyFile" type="button">Copier</button>
+        </div>
+      </header>
+
+      <section class="notice">
+        <strong>Important.</strong>
+        Cette page ne touche pas au wiki public tant que le fichier exporte n'est pas remplace dans le projet puis pousse sur GitHub.
+      </section>
+
+      <section class="editor-grid">
+        <aside class="sidebar-panel">
+          <label>
+            Classe
+            <select id="classSelect"></select>
+          </label>
+          <label>
+            Sort
+            <select id="spellSelect"></select>
+          </label>
+          <div id="spellList" class="spell-list"></div>
+        </aside>
+
+        <form id="spellForm" class="form-panel">
+          <div class="form-head">
+            <div>
+              <p class="eyebrow">Fiche selectionnee</p>
+              <h2 id="formTitle">Sort</h2>
+            </div>
+            <button id="applySpell" type="submit">Appliquer</button>
+          </div>
+
+          <div class="field-grid">
+            <label>Identifiant <input id="fieldId" name="id"></label>
+            <label>Nom <input id="fieldName" name="name"></label>
+            <label>Element
+              <select id="fieldElement" name="element">
+                <option>Neutre</option>
+                <option>Terre</option>
+                <option>Feu</option>
+                <option>Eau</option>
+                <option>Air</option>
+              </select>
+            </label>
+            <label>Niveau requis <input id="fieldRequiredLevel" name="requiredLevel"></label>
+            <label>Niveau affiche <input id="fieldSelectedLevel" name="selectedLevel"></label>
+            <label>Portee <input id="fieldRange" name="range"></label>
+            <label>PA <input id="fieldAp" name="ap"></label>
+            <label>Icone <input id="fieldIcon" name="icon"></label>
+            <label class="wide">Source PDF <input id="fieldSourceImage" name="sourceImage"></label>
+            <label class="wide">Description <textarea id="fieldDescription" name="description" rows="4"></textarea></label>
+          </div>
+
+          <div class="textarea-grid">
+            <label>
+              Effets normaux
+              <small>Format : Element | Texte | Meta optionnelle</small>
+              <textarea id="fieldNormalEffects" rows="7"></textarea>
+            </label>
+            <label>
+              Effets critiques
+              <small>Meme format, laisse vide si aucun effet.</small>
+              <textarea id="fieldCriticalEffects" rows="7"></textarea>
+            </label>
+            <label>
+              Caracteristiques
+              <small>Format : Libelle | Valeur</small>
+              <textarea id="fieldCharacteristics" rows="7"></textarea>
+            </label>
+            <label>
+              Regles
+              <small>Format : Libelle | true / false / valeur</small>
+              <textarea id="fieldRules" rows="7"></textarea>
+            </label>
+          </div>
+        </form>
+
+        <section class="preview-panel">
+          <div class="preview-head">
+            <p class="eyebrow">Apercu</p>
+            <span id="statusText">Pret</span>
+          </div>
+          <div id="spellPreview"></div>
+        </section>
+      </section>
+    </main>
+
+    <script src="../data/spells-custom.js"></script>
+    <script src="spell-editor.js"></script>
+  </body>
+</html>

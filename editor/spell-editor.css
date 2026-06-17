@@ -1,0 +1,365 @@
+:root {
+  color-scheme: dark;
+  --bg: #0a0618;
+  --panel: #151024;
+  --line: rgba(240, 192, 64, 0.28);
+  --line-strong: rgba(240, 192, 64, 0.58);
+  --text: #f0e6cc;
+  --muted: rgba(235, 215, 255, 0.7);
+  --gold: #f0c040;
+  --gold-soft: #ffe680;
+  --violet: #a064ff;
+  --shadow: 0 18px 60px rgba(0, 0, 0, 0.48);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at 20% 10%, rgba(240, 192, 64, 0.13), transparent 26rem),
+    radial-gradient(circle at 90% 20%, rgba(160, 100, 255, 0.16), transparent 24rem),
+    #0a0618;
+  color: var(--text);
+  font-family: "Trebuchet MS", Verdana, "Segoe UI", Arial, sans-serif;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+button {
+  min-height: 38px;
+  padding: 0 12px;
+  border: 1px solid var(--line-strong);
+  background: linear-gradient(180deg, rgba(240, 192, 64, 0.22), rgba(120, 70, 180, 0.22));
+  color: var(--gold-soft);
+  cursor: pointer;
+  font-weight: 800;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.42;
+}
+
+label {
+  display: grid;
+  gap: 7px;
+  color: var(--muted);
+  font-size: 0.82rem;
+  font-weight: 800;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  border: 1px solid var(--line);
+  background: rgba(0, 0, 0, 0.36);
+  color: var(--text);
+  outline: none;
+}
+
+input,
+select {
+  min-height: 40px;
+  padding: 0 10px;
+}
+
+textarea {
+  min-height: 90px;
+  padding: 10px;
+  resize: vertical;
+  line-height: 1.45;
+}
+
+small {
+  color: rgba(235, 215, 255, 0.52);
+  font-weight: 600;
+}
+
+.editor-shell {
+  width: min(1520px, calc(100vw - 32px));
+  margin: 0 auto;
+  padding: 28px 0 48px;
+}
+
+.editor-header {
+  display: flex;
+  gap: 24px;
+  align-items: end;
+  justify-content: space-between;
+  padding-bottom: 18px;
+  border-bottom: 1px solid var(--line);
+}
+
+.editor-header h1 {
+  margin: 0 0 10px;
+  font-size: clamp(2rem, 5vw, 4.6rem);
+  line-height: 0.95;
+}
+
+.editor-header p {
+  max-width: 720px;
+  margin: 0;
+  color: var(--muted);
+}
+
+.eyebrow {
+  margin: 0 0 8px;
+  color: var(--gold);
+  font-size: 0.74rem;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.header-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: end;
+}
+
+.notice,
+.sidebar-panel,
+.form-panel,
+.preview-panel {
+  border: 1px solid var(--line);
+  background: rgba(15, 10, 28, 0.86);
+  box-shadow: var(--shadow);
+}
+
+.notice {
+  margin: 18px 0;
+  padding: 12px 14px;
+  color: var(--muted);
+}
+
+.notice strong {
+  color: var(--gold-soft);
+}
+
+.editor-grid {
+  display: grid;
+  grid-template-columns: 260px minmax(420px, 1fr) minmax(360px, 0.8fr);
+  gap: 16px;
+  align-items: start;
+}
+
+.sidebar-panel,
+.form-panel,
+.preview-panel {
+  padding: 16px;
+}
+
+.sidebar-panel {
+  position: sticky;
+  top: 14px;
+  display: grid;
+  gap: 14px;
+}
+
+.spell-list {
+  display: grid;
+  gap: 6px;
+  max-height: calc(100vh - 260px);
+  overflow: auto;
+  padding-right: 4px;
+}
+
+.spell-list button {
+  justify-content: start;
+  min-height: 34px;
+  border-color: transparent;
+  background: rgba(0, 0, 0, 0.18);
+  color: var(--muted);
+  text-align: left;
+}
+
+.spell-list button.active {
+  border-color: var(--line-strong);
+  color: var(--gold-soft);
+}
+
+.form-panel {
+  display: grid;
+  gap: 16px;
+}
+
+.form-head,
+.preview-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.form-head h2 {
+  margin: 0;
+}
+
+.field-grid,
+.textarea-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.wide {
+  grid-column: 1 / -1;
+}
+
+.preview-panel {
+  position: sticky;
+  top: 14px;
+}
+
+#statusText {
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+
+.spell-card {
+  overflow: hidden;
+  border: 1px solid #c6bc87;
+  background: linear-gradient(180deg, rgba(244, 241, 212, 0.96), rgba(226, 220, 173, 0.96));
+  color: #3e382b;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.spell-card[data-element="Terre"] { --spell-element: #8b9f4a; --spell-element-dark: #52662b; }
+.spell-card[data-element="Air"] { --spell-element: #53b98f; --spell-element-dark: #267451; }
+.spell-card[data-element="Feu"] { --spell-element: #d0693e; --spell-element-dark: #87341e; }
+.spell-card[data-element="Eau"] { --spell-element: #4d96b8; --spell-element-dark: #285c78; }
+.spell-card[data-element="Neutre"] { --spell-element: #b98948; --spell-element-dark: #6f4f29; }
+
+.spell-card-head {
+  display: grid;
+  grid-template-columns: 58px minmax(0, 1fr) auto;
+  gap: 10px;
+  align-items: start;
+  padding: 10px 12px;
+  background: linear-gradient(180deg, rgba(246, 244, 219, 0.96), rgba(231, 226, 184, 0.96));
+  border-bottom: 1px solid rgba(150, 139, 91, 0.42);
+}
+
+.spell-card-icon {
+  width: 52px;
+  height: 52px;
+  border: 2px solid #f7f3d9;
+  background: var(--spell-element);
+  box-shadow: 0 0 0 1px #8e865f;
+}
+
+.spell-card h4 {
+  margin: 6px 0 3px;
+  color: #2f2a20;
+  font-size: 1.1rem;
+}
+
+.spell-card-title span,
+.spell-card-cost {
+  color: #6f6750;
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+.spell-card-cost {
+  display: grid;
+  gap: 6px;
+  text-align: right;
+}
+
+.spell-card-description,
+.spell-card-effects,
+.spell-card-stats {
+  padding: 10px 12px;
+}
+
+.spell-card-description {
+  margin: 0;
+  line-height: 1.35;
+}
+
+.spell-card h5 {
+  margin: 0 0 8px;
+  color: #3f392b;
+}
+
+.spell-effect-list {
+  display: grid;
+  gap: 6px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.spell-effect-row {
+  display: grid;
+  grid-template-columns: 18px minmax(0, 1fr) auto;
+  gap: 8px;
+  align-items: center;
+  min-height: 28px;
+  padding: 5px 8px;
+  background: rgba(189, 181, 130, 0.45);
+}
+
+.spell-effect-mark {
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 15px solid var(--spell-element);
+}
+
+.spell-stat-grid {
+  display: grid;
+  gap: 4px;
+}
+
+.spell-stat-grid p {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin: 0;
+  padding: 3px 0;
+  color: #6a6148;
+  font-size: 0.86rem;
+}
+
+.spell-stat-grid strong {
+  color: #2f2a20;
+}
+
+@media (max-width: 1100px) {
+  .editor-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .sidebar-panel,
+  .preview-panel {
+    position: static;
+  }
+}
+
+@media (max-width: 680px) {
+  .editor-header,
+  .form-head,
+  .preview-head {
+    align-items: start;
+    flex-direction: column;
+  }
+
+  .field-grid,
+  .textarea-grid {
+    grid-template-columns: 1fr;
+  }
+}
