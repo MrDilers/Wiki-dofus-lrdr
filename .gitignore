@@ -3,4 +3,6 @@ fra.traineddata
 npm-debug.log*
 server.log
 server.err
-wiki image et texte/
+wiki image et texte/*
+!wiki image et texte/icones-dofus-retro/
+!wiki image et texte/icones-dofus-retro/**
