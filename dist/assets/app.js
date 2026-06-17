@@ -13,7 +13,7 @@ const state = {
 const elements = ["Tous", "Terre", "Feu", "Eau", "Air"];
 const wikiFilters = ["Tous", "Panoplies", "Bonus", "PNJ", "Equipements evolutifs", "Donjons"];
 const $ = (selector) => document.querySelector(selector);
-const classIcons = {
+const unusedTextClassIcons = {
   iop: "⚔️",
   cra: "🏹",
   eniripsa: "✨",
@@ -26,6 +26,29 @@ const classIcons = {
   pandawa: "🐼",
   ecaflip: "🌸",
   feca: "🛡️",
+};
+
+const classIcons = {
+  cra: "assets/icons/classes/classe-cra.png",
+  ecaflip: "assets/icons/classes/classe-ecaflip.png",
+  eniripsa: "assets/icons/classes/classe-eniripsa.png",
+  enutrof: "assets/icons/classes/classe-enutrof.png",
+  feca: "assets/icons/classes/classe-feca.png",
+  iop: "assets/icons/classes/classe-iop.png",
+  osamodas: "assets/icons/classes/classe-osamodas.png",
+  pandawa: "assets/icons/classes/classe-pandawa.png",
+  sacrieur: "assets/icons/classes/classe-sacrieur.png",
+  sadida: "assets/icons/classes/classe-sadida.png",
+  sram: "assets/icons/classes/classe-sram.png",
+  xelor: "assets/icons/classes/classe-xelor.png",
+};
+
+const elementIcons = {
+  Air: "assets/icons/elements/element-air.png",
+  Eau: "assets/icons/elements/element-eau.png",
+  Feu: "assets/icons/elements/element-feu.png",
+  Neutre: "assets/icons/elements/element-neutre.png",
+  Terre: "assets/icons/elements/element-terre.png",
 };
 
 // Effets visuels de la page d'accueil.
@@ -95,15 +118,26 @@ function escapeHtml(value) {
     .replace(/"/g, "&quot;");
 }
 
+function renderElementIcon(element, className = "element-icon") {
+  const icon = elementIcons[element];
+  if (!icon) return "";
+  return `<img class="${className}" src="${icon}" alt="" aria-hidden="true">`;
+}
+
+function renderElementBadge(element, className = "element-badge") {
+  return `<span class="${className}" title="${escapeHtml(element)}">${renderElementIcon(element)}<span>${escapeHtml(element)}</span></span>`;
+}
+
 function customSpellFor(classId, panel) {
   const panelSlug = slugify(panel.name);
   return (state.customSpells[classId] || []).find((spell) => spell.id === panelSlug || normalize(spell.name) === normalize(panel.name));
 }
 
 function renderSpellEffect(effect) {
+  const element = effect.element || "Neutre";
   return `
-    <li class="spell-effect-row" data-element="${escapeHtml(effect.element || "Neutre")}">
-      <span class="spell-effect-mark" aria-hidden="true"></span>
+    <li class="spell-effect-row" data-element="${escapeHtml(element)}">
+      ${renderElementIcon(element, "spell-effect-icon")}
       <span title="${escapeHtml(effect.text)}">${escapeHtml(effect.text)}</span>
       ${effect.meta ? `<small title="${escapeHtml(effect.meta)}">${escapeHtml(effect.meta)}</small>` : ""}
     </li>
@@ -263,7 +297,7 @@ function renderNav() {
 function renderFilters() {
   if (!$("#elementFilters")) return;
   $("#elementFilters").innerHTML = elements
-    .map((element) => `<button class="chip ${state.element === element ? "active" : ""}" data-element="${element}">${element}</button>`)
+    .map((element) => `<button class="chip ${state.element === element ? "active" : ""}" data-element="${element}">${element === "Tous" ? "" : renderElementIcon(element)}<span>${element}</span></button>`)
     .join("");
 
   $("#elementFilters").addEventListener(
@@ -300,9 +334,9 @@ function renderClasses() {
       const icon = classIcons[item.id] || "✦";
       return `
         <article id="${item.id}" class="class-chip wiki-class-chip" data-open="${item.id}" tabindex="0" aria-label="Voir la fiche ${item.name}">
-          <span class="class-icon" aria-hidden="true">${icon}</span>
+          <img class="class-icon" src="${icon}" alt="" aria-hidden="true">
           <span class="class-name">${item.name}</span>
-          <span class="class-meta">${item.elements.join(" / ")}</span>
+          <span class="class-meta">${item.elements.map((element) => renderElementBadge(element, "class-element")).join("")}</span>
         </article>
       `;
     })
@@ -316,7 +350,7 @@ function renderDialog(classItem) {
       <h2>${classItem.name}</h2>
       <p class="lead">${classItem.pvm}</p>
       <div class="tag-row">
-        ${classItem.elements.map((element) => `<span class="tag">${element}</span>`).join("")}
+        ${classItem.elements.map((element) => renderElementBadge(element, "tag element-tag")).join("")}
         ${classItem.synergies.map((name) => `<span class="tag">Synergie: ${name}</span>`).join("")}
       </div>
       <div class="class-detail-list">

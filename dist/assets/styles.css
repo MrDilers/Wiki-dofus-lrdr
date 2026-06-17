@@ -642,9 +642,22 @@ input {
 }
 
 .chip {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
   min-height: 36px;
   padding: 0 12px;
   font-weight: 700;
+}
+
+.element-icon {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+  vertical-align: -4px;
+  image-rendering: auto;
 }
 
 .chip.active {
@@ -715,8 +728,10 @@ input {
   position: relative;
   z-index: 1;
   display: block;
+  width: 46px;
+  height: 46px;
   margin-bottom: 7px;
-  font-size: 1.9rem;
+  object-fit: contain;
   filter: drop-shadow(0 0 7px rgba(240, 192, 64, 0.5));
 }
 
@@ -734,12 +749,30 @@ input {
 .class-meta {
   position: relative;
   z-index: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px;
   margin-top: 7px;
   color: rgba(235, 215, 255, 0.62);
   font-size: 0.68rem;
   font-weight: 800;
   letter-spacing: 0.04em;
   text-transform: uppercase;
+}
+
+.class-element,
+.element-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  min-width: 0;
+}
+
+.class-element .element-icon {
+  width: 14px;
+  height: 14px;
+  vertical-align: 0;
 }
 
 .tag-row {
@@ -749,11 +782,20 @@ input {
 }
 
 .tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
   padding: 5px 8px;
   border: 1px solid rgba(225, 180, 95, 0.28);
   background: rgba(130, 70, 220, 0.18);
   color: #f0c040;
   font-size: 0.8rem;
+}
+
+.element-tag .element-icon {
+  width: 17px;
+  height: 17px;
+  vertical-align: 0;
 }
 
 .class-detail-list,
@@ -978,7 +1020,7 @@ input {
 
 .spell-effect-row {
   display: grid;
-  grid-template-columns: 16px minmax(0, 1fr) auto;
+  grid-template-columns: 22px minmax(0, 1fr) auto;
   gap: 8px;
   align-items: center;
   min-height: 28px;
@@ -986,6 +1028,12 @@ input {
   background: rgba(189, 181, 130, 0.45);
   color: #4d442c;
   font-size: 0.84rem;
+}
+
+.spell-effect-icon {
+  width: 22px;
+  height: 22px;
+  object-fit: contain;
 }
 
 .spell-effect-row > span:nth-child(2),
