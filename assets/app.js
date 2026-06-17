@@ -65,6 +65,10 @@ function normalize(value) {
     .toLowerCase();
 }
 
+function slugify(value) {
+  return normalize(value).replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+}
+
 function pageText(classItem) {
   return state.pages
     .filter((page) => classItem.pages.includes(page.page))
@@ -91,8 +95,9 @@ function escapeHtml(value) {
     .replace(/"/g, "&quot;");
 }
 
-function customSpellFor(classId, spellName) {
-  return (state.customSpells[classId] || []).find((spell) => normalize(spell.name) === normalize(spellName));
+function customSpellFor(classId, panel) {
+  const panelSlug = slugify(panel.name);
+  return (state.customSpells[classId] || []).find((spell) => spell.id === panelSlug || normalize(spell.name) === normalize(panel.name));
 }
 
 function renderSpellEffect(effect) {
@@ -171,7 +176,7 @@ function renderSpellPanels(classId, options = {}) {
     <div class="spell-panel-list">
       ${panels
         .map((panel) => {
-          const customSpell = customSpellFor(classId, panel.name);
+          const customSpell = customSpellFor(classId, panel);
           return `
             <details class="class-detail spell-detail">
               <summary>
