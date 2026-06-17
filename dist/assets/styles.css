@@ -775,6 +775,226 @@ input {
   background: #ece6ca;
 }
 
+.spell-card {
+  margin: 12px;
+  overflow: hidden;
+  border: 1px solid #c6bc87;
+  border-radius: 0 0 8px 8px;
+  background:
+    linear-gradient(180deg, rgba(244, 241, 212, 0.96), rgba(226, 220, 173, 0.96)),
+    #ece6ca;
+  color: #3e382b;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.48), 0 10px 24px rgba(0, 0, 0, 0.3);
+}
+
+.spell-card[data-element="Terre"] {
+  --spell-element: #8b9f4a;
+  --spell-element-dark: #52662b;
+}
+
+.spell-card[data-element="Air"] {
+  --spell-element: #53b98f;
+  --spell-element-dark: #267451;
+}
+
+.spell-card[data-element="Feu"] {
+  --spell-element: #d0693e;
+  --spell-element-dark: #87341e;
+}
+
+.spell-card[data-element="Eau"] {
+  --spell-element: #4d96b8;
+  --spell-element-dark: #285c78;
+}
+
+.spell-card-head {
+  display: grid;
+  grid-template-columns: 58px minmax(0, 1fr) auto auto;
+  gap: 10px;
+  align-items: start;
+  padding: 10px 12px 8px;
+  background: linear-gradient(180deg, rgba(246, 244, 219, 0.96), rgba(231, 226, 184, 0.96));
+  border-bottom: 1px solid rgba(150, 139, 91, 0.42);
+}
+
+.spell-card-icon {
+  width: 52px;
+  height: 52px;
+  border: 2px solid #f7f3d9;
+  background: var(--spell-element, #8b9f4a);
+  box-shadow: 0 0 0 1px #8e865f, 0 3px 8px rgba(0, 0, 0, 0.25);
+  image-rendering: auto;
+}
+
+.spell-card-title h4 {
+  margin: 6px 0 3px;
+  color: #2f2a20;
+  font-size: 1.18rem;
+  line-height: 1.05;
+}
+
+.spell-card-title span,
+.spell-card-levels span {
+  color: #6f6750;
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+.spell-card-levels {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 190px;
+  padding-top: 2px;
+  white-space: nowrap;
+}
+
+.spell-card-levels b {
+  color: #6b6249;
+  font-size: 0.9rem;
+}
+
+.spell-card-levels b.active {
+  color: #d58a28;
+}
+
+.spell-card-cost {
+  display: grid;
+  gap: 6px;
+  min-width: 78px;
+  padding-top: 22px;
+  color: #3b3528;
+  font-size: 0.86rem;
+  text-align: right;
+}
+
+.spell-card-description {
+  margin: 0;
+  padding: 10px 14px 12px;
+  color: #504938;
+  font-size: 0.92rem;
+  line-height: 1.35;
+}
+
+.spell-card-effects,
+.spell-card-stats {
+  padding: 0 12px 12px;
+}
+
+.spell-card h5 {
+  margin: 0 0 8px;
+  color: #3f392b;
+  font-size: 0.94rem;
+}
+
+.spell-tabs {
+  display: grid;
+  gap: 0;
+  border: 1px solid rgba(156, 145, 94, 0.34);
+  background: rgba(214, 207, 158, 0.55);
+}
+
+.spell-tab > span {
+  display: inline-block;
+  min-width: 96px;
+  padding: 7px 12px;
+  border-right: 1px solid rgba(130, 119, 76, 0.35);
+  border-bottom: 1px solid rgba(130, 119, 76, 0.35);
+  background: linear-gradient(180deg, #d8d0a1, #aea474);
+  color: #383225;
+  font-weight: 800;
+}
+
+.spell-tab:not(.active) > span {
+  color: #6e664e;
+  background: linear-gradient(180deg, #bbb186, #9d936b);
+}
+
+.spell-tab ul {
+  display: grid;
+  gap: 8px;
+  min-height: 116px;
+  margin: 0;
+  padding: 8px;
+  list-style: none;
+}
+
+.spell-effect-row {
+  display: grid;
+  grid-template-columns: 18px minmax(0, 1fr) auto;
+  gap: 8px;
+  align-items: center;
+  min-height: 28px;
+  padding: 5px 8px;
+  background: rgba(189, 181, 130, 0.45);
+  color: #4d442c;
+}
+
+.spell-effect-mark {
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 15px solid var(--spell-effect, var(--spell-element, #8b9f4a));
+  filter: drop-shadow(0 1px 0 rgba(0, 0, 0, 0.35));
+}
+
+.spell-effect-row[data-element="Terre"] {
+  --spell-effect: #9ba653;
+}
+
+.spell-effect-row[data-element="Air"] {
+  --spell-effect: #46bd8d;
+}
+
+.spell-effect-row small {
+  color: var(--spell-element-dark, #52662b);
+  font-weight: 900;
+}
+
+.spell-effect-empty {
+  padding: 8px;
+  color: #7d7356;
+  font-style: italic;
+}
+
+.spell-stat-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(190px, 0.85fr);
+  gap: 16px;
+  padding-top: 4px;
+}
+
+.spell-stat-grid p {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin: 0;
+  padding: 4px 0;
+  color: #6a6148;
+  font-size: 0.88rem;
+}
+
+.spell-stat-grid strong {
+  color: #2f2a20;
+}
+
+.spell-stat-grid em {
+  width: 22px;
+  font-style: normal;
+  font-weight: 900;
+  text-align: center;
+}
+
+.spell-stat-grid em.yes {
+  color: #24a036;
+}
+
+.spell-stat-grid em.no {
+  color: #d02722;
+}
+
 .class-detail {
   overflow: hidden;
   border: 1px solid var(--line);

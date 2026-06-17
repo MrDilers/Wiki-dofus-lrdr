@@ -2,6 +2,7 @@ const state = {
   classes: [],
   pages: [],
   spellPanels: {},
+  customSpells: {},
   wiki: { panoplies: [], guides: [] },
   query: "",
   element: "Tous",
@@ -82,22 +83,103 @@ function extractSpells(text) {
     .slice(0, 7);
 }
 
+function escapeHtml(value) {
+  return String(value ?? "")
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
+}
+
+function customSpellFor(classId, spellName) {
+  return (state.customSpells[classId] || []).find((spell) => normalize(spell.name) === normalize(spellName));
+}
+
+function renderSpellEffect(effect) {
+  return `
+    <li class="spell-effect-row" data-element="${escapeHtml(effect.element || "Neutre")}">
+      <span class="spell-effect-mark" aria-hidden="true"></span>
+      <span>${escapeHtml(effect.text)}</span>
+      ${effect.meta ? `<small>${escapeHtml(effect.meta)}</small>` : ""}
+    </li>
+  `;
+}
+
+function renderSpellCard(spell) {
+  return `
+    <article class="spell-card" data-element="${escapeHtml(spell.element)}">
+      <header class="spell-card-head">
+        <img class="spell-card-icon" src="${escapeHtml(spell.icon)}" alt="">
+        <div class="spell-card-title">
+          <h4>${escapeHtml(spell.name)}</h4>
+          <span>Niveau requis : ${escapeHtml(spell.requiredLevel)}</span>
+        </div>
+        <div class="spell-card-levels" aria-label="Niveaux du sort">
+          <span>Niveaux du sort :</span>
+          ${(spell.levels || []).map((level) => `<b class="${level === spell.selectedLevel ? "active" : ""}">${level}</b>`).join("")}
+        </div>
+        <div class="spell-card-cost">
+          <strong>${escapeHtml(spell.range)}</strong>
+          <strong>${escapeHtml(spell.ap)}</strong>
+        </div>
+      </header>
+      <p class="spell-card-description">${escapeHtml(spell.description)}</p>
+      <section class="spell-card-effects">
+        <h5>Effets</h5>
+        <div class="spell-tabs">
+          ${(spell.tabs || [])
+            .map((tab, index) => `
+              <div class="spell-tab ${index === 0 ? "active" : ""}">
+                <span>${escapeHtml(tab.label)}</span>
+                <ul>
+                  ${(tab.effects || []).length ? tab.effects.map(renderSpellEffect).join("") : `<li class="spell-effect-empty">Aucun effet renseigne.</li>`}
+                </ul>
+              </div>
+            `)
+            .join("")}
+        </div>
+      </section>
+      <section class="spell-card-stats">
+        <h5>Autres caracteristiques</h5>
+        <div class="spell-stat-grid">
+          <div>
+            ${(spell.characteristics || []).map(([label, value]) => `<p><span>${escapeHtml(label)}</span><strong>${escapeHtml(value)}</strong></p>`).join("")}
+          </div>
+          <div>
+            ${(spell.rules || [])
+              .map(([label, value]) => {
+                const formatted = typeof value === "boolean" ? `<em class="${value ? "yes" : "no"}">${value ? "✓" : "×"}</em>` : `<strong>${escapeHtml(value)}</strong>`;
+                return `<p><span>${escapeHtml(label)}</span>${formatted}</p>`;
+              })
+              .join("")}
+          </div>
+        </div>
+      </section>
+    </article>
+  `;
+}
+
 function renderSpellPanels(classId, options = {}) {
   const panels = (state.spellPanels[classId] || []).slice(0, options.limit || 99);
   return `
     <div class="spell-panel-list">
       ${panels
-        .map((panel) => `
-          <details class="class-detail spell-detail">
-            <summary>
-              <strong>${panel.name}</strong>
-              <span>Page ${panel.page}</span>
-            </summary>
-            <div class="spell-panel-card">
-              <img src="${panel.image}" alt="${panel.name}">
-            </div>
-          </details>
-        `)
+        .map((panel) => {
+          const customSpell = customSpellFor(classId, panel.name);
+          return `
+            <details class="class-detail spell-detail">
+              <summary>
+                <strong>${panel.name}</strong>
+                <span>${customSpell ? "Cadre wiki" : `Page ${panel.page}`}</span>
+              </summary>
+              ${customSpell ? renderSpellCard(customSpell) : `
+                <div class="spell-panel-card">
+                  <img src="${panel.image}" alt="${panel.name}">
+                </div>
+              `}
+            </details>
+          `;
+        })
         .join("")}
     </div>
   `;
@@ -402,6 +484,9 @@ async function init() {
   }
   if (window.LRDR_SPELL_PANELS) {
     state.spellPanels = window.LRDR_SPELL_PANELS;
+  }
+  if (window.LRDR_CUSTOM_SPELLS) {
+    state.customSpells = window.LRDR_CUSTOM_SPELLS;
   }
 
   renderNav();
