@@ -776,7 +776,7 @@ input {
 }
 
 .spell-card {
-  width: min(340px, calc(100% - 16px));
+  width: min(390px, calc(100% - 16px));
   margin: 8px auto;
   overflow: hidden;
   border: 1px solid #c6bc87;
