@@ -243,7 +243,7 @@ small {
 
 .spell-card-head {
   display: grid;
-  grid-template-columns: 58px minmax(0, 1fr) auto;
+  grid-template-columns: 58px minmax(0, 1fr);
   gap: 10px;
   align-items: start;
   padding: 10px 12px;
@@ -272,9 +272,31 @@ small {
   font-weight: 700;
 }
 
+.spell-card-levels {
+  display: flex;
+  flex-wrap: wrap;
+  grid-column: 2 / -1;
+  gap: 8px;
+  align-items: center;
+  color: #6f6750;
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+.spell-card-levels b {
+  color: #6b6249;
+}
+
+.spell-card-levels b.active {
+  color: #d58a28;
+}
+
 .spell-card-cost {
   display: grid;
+  grid-column: 2 / -1;
+  grid-template-columns: repeat(2, max-content);
   gap: 6px;
+  justify-content: end;
   text-align: right;
 }
 
@@ -320,6 +342,12 @@ small {
   border-bottom: 15px solid var(--spell-element);
 }
 
+.spell-stat-columns {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(145px, 0.9fr);
+  gap: 14px;
+}
+
 .spell-stat-grid {
   display: grid;
   gap: 4px;
@@ -337,6 +365,14 @@ small {
 
 .spell-stat-grid strong {
   color: #2f2a20;
+}
+
+.spell-stat-grid strong.yes {
+  color: #24a036;
+}
+
+.spell-stat-grid strong.no {
+  color: #d02722;
 }
 
 .source-tools {

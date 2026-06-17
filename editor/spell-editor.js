@@ -116,6 +116,12 @@
       });
   }
 
+  function renderRuleValue(value) {
+    if (value === true) return `<strong class="yes">Oui</strong>`;
+    if (value === false) return `<strong class="no">Non</strong>`;
+    return `<strong>${escapeHtml(lineValue(value))}</strong>`;
+  }
+
   function renderClassSelect() {
     const classes = Object.keys(state.data);
     if (!classes.includes(state.classId)) state.classId = classes[0] || "";
@@ -188,6 +194,10 @@
             <h4>${escapeHtml(spell.name)}</h4>
             <span>Niveau requis : ${escapeHtml(spell.requiredLevel)}</span>
           </div>
+          <div class="spell-card-levels" aria-label="Niveaux du sort">
+            <span>Niveaux du sort :</span>
+            ${(spell.levels || [1, 2, 3, 4, 5, 6]).map((level) => `<b class="${Number(level) === Number(spell.selectedLevel) ? "active" : ""}">${escapeHtml(level)}</b>`).join("")}
+          </div>
           <div class="spell-card-cost">
             <strong>${escapeHtml(spell.range)}</strong>
             <strong>${escapeHtml(spell.ap)}</strong>
@@ -207,9 +217,14 @@
           </ul>
         </section>
         <section class="spell-card-stats">
-          <h5>Caracteristiques</h5>
-          <div class="spell-stat-grid">
-            ${(spell.characteristics || []).map(([label, value]) => `<p><span>${escapeHtml(label)}</span><strong>${escapeHtml(lineValue(value))}</strong></p>`).join("")}
+          <h5>Autres caracteristiques</h5>
+          <div class="spell-stat-columns">
+            <div class="spell-stat-grid">
+              ${(spell.characteristics || []).map(([label, value]) => `<p><span>${escapeHtml(label)}</span><strong>${escapeHtml(lineValue(value))}</strong></p>`).join("")}
+            </div>
+            <div class="spell-stat-grid">
+              ${(spell.rules || []).map(([label, value]) => `<p><span>${escapeHtml(label)}</span>${renderRuleValue(value)}</p>`).join("")}
+            </div>
           </div>
         </section>
       </article>
