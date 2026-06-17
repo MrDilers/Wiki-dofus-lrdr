@@ -3,9 +3,11 @@
   const state = {
     data: clone(window.LRDR_CUSTOM_SPELLS || {}),
     original: clone(window.LRDR_CUSTOM_SPELLS || {}),
+    panels: clone(window.LRDR_SPELL_PANELS || {}),
     classId: "",
     spellIndex: 0,
     fileHandle: null,
+    sourceFrameOpen: false,
   };
 
   const $ = (selector) => document.querySelector(selector);
@@ -52,6 +54,19 @@
 
   function currentSpell() {
     return (state.data[state.classId] || [])[state.spellIndex];
+  }
+
+  function sourceForSpell(spell = currentSpell()) {
+    if (!spell) return "";
+    if (spell.sourceImage) return spell.sourceImage;
+    const panels = state.panels[state.classId] || [];
+    return panels.find((panel) => normalize(panel.name) === normalize(spell.name))?.image || "";
+  }
+
+  function assetUrl(path) {
+    if (!path) return "";
+    if (/^(https?:|data:|blob:)/i.test(path)) return path;
+    return `../${path}`;
   }
 
   function lineValue(value) {
@@ -199,6 +214,38 @@
         </section>
       </article>
     `;
+    renderSourceAccess(spell);
+  }
+
+  function renderSourceAccess(spell = currentSpell()) {
+    const source = sourceForSpell(spell);
+    const hasSource = Boolean(source);
+    $("#toggleSourceFrame").disabled = !hasSource;
+    $("#openSourcePopup").disabled = !hasSource;
+    $("#sourceImageButton").disabled = !hasSource;
+    $("#sourceFrame").hidden = !hasSource || !state.sourceFrameOpen;
+    $("#sourcePath").textContent = source || "Aucune image source trouvee pour ce sort.";
+    if (hasSource) {
+      const url = assetUrl(source);
+      $("#sourceImagePreview").src = url;
+      $("#sourceImagePreview").alt = `Image PDF - ${spell.name}`;
+    } else {
+      $("#sourceImagePreview").removeAttribute("src");
+      $("#sourceImagePreview").alt = "";
+    }
+  }
+
+  function openSourceDialog() {
+    const spell = readForm();
+    const source = sourceForSpell(spell);
+    if (!source) {
+      setStatus("Aucune image PDF trouvee pour ce sort");
+      return;
+    }
+    $("#sourceDialogImage").src = assetUrl(source);
+    $("#sourceDialogImage").alt = `Image PDF - ${spell.name}`;
+    $("#sourceDialogCaption").textContent = `${spell.name} - ${source}`;
+    $("#sourceDialog").showModal();
   }
 
   function applyForm() {
@@ -317,6 +364,20 @@
   $("#downloadFile").addEventListener("click", downloadFile);
   $("#openLocalFile").addEventListener("click", () => openLocalFile().catch((error) => setStatus(error.message)));
   $("#saveLocalFile").addEventListener("click", () => saveLocalFile().catch((error) => setStatus(error.message)));
+  $("#toggleSourceFrame").addEventListener("click", () => {
+    state.sourceFrameOpen = !state.sourceFrameOpen;
+    renderSourceAccess(readForm());
+  });
+  $("#closeSourceFrame").addEventListener("click", () => {
+    state.sourceFrameOpen = false;
+    renderSourceAccess(readForm());
+  });
+  $("#openSourcePopup").addEventListener("click", openSourceDialog);
+  $("#sourceImageButton").addEventListener("click", openSourceDialog);
+  $("#closeSourceDialog").addEventListener("click", () => $("#sourceDialog").close());
+  $("#sourceDialog").addEventListener("click", (event) => {
+    if (event.target.id === "sourceDialog") event.target.close();
+  });
 
   restoreDraft();
   render();

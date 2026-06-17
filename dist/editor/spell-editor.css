@@ -339,6 +339,95 @@ small {
   color: #2f2a20;
 }
 
+.source-tools {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.source-frame {
+  margin-top: 12px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  background: rgba(0, 0, 0, 0.34);
+}
+
+.source-frame-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 10px;
+  border-bottom: 1px solid rgba(240, 192, 64, 0.18);
+}
+
+.source-frame-head strong {
+  color: var(--gold-soft);
+}
+
+.source-image-button {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: 0;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.source-image-button img {
+  display: block;
+  width: 100%;
+  max-height: 520px;
+  object-fit: contain;
+  background: #eee6c9;
+}
+
+#sourcePath {
+  display: block;
+  padding: 8px 10px 10px;
+  word-break: break-all;
+}
+
+.source-dialog {
+  width: min(980px, calc(100vw - 28px));
+  max-height: calc(100vh - 28px);
+  padding: 16px;
+  border: 1px solid var(--line-strong);
+  background: rgba(7, 4, 18, 0.98);
+  color: var(--text);
+  box-shadow: var(--shadow);
+}
+
+.source-dialog::backdrop {
+  background: rgba(0, 0, 0, 0.82);
+  backdrop-filter: blur(4px);
+}
+
+.source-dialog img {
+  display: block;
+  width: 100%;
+  max-height: calc(100vh - 126px);
+  object-fit: contain;
+  border: 1px solid rgba(240, 192, 64, 0.28);
+  background: #eee6c9;
+}
+
+.source-dialog p {
+  margin: 10px 46px 0 0;
+  color: var(--gold-soft);
+  font-weight: 800;
+  word-break: break-all;
+}
+
+.source-dialog-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 38px;
+  min-height: 38px;
+  padding: 0;
+}
+
 @media (max-width: 1100px) {
   .editor-grid {
     grid-template-columns: 1fr;

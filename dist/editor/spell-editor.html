@@ -100,10 +100,31 @@
             <span id="statusText">Pret</span>
           </div>
           <div id="spellPreview"></div>
+          <div class="source-tools">
+            <button id="toggleSourceFrame" type="button">Image PDF en cadre</button>
+            <button id="openSourcePopup" type="button">Image PDF en pop-up</button>
+          </div>
+          <section id="sourceFrame" class="source-frame" hidden>
+            <div class="source-frame-head">
+              <strong>Image PDF du sort</strong>
+              <button id="closeSourceFrame" type="button">Masquer</button>
+            </div>
+            <button id="sourceImageButton" class="source-image-button" type="button" aria-label="Ouvrir l'image PDF en pop-up">
+              <img id="sourceImagePreview" alt="">
+            </button>
+            <small id="sourcePath"></small>
+          </section>
         </section>
       </section>
     </main>
 
+    <dialog id="sourceDialog" class="source-dialog">
+      <button id="closeSourceDialog" class="source-dialog-close" type="button" aria-label="Fermer">x</button>
+      <img id="sourceDialogImage" alt="">
+      <p id="sourceDialogCaption"></p>
+    </dialog>
+
+    <script src="../data/spell-panels.js"></script>
     <script src="../data/spells-custom.js"></script>
     <script src="spell-editor.js"></script>
   </body>
