@@ -139,7 +139,9 @@
     </dialog>
 
     <script src="../data/spell-panels.js"></script>
-    <script src="../data/spells-custom.js"></script>
-    <script src="spell-editor.js?v=4"></script>
+    <script>
+      document.write('<script src="../data/spells-custom.js?v=' + Date.now() + '"><\/script>');
+    </script>
+    <script src="spell-editor.js?v=5"></script>
   </body>
 </html>

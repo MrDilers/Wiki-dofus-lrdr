@@ -342,6 +342,10 @@
     return payload;
   }
 
+  function isFastForwardError(error) {
+    return /fast forward/i.test(error?.message || "");
+  }
+
   async function publishToGithub(spellName = "sorts") {
     const token = getGithubToken();
     if (!token) {
@@ -354,40 +358,48 @@
     try {
       const content = serialize(state.data);
       const repoPath = `/repos/${GITHUB_REPO.owner}/${GITHUB_REPO.repo}`;
-      const ref = await githubRequest(`${repoPath}/git/ref/heads/${GITHUB_REPO.branch}`);
-      const headSha = ref.object.sha;
-      const headCommit = await githubRequest(`${repoPath}/git/commits/${headSha}`);
-      const blob = await githubRequest(`${repoPath}/git/blobs`, {
-        method: "POST",
-        body: JSON.stringify({
-          content: textToBase64(content),
-          encoding: "base64",
-        }),
-      });
-      const tree = await githubRequest(`${repoPath}/git/trees`, {
-        method: "POST",
-        body: JSON.stringify({
-          base_tree: headCommit.tree.sha,
-          tree: GITHUB_REPO.files.map((path) => ({
-            path,
-            mode: "100644",
-            type: "blob",
-            sha: blob.sha,
-          })),
-        }),
-      });
-      const commit = await githubRequest(`${repoPath}/git/commits`, {
-        method: "POST",
-        body: JSON.stringify({
-          message: `Mise a jour sort LRDR: ${spellName}`,
-          tree: tree.sha,
-          parents: [headSha],
-        }),
-      });
-      await githubRequest(`${repoPath}/git/refs/heads/${GITHUB_REPO.branch}`, {
-        method: "PATCH",
-        body: JSON.stringify({ sha: commit.sha }),
-      });
+      for (let attempt = 1; attempt <= 3; attempt += 1) {
+        try {
+          if (attempt > 1) setStatus(`Branche mise a jour, nouvel essai ${attempt}/3...`);
+          const ref = await githubRequest(`${repoPath}/git/ref/heads/${GITHUB_REPO.branch}`);
+          const headSha = ref.object.sha;
+          const headCommit = await githubRequest(`${repoPath}/git/commits/${headSha}`);
+          const blob = await githubRequest(`${repoPath}/git/blobs`, {
+            method: "POST",
+            body: JSON.stringify({
+              content: textToBase64(content),
+              encoding: "base64",
+            }),
+          });
+          const tree = await githubRequest(`${repoPath}/git/trees`, {
+            method: "POST",
+            body: JSON.stringify({
+              base_tree: headCommit.tree.sha,
+              tree: GITHUB_REPO.files.map((path) => ({
+                path,
+                mode: "100644",
+                type: "blob",
+                sha: blob.sha,
+              })),
+            }),
+          });
+          const commit = await githubRequest(`${repoPath}/git/commits`, {
+            method: "POST",
+            body: JSON.stringify({
+              message: `Mise a jour sort LRDR: ${spellName}`,
+              tree: tree.sha,
+              parents: [headSha],
+            }),
+          });
+          await githubRequest(`${repoPath}/git/refs/heads/${GITHUB_REPO.branch}`, {
+            method: "PATCH",
+            body: JSON.stringify({ sha: commit.sha, force: false }),
+          });
+          break;
+        } catch (error) {
+          if (!isFastForwardError(error) || attempt === 3) throw error;
+        }
+      }
       localStorage.removeItem(STORAGE_KEY);
       state.original = clone(state.data);
       setStatus("Publie sur GitHub. Le site se mettra a jour dans quelques secondes.");

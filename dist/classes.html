@@ -48,7 +48,9 @@
 
     <script src="data/wiki-data.js"></script>
     <script src="data/spell-panels.js"></script>
-    <script src="data/spells-custom.js"></script>
+    <script>
+      document.write('<script src="data/spells-custom.js?v=' + Date.now() + '"><\/script>');
+    </script>
     <script src="data/wiki-content.js"></script>
     <script src="assets/app.js?v=17"></script>
   </body>
