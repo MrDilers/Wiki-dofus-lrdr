@@ -1488,7 +1488,7 @@ input {
 
 .class-sheet-traits {
   display: grid;
-  grid-template-columns: minmax(220px, 0.8fr) minmax(0, 1.2fr);
+  grid-template-columns: 1fr;
   gap: 1px;
   border-bottom: 1px solid rgba(240, 192, 64, 0.16);
   background: rgba(240, 192, 64, 0.12);

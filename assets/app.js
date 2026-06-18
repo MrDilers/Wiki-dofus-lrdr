@@ -382,12 +382,6 @@ function renderDialog(classItem) {
       </header>
 
       <section class="class-sheet-traits" aria-label="Informations de classe">
-        <div class="class-sheet-elements">
-          <small>Elements des sorts modifies</small>
-          <div class="tag-row">
-            ${classItem.elements.map((element) => renderElementBadge(element, "tag element-tag element-tag-labelled")).join("")}
-          </div>
-        </div>
         <div class="class-sheet-synergies">
           <small>Synergies PvM</small>
           <div class="tag-row">
