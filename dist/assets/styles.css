@@ -852,7 +852,9 @@ input {
   place-items: center;
   width: 96px;
   height: 96px;
-  background: transparent;
+  overflow: hidden;
+  clip-path: polygon(50% 0, 82% 10%, 100% 34%, 91% 79%, 50% 100%, 9% 79%, 0 34%, 18% 10%);
+  background: #08050d;
   filter: drop-shadow(0 9px 8px rgba(0, 0, 0, 0.58));
   transition: filter 250ms ease, transform 250ms ease;
 }
@@ -861,21 +863,31 @@ input {
 .class-icon-shell::after {
   content: "";
   position: absolute;
+  pointer-events: none;
   clip-path: polygon(50% 0, 82% 10%, 100% 34%, 91% 79%, 50% 100%, 9% 79%, 0 34%, 18% 10%);
 }
 
 .class-icon-shell::before {
-  inset: 0;
+  z-index: 0;
+  inset: 3px;
   background:
-    linear-gradient(145deg, rgba(255, 231, 151, 0.9), rgba(114, 76, 19, 0.82) 46%, rgba(235, 186, 68, 0.74));
-  box-shadow: 0 0 18px rgba(var(--class-accent), 0.2);
+    radial-gradient(circle at 50% 34%, rgba(var(--class-accent), 0.5), rgba(var(--class-accent), 0.13) 46%, transparent 70%),
+    linear-gradient(180deg, #1b1325, #050309 84%);
 }
 
 .class-icon-shell::after {
-  inset: 3px;
-  background:
-    radial-gradient(circle at 50% 35%, rgba(var(--class-accent), 0.45), rgba(var(--class-accent), 0.12) 42%, transparent 68%),
-    linear-gradient(180deg, #171020, #050309 84%);
+  z-index: 3;
+  inset: 0;
+  padding: 3px;
+  background: linear-gradient(145deg, #ffe79a, #72501d 44%, #e9b943 76%, #624015);
+  -webkit-mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0);
+  mask-composite: exclude;
 }
 
 .class-chip:hover .class-icon-shell,
@@ -885,19 +897,19 @@ input {
 }
 
 .class-chip .class-icon {
-  z-index: 2;
+  z-index: 1;
   width: 84px;
   height: 84px;
   margin: 0;
   object-position: center bottom;
-  transform: translateY(4px) scale(1.02);
+  transform: translateY(5px) scale(1.08);
   filter: drop-shadow(0 5px 4px rgba(0, 0, 0, 0.78));
   transition: filter 250ms ease, transform 250ms ease;
 }
 
 .class-chip:hover .class-icon,
 .class-chip:focus-visible .class-icon {
-  transform: translateY(0) scale(1.08);
+  transform: translateY(2px) scale(1.12);
   filter: drop-shadow(0 7px 5px rgba(0, 0, 0, 0.82)) drop-shadow(0 0 5px rgba(var(--class-accent), 0.34));
 }
 
