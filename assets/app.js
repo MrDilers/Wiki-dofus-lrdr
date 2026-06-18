@@ -335,9 +335,15 @@ function renderClasses() {
       const icon = classIcons[item.id] || "✦";
       return `
         <article id="${item.id}" class="class-chip wiki-class-chip" data-open="${item.id}" tabindex="0" aria-label="Voir la fiche ${item.name}">
-          <img class="class-icon" src="${icon}" alt="" aria-hidden="true">
+          <span class="class-card-ornament" aria-hidden="true"></span>
+          <span class="class-icon-shell">
+            <img class="class-icon" src="${icon}" alt="" aria-hidden="true">
+          </span>
           <span class="class-name">${item.name}</span>
-          <span class="class-meta">${item.elements.map((element) => renderElementBadge(element, "class-element")).join("")}</span>
+          <span class="class-role" title="${escapeHtml(item.roles.join(" / "))}">${escapeHtml(item.roles[0] || "Classe")}</span>
+          <span class="class-meta" aria-label="Elements : ${escapeHtml(item.elements.join(", "))}">
+            ${item.elements.map((element) => renderElementBadge(element, "class-element")).join("")}
+          </span>
         </article>
       `;
     })
