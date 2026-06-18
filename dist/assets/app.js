@@ -125,7 +125,7 @@ function renderElementIcon(element, className = "element-icon") {
 }
 
 function renderElementBadge(element, className = "element-badge") {
-  const iconOnly = className.includes("class-element") || className.includes("element-tag");
+  const iconOnly = className.includes("class-element") || (className.includes("element-tag") && !className.includes("element-tag-labelled"));
   return `<span class="${className}" title="${escapeHtml(element)}">${renderElementIcon(element)}${iconOnly ? "" : `<span>${escapeHtml(element)}</span>`}</span>`;
 }
 
@@ -221,11 +221,21 @@ function renderSpellPanels(classId, options = {}) {
       ${panels
         .map((panel) => {
           const customSpell = customSpellFor(classId, panel);
+          const spellElement = customSpell?.element || "Neutre";
+          const spellIcon = customSpell?.icon || "";
+          const spellLevel = customSpell?.requiredLevel || `Page ${panel.page}`;
           return `
-            <details class="class-detail spell-detail">
+            <details class="class-detail spell-detail" data-element="${escapeHtml(spellElement)}">
               <summary>
-                <strong>${panel.name}</strong>
-                <span>${customSpell ? "Cadre wiki" : `Page ${panel.page}`}</span>
+                <span class="spell-summary-icon">
+                  ${spellIcon ? `<img src="${escapeHtml(spellIcon)}" alt="">` : renderElementIcon(spellElement)}
+                </span>
+                <span class="spell-summary-copy">
+                  <strong title="${escapeHtml(panel.name)}">${escapeHtml(panel.name)}</strong>
+                  <small>${renderElementIcon(spellElement)} ${escapeHtml(spellElement)}</small>
+                </span>
+                <span class="spell-summary-level">${customSpell ? "Niv. requis" : "Source"}<b>${escapeHtml(spellLevel)}</b></span>
+                <span class="spell-summary-toggle" aria-hidden="true"></span>
               </summary>
               ${customSpell ? renderSpellCard(customSpell) : `
                 <div class="spell-panel-card">
@@ -351,18 +361,54 @@ function renderClasses() {
 }
 
 function renderDialog(classItem) {
+  const classIcon = classIcons[classItem.id] || "";
+  const spellCount = (state.spellPanels[classItem.id] || []).length;
   $("#dialogContent").innerHTML = `
-    <div class="dialog-body">
-      <p class="eyebrow">Fiche classe</p>
-      <h2>${classItem.name}</h2>
-      <p class="lead">${classItem.pvm}</p>
-      <div class="tag-row">
-        ${classItem.elements.map((element) => renderElementBadge(element, "tag element-tag")).join("")}
-        ${classItem.synergies.map((name) => `<span class="tag">Synergie: ${name}</span>`).join("")}
-      </div>
-      <div class="class-detail-list">
-        ${renderSpellPanels(classItem.id)}
-      </div>
+    <div class="dialog-body class-sheet">
+      <header class="class-sheet-hero">
+        <span class="class-sheet-ornament" aria-hidden="true"></span>
+        <span class="class-sheet-portrait">
+          <img src="${classIcon}" alt="${escapeHtml(classItem.name)}">
+        </span>
+        <div class="class-sheet-intro">
+          <p class="eyebrow">Fiche classe</p>
+          <h2>${escapeHtml(classItem.name)}</h2>
+          <p class="class-sheet-role">${escapeHtml(classItem.roles.join(" / "))}</p>
+          <p class="lead">${escapeHtml(classItem.pvm)}</p>
+        </div>
+        <div class="class-sheet-stats">
+          <span><b>${spellCount}</b> sorts modifies</span>
+          <span><b>${classItem.elements.length}</b> elements</span>
+        </div>
+      </header>
+
+      <section class="class-sheet-traits" aria-label="Informations de classe">
+        <div class="class-sheet-elements">
+          <small>Elements conseilles</small>
+          <div class="tag-row">
+            ${classItem.elements.map((element) => renderElementBadge(element, "tag element-tag element-tag-labelled")).join("")}
+          </div>
+        </div>
+        <div class="class-sheet-synergies">
+          <small>Synergies PvM</small>
+          <div class="tag-row">
+            ${classItem.synergies.map((name) => `<span class="tag synergy-tag">${escapeHtml(name)}</span>`).join("")}
+          </div>
+        </div>
+      </section>
+
+      <section class="class-sheet-spells">
+        <div class="class-sheet-section-head">
+          <div>
+            <p class="eyebrow">Grimoire</p>
+            <h3>Sorts modifies</h3>
+          </div>
+          <span>Cliquez sur un sort pour ouvrir sa fiche</span>
+        </div>
+        <div class="class-detail-list">
+          ${renderSpellPanels(classItem.id)}
+        </div>
+      </section>
     </div>
   `;
   $("#classDialog").showModal();
