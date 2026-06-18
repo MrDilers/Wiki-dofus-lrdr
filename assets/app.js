@@ -43,30 +43,6 @@ const classIcons = {
   xelor: "assets/icons/classes/classe-xelor.png",
 };
 
-const classHoverEffects = {
-  cra: ["fleche-des-murmures", "fleche-du-revenant", "fleche-du-vent-cisaillant"],
-  sadida: ["ronce-epineuse", "ronce-reine", "ronces-aerienne", "ronce-du-chaos"],
-  sacrieur: ["punition-sanglante", "dissolution-des-enfers", "absorption-terrestre"],
-  pandawa: ["tempete-alcoolisee", "flasque-terrestre", "pandatak-enflamme"],
-  feca: ["glyphe-protecteur", "armure-brulante", "glyphe-du-jugement"],
-  osamodas: ["plume-du-corbeau", "rage-primordiale", "griffe-rocheuse"],
-  enutrof: ["rapine-souterraine", "pelle-terrifiante", "flammes-traitresses", "rapine-souterraine"],
-  sram: ["profanation-de-sanctuaire", "siphon-des-ames", "l-etreinte-des-damnes"],
-  xelor: ["sablier-ardent", "sablier-abyssal", "engrenage-loyal", "larcin-temporel"],
-  ecaflip: ["rafale-de-poker", "quitte-ou-double-fatal", "bourrasque-du-hasard"],
-  eniripsa: ["impulsion-vitale", "larme-d-ondine", "le-baiser-incandescent"],
-  iop: ["couperet-ardent", "pression-tellurique", "poing-epique"],
-};
-
-function renderClassHoverEffect(classId) {
-  const icons = classHoverEffects[classId] || [];
-  return `
-    <span class="class-hover-effect effect-${classId}" aria-hidden="true">
-      ${icons.map((icon, index) => `<img src="assets/icons/spells/${classId}/${icon}.png" alt="" style="--effect-index:${index};--delay-fast:${index * 0.09}s;--delay-medium:${index * 0.17}s;--delay-negative:${index * -0.17}s;--cra-y:${16 + index * 34}px;--quarter-x:${8 + index * 27}%;--third-x:${12 + index * 34}%;--panda-x:${10 + index * 36}%;--feca-offset:${(index - 1) * 64 - 32}px;--sram-y:${12 + index * 42}px;--sram-x:${8 + index * 31}%;--eni-y:${9 + index * 43}px;--eni-x:${8 + index * 34}%;--vine-angle:${-18 + index * 10}deg;--orbit-angle:${index * 90}deg;--card-x:${(index - 1) * 46}px;--card-angle:${(index - 1) * 24}deg;--iop-angle:${-48 + index * 48}deg;--osa-x:${(1 - index) * 54}px;--osa-y:${(index - 1) * 32}px;--osa-end-x:${(1 - index) * 62}px;--osa-end-y:${52 - index * 16}px">`).join("")}
-    </span>
-  `;
-}
-
 const elementIcons = {
   Air: "assets/icons/elements/element-air.png",
   Eau: "assets/icons/elements/element-eau.png",
@@ -370,7 +346,6 @@ function renderClasses() {
       return `
         <article id="${item.id}" class="class-chip wiki-class-chip" data-open="${item.id}" tabindex="0" aria-label="Voir la fiche ${item.name}">
           <span class="class-card-ornament" aria-hidden="true"></span>
-          ${renderClassHoverEffect(item.id)}
           <span class="class-icon-shell">
             <img class="class-icon" src="${icon}" alt="" aria-hidden="true">
           </span>
