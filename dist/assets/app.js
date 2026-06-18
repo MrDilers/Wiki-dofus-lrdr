@@ -125,7 +125,8 @@ function renderElementIcon(element, className = "element-icon") {
 }
 
 function renderElementBadge(element, className = "element-badge") {
-  return `<span class="${className}" title="${escapeHtml(element)}">${renderElementIcon(element)}<span>${escapeHtml(element)}</span></span>`;
+  const iconOnly = className.includes("class-element") || className.includes("element-tag");
+  return `<span class="${className}" title="${escapeHtml(element)}">${renderElementIcon(element)}${iconOnly ? "" : `<span>${escapeHtml(element)}</span>`}</span>`;
 }
 
 function customSpellFor(classId, panel) {
