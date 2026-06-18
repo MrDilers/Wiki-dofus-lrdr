@@ -378,13 +378,12 @@ function renderDialog(classItem) {
         </div>
         <div class="class-sheet-stats">
           <span><b>${spellCount}</b> sorts modifies</span>
-          <span><b>${classItem.elements.length}</b> elements</span>
         </div>
       </header>
 
       <section class="class-sheet-traits" aria-label="Informations de classe">
         <div class="class-sheet-elements">
-          <small>Elements conseilles</small>
+          <small>Elements des sorts modifies</small>
           <div class="tag-row">
             ${classItem.elements.map((element) => renderElementBadge(element, "tag element-tag element-tag-labelled")).join("")}
           </div>

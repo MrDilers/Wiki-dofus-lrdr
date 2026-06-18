@@ -2030,7 +2030,7 @@ input {
 
   .class-sheet-stats {
     grid-area: stats;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
   }
 
   .class-sheet-stats span {
