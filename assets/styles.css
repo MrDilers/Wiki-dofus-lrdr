@@ -784,10 +784,11 @@ input {
 }
 
 .class-chip {
+  --class-accent: 194, 143, 51;
   isolation: isolate;
-  grid-template-rows: 92px 25px 19px 36px;
+  grid-template-rows: 102px 25px 19px 36px;
   align-content: start;
-  min-height: 194px;
+  min-height: 204px;
   padding: 18px 14px 12px;
   border-color: rgba(213, 171, 59, 0.38);
   border-radius: 0;
@@ -831,34 +832,73 @@ input {
 .class-card-ornament::before { left: 12px; }
 .class-card-ornament::after { right: 12px; transform: scaleX(-1); }
 
+#cra { --class-accent: 197, 126, 34; }
+#sadida { --class-accent: 107, 157, 46; }
+#sacrieur { --class-accent: 177, 51, 54; }
+#pandawa { --class-accent: 194, 133, 59; }
+#feca { --class-accent: 96, 173, 202; }
+#osamodas { --class-accent: 218, 171, 54; }
+#enutrof { --class-accent: 188, 156, 83; }
+#sram { --class-accent: 112, 105, 146; }
+#xelor { --class-accent: 73, 118, 193; }
+#ecaflip { --class-accent: 202, 119, 76; }
+#eniripsa { --class-accent: 195, 103, 137; }
+#iop { --class-accent: 201, 91, 44; }
+
 .class-icon-shell {
   position: relative;
   z-index: 1;
   display: grid;
   place-items: center;
-  width: 82px;
-  height: 82px;
-  border: 1px solid rgba(240, 192, 64, 0.38);
-  border-radius: 50%;
+  width: 96px;
+  height: 96px;
+  background: transparent;
+  filter: drop-shadow(0 9px 8px rgba(0, 0, 0, 0.58));
+  transition: filter 250ms ease, transform 250ms ease;
+}
+
+.class-icon-shell::before,
+.class-icon-shell::after {
+  content: "";
+  position: absolute;
+  clip-path: polygon(50% 0, 82% 10%, 100% 34%, 91% 79%, 50% 100%, 9% 79%, 0 34%, 18% 10%);
+}
+
+.class-icon-shell::before {
+  inset: 0;
   background:
-    radial-gradient(circle, rgba(240, 192, 64, 0.13) 0 42%, transparent 43%),
-    rgba(3, 2, 7, 0.72);
-  box-shadow: inset 0 0 18px rgba(0, 0, 0, 0.8), 0 0 0 5px rgba(240, 192, 64, 0.035);
-  transition: border-color 250ms ease, box-shadow 250ms ease, transform 250ms ease;
+    linear-gradient(145deg, rgba(255, 231, 151, 0.9), rgba(114, 76, 19, 0.82) 46%, rgba(235, 186, 68, 0.74));
+  box-shadow: 0 0 18px rgba(var(--class-accent), 0.2);
+}
+
+.class-icon-shell::after {
+  inset: 3px;
+  background:
+    radial-gradient(circle at 50% 35%, rgba(var(--class-accent), 0.45), rgba(var(--class-accent), 0.12) 42%, transparent 68%),
+    linear-gradient(180deg, #171020, #050309 84%);
 }
 
 .class-chip:hover .class-icon-shell,
 .class-chip:focus-visible .class-icon-shell {
-  border-color: rgba(255, 218, 107, 0.76);
-  box-shadow: inset 0 0 16px rgba(0, 0, 0, 0.68), 0 0 22px rgba(240, 192, 64, 0.2);
-  transform: scale(1.04);
+  filter: drop-shadow(0 11px 9px rgba(0, 0, 0, 0.64)) drop-shadow(0 0 10px rgba(var(--class-accent), 0.42));
+  transform: translateY(-2px) scale(1.035);
 }
 
 .class-chip .class-icon {
-  width: 62px;
-  height: 62px;
+  z-index: 2;
+  width: 84px;
+  height: 84px;
   margin: 0;
-  filter: drop-shadow(0 4px 5px rgba(0, 0, 0, 0.75)) drop-shadow(0 0 5px rgba(240, 192, 64, 0.3));
+  object-position: center bottom;
+  transform: translateY(4px) scale(1.02);
+  filter: drop-shadow(0 5px 4px rgba(0, 0, 0, 0.78));
+  transition: filter 250ms ease, transform 250ms ease;
+}
+
+.class-chip:hover .class-icon,
+.class-chip:focus-visible .class-icon {
+  transform: translateY(0) scale(1.08);
+  filter: drop-shadow(0 7px 5px rgba(0, 0, 0, 0.82)) drop-shadow(0 0 5px rgba(var(--class-accent), 0.34));
 }
 
 .class-role {
@@ -2096,19 +2136,19 @@ input {
   }
 
   .class-chip {
-    grid-template-rows: 82px 25px 19px 34px;
-    min-height: 181px;
+    grid-template-rows: 88px 25px 19px 34px;
+    min-height: 187px;
     padding-inline: 10px;
   }
 
   .class-icon-shell {
-    width: 72px;
-    height: 72px;
+    width: 82px;
+    height: 82px;
   }
 
   .class-chip .class-icon {
-    width: 55px;
-    height: 55px;
+    width: 72px;
+    height: 72px;
   }
 }
 
