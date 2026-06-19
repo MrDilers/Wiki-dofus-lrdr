@@ -1261,6 +1261,35 @@ input {
   text-align: right;
 }
 
+.spell-effect-area {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  white-space: nowrap;
+}
+
+.spell-zone-icon {
+  display: inline-flex;
+  align-items: center;
+  width: 27px;
+  height: 14px;
+}
+
+.spell-zone-icon i {
+  display: block;
+  width: 10px;
+  height: 7px;
+  margin-right: -2px;
+  border: 1px solid #245b05;
+  background: #75d900;
+  clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+  filter: drop-shadow(0 1px 0 #173d03);
+}
+
+.spell-zone-icon i:nth-child(2) {
+  background: #4fad00;
+}
+
 .spell-effect-empty {
   padding: 8px;
   color: #7d7356;

@@ -1,0 +1,18 @@
+— Niveaux du sort: 12 34 56X
+| ;
+Ÿ ) Flèche du Revenant 1à 5PO
+EN (| Niveau requis: 48 3PA
+Lors d’une ancienne guerre, un Cr tira une flèche en bois a
+maudit qui ne rata jamais sa cible. Depuis, elle erre, guidée ||
+par les âmes qu'elle a fauchées…. et frappe encore, même Ÿ
+Effets
+-1 PM (1 tour)
+À Dommages : 6 à 7 (terre)
+Autres caractéristiques
+Probabilité de coup critique 15% Portée modifi.. w
+Probabilité d'échec 1/100 | Ligne de vue v
+Lancer en ligne X
+Nb. de lancers par tour 2 ;
+Cellules libres X
+Nb. de lancers par tour par joueur 1 | ECfiniletour X
+Nb. de tours entre deux lancers - | CCactuels 15%

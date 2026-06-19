@@ -83,12 +83,462 @@ window.LRDR_CUSTOM_SPELLS = {
         ]
       ],
       "levelData": {
-        "1": {},
-        "2": {},
-        "3": {},
-        "4": {},
-        "5": {},
-        "6": {}
+        "1": {
+          "requiredLevel": 1,
+          "range": "2 a 5 PO",
+          "ap": "4 PA",
+          "description": "Dans les marais d'un royaume oublie, un Cra perdit la raison. Il crea une fleche d'ecorce vivante, suintant un poison lent... Elle s'enracine dans la chair, y fait pousser la douleur, jusqu'a etouffer l'ame.",
+          "tabs": [
+            {
+              "label": "Normaux",
+              "effects": [
+                {
+                  "element": "Terre",
+                  "text": "Dommages : 2 a 3 (terre)",
+                  "meta": "2 tours"
+                }
+              ]
+            },
+            {
+              "label": "Critiques",
+              "effects": [
+                {
+                  "element": "Terre",
+                  "text": "Dommages : 5 (terre)",
+                  "meta": "2 tours"
+                }
+              ]
+            }
+          ],
+          "characteristics": [
+            [
+              "Probabilite de coup critique",
+              "25%"
+            ],
+            [
+              "Probabilite d'echec",
+              "1/100"
+            ],
+            [
+              "Nb. de lancers par tour",
+              "-"
+            ],
+            [
+              "Nb. de lancers par tour par joueur",
+              "1"
+            ],
+            [
+              "Nb. de tours entre deux lancers",
+              "-"
+            ]
+          ],
+          "rules": [
+            [
+              "Portee modifiable",
+              true
+            ],
+            [
+              "Ligne de vue",
+              true
+            ],
+            [
+              "Lancer en ligne",
+              false
+            ],
+            [
+              "Cellules libres",
+              false
+            ],
+            [
+              "EC fini le tour",
+              false
+            ],
+            [
+              "CC actuels",
+              "25%"
+            ]
+          ]
+        },
+        "2": {
+          "requiredLevel": 1,
+          "range": "2 a 6 PO",
+          "ap": "4 PA",
+          "description": "Dans les marais d'un royaume oublie, un Cra perdit la raison. Il crea une fleche d'ecorce vivante, suintant un poison lent... Elle s'enracine dans la chair, y fait pousser la douleur, jusqu'a etouffer l'ame.",
+          "tabs": [
+            {
+              "label": "Normaux",
+              "effects": [
+                {
+                  "element": "Terre",
+                  "text": "Dommages : 3 a 4 (terre)",
+                  "meta": "2 tours"
+                }
+              ]
+            },
+            {
+              "label": "Critiques",
+              "effects": [
+                {
+                  "element": "Terre",
+                  "text": "Dommages : 6 (terre)",
+                  "meta": "2 tours"
+                }
+              ]
+            }
+          ],
+          "characteristics": [
+            [
+              "Probabilite de coup critique",
+              "25%"
+            ],
+            [
+              "Probabilite d'echec",
+              "1/100"
+            ],
+            [
+              "Nb. de lancers par tour",
+              "-"
+            ],
+            [
+              "Nb. de lancers par tour par joueur",
+              "1"
+            ],
+            [
+              "Nb. de tours entre deux lancers",
+              "-"
+            ]
+          ],
+          "rules": [
+            [
+              "Portee modifiable",
+              true
+            ],
+            [
+              "Ligne de vue",
+              true
+            ],
+            [
+              "Lancer en ligne",
+              false
+            ],
+            [
+              "Cellules libres",
+              false
+            ],
+            [
+              "EC fini le tour",
+              false
+            ],
+            [
+              "CC actuels",
+              "25%"
+            ]
+          ]
+        },
+        "3": {
+          "requiredLevel": 1,
+          "range": "2 a 7 PO",
+          "ap": "4 PA",
+          "description": "Dans les marais d'un royaume oublie, un Cra perdit la raison. Il crea une fleche d'ecorce vivante, suintant un poison lent... Elle s'enracine dans la chair, y fait pousser la douleur, jusqu'a etouffer l'ame.",
+          "tabs": [
+            {
+              "label": "Normaux",
+              "effects": [
+                {
+                  "element": "Terre",
+                  "text": "Dommages : 4 a 5 (terre)",
+                  "meta": "2 tours"
+                }
+              ]
+            },
+            {
+              "label": "Critiques",
+              "effects": [
+                {
+                  "element": "Terre",
+                  "text": "Dommages : 7 (terre)",
+                  "meta": "2 tours"
+                }
+              ]
+            }
+          ],
+          "characteristics": [
+            [
+              "Probabilite de coup critique",
+              "25%"
+            ],
+            [
+              "Probabilite d'echec",
+              "1/100"
+            ],
+            [
+              "Nb. de lancers par tour",
+              "-"
+            ],
+            [
+              "Nb. de lancers par tour par joueur",
+              "1"
+            ],
+            [
+              "Nb. de tours entre deux lancers",
+              "-"
+            ]
+          ],
+          "rules": [
+            [
+              "Portee modifiable",
+              true
+            ],
+            [
+              "Ligne de vue",
+              true
+            ],
+            [
+              "Lancer en ligne",
+              false
+            ],
+            [
+              "Cellules libres",
+              false
+            ],
+            [
+              "EC fini le tour",
+              false
+            ],
+            [
+              "CC actuels",
+              "25%"
+            ]
+          ]
+        },
+        "4": {
+          "requiredLevel": 1,
+          "range": "2 a 8 PO",
+          "ap": "4 PA",
+          "description": "Dans les marais d'un royaume oublie, un Cra perdit la raison. Il crea une fleche d'ecorce vivante, suintant un poison lent... Elle s'enracine dans la chair, y fait pousser la douleur, jusqu'a etouffer l'ame.",
+          "tabs": [
+            {
+              "label": "Normaux",
+              "effects": [
+                {
+                  "element": "Terre",
+                  "text": "Dommages : 5 a 6 (terre)",
+                  "meta": "2 tours"
+                }
+              ]
+            },
+            {
+              "label": "Critiques",
+              "effects": [
+                {
+                  "element": "Terre",
+                  "text": "Dommages : 8 (terre)",
+                  "meta": "2 tours"
+                }
+              ]
+            }
+          ],
+          "characteristics": [
+            [
+              "Probabilite de coup critique",
+              "25%"
+            ],
+            [
+              "Probabilite d'echec",
+              "1/100"
+            ],
+            [
+              "Nb. de lancers par tour",
+              "-"
+            ],
+            [
+              "Nb. de lancers par tour par joueur",
+              "1"
+            ],
+            [
+              "Nb. de tours entre deux lancers",
+              "-"
+            ]
+          ],
+          "rules": [
+            [
+              "Portee modifiable",
+              true
+            ],
+            [
+              "Ligne de vue",
+              true
+            ],
+            [
+              "Lancer en ligne",
+              false
+            ],
+            [
+              "Cellules libres",
+              false
+            ],
+            [
+              "EC fini le tour",
+              false
+            ],
+            [
+              "CC actuels",
+              "25%"
+            ]
+          ]
+        },
+        "5": {
+          "requiredLevel": 1,
+          "range": "2 a 9 PO",
+          "ap": "4 PA",
+          "description": "Dans les marais d'un royaume oublie, un Cra perdit la raison. Il crea une fleche d'ecorce vivante, suintant un poison lent... Elle s'enracine dans la chair, y fait pousser la douleur, jusqu'a etouffer l'ame.",
+          "tabs": [
+            {
+              "label": "Normaux",
+              "effects": [
+                {
+                  "element": "Terre",
+                  "text": "Dommages : 6 a 7 (terre)",
+                  "meta": "2 tours"
+                }
+              ]
+            },
+            {
+              "label": "Critiques",
+              "effects": [
+                {
+                  "element": "Terre",
+                  "text": "Dommages : 9 (terre)",
+                  "meta": "2 tours"
+                }
+              ]
+            }
+          ],
+          "characteristics": [
+            [
+              "Probabilite de coup critique",
+              "25%"
+            ],
+            [
+              "Probabilite d'echec",
+              "1/100"
+            ],
+            [
+              "Nb. de lancers par tour",
+              "-"
+            ],
+            [
+              "Nb. de lancers par tour par joueur",
+              "1"
+            ],
+            [
+              "Nb. de tours entre deux lancers",
+              "-"
+            ]
+          ],
+          "rules": [
+            [
+              "Portee modifiable",
+              true
+            ],
+            [
+              "Ligne de vue",
+              true
+            ],
+            [
+              "Lancer en ligne",
+              false
+            ],
+            [
+              "Cellules libres",
+              false
+            ],
+            [
+              "EC fini le tour",
+              false
+            ],
+            [
+              "CC actuels",
+              "25%"
+            ]
+          ]
+        },
+        "6": {
+          "requiredLevel": 101,
+          "range": "2 a 10 PO",
+          "ap": "4 PA",
+          "description": "Dans les marais d'un royaume oublie, un Cra perdit la raison. Il crea une fleche d'ecorce vivante, suintant un poison lent... Elle s'enracine dans la chair, y fait pousser la douleur, jusqu'a etouffer l'ame.",
+          "tabs": [
+            {
+              "label": "Normaux",
+              "effects": [
+                {
+                  "element": "Terre",
+                  "text": "Dommages : 9 a 10 (terre)",
+                  "meta": "2 tours"
+                }
+              ]
+            },
+            {
+              "label": "Critiques",
+              "effects": [
+                {
+                  "element": "Terre",
+                  "text": "Dommages : 12 (terre)",
+                  "meta": "2 tours"
+                }
+              ]
+            }
+          ],
+          "characteristics": [
+            [
+              "Probabilite de coup critique",
+              "25%"
+            ],
+            [
+              "Probabilite d'echec",
+              "1/100"
+            ],
+            [
+              "Nb. de lancers par tour",
+              "-"
+            ],
+            [
+              "Nb. de lancers par tour par joueur",
+              "1"
+            ],
+            [
+              "Nb. de tours entre deux lancers",
+              "-"
+            ]
+          ],
+          "rules": [
+            [
+              "Portee modifiable",
+              true
+            ],
+            [
+              "Ligne de vue",
+              true
+            ],
+            [
+              "Lancer en ligne",
+              false
+            ],
+            [
+              "Cellules libres",
+              false
+            ],
+            [
+              "EC fini le tour",
+              false
+            ],
+            [
+              "CC actuels",
+              "25%"
+            ]
+          ]
+        }
       }
     },
     {
@@ -174,12 +624,444 @@ window.LRDR_CUSTOM_SPELLS = {
         ]
       ],
       "levelData": {
-        "1": {},
-        "2": {},
-        "3": {},
-        "4": {},
-        "5": {},
-        "6": {}
+        "1": {
+          "requiredLevel": 42,
+          "range": "1 a 7 PO",
+          "ap": "3 PA",
+          "tabs": [
+            {
+              "label": "Normaux",
+              "effects": [
+                {
+                  "element": "Air",
+                  "text": "Dommages : 5 a 7 (air)"
+                }
+              ]
+            },
+            {
+              "label": "Critiques",
+              "effects": [
+                {
+                  "element": "Air",
+                  "text": "Dommages : 7 a 9 (air)"
+                }
+              ]
+            }
+          ],
+          "characteristics": [
+            [
+              "Probabilite de coup critique",
+              "15%"
+            ],
+            [
+              "Probabilite d'echec",
+              "1/100"
+            ],
+            [
+              "Nb. de lancers par tour",
+              "2"
+            ],
+            [
+              "Nb. de lancers par tour par joueur",
+              "-"
+            ],
+            [
+              "Nb. de tours entre deux lancers",
+              "-"
+            ]
+          ],
+          "rules": [
+            [
+              "Portee modifiable",
+              true
+            ],
+            [
+              "Ligne de vue",
+              false
+            ],
+            [
+              "Lancer en ligne",
+              false
+            ],
+            [
+              "Cellules libres",
+              false
+            ],
+            [
+              "EC fini le tour",
+              false
+            ],
+            [
+              "CC actuels",
+              "15%"
+            ]
+          ]
+        },
+        "2": {
+          "requiredLevel": 42,
+          "range": "1 a 8 PO",
+          "ap": "3 PA",
+          "tabs": [
+            {
+              "label": "Normaux",
+              "effects": [
+                {
+                  "element": "Air",
+                  "text": "Dommages : 6 a 8 (air)"
+                }
+              ]
+            },
+            {
+              "label": "Critiques",
+              "effects": [
+                {
+                  "element": "Air",
+                  "text": "Dommages : 8 a 10 (air)"
+                }
+              ]
+            }
+          ],
+          "characteristics": [
+            [
+              "Probabilite de coup critique",
+              "15%"
+            ],
+            [
+              "Probabilite d'echec",
+              "1/100"
+            ],
+            [
+              "Nb. de lancers par tour",
+              "2"
+            ],
+            [
+              "Nb. de lancers par tour par joueur",
+              "-"
+            ],
+            [
+              "Nb. de tours entre deux lancers",
+              "-"
+            ]
+          ],
+          "rules": [
+            [
+              "Portee modifiable",
+              true
+            ],
+            [
+              "Ligne de vue",
+              false
+            ],
+            [
+              "Lancer en ligne",
+              false
+            ],
+            [
+              "Cellules libres",
+              false
+            ],
+            [
+              "EC fini le tour",
+              false
+            ],
+            [
+              "CC actuels",
+              "15%"
+            ]
+          ]
+        },
+        "3": {
+          "requiredLevel": 42,
+          "range": "1 a 9 PO",
+          "ap": "3 PA",
+          "tabs": [
+            {
+              "label": "Normaux",
+              "effects": [
+                {
+                  "element": "Air",
+                  "text": "Dommages : 7 a 9 (air)"
+                }
+              ]
+            },
+            {
+              "label": "Critiques",
+              "effects": [
+                {
+                  "element": "Air",
+                  "text": "Dommages : 10 a 12 (air)"
+                }
+              ]
+            }
+          ],
+          "characteristics": [
+            [
+              "Probabilite de coup critique",
+              "15%"
+            ],
+            [
+              "Probabilite d'echec",
+              "1/100"
+            ],
+            [
+              "Nb. de lancers par tour",
+              "2"
+            ],
+            [
+              "Nb. de lancers par tour par joueur",
+              "-"
+            ],
+            [
+              "Nb. de tours entre deux lancers",
+              "-"
+            ]
+          ],
+          "rules": [
+            [
+              "Portee modifiable",
+              true
+            ],
+            [
+              "Ligne de vue",
+              false
+            ],
+            [
+              "Lancer en ligne",
+              false
+            ],
+            [
+              "Cellules libres",
+              false
+            ],
+            [
+              "EC fini le tour",
+              false
+            ],
+            [
+              "CC actuels",
+              "15%"
+            ]
+          ]
+        },
+        "4": {
+          "requiredLevel": 42,
+          "range": "1 a 10 PO",
+          "ap": "3 PA",
+          "tabs": [
+            {
+              "label": "Normaux",
+              "effects": [
+                {
+                  "element": "Air",
+                  "text": "Dommages : 8 a 10 (air)"
+                }
+              ]
+            },
+            {
+              "label": "Critiques",
+              "effects": [
+                {
+                  "element": "Air",
+                  "text": "Dommages : 11 a 13 (air)"
+                }
+              ]
+            }
+          ],
+          "characteristics": [
+            [
+              "Probabilite de coup critique",
+              "15%"
+            ],
+            [
+              "Probabilite d'echec",
+              "1/100"
+            ],
+            [
+              "Nb. de lancers par tour",
+              "2"
+            ],
+            [
+              "Nb. de lancers par tour par joueur",
+              "-"
+            ],
+            [
+              "Nb. de tours entre deux lancers",
+              "-"
+            ]
+          ],
+          "rules": [
+            [
+              "Portee modifiable",
+              true
+            ],
+            [
+              "Ligne de vue",
+              false
+            ],
+            [
+              "Lancer en ligne",
+              false
+            ],
+            [
+              "Cellules libres",
+              false
+            ],
+            [
+              "EC fini le tour",
+              false
+            ],
+            [
+              "CC actuels",
+              "15%"
+            ]
+          ]
+        },
+        "5": {
+          "requiredLevel": 42,
+          "range": "1 a 11 PO",
+          "ap": "3 PA",
+          "tabs": [
+            {
+              "label": "Normaux",
+              "effects": [
+                {
+                  "element": "Air",
+                  "text": "Dommages : 9 a 11 (air)"
+                }
+              ]
+            },
+            {
+              "label": "Critiques",
+              "effects": [
+                {
+                  "element": "Air",
+                  "text": "Dommages : 12 a 14 (air)"
+                }
+              ]
+            }
+          ],
+          "characteristics": [
+            [
+              "Probabilite de coup critique",
+              "15%"
+            ],
+            [
+              "Probabilite d'echec",
+              "1/100"
+            ],
+            [
+              "Nb. de lancers par tour",
+              "2"
+            ],
+            [
+              "Nb. de lancers par tour par joueur",
+              "-"
+            ],
+            [
+              "Nb. de tours entre deux lancers",
+              "-"
+            ]
+          ],
+          "rules": [
+            [
+              "Portee modifiable",
+              true
+            ],
+            [
+              "Ligne de vue",
+              false
+            ],
+            [
+              "Lancer en ligne",
+              false
+            ],
+            [
+              "Cellules libres",
+              false
+            ],
+            [
+              "EC fini le tour",
+              false
+            ],
+            [
+              "CC actuels",
+              "15%"
+            ]
+          ]
+        },
+        "6": {
+          "requiredLevel": 142,
+          "range": "1 a 12 PO",
+          "ap": "3 PA",
+          "tabs": [
+            {
+              "label": "Normaux",
+              "effects": [
+                {
+                  "element": "Air",
+                  "text": "Dommages : 13 a 15 (air)"
+                }
+              ]
+            },
+            {
+              "label": "Critiques",
+              "effects": [
+                {
+                  "element": "Air",
+                  "text": "Dommages : 17 a 19 (air)"
+                }
+              ]
+            }
+          ],
+          "characteristics": [
+            [
+              "Probabilite de coup critique",
+              "15%"
+            ],
+            [
+              "Probabilite d'echec",
+              "1/100"
+            ],
+            [
+              "Nb. de lancers par tour",
+              "2"
+            ],
+            [
+              "Nb. de lancers par tour par joueur",
+              "-"
+            ],
+            [
+              "Nb. de tours entre deux lancers",
+              "-"
+            ]
+          ],
+          "rules": [
+            [
+              "Portee modifiable",
+              true
+            ],
+            [
+              "Ligne de vue",
+              false
+            ],
+            [
+              "Lancer en ligne",
+              false
+            ],
+            [
+              "Cellules libres",
+              false
+            ],
+            [
+              "EC fini le tour",
+              false
+            ],
+            [
+              "CC actuels",
+              "15%"
+            ]
+          ]
+        }
       }
     },
     {
@@ -269,12 +1151,510 @@ window.LRDR_CUSTOM_SPELLS = {
         ]
       ],
       "levelData": {
-        "1": {},
-        "2": {},
-        "3": {},
-        "4": {},
-        "5": {},
-        "6": {}
+        "1": {
+          "requiredLevel": 48,
+          "range": "1 a 5 PO",
+          "ap": "3 PA",
+          "description": "Lors d'une ancienne guerre, un Cra tira une fleche en bois maudit qui ne rata jamais sa cible. Depuis, elle erre, guidee par les ames qu'elle a fauchees... et frappe encore, meme d'outre-tombe.",
+          "tabs": [
+            {
+              "label": "Normaux",
+              "effects": [
+                {
+                  "element": "Neutre",
+                  "text": "-1 PM",
+                  "meta": "1 tour"
+                },
+                {
+                  "element": "Terre",
+                  "text": "Dommages : 6 a 7 (terre)"
+                }
+              ]
+            },
+            {
+              "label": "Critiques",
+              "effects": [
+                {
+                  "element": "Neutre",
+                  "text": "-1 PM",
+                  "meta": "1 tour"
+                },
+                {
+                  "element": "Terre",
+                  "text": "Dommages : 8 a 9 (terre)"
+                }
+              ]
+            }
+          ],
+          "characteristics": [
+            [
+              "Probabilite de coup critique",
+              "15%"
+            ],
+            [
+              "Probabilite d'echec",
+              "1/100"
+            ],
+            [
+              "Nb. de lancers par tour",
+              "2"
+            ],
+            [
+              "Nb. de lancers par tour par joueur",
+              "1"
+            ],
+            [
+              "Nb. de tours entre deux lancers",
+              "-"
+            ]
+          ],
+          "rules": [
+            [
+              "Portee modifiable",
+              true
+            ],
+            [
+              "Ligne de vue",
+              true
+            ],
+            [
+              "Lancer en ligne",
+              false
+            ],
+            [
+              "Cellules libres",
+              false
+            ],
+            [
+              "EC fini le tour",
+              false
+            ],
+            [
+              "CC actuels",
+              "15%"
+            ]
+          ]
+        },
+        "2": {
+          "requiredLevel": 48,
+          "range": "1 a 6 PO",
+          "ap": "3 PA",
+          "description": "Lors d'une ancienne guerre, un Cra tira une fleche en bois maudit qui ne rata jamais sa cible. Depuis, elle erre, guidee par les ames qu'elle a fauchees... et frappe encore, meme d'outre-tombe.",
+          "tabs": [
+            {
+              "label": "Normaux",
+              "effects": [
+                {
+                  "element": "Neutre",
+                  "text": "-1 PM",
+                  "meta": "1 tour"
+                },
+                {
+                  "element": "Terre",
+                  "text": "Dommages : 7 a 8 (terre)"
+                }
+              ]
+            },
+            {
+              "label": "Critiques",
+              "effects": [
+                {
+                  "element": "Neutre",
+                  "text": "-1 PM",
+                  "meta": "1 tour"
+                },
+                {
+                  "element": "Terre",
+                  "text": "Dommages : 9 a 10 (terre)"
+                }
+              ]
+            }
+          ],
+          "characteristics": [
+            [
+              "Probabilite de coup critique",
+              "15%"
+            ],
+            [
+              "Probabilite d'echec",
+              "1/100"
+            ],
+            [
+              "Nb. de lancers par tour",
+              "2"
+            ],
+            [
+              "Nb. de lancers par tour par joueur",
+              "1"
+            ],
+            [
+              "Nb. de tours entre deux lancers",
+              "-"
+            ]
+          ],
+          "rules": [
+            [
+              "Portee modifiable",
+              true
+            ],
+            [
+              "Ligne de vue",
+              true
+            ],
+            [
+              "Lancer en ligne",
+              false
+            ],
+            [
+              "Cellules libres",
+              false
+            ],
+            [
+              "EC fini le tour",
+              false
+            ],
+            [
+              "CC actuels",
+              "15%"
+            ]
+          ]
+        },
+        "3": {
+          "requiredLevel": 48,
+          "range": "1 a 7 PO",
+          "ap": "3 PA",
+          "description": "Lors d'une ancienne guerre, un Cra tira une fleche en bois maudit qui ne rata jamais sa cible. Depuis, elle erre, guidee par les ames qu'elle a fauchees... et frappe encore, meme d'outre-tombe.",
+          "tabs": [
+            {
+              "label": "Normaux",
+              "effects": [
+                {
+                  "element": "Neutre",
+                  "text": "-1 PM",
+                  "meta": "1 tour"
+                },
+                {
+                  "element": "Terre",
+                  "text": "Dommages : 8 a 9 (terre)"
+                }
+              ]
+            },
+            {
+              "label": "Critiques",
+              "effects": [
+                {
+                  "element": "Neutre",
+                  "text": "-1 PM",
+                  "meta": "1 tour"
+                },
+                {
+                  "element": "Terre",
+                  "text": "Dommages : 11 a 13 (terre)"
+                }
+              ]
+            }
+          ],
+          "characteristics": [
+            [
+              "Probabilite de coup critique",
+              "15%"
+            ],
+            [
+              "Probabilite d'echec",
+              "1/100"
+            ],
+            [
+              "Nb. de lancers par tour",
+              "2"
+            ],
+            [
+              "Nb. de lancers par tour par joueur",
+              "1"
+            ],
+            [
+              "Nb. de tours entre deux lancers",
+              "-"
+            ]
+          ],
+          "rules": [
+            [
+              "Portee modifiable",
+              true
+            ],
+            [
+              "Ligne de vue",
+              true
+            ],
+            [
+              "Lancer en ligne",
+              false
+            ],
+            [
+              "Cellules libres",
+              false
+            ],
+            [
+              "EC fini le tour",
+              false
+            ],
+            [
+              "CC actuels",
+              "15%"
+            ]
+          ]
+        },
+        "4": {
+          "requiredLevel": 48,
+          "range": "1 a 8 PO",
+          "ap": "3 PA",
+          "description": "Lors d'une ancienne guerre, un Cra tira une fleche en bois maudit qui ne rata jamais sa cible. Depuis, elle erre, guidee par les ames qu'elle a fauchees... et frappe encore, meme d'outre-tombe.",
+          "tabs": [
+            {
+              "label": "Normaux",
+              "effects": [
+                {
+                  "element": "Neutre",
+                  "text": "-1 PM",
+                  "meta": "1 tour"
+                },
+                {
+                  "element": "Terre",
+                  "text": "Dommages : 9 a 10 (terre)"
+                }
+              ]
+            },
+            {
+              "label": "Critiques",
+              "effects": [
+                {
+                  "element": "Neutre",
+                  "text": "-1 PM",
+                  "meta": "1 tour"
+                },
+                {
+                  "element": "Terre",
+                  "text": "Dommages : 12 a 13 (terre)"
+                }
+              ]
+            }
+          ],
+          "characteristics": [
+            [
+              "Probabilite de coup critique",
+              "15%"
+            ],
+            [
+              "Probabilite d'echec",
+              "1/100"
+            ],
+            [
+              "Nb. de lancers par tour",
+              "2"
+            ],
+            [
+              "Nb. de lancers par tour par joueur",
+              "1"
+            ],
+            [
+              "Nb. de tours entre deux lancers",
+              "-"
+            ]
+          ],
+          "rules": [
+            [
+              "Portee modifiable",
+              true
+            ],
+            [
+              "Ligne de vue",
+              true
+            ],
+            [
+              "Lancer en ligne",
+              false
+            ],
+            [
+              "Cellules libres",
+              false
+            ],
+            [
+              "EC fini le tour",
+              false
+            ],
+            [
+              "CC actuels",
+              "15%"
+            ]
+          ]
+        },
+        "5": {
+          "requiredLevel": 48,
+          "range": "1 a 9 PO",
+          "ap": "3 PA",
+          "description": "Lors d'une ancienne guerre, un Cra tira une fleche en bois maudit qui ne rata jamais sa cible. Depuis, elle erre, guidee par les ames qu'elle a fauchees... et frappe encore, meme d'outre-tombe.",
+          "tabs": [
+            {
+              "label": "Normaux",
+              "effects": [
+                {
+                  "element": "Neutre",
+                  "text": "-1 PM",
+                  "meta": "1 tour"
+                },
+                {
+                  "element": "Terre",
+                  "text": "Dommages : 10 a 11 (terre)"
+                }
+              ]
+            },
+            {
+              "label": "Critiques",
+              "effects": [
+                {
+                  "element": "Neutre",
+                  "text": "-1 PM",
+                  "meta": "1 tour"
+                },
+                {
+                  "element": "Terre",
+                  "text": "Dommages : 13 a 14 (terre)"
+                }
+              ]
+            }
+          ],
+          "characteristics": [
+            [
+              "Probabilite de coup critique",
+              "15%"
+            ],
+            [
+              "Probabilite d'echec",
+              "1/100"
+            ],
+            [
+              "Nb. de lancers par tour",
+              "2"
+            ],
+            [
+              "Nb. de lancers par tour par joueur",
+              "1"
+            ],
+            [
+              "Nb. de tours entre deux lancers",
+              "-"
+            ]
+          ],
+          "rules": [
+            [
+              "Portee modifiable",
+              true
+            ],
+            [
+              "Ligne de vue",
+              true
+            ],
+            [
+              "Lancer en ligne",
+              false
+            ],
+            [
+              "Cellules libres",
+              false
+            ],
+            [
+              "EC fini le tour",
+              false
+            ],
+            [
+              "CC actuels",
+              "15%"
+            ]
+          ]
+        },
+        "6": {
+          "requiredLevel": 148,
+          "range": "1 a 10 PO",
+          "ap": "3 PA",
+          "description": "Lors d'une ancienne guerre, un Cra tira une fleche en bois maudit qui ne rata jamais sa cible. Depuis, elle erre, guidee par les ames qu'elle a fauchees... et frappe encore, meme d'outre-tombe.",
+          "tabs": [
+            {
+              "label": "Normaux",
+              "effects": [
+                {
+                  "element": "Neutre",
+                  "text": "-2 PM",
+                  "meta": "1 tour"
+                },
+                {
+                  "element": "Terre",
+                  "text": "Dommages : 13 a 14 (terre)"
+                }
+              ]
+            },
+            {
+              "label": "Critiques",
+              "effects": [
+                {
+                  "element": "Neutre",
+                  "text": "-2 PM",
+                  "meta": "1 tour"
+                },
+                {
+                  "element": "Terre",
+                  "text": "Dommages : 17 a 18 (terre)"
+                }
+              ]
+            }
+          ],
+          "characteristics": [
+            [
+              "Probabilite de coup critique",
+              "15%"
+            ],
+            [
+              "Probabilite d'echec",
+              "1/100"
+            ],
+            [
+              "Nb. de lancers par tour",
+              "2"
+            ],
+            [
+              "Nb. de lancers par tour par joueur",
+              "1"
+            ],
+            [
+              "Nb. de tours entre deux lancers",
+              "-"
+            ]
+          ],
+          "rules": [
+            [
+              "Portee modifiable",
+              true
+            ],
+            [
+              "Ligne de vue",
+              true
+            ],
+            [
+              "Lancer en ligne",
+              false
+            ],
+            [
+              "Cellules libres",
+              false
+            ],
+            [
+              "EC fini le tour",
+              false
+            ],
+            [
+              "CC actuels",
+              "15%"
+            ]
+          ]
+        }
       }
     },
     {
@@ -363,12 +1743,492 @@ window.LRDR_CUSTOM_SPELLS = {
         ]
       ],
       "levelData": {
-        "1": {},
-        "2": {},
-        "3": {},
-        "4": {},
-        "5": {},
-        "6": {}
+        "1": {
+          "requiredLevel": 54,
+          "range": "5 a 8 PO",
+          "ap": "3 PA",
+          "tabs": [
+            {
+              "label": "Normaux",
+              "effects": [
+                {
+                  "element": "Air",
+                  "text": "Dommages : 2 a 4 (air)"
+                },
+                {
+                  "element": "Air",
+                  "text": "Vole 2 a 4 PDV (air)"
+                }
+              ]
+            },
+            {
+              "label": "Critiques",
+              "effects": [
+                {
+                  "element": "Air",
+                  "text": "Dommages : 3 a 5 (air)"
+                },
+                {
+                  "element": "Air",
+                  "text": "Vole 3 a 5 PDV (air)"
+                }
+              ]
+            }
+          ],
+          "characteristics": [
+            [
+              "Probabilite de coup critique",
+              "15%"
+            ],
+            [
+              "Probabilite d'echec",
+              "1/100"
+            ],
+            [
+              "Nb. de lancers par tour",
+              "-"
+            ],
+            [
+              "Nb. de lancers par tour par joueur",
+              "2"
+            ],
+            [
+              "Nb. de tours entre deux lancers",
+              "-"
+            ]
+          ],
+          "rules": [
+            [
+              "Portee modifiable",
+              true
+            ],
+            [
+              "Ligne de vue",
+              false
+            ],
+            [
+              "Lancer en ligne",
+              false
+            ],
+            [
+              "Cellules libres",
+              false
+            ],
+            [
+              "EC fini le tour",
+              false
+            ],
+            [
+              "CC actuels",
+              "15%"
+            ]
+          ]
+        },
+        "2": {
+          "requiredLevel": 54,
+          "range": "5 a 8 PO",
+          "ap": "3 PA",
+          "tabs": [
+            {
+              "label": "Normaux",
+              "effects": [
+                {
+                  "element": "Air",
+                  "text": "Dommages : 3 a 5 (air)"
+                },
+                {
+                  "element": "Air",
+                  "text": "Vole 3 a 5 PDV (air)"
+                }
+              ]
+            },
+            {
+              "label": "Critiques",
+              "effects": [
+                {
+                  "element": "Air",
+                  "text": "Dommages : 4 a 6 (air)"
+                },
+                {
+                  "element": "Air",
+                  "text": "Vole 4 a 6 PDV (air)"
+                }
+              ]
+            }
+          ],
+          "characteristics": [
+            [
+              "Probabilite de coup critique",
+              "15%"
+            ],
+            [
+              "Probabilite d'echec",
+              "1/100"
+            ],
+            [
+              "Nb. de lancers par tour",
+              "-"
+            ],
+            [
+              "Nb. de lancers par tour par joueur",
+              "2"
+            ],
+            [
+              "Nb. de tours entre deux lancers",
+              "-"
+            ]
+          ],
+          "rules": [
+            [
+              "Portee modifiable",
+              true
+            ],
+            [
+              "Ligne de vue",
+              false
+            ],
+            [
+              "Lancer en ligne",
+              false
+            ],
+            [
+              "Cellules libres",
+              false
+            ],
+            [
+              "EC fini le tour",
+              false
+            ],
+            [
+              "CC actuels",
+              "15%"
+            ]
+          ]
+        },
+        "3": {
+          "requiredLevel": 54,
+          "range": "5 a 8 PO",
+          "ap": "3 PA",
+          "tabs": [
+            {
+              "label": "Normaux",
+              "effects": [
+                {
+                  "element": "Air",
+                  "text": "Dommages : 4 a 6 (air)"
+                },
+                {
+                  "element": "Air",
+                  "text": "Vole 4 a 6 PDV (air)"
+                }
+              ]
+            },
+            {
+              "label": "Critiques",
+              "effects": [
+                {
+                  "element": "Air",
+                  "text": "Dommages : 6 a 8 (air)"
+                },
+                {
+                  "element": "Air",
+                  "text": "Vole 6 a 8 PDV (air)"
+                }
+              ]
+            }
+          ],
+          "characteristics": [
+            [
+              "Probabilite de coup critique",
+              "15%"
+            ],
+            [
+              "Probabilite d'echec",
+              "1/100"
+            ],
+            [
+              "Nb. de lancers par tour",
+              "-"
+            ],
+            [
+              "Nb. de lancers par tour par joueur",
+              "2"
+            ],
+            [
+              "Nb. de tours entre deux lancers",
+              "-"
+            ]
+          ],
+          "rules": [
+            [
+              "Portee modifiable",
+              true
+            ],
+            [
+              "Ligne de vue",
+              false
+            ],
+            [
+              "Lancer en ligne",
+              false
+            ],
+            [
+              "Cellules libres",
+              false
+            ],
+            [
+              "EC fini le tour",
+              false
+            ],
+            [
+              "CC actuels",
+              "15%"
+            ]
+          ]
+        },
+        "4": {
+          "requiredLevel": 54,
+          "range": "5 a 8 PO",
+          "ap": "3 PA",
+          "tabs": [
+            {
+              "label": "Normaux",
+              "effects": [
+                {
+                  "element": "Air",
+                  "text": "Dommages : 5 a 7 (air)"
+                },
+                {
+                  "element": "Air",
+                  "text": "Vole 5 a 7 PDV (air)"
+                }
+              ]
+            },
+            {
+              "label": "Critiques",
+              "effects": [
+                {
+                  "element": "Air",
+                  "text": "Dommages : 8 a 10 (air)"
+                },
+                {
+                  "element": "Air",
+                  "text": "Vole 8 a 10 PDV (air)"
+                }
+              ]
+            }
+          ],
+          "characteristics": [
+            [
+              "Probabilite de coup critique",
+              "15%"
+            ],
+            [
+              "Probabilite d'echec",
+              "1/100"
+            ],
+            [
+              "Nb. de lancers par tour",
+              "-"
+            ],
+            [
+              "Nb. de lancers par tour par joueur",
+              "2"
+            ],
+            [
+              "Nb. de tours entre deux lancers",
+              "-"
+            ]
+          ],
+          "rules": [
+            [
+              "Portee modifiable",
+              true
+            ],
+            [
+              "Ligne de vue",
+              false
+            ],
+            [
+              "Lancer en ligne",
+              false
+            ],
+            [
+              "Cellules libres",
+              false
+            ],
+            [
+              "EC fini le tour",
+              false
+            ],
+            [
+              "CC actuels",
+              "15%"
+            ]
+          ]
+        },
+        "5": {
+          "requiredLevel": 54,
+          "range": "5 a 8 PO",
+          "ap": "3 PA",
+          "tabs": [
+            {
+              "label": "Normaux",
+              "effects": [
+                {
+                  "element": "Air",
+                  "text": "Dommages : 6 a 8 (air)"
+                },
+                {
+                  "element": "Air",
+                  "text": "Vole 6 a 8 PDV (air)"
+                }
+              ]
+            },
+            {
+              "label": "Critiques",
+              "effects": [
+                {
+                  "element": "Air",
+                  "text": "Dommages : 9 a 11 (air)"
+                },
+                {
+                  "element": "Air",
+                  "text": "Vole 9 a 11 PDV (air)"
+                }
+              ]
+            }
+          ],
+          "characteristics": [
+            [
+              "Probabilite de coup critique",
+              "15%"
+            ],
+            [
+              "Probabilite d'echec",
+              "1/100"
+            ],
+            [
+              "Nb. de lancers par tour",
+              "-"
+            ],
+            [
+              "Nb. de lancers par tour par joueur",
+              "2"
+            ],
+            [
+              "Nb. de tours entre deux lancers",
+              "-"
+            ]
+          ],
+          "rules": [
+            [
+              "Portee modifiable",
+              true
+            ],
+            [
+              "Ligne de vue",
+              false
+            ],
+            [
+              "Lancer en ligne",
+              false
+            ],
+            [
+              "Cellules libres",
+              false
+            ],
+            [
+              "EC fini le tour",
+              false
+            ],
+            [
+              "CC actuels",
+              "15%"
+            ]
+          ]
+        },
+        "6": {
+          "requiredLevel": 154,
+          "range": "5 a 8 PO",
+          "ap": "3 PA",
+          "tabs": [
+            {
+              "label": "Normaux",
+              "effects": [
+                {
+                  "element": "Air",
+                  "text": "Dommages : 11 a 13 (air)"
+                },
+                {
+                  "element": "Air",
+                  "text": "Vole 11 a 13 PDV (air)"
+                }
+              ]
+            },
+            {
+              "label": "Critiques",
+              "effects": [
+                {
+                  "element": "Air",
+                  "text": "Dommages : 14 a 16 (air)"
+                },
+                {
+                  "element": "Air",
+                  "text": "Vole 14 a 16 PDV (air)"
+                }
+              ]
+            }
+          ],
+          "characteristics": [
+            [
+              "Probabilite de coup critique",
+              "15%"
+            ],
+            [
+              "Probabilite d'echec",
+              "1/100"
+            ],
+            [
+              "Nb. de lancers par tour",
+              "-"
+            ],
+            [
+              "Nb. de lancers par tour par joueur",
+              "2"
+            ],
+            [
+              "Nb. de tours entre deux lancers",
+              "-"
+            ]
+          ],
+          "rules": [
+            [
+              "Portee modifiable",
+              true
+            ],
+            [
+              "Ligne de vue",
+              false
+            ],
+            [
+              "Lancer en ligne",
+              false
+            ],
+            [
+              "Cellules libres",
+              false
+            ],
+            [
+              "EC fini le tour",
+              false
+            ],
+            [
+              "CC actuels",
+              "15%"
+            ]
+          ]
+        }
       }
     },
     {
@@ -458,19 +2318,517 @@ window.LRDR_CUSTOM_SPELLS = {
         ]
       ],
       "levelData": {
-        "1": {},
-        "2": {},
-        "3": {},
-        "4": {},
-        "5": {},
-        "6": {}
+        "1": {
+          "requiredLevel": 70,
+          "range": "6 a 10 PO",
+          "ap": "4 PA",
+          "description": "Forgee dans les tempetes des sommets inaccessibles, cette fleche porte la fureur des vents primordiaux. Invisible a l'oeil nu, elle tranche l'air et la chair avec une precision mortelle. Ses victimes ne voient rien venir, ne ressentent qu'une douleur aigue, comme mille lames d'air glacees les decoupant de l'interieur.",
+          "tabs": [
+            {
+              "label": "Normaux",
+              "effects": [
+                {
+                  "element": "Air",
+                  "text": "Dommages : 23 a 25 (air)"
+                },
+                {
+                  "element": "Neutre",
+                  "text": "Augmente les degats de base du sort Fleche du Vent Cisaillant de 24",
+                  "meta": "3 tours"
+                }
+              ]
+            },
+            {
+              "label": "Critiques",
+              "effects": [
+                {
+                  "element": "Air",
+                  "text": "Dommages : 27 a 29 (air)"
+                },
+                {
+                  "element": "Neutre",
+                  "text": "Augmente les degats de base du sort Fleche du Vent Cisaillant de 28",
+                  "meta": "3 tours"
+                }
+              ]
+            }
+          ],
+          "characteristics": [
+            [
+              "Probabilite de coup critique",
+              "25%"
+            ],
+            [
+              "Probabilite d'echec",
+              "1/100"
+            ],
+            [
+              "Nb. de lancers par tour",
+              "-"
+            ],
+            [
+              "Nb. de lancers par tour par joueur",
+              "-"
+            ],
+            [
+              "Nb. de tours entre deux lancers",
+              "3"
+            ]
+          ],
+          "rules": [
+            [
+              "Portee modifiable",
+              true
+            ],
+            [
+              "Ligne de vue",
+              true
+            ],
+            [
+              "Lancer en ligne",
+              false
+            ],
+            [
+              "Cellules libres",
+              false
+            ],
+            [
+              "EC fini le tour",
+              false
+            ],
+            [
+              "CC actuels",
+              "25%"
+            ]
+          ]
+        },
+        "2": {
+          "requiredLevel": 70,
+          "range": "6 a 10 PO",
+          "ap": "4 PA",
+          "description": "Forgee dans les tempetes des sommets inaccessibles, cette fleche porte la fureur des vents primordiaux. Invisible a l'oeil nu, elle tranche l'air et la chair avec une precision mortelle. Ses victimes ne voient rien venir, ne ressentent qu'une douleur aigue, comme mille lames d'air glacees les decoupant de l'interieur.",
+          "tabs": [
+            {
+              "label": "Normaux",
+              "effects": [
+                {
+                  "element": "Air",
+                  "text": "Dommages : 25 a 27 (air)"
+                },
+                {
+                  "element": "Neutre",
+                  "text": "Augmente les degats de base du sort Fleche du Vent Cisaillant de 26",
+                  "meta": "3 tours"
+                }
+              ]
+            },
+            {
+              "label": "Critiques",
+              "effects": [
+                {
+                  "element": "Air",
+                  "text": "Dommages : 30 a 32 (air)"
+                },
+                {
+                  "element": "Neutre",
+                  "text": "Augmente les degats de base du sort Fleche du Vent Cisaillant de 31",
+                  "meta": "3 tours"
+                }
+              ]
+            }
+          ],
+          "characteristics": [
+            [
+              "Probabilite de coup critique",
+              "25%"
+            ],
+            [
+              "Probabilite d'echec",
+              "1/100"
+            ],
+            [
+              "Nb. de lancers par tour",
+              "-"
+            ],
+            [
+              "Nb. de lancers par tour par joueur",
+              "-"
+            ],
+            [
+              "Nb. de tours entre deux lancers",
+              "3"
+            ]
+          ],
+          "rules": [
+            [
+              "Portee modifiable",
+              true
+            ],
+            [
+              "Ligne de vue",
+              true
+            ],
+            [
+              "Lancer en ligne",
+              false
+            ],
+            [
+              "Cellules libres",
+              false
+            ],
+            [
+              "EC fini le tour",
+              false
+            ],
+            [
+              "CC actuels",
+              "25%"
+            ]
+          ]
+        },
+        "3": {
+          "requiredLevel": 70,
+          "range": "6 a 10 PO",
+          "ap": "4 PA",
+          "description": "Forgee dans les tempetes des sommets inaccessibles, cette fleche porte la fureur des vents primordiaux. Invisible a l'oeil nu, elle tranche l'air et la chair avec une precision mortelle. Ses victimes ne voient rien venir, ne ressentent qu'une douleur aigue, comme mille lames d'air glacees les decoupant de l'interieur.",
+          "tabs": [
+            {
+              "label": "Normaux",
+              "effects": [
+                {
+                  "element": "Air",
+                  "text": "Dommages : 27 a 29 (air)"
+                },
+                {
+                  "element": "Neutre",
+                  "text": "Augmente les degats de base du sort Fleche du Vent Cisaillant de 28",
+                  "meta": "3 tours"
+                }
+              ]
+            },
+            {
+              "label": "Critiques",
+              "effects": [
+                {
+                  "element": "Air",
+                  "text": "Dommages : 32 a 34 (air)"
+                },
+                {
+                  "element": "Neutre",
+                  "text": "Augmente les degats de base du sort Fleche du Vent Cisaillant de 33",
+                  "meta": "3 tours"
+                }
+              ]
+            }
+          ],
+          "characteristics": [
+            [
+              "Probabilite de coup critique",
+              "25%"
+            ],
+            [
+              "Probabilite d'echec",
+              "1/100"
+            ],
+            [
+              "Nb. de lancers par tour",
+              "-"
+            ],
+            [
+              "Nb. de lancers par tour par joueur",
+              "-"
+            ],
+            [
+              "Nb. de tours entre deux lancers",
+              "3"
+            ]
+          ],
+          "rules": [
+            [
+              "Portee modifiable",
+              true
+            ],
+            [
+              "Ligne de vue",
+              true
+            ],
+            [
+              "Lancer en ligne",
+              false
+            ],
+            [
+              "Cellules libres",
+              false
+            ],
+            [
+              "EC fini le tour",
+              false
+            ],
+            [
+              "CC actuels",
+              "25%"
+            ]
+          ]
+        },
+        "4": {
+          "requiredLevel": 70,
+          "range": "6 a 10 PO",
+          "ap": "4 PA",
+          "description": "Forgee dans les tempetes des sommets inaccessibles, cette fleche porte la fureur des vents primordiaux. Invisible a l'oeil nu, elle tranche l'air et la chair avec une precision mortelle. Ses victimes ne voient rien venir, ne ressentent qu'une douleur aigue, comme mille lames d'air glacees les decoupant de l'interieur.",
+          "tabs": [
+            {
+              "label": "Normaux",
+              "effects": [
+                {
+                  "element": "Air",
+                  "text": "Dommages : 29 a 31 (air)"
+                },
+                {
+                  "element": "Neutre",
+                  "text": "Augmente les degats de base du sort Fleche du Vent Cisaillant de 30",
+                  "meta": "3 tours"
+                }
+              ]
+            },
+            {
+              "label": "Critiques",
+              "effects": [
+                {
+                  "element": "Air",
+                  "text": "Dommages : 35 a 37 (air)"
+                },
+                {
+                  "element": "Neutre",
+                  "text": "Augmente les degats de base du sort Fleche du Vent Cisaillant de 36",
+                  "meta": "3 tours"
+                }
+              ]
+            }
+          ],
+          "characteristics": [
+            [
+              "Probabilite de coup critique",
+              "25%"
+            ],
+            [
+              "Probabilite d'echec",
+              "1/100"
+            ],
+            [
+              "Nb. de lancers par tour",
+              "-"
+            ],
+            [
+              "Nb. de lancers par tour par joueur",
+              "-"
+            ],
+            [
+              "Nb. de tours entre deux lancers",
+              "3"
+            ]
+          ],
+          "rules": [
+            [
+              "Portee modifiable",
+              true
+            ],
+            [
+              "Ligne de vue",
+              true
+            ],
+            [
+              "Lancer en ligne",
+              false
+            ],
+            [
+              "Cellules libres",
+              false
+            ],
+            [
+              "EC fini le tour",
+              false
+            ],
+            [
+              "CC actuels",
+              "25%"
+            ]
+          ]
+        },
+        "5": {
+          "requiredLevel": 70,
+          "range": "6 a 10 PO",
+          "ap": "4 PA",
+          "description": "Forgee dans les tempetes des sommets inaccessibles, cette fleche porte la fureur des vents primordiaux. Invisible a l'oeil nu, elle tranche l'air et la chair avec une precision mortelle. Ses victimes ne voient rien venir, ne ressentent qu'une douleur aigue, comme mille lames d'air glacees les decoupant de l'interieur.",
+          "tabs": [
+            {
+              "label": "Normaux",
+              "effects": [
+                {
+                  "element": "Air",
+                  "text": "Dommages : 31 a 33 (air)"
+                },
+                {
+                  "element": "Neutre",
+                  "text": "Augmente les degats de base du sort Fleche du Vent Cisaillant de 32",
+                  "meta": "3 tours"
+                }
+              ]
+            },
+            {
+              "label": "Critiques",
+              "effects": [
+                {
+                  "element": "Air",
+                  "text": "Dommages : 37 a 39 (air)"
+                },
+                {
+                  "element": "Neutre",
+                  "text": "Augmente les degats de base du sort Fleche du Vent Cisaillant de 38",
+                  "meta": "3 tours"
+                }
+              ]
+            }
+          ],
+          "characteristics": [
+            [
+              "Probabilite de coup critique",
+              "25%"
+            ],
+            [
+              "Probabilite d'echec",
+              "1/100"
+            ],
+            [
+              "Nb. de lancers par tour",
+              "-"
+            ],
+            [
+              "Nb. de lancers par tour par joueur",
+              "-"
+            ],
+            [
+              "Nb. de tours entre deux lancers",
+              "3"
+            ]
+          ],
+          "rules": [
+            [
+              "Portee modifiable",
+              true
+            ],
+            [
+              "Ligne de vue",
+              true
+            ],
+            [
+              "Lancer en ligne",
+              false
+            ],
+            [
+              "Cellules libres",
+              false
+            ],
+            [
+              "EC fini le tour",
+              false
+            ],
+            [
+              "CC actuels",
+              "25%"
+            ]
+          ]
+        },
+        "6": {
+          "requiredLevel": 170,
+          "range": "6 a 10 PO",
+          "ap": "4 PA",
+          "description": "Forgee dans les tempetes des sommets inaccessibles, cette fleche porte la fureur des vents primordiaux. Invisible a l'oeil nu, elle tranche l'air et la chair avec une precision mortelle. Ses victimes ne voient rien venir, ne ressentent qu'une douleur aigue, comme mille lames d'air glacees les decoupant de l'interieur.",
+          "tabs": [
+            {
+              "label": "Normaux",
+              "effects": [
+                {
+                  "element": "Air",
+                  "text": "Dommages : 37 a 39 (air)"
+                },
+                {
+                  "element": "Neutre",
+                  "text": "Augmente les degats de base du sort Fleche du Vent Cisaillant de 38",
+                  "meta": "3 tours"
+                }
+              ]
+            },
+            {
+              "label": "Critiques",
+              "effects": [
+                {
+                  "element": "Air",
+                  "text": "Dommages : 43 a 45 (air)"
+                },
+                {
+                  "element": "Neutre",
+                  "text": "Augmente les degats de base du sort Fleche du Vent Cisaillant de 44",
+                  "meta": "3 tours"
+                }
+              ]
+            }
+          ],
+          "characteristics": [
+            [
+              "Probabilite de coup critique",
+              "25%"
+            ],
+            [
+              "Probabilite d'echec",
+              "1/100"
+            ],
+            [
+              "Nb. de lancers par tour",
+              "-"
+            ],
+            [
+              "Nb. de lancers par tour par joueur",
+              "-"
+            ],
+            [
+              "Nb. de tours entre deux lancers",
+              "3"
+            ]
+          ],
+          "rules": [
+            [
+              "Portee modifiable",
+              true
+            ],
+            [
+              "Ligne de vue",
+              true
+            ],
+            [
+              "Lancer en ligne",
+              false
+            ],
+            [
+              "Cellules libres",
+              false
+            ],
+            [
+              "EC fini le tour",
+              false
+            ],
+            [
+              "CC actuels",
+              "25%"
+            ]
+          ]
+        }
       }
     },
     {
-      "id": "fleche-du-phoenix",
-      "name": "Fleche du Phoenix",
+      "id": "fleche-explosive",
+      "name": "Fleche Explosive",
       "element": "Feu",
-      "icon": "assets/icons/spells/cra/fleche-du-phoenix.png",
+      "icon": "assets/icons/spells/cra/fleche-explosive.png",
       "requiredLevel": 190,
       "selectedLevel": 6,
       "levels": [
@@ -481,9 +2839,8 @@ window.LRDR_CUSTOM_SPELLS = {
         5,
         6
       ],
-      "range": "-",
+      "range": "1 a 8 PO",
       "ap": "4 PA",
-      "sourceImage": "assets/spells/cra/page-02-02-fleche-du-phoenix.png",
       "description": "Fleche du Phoenix est un sort modifie de niveau 190, dont la portee est coupee sur la capture source, et coute 4 PA. Dommages : 31 a 33 (feu) ; Augmente les degats de base du sort Fleche du Phoenix.",
       "tabs": [
         {
@@ -491,11 +2848,8 @@ window.LRDR_CUSTOM_SPELLS = {
           "effects": [
             {
               "element": "Feu",
-              "text": "Dommages : 31 a 33 (feu)"
-            },
-            {
-              "element": "Neutre",
-              "text": "Augmente les degats de base du sort Fleche du Phoenix"
+              "text": "Dommages : 20 a 24 (feu)",
+              "area": 3
             }
           ]
         },
@@ -553,12 +2907,462 @@ window.LRDR_CUSTOM_SPELLS = {
         ]
       ],
       "levelData": {
-        "1": {},
-        "2": {},
-        "3": {},
-        "4": {},
-        "5": {},
-        "6": {}
+        "1": {
+          "requiredLevel": 90,
+          "range": "1 a 8 PO",
+          "ap": "4 PA",
+          "description": "Une fleche embrasee qui eclate au moindre impact. Forgee dans les braises des anciens archers, cette attaque libere une detonation ardente capable de consumer plusieurs ennemis a la fois dans une pluie de feu devastatrice.",
+          "tabs": [
+            {
+              "label": "Normaux",
+              "effects": [
+                {
+                  "element": "Feu",
+                  "text": "Dommages : 16 a 20 (feu)",
+                  "area": 2
+                }
+              ]
+            },
+            {
+              "label": "Critiques",
+              "effects": [
+                {
+                  "element": "Air",
+                  "text": "Dommages : 22 a 26 (air)",
+                  "area": 2
+                }
+              ]
+            }
+          ],
+          "characteristics": [
+            [
+              "Probabilite de coup critique",
+              "5%"
+            ],
+            [
+              "Probabilite d'echec",
+              "1/100"
+            ],
+            [
+              "Nb. de lancers par tour",
+              "2"
+            ],
+            [
+              "Nb. de lancers par tour par joueur",
+              "-"
+            ],
+            [
+              "Nb. de tours entre deux lancers",
+              "-"
+            ]
+          ],
+          "rules": [
+            [
+              "Portee modifiable",
+              true
+            ],
+            [
+              "Ligne de vue",
+              true
+            ],
+            [
+              "Lancer en ligne",
+              false
+            ],
+            [
+              "Cellules libres",
+              false
+            ],
+            [
+              "EC fini le tour",
+              false
+            ],
+            [
+              "CC actuels",
+              "5%"
+            ]
+          ]
+        },
+        "2": {
+          "requiredLevel": 90,
+          "range": "1 a 8 PO",
+          "ap": "4 PA",
+          "description": "Une fleche embrasee qui eclate au moindre impact. Forgee dans les braises des anciens archers, cette attaque libere une detonation ardente capable de consumer plusieurs ennemis a la fois dans une pluie de feu devastatrice.",
+          "tabs": [
+            {
+              "label": "Normaux",
+              "effects": [
+                {
+                  "element": "Feu",
+                  "text": "Dommages : 17 a 21 (feu)",
+                  "area": 2
+                }
+              ]
+            },
+            {
+              "label": "Critiques",
+              "effects": [
+                {
+                  "element": "Air",
+                  "text": "Dommages : 23 a 27 (air)",
+                  "area": 2
+                }
+              ]
+            }
+          ],
+          "characteristics": [
+            [
+              "Probabilite de coup critique",
+              "5%"
+            ],
+            [
+              "Probabilite d'echec",
+              "1/100"
+            ],
+            [
+              "Nb. de lancers par tour",
+              "2"
+            ],
+            [
+              "Nb. de lancers par tour par joueur",
+              "-"
+            ],
+            [
+              "Nb. de tours entre deux lancers",
+              "-"
+            ]
+          ],
+          "rules": [
+            [
+              "Portee modifiable",
+              true
+            ],
+            [
+              "Ligne de vue",
+              true
+            ],
+            [
+              "Lancer en ligne",
+              false
+            ],
+            [
+              "Cellules libres",
+              false
+            ],
+            [
+              "EC fini le tour",
+              false
+            ],
+            [
+              "CC actuels",
+              "5%"
+            ]
+          ]
+        },
+        "3": {
+          "requiredLevel": 90,
+          "range": "1 a 8 PO",
+          "ap": "4 PA",
+          "description": "Une fleche embrasee qui eclate au moindre impact. Forgee dans les braises des anciens archers, cette attaque libere une detonation ardente capable de consumer plusieurs ennemis a la fois dans une pluie de feu devastatrice.",
+          "tabs": [
+            {
+              "label": "Normaux",
+              "effects": [
+                {
+                  "element": "Feu",
+                  "text": "Dommages : 18 a 22 (feu)",
+                  "area": 2
+                }
+              ]
+            },
+            {
+              "label": "Critiques",
+              "effects": [
+                {
+                  "element": "Air",
+                  "text": "Dommages : 25 a 29 (air)",
+                  "area": 2
+                }
+              ]
+            }
+          ],
+          "characteristics": [
+            [
+              "Probabilite de coup critique",
+              "5%"
+            ],
+            [
+              "Probabilite d'echec",
+              "1/100"
+            ],
+            [
+              "Nb. de lancers par tour",
+              "2"
+            ],
+            [
+              "Nb. de lancers par tour par joueur",
+              "-"
+            ],
+            [
+              "Nb. de tours entre deux lancers",
+              "-"
+            ]
+          ],
+          "rules": [
+            [
+              "Portee modifiable",
+              true
+            ],
+            [
+              "Ligne de vue",
+              true
+            ],
+            [
+              "Lancer en ligne",
+              false
+            ],
+            [
+              "Cellules libres",
+              false
+            ],
+            [
+              "EC fini le tour",
+              false
+            ],
+            [
+              "CC actuels",
+              "5%"
+            ]
+          ]
+        },
+        "4": {
+          "requiredLevel": 90,
+          "range": "1 a 8 PO",
+          "ap": "4 PA",
+          "description": "Une fleche embrasee qui eclate au moindre impact. Forgee dans les braises des anciens archers, cette attaque libere une detonation ardente capable de consumer plusieurs ennemis a la fois dans une pluie de feu devastatrice.",
+          "tabs": [
+            {
+              "label": "Normaux",
+              "effects": [
+                {
+                  "element": "Feu",
+                  "text": "Dommages : 19 a 23 (feu)",
+                  "area": 2
+                }
+              ]
+            },
+            {
+              "label": "Critiques",
+              "effects": [
+                {
+                  "element": "Air",
+                  "text": "Dommages : 27 a 31 (air)",
+                  "area": 2
+                }
+              ]
+            }
+          ],
+          "characteristics": [
+            [
+              "Probabilite de coup critique",
+              "5%"
+            ],
+            [
+              "Probabilite d'echec",
+              "1/100"
+            ],
+            [
+              "Nb. de lancers par tour",
+              "2"
+            ],
+            [
+              "Nb. de lancers par tour par joueur",
+              "-"
+            ],
+            [
+              "Nb. de tours entre deux lancers",
+              "-"
+            ]
+          ],
+          "rules": [
+            [
+              "Portee modifiable",
+              true
+            ],
+            [
+              "Ligne de vue",
+              true
+            ],
+            [
+              "Lancer en ligne",
+              false
+            ],
+            [
+              "Cellules libres",
+              false
+            ],
+            [
+              "EC fini le tour",
+              false
+            ],
+            [
+              "CC actuels",
+              "5%"
+            ]
+          ]
+        },
+        "5": {
+          "requiredLevel": 90,
+          "range": "1 a 8 PO",
+          "ap": "4 PA",
+          "description": "Une fleche embrasee qui eclate au moindre impact. Forgee dans les braises des anciens archers, cette attaque libere une detonation ardente capable de consumer plusieurs ennemis a la fois dans une pluie de feu devastatrice.",
+          "tabs": [
+            {
+              "label": "Normaux",
+              "effects": [
+                {
+                  "element": "Feu",
+                  "text": "Dommages : 20 a 24 (feu)",
+                  "area": 2
+                }
+              ]
+            },
+            {
+              "label": "Critiques",
+              "effects": [
+                {
+                  "element": "Air",
+                  "text": "Dommages : 28 a 32 (air)",
+                  "area": 2
+                }
+              ]
+            }
+          ],
+          "characteristics": [
+            [
+              "Probabilite de coup critique",
+              "5%"
+            ],
+            [
+              "Probabilite d'echec",
+              "1/100"
+            ],
+            [
+              "Nb. de lancers par tour",
+              "2"
+            ],
+            [
+              "Nb. de lancers par tour par joueur",
+              "-"
+            ],
+            [
+              "Nb. de tours entre deux lancers",
+              "-"
+            ]
+          ],
+          "rules": [
+            [
+              "Portee modifiable",
+              true
+            ],
+            [
+              "Ligne de vue",
+              true
+            ],
+            [
+              "Lancer en ligne",
+              false
+            ],
+            [
+              "Cellules libres",
+              false
+            ],
+            [
+              "EC fini le tour",
+              false
+            ],
+            [
+              "CC actuels",
+              "5%"
+            ]
+          ]
+        },
+        "6": {
+          "requiredLevel": 190,
+          "range": "1 a 8 PO",
+          "ap": "4 PA",
+          "description": "Une fleche embrasee qui eclate au moindre impact. Forgee dans les braises des anciens archers, cette attaque libere une detonation ardente capable de consumer plusieurs ennemis a la fois dans une pluie de feu devastatrice.",
+          "tabs": [
+            {
+              "label": "Normaux",
+              "effects": [
+                {
+                  "element": "Feu",
+                  "text": "Dommages : 20 a 24 (feu)",
+                  "area": 3
+                }
+              ]
+            },
+            {
+              "label": "Critiques",
+              "effects": [
+                {
+                  "element": "Air",
+                  "text": "Dommages : 28 a 32 (air)",
+                  "area": 3
+                }
+              ]
+            }
+          ],
+          "characteristics": [
+            [
+              "Probabilite de coup critique",
+              "5%"
+            ],
+            [
+              "Probabilite d'echec",
+              "1/100"
+            ],
+            [
+              "Nb. de lancers par tour",
+              "2"
+            ],
+            [
+              "Nb. de lancers par tour par joueur",
+              "-"
+            ],
+            [
+              "Nb. de tours entre deux lancers",
+              "-"
+            ]
+          ],
+          "rules": [
+            [
+              "Portee modifiable",
+              true
+            ],
+            [
+              "Ligne de vue",
+              true
+            ],
+            [
+              "Lancer en ligne",
+              false
+            ],
+            [
+              "Cellules libres",
+              false
+            ],
+            [
+              "EC fini le tour",
+              false
+            ],
+            [
+              "CC actuels",
+              "5%"
+            ]
+          ]
+        }
       }
     }
   ],

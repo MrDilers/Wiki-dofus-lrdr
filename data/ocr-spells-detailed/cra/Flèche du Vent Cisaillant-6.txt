@@ -1,0 +1,19 @@
+— Niveaux dusort: 1 2 3 4 5 6x
+021 BR ;
+q ) Flèche du Vent Cisaillant 6à 10PO
+PA (| Niveau requis: 170 4 PA
+Forgée dans les tempêtes des sommets inaccessibles, cette £
+flèche porte la fureur des vents primordiaux. Invisible à l'œil |
+nu, elle tranche l'air et la chair avec une précision mortelle. y
+Effets
+Normaux Critiques,
+A Dommages : 37 à 39 (air)
+Augmente les dégâts de base du sort Flèche du Vent Cisa…
+Autres caractéristiques
+Probabilité de coup critique 25% Portée modifi.. w
+Probabilité d'échec 1/100 | Ligne de vue v
+Lancer en ligne X
+Nb. de lancers par tour - ;
+Cellules libres X
+Nb. de lancers par tour par joueur - | ECfiniletour X
+Nb. de tours entre deux lancers 3 | CCactuels 25%

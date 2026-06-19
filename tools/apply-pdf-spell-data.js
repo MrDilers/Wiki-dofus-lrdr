@@ -9,6 +9,7 @@ vm.runInNewContext(fs.readFileSync(sourcePath, "utf8"), context);
 
 const spells = context.window.LRDR_CUSTOM_SPELLS;
 const effect = (text, element = "Neutre", meta) => ({ element, text, ...(meta ? { meta } : {}) });
+const areaEffect = (text, element, area) => ({ element, text, area });
 
 // Values transcribed from the spell panels in Wiki-Classe-LRDR.pdf.
 // A dash is kept when the source screenshot itself cuts off the value.
@@ -19,7 +20,7 @@ const pdfData = {
     { level: 148, range: "1 a 10 PO", ap: "3 PA" },
     { level: 54, range: "5 a 8 PO", ap: "3 PA" },
     { level: 70, range: "-", ap: "4 PA", effects: [effect("Dommages : 31 a 33 (air)", "Air"), effect("Augmente les degats de base du sort Fleche du Vent Cisaillant")] },
-    { level: 190, range: "-", ap: "4 PA", effects: [effect("Dommages : 31 a 33 (feu)", "Feu"), effect("Augmente les degats de base du sort Fleche du Phoenix")] }
+    { id: "fleche-explosive", name: "Fleche Explosive", icon: "assets/icons/spells/cra/fleche-explosive.png", level: 190, range: "1 a 8 PO", ap: "4 PA", effects: [areaEffect("Dommages : 20 a 24 (feu)", "Feu", 3)], removeSourceImage: true }
   ],
   sadida: [
     { level: 101, range: "1 a 8 PO", ap: "3 PA" },
@@ -216,6 +217,110 @@ const pdfStats = {
   ]
 };
 
+function detailedStats({ critical, casts = "-", perTarget = "-", cooldown = "-", lineOfSight = true }) {
+  return {
+    characteristics: [
+      ["Probabilite de coup critique", critical],
+      ["Probabilite d'echec", "1/100"],
+      ["Nb. de lancers par tour", casts],
+      ["Nb. de lancers par tour par joueur", perTarget],
+      ["Nb. de tours entre deux lancers", cooldown]
+    ],
+    rules: [
+      ["Portee modifiable", true],
+      ["Ligne de vue", lineOfSight],
+      ["Lancer en ligne", false],
+      ["Cellules libres", false],
+      ["EC fini le tour", false],
+      ["CC actuels", critical]
+    ]
+  };
+}
+
+const craDetailedSpecs = [
+  {
+    description: "Dans les marais d'un royaume oublie, un Cra perdit la raison. Il crea une fleche d'ecorce vivante, suintant un poison lent... Elle s'enracine dans la chair, y fait pousser la douleur, jusqu'a etouffer l'ame.",
+    requiredLevels: [1, 1, 1, 1, 1, 101],
+    ranges: ["2 a 5 PO", "2 a 6 PO", "2 a 7 PO", "2 a 8 PO", "2 a 9 PO", "2 a 10 PO"],
+    ap: "4 PA",
+    normal: ["2 a 3", "3 a 4", "4 a 5", "5 a 6", "6 a 7", "9 a 10"].map((value) => [effect(`Dommages : ${value} (terre)`, "Terre", "2 tours")]),
+    critical: ["5", "6", "7", "8", "9", "12"].map((value) => [effect(`Dommages : ${value} (terre)`, "Terre", "2 tours")]),
+    stats: detailedStats({ critical: "25%", perTarget: "1" })
+  },
+  {
+    requiredLevels: [42, 42, 42, 42, 42, 142],
+    ranges: ["1 a 7 PO", "1 a 8 PO", "1 a 9 PO", "1 a 10 PO", "1 a 11 PO", "1 a 12 PO"],
+    ap: "3 PA",
+    normal: ["5 a 7", "6 a 8", "7 a 9", "8 a 10", "9 a 11", "13 a 15"].map((value) => [effect(`Dommages : ${value} (air)`, "Air")]),
+    critical: ["7 a 9", "8 a 10", "10 a 12", "11 a 13", "12 a 14", "17 a 19"].map((value) => [effect(`Dommages : ${value} (air)`, "Air")]),
+    stats: detailedStats({ critical: "15%", casts: "2", lineOfSight: false })
+  },
+  {
+    description: "Lors d'une ancienne guerre, un Cra tira une fleche en bois maudit qui ne rata jamais sa cible. Depuis, elle erre, guidee par les ames qu'elle a fauchees... et frappe encore, meme d'outre-tombe.",
+    requiredLevels: [48, 48, 48, 48, 48, 148],
+    ranges: ["1 a 5 PO", "1 a 6 PO", "1 a 7 PO", "1 a 8 PO", "1 a 9 PO", "1 a 10 PO"],
+    ap: "3 PA",
+    normal: [
+      [effect("-1 PM", "Neutre", "1 tour"), effect("Dommages : 6 a 7 (terre)", "Terre")],
+      [effect("-1 PM", "Neutre", "1 tour"), effect("Dommages : 7 a 8 (terre)", "Terre")],
+      [effect("-1 PM", "Neutre", "1 tour"), effect("Dommages : 8 a 9 (terre)", "Terre")],
+      [effect("-1 PM", "Neutre", "1 tour"), effect("Dommages : 9 a 10 (terre)", "Terre")],
+      [effect("-1 PM", "Neutre", "1 tour"), effect("Dommages : 10 a 11 (terre)", "Terre")],
+      [effect("-2 PM", "Neutre", "1 tour"), effect("Dommages : 13 a 14 (terre)", "Terre")]
+    ],
+    critical: [
+      [effect("-1 PM", "Neutre", "1 tour"), effect("Dommages : 8 a 9 (terre)", "Terre")],
+      [effect("-1 PM", "Neutre", "1 tour"), effect("Dommages : 9 a 10 (terre)", "Terre")],
+      [effect("-1 PM", "Neutre", "1 tour"), effect("Dommages : 11 a 13 (terre)", "Terre")],
+      [effect("-1 PM", "Neutre", "1 tour"), effect("Dommages : 12 a 13 (terre)", "Terre")],
+      [effect("-1 PM", "Neutre", "1 tour"), effect("Dommages : 13 a 14 (terre)", "Terre")],
+      [effect("-2 PM", "Neutre", "1 tour"), effect("Dommages : 17 a 18 (terre)", "Terre")]
+    ],
+    stats: detailedStats({ critical: "15%", casts: "2", perTarget: "1" })
+  },
+  {
+    requiredLevels: [54, 54, 54, 54, 54, 154],
+    ranges: ["5 a 8 PO", "5 a 8 PO", "5 a 8 PO", "5 a 8 PO", "5 a 8 PO", "5 a 8 PO"],
+    ap: "3 PA",
+    normal: ["2 a 4", "3 a 5", "4 a 6", "5 a 7", "6 a 8", "11 a 13"].map((value) => [effect(`Dommages : ${value} (air)`, "Air"), effect(`Vole ${value} PDV (air)`, "Air")]),
+    critical: ["3 a 5", "4 a 6", "6 a 8", "8 a 10", "9 a 11", "14 a 16"].map((value) => [effect(`Dommages : ${value} (air)`, "Air"), effect(`Vole ${value} PDV (air)`, "Air")]),
+    stats: detailedStats({ critical: "15%", perTarget: "2", lineOfSight: false })
+  },
+  {
+    description: "Forgee dans les tempetes des sommets inaccessibles, cette fleche porte la fureur des vents primordiaux. Invisible a l'oeil nu, elle tranche l'air et la chair avec une precision mortelle. Ses victimes ne voient rien venir, ne ressentent qu'une douleur aigue, comme mille lames d'air glacees les decoupant de l'interieur.",
+    requiredLevels: [70, 70, 70, 70, 70, 170],
+    ranges: ["6 a 10 PO", "6 a 10 PO", "6 a 10 PO", "6 a 10 PO", "6 a 10 PO", "6 a 10 PO"],
+    ap: "4 PA",
+    normal: [["23 a 25", 24], ["25 a 27", 26], ["27 a 29", 28], ["29 a 31", 30], ["31 a 33", 32], ["37 a 39", 38]].map(([damage, boost]) => [effect(`Dommages : ${damage} (air)`, "Air"), effect(`Augmente les degats de base du sort Fleche du Vent Cisaillant de ${boost}`, "Neutre", "3 tours")]),
+    critical: [["27 a 29", 28], ["30 a 32", 31], ["32 a 34", 33], ["35 a 37", 36], ["37 a 39", 38], ["43 a 45", 44]].map(([damage, boost]) => [effect(`Dommages : ${damage} (air)`, "Air"), effect(`Augmente les degats de base du sort Fleche du Vent Cisaillant de ${boost}`, "Neutre", "3 tours")]),
+    stats: detailedStats({ critical: "25%", cooldown: "3" })
+  },
+  {
+    description: "Une fleche embrasee qui eclate au moindre impact. Forgee dans les braises des anciens archers, cette attaque libere une detonation ardente capable de consumer plusieurs ennemis a la fois dans une pluie de feu devastatrice.",
+    requiredLevels: [90, 90, 90, 90, 90, 190],
+    ranges: ["1 a 8 PO", "1 a 8 PO", "1 a 8 PO", "1 a 8 PO", "1 a 8 PO", "1 a 8 PO"],
+    ap: "4 PA",
+    normal: [["16 a 20", 2], ["17 a 21", 2], ["18 a 22", 2], ["19 a 23", 2], ["20 a 24", 2], ["20 a 24", 3]].map(([damage, area]) => [areaEffect(`Dommages : ${damage} (feu)`, "Feu", area)]),
+    critical: [["22 a 26", 2], ["23 a 27", 2], ["25 a 29", 2], ["27 a 31", 2], ["28 a 32", 2], ["28 a 32", 3]].map(([damage, area]) => [areaEffect(`Dommages : ${damage} (air)`, "Air", area)]),
+    stats: detailedStats({ critical: "5%", casts: "2" })
+  }
+];
+
+const craDetailedData = craDetailedSpecs.map((spec) => Object.fromEntries(
+  [1, 2, 3, 4, 5, 6].map((level, index) => [String(level), {
+    requiredLevel: spec.requiredLevels[index],
+    range: spec.ranges[index],
+    ap: spec.ap,
+    ...(spec.description ? { description: spec.description } : {}),
+    tabs: [
+      { label: "Normaux", effects: spec.normal[index] },
+      { label: "Critiques", effects: spec.critical[index] }
+    ],
+    characteristics: spec.stats.characteristics,
+    rules: spec.stats.rules
+  }])
+));
+
 for (const [classId, updates] of Object.entries(pdfData)) {
   if (!spells[classId] || spells[classId].length !== updates.length) {
     throw new Error(`Unexpected spell count for ${classId}`);
@@ -223,15 +328,19 @@ for (const [classId, updates] of Object.entries(pdfData)) {
 
   updates.forEach((update, index) => {
     const spell = spells[classId][index];
+    if (update.id) spell.id = update.id;
     if (update.name) spell.name = update.name;
+    if (update.icon) spell.icon = update.icon;
     spell.requiredLevel = update.level;
     spell.range = update.range;
     spell.ap = update.ap;
     if (update.effects) spell.tabs[0].effects = update.effects;
+    if (update.removeSourceImage) delete spell.sourceImage;
     spell.levels = [1, 2, 3, 4, 5, 6];
     spell.levelData = Object.fromEntries(
       spell.levels.map((level) => [String(level), spell.levelData?.[String(level)] || {}])
     );
+    if (classId === "cra") spell.levelData = craDetailedData[index];
 
     const stats = pdfStats[classId][index];
     spell.characteristics = [

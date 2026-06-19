@@ -1,0 +1,19 @@
+——— Niveaux du sort: 12 34 56X
+708 ; ‘
+| ) Flèche du Néant 5à 8PO
+Less {| Niveau requis: 54 3PA
+Elle fend l'air sans un son, née d’un pacte avec une entité
+oubliée. Ceux qu'elle effleure sentent le vent leur voler la vie...
+et leur dernier souffle murmure encore dans les cieux.
+Effets
+Normaux Critiques,
+À Dommages : 6 à 8 (air)
+A Vole 6 à 8 PDV (air)
+Autres caractéristiques
+Probabilité de coup critique 15% Portée modifi.. w
+Probabilité d'échec 1/100 | Ligne de vue x
+Lancer en ligne X
+Nb. de lancers par tour - ;
+Cellules libres X
+Nb. de lancers par tour par joueur 2 | ECfiniletour X
+Nb. de tours entre deux lancers - | CCactuels 15%

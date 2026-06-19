@@ -29,7 +29,7 @@ const pageNames = {
   ],
   2: [
     "Fleche du Vent Cisaillant",
-    "Fleche du Phoenix",
+    "Fleche Explosive",
     "Ronce Aride",
     "Ronce du Chaos",
   ],

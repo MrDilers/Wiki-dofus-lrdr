@@ -136,11 +136,12 @@ function customSpellFor(classId, panel) {
 
 function renderSpellEffect(effect) {
   const element = effect.element || "Neutre";
+  const area = Number(effect.area) || 0;
   return `
     <li class="spell-effect-row" data-element="${escapeHtml(element)}">
       ${renderElementIcon(element, "spell-effect-icon")}
       <span title="${escapeHtml(effect.text)}">${escapeHtml(effect.text)}</span>
-      ${effect.meta ? `<small title="${escapeHtml(effect.meta)}">${escapeHtml(effect.meta)}</small>` : ""}
+      ${area ? `<small class="spell-effect-area" title="Zone de ${area} cases"><span class="spell-zone-icon" aria-hidden="true"><i></i><i></i><i></i></span>${area} (C)</small>` : effect.meta ? `<small title="${escapeHtml(effect.meta)}">${escapeHtml(effect.meta)}</small>` : ""}
     </li>
   `;
 }

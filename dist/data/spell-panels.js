@@ -26,7 +26,7 @@ window.LRDR_SPELL_PANELS = {
       "image": "assets/spells/cra/page-02-01-fleche-du-vent-cisaillant.png"
     },
     {
-      "name": "Fleche du Phoenix",
+      "name": "Fleche Explosive",
       "page": 2,
       "image": "assets/spells/cra/page-02-02-fleche-du-phoenix.png"
     }

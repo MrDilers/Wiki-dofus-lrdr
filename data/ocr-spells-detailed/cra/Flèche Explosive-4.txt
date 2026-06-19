@@ -1,0 +1,18 @@
+—— Niveaux du sort: 12 34 56X
+EN ;
+| ) Flèche Explosive 1à 8PO
+DNS X| Niveau requis: 90 4 PA
+Une flèche embrasée qui éclate au moindre impact. Forgée L
+dans les braises des anciens archers, cette attaque libère ||
+une détonation ardente capable de consumer plusieurs T
+Effets
+Normaux Critiques,
+À Dommages : 19 à 23 (feu) 88 2 (C)
+Autres caractéristiques
+Probabilité de coup critique 5% Portée modifi.. w
+Probabilité d'échec 1/100 | Ligne de vue v
+Lancer en ligne X
+Nb. de lancers par tour 2 ;
+Cellules libres X
+Nb. de lancers par tour par joueur - | ECfiniletour X
+Nb. de tours entre deux lancers - | CCactuels 5%

@@ -1,0 +1,18 @@
+Niveaux du sort: 12 34 56X
+MN ;
+CL) Souffle de l’'Humus 2à 10PO
+LS Niveau requis: 101 APA
+Dans les marais d’un royaume oublié, un Crâ perdit la a
+raison. Il créa une flèche d'écorce vivante, suintant un ||
+poison lent. Elle s'enracine dans la chair, y fait pousserla_ y
+Effets
+Normaux Critiques,
+À Dommages : 9 à 10 (terre) (2 tours)
+Autres caractéristiques
+Probabilité de coup critique 25% Portée modifi.. w
+Probabilité d'échec 1/100 | Ligne de vue v
+Lancer en ligne X
+Nb. de lancers par tour - ;
+Cellules libres X
+Nb. de lancers par tour par joueur 1 | ECfiniletour X
+Nb. de tours entre deux lancers - | CCactuels 25%
