@@ -1,0 +1,21 @@
+(ESS) Niveau requis: 106 spa
+La tristesse et la déception du Sadi n'ont fait qu'attiser sa rage.
+Ses larmes sont devenues si puissantes qu'elles plantent leurs
+épines dans tous ceux qui lui veulent du mal.
+
+Effets
+
+Foro” RE
+
+À Dommages : 17 à 27 (terre)
+
+| Autres caractéristiques
+
+Probabilité de coup critique 1/50 | Portée modif. #
+Probabilité d'échec 1/100 | Hireceue %R
+
+Lancer en ligne X
+
+Nb. de lancers par tour - nù x
+Nb. de lancers par tour par joueur - | ECfiniletour X
+Nb. de tours entre deux lancers = | CCactuels 1/54

@@ -1,0 +1,18 @@
+ga Niveaux dusort: 1 2 3 4 5 6%
+=
+1 | Ronce du Chaos 14 770
+12 SA] Niveau requis: 101 sea
+La Ronce du Chaos est née d'un Sadida errant, fou de
+douleur, qui fusionna la sève de l'Arbre Hakam avec des
+larmes de Dragoeuf. Cette ronce imprévisible frappe
+Effets
+600”
+À Dommages : 6 à 10 (terre)
+À Dommages : 6 à 10 (air)
+Autres caractéristiques
+Probabilité de coup critique 1/50 | Portée modif. #
+Probabilité d'échec 1/100 | Unédewe  w
+Lancer en ligne X
+Nb. de lancers par tour Cellules libres X
+Nb. de lancers par tour par joueur - | ECfiniletour X
+Nb, de tours entre deux lancers = \ CCactuels 1/50

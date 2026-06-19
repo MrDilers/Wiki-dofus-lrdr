@@ -1,0 +1,14 @@
+Effets
+
+Autres caractéristiques
+
+Probabilité de coup critique 1/50 | Porté
+
+Probabilité d'échec 1/100 | Liane
+Lance
+
+Nb. de lancers par tour 5) fps
+
+Nb. de lancers par tour par joueur - | ECfin
+
+Nb. de tours entre deux lancers = | ecæ

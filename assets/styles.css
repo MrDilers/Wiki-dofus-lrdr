@@ -1014,7 +1014,8 @@ input {
   grid-template-columns: 58px minmax(0, 1fr) minmax(104px, auto);
   grid-template-areas:
     "icon title required"
-    "icon levels cost";
+    "icon cost cost"
+    "levels levels levels";
   gap: 10px;
   align-items: start;
   padding: 12px 14px 10px;
@@ -1067,34 +1068,64 @@ input {
 .spell-card-levels {
   grid-area: levels;
   display: flex;
+  justify-content: center;
   align-items: center;
-  gap: 8px;
+  gap: 5px;
   min-width: 0;
-  padding-top: 2px;
-  overflow: hidden;
+  padding-top: 5px;
   white-space: nowrap;
 }
 
-.spell-card-levels b {
+.spell-card-levels button {
+  width: 27px;
+  height: 27px;
+  padding: 0;
+  border: 1px solid rgba(127, 113, 69, 0.38);
+  border-radius: 3px;
+  background: rgba(255, 255, 255, 0.3);
   color: #6b6249;
+  cursor: pointer;
+  font-family: inherit;
   font-size: 0.84rem;
+  font-weight: 700;
+  line-height: 25px;
+  transition: color 140ms ease, background-color 140ms ease, border-color 140ms ease, transform 140ms ease;
 }
 
-.spell-card-levels b.active {
-  color: #d58a28;
+.spell-card-levels button:hover,
+.spell-card-levels button:focus-visible {
+  border-color: rgba(151, 116, 51, 0.45);
+  background: rgba(255, 255, 255, 0.38);
+  color: #8e551c;
+  outline: none;
+  transform: translateY(-1px);
+}
+
+.spell-card-levels button.active {
+  border-color: #b66f1d;
+  background: #d58a28;
+  color: #fff9e8;
+  box-shadow: 0 2px 5px rgba(112, 68, 17, 0.25);
 }
 
 .spell-card-cost {
   grid-area: cost;
-  display: grid;
+  display: flex;
+  justify-content: flex-end;
   align-content: start;
   gap: 4px;
   min-width: 0;
-  max-width: 104px;
+  max-width: none;
   padding-top: 0;
   color: #3b3528;
   font-size: 0.82rem;
   text-align: right;
+}
+
+.spell-card-cost strong + strong::before {
+  content: "•";
+  margin: 0 7px;
+  color: #8e865f;
 }
 
 .spell-card-cost strong {

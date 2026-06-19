@@ -1,0 +1,18 @@
+Niveaux du sort 12345
+ES) Poing Epique 184
+NA) Niveau requis: 142 E
+Lance un coup puissant, réceptacle de la fureur primordiale
+des Douze Dieux. Jadis, un lop déchu implora leur pardon
+et fut touché par cette grâce imprévisible, manifestant tour
+Effets
+NEC” RE
+A, Dommages : 1 à 20 (eau)
+A Dommages : 1 à 20 (air)
+Autres caractéristiques
+Probabilité de coup critique 1/45 | Portée modif.
+Probabilité d'échec 2/100; | Hire de von
+
+Lancer en ligne
+
+Nb. de lancers par tour Cellules libres
+Nb. de lancers par tour par joueur - | EC fini le tour

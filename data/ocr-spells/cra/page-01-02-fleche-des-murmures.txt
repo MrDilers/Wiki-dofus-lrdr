@@ -1,0 +1,30 @@
+TR Niveauxdusort: 1 2 3 4 5 6X
+
+À )| Flèche des Murmures 1à 1170
+
+24] Niveau requis: 42 PA
+
+Forgée dans un souffle volé à une banshee, cette flèche glisse
+
+dans l'air sans bruit. On dit que cœux qu'elle touche entendent
+
+des voix... qui les poussent lentement vers la folle.
+
+Effets
+
+ _
+
+À Dommages : 9 à 11 (air) æ1(c)
+
+Autres caractéristiques
+
+Probabilité de coup critique 1/40 | Portée modif. W
+
+Probabilité d'échec 1/100 | Ligne de vue :
+Lancer en ligne
+
+Nb. de lancers par tour nuue à
+
+Nb. de lancers par tour par joueur - | ECfiniletour X
+
+Nb. de tours entre deux lancers = | CCactuels 1/40

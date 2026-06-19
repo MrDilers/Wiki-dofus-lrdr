@@ -1,0 +1,15 @@
+Ï || Ronce Aride 1à 8po
+FX 2 nivesu requis: 101 sm
+Depuis que la ronce à poussé sur les cendres du brasier,
+elle se prend pour une ronce aride… Une ronce de feu, qui
+embrase et calcine tout sur son passage, laissant derrière
+Effets
+Worr50” CE
+À Dommages : 11 à 18 (feu)
+Autres caractéristiques
+Probabilité de coup critique 1/45 Portée modif. #
+Probabilité d'échec 1/200 | Una dues R
+Lancer en ligne X
+Nb. de lancers par tour * | cellules x
+Nb. de lancers par tour par joueur 2 | ECfiniletour X
+Nb. de tours entre deux lancers - | CCactuels 1/4

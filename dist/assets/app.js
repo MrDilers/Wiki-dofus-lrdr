@@ -145,26 +145,34 @@ function renderSpellEffect(effect) {
   `;
 }
 
-function renderSpellCard(spell) {
-  const tabs = spell.tabs || [];
+function spellAtLevel(spell, level = spell.selectedLevel) {
+  const selectedLevel = Number(level) || Number(spell.selectedLevel) || 1;
+  const variant = spell.levelData?.[String(selectedLevel)] || {};
+  return { ...spell, ...variant, selectedLevel };
+}
+
+function renderSpellCard(spell, context = {}) {
+  const displayedSpell = spellAtLevel(spell, context.selectedLevel);
+  const tabs = displayedSpell.tabs || [];
+  const levels = displayedSpell.levels || [1, 2, 3, 4, 5, 6];
   return `
-    <article class="spell-card" data-element="${escapeHtml(spell.element)}">
+    <article class="spell-card" data-element="${escapeHtml(displayedSpell.element)}" data-spell-class="${escapeHtml(context.classId || "")}" data-spell-index="${escapeHtml(context.spellIndex ?? "")}" data-selected-level="${escapeHtml(displayedSpell.selectedLevel)}">
       <header class="spell-card-head">
-        <img class="spell-card-icon" src="${escapeHtml(spell.icon)}" alt="">
+        <img class="spell-card-icon" src="${escapeHtml(displayedSpell.icon)}" alt="">
         <div class="spell-card-title">
-          <h4 title="${escapeHtml(spell.name)}">${escapeHtml(spell.name)}</h4>
+          <h4 title="${escapeHtml(displayedSpell.name)}">${escapeHtml(displayedSpell.name)}</h4>
         </div>
-        <span class="spell-card-required" title="Niveau requis : ${escapeHtml(spell.requiredLevel)}">Niv. requis : ${escapeHtml(spell.requiredLevel)}</span>
+        <span class="spell-card-required" title="Niveau requis : ${escapeHtml(displayedSpell.requiredLevel)}">Niv. requis : ${escapeHtml(displayedSpell.requiredLevel)}</span>
         <div class="spell-card-levels" aria-label="Niveaux du sort">
           <span>Niveaux du sort :</span>
-          ${(spell.levels || []).map((level) => `<b class="${level === spell.selectedLevel ? "active" : ""}">${level}</b>`).join("")}
+          ${levels.map((level) => `<button class="${Number(level) === Number(displayedSpell.selectedLevel) ? "active" : ""}" type="button" data-spell-level="${escapeHtml(level)}" aria-pressed="${Number(level) === Number(displayedSpell.selectedLevel) ? "true" : "false"}" title="Afficher le niveau ${escapeHtml(level)}">${escapeHtml(level)}</button>`).join("")}
         </div>
         <div class="spell-card-cost">
-          <strong>${escapeHtml(spell.range)}</strong>
-          <strong>${escapeHtml(spell.ap)}</strong>
+          <strong>${escapeHtml(displayedSpell.range)}</strong>
+          <strong>${escapeHtml(displayedSpell.ap)}</strong>
         </div>
       </header>
-      <p class="spell-card-description" title="${escapeHtml(spell.description)}">${escapeHtml(spell.description)}</p>
+      <p class="spell-card-description" title="${escapeHtml(displayedSpell.description)}">${escapeHtml(displayedSpell.description)}</p>
       <section class="spell-card-effects">
         <h5>Effets</h5>
         <div class="spell-tabs">
@@ -192,10 +200,10 @@ function renderSpellCard(spell) {
         <h5>Autres caracteristiques</h5>
         <div class="spell-stat-grid">
           <div>
-            ${(spell.characteristics || []).map(([label, value]) => `<p><span title="${escapeHtml(label)}">${escapeHtml(label)}</span><strong title="${escapeHtml(value)}">${escapeHtml(value)}</strong></p>`).join("")}
+            ${(displayedSpell.characteristics || []).map(([label, value]) => `<p><span title="${escapeHtml(label)}">${escapeHtml(label)}</span><strong title="${escapeHtml(value)}">${escapeHtml(value)}</strong></p>`).join("")}
           </div>
           <div>
-            ${(spell.rules || [])
+            ${(displayedSpell.rules || [])
               .map(([label, value]) => {
                 const formatted = typeof value === "boolean" ? `<em class="${value ? "yes" : "no"}">${value ? "✓" : "×"}</em>` : `<strong>${escapeHtml(value)}</strong>`;
                 return `<p><span title="${escapeHtml(label)}">${escapeHtml(label)}</span>${formatted}</p>`;
@@ -204,10 +212,10 @@ function renderSpellCard(spell) {
           </div>
         </div>
       </section>
-      ${spell.sourceImage ? `
+      ${displayedSpell.sourceImage ? `
         <details class="spell-source">
           <summary>Source PDF</summary>
-          <img src="${escapeHtml(spell.sourceImage)}" alt="${escapeHtml(spell.name)}">
+          <img src="${escapeHtml(displayedSpell.sourceImage)}" alt="${escapeHtml(displayedSpell.name)}">
         </details>
       ` : ""}
     </article>
@@ -221,6 +229,7 @@ function renderSpellPanels(classId, options = {}) {
       ${panels
         .map((panel) => {
           const customSpell = customSpellFor(classId, panel);
+          const customSpellIndex = customSpell ? (state.customSpells[classId] || []).indexOf(customSpell) : -1;
           const spellElement = customSpell?.element || "Neutre";
           const spellIcon = customSpell?.icon || "";
           const spellLevel = customSpell?.requiredLevel || `Page ${panel.page}`;
@@ -237,7 +246,7 @@ function renderSpellPanels(classId, options = {}) {
                 <span class="spell-summary-level">${customSpell ? "Niv. requis" : "Source"}<b>${escapeHtml(spellLevel)}</b></span>
                 <span class="spell-summary-toggle" aria-hidden="true"></span>
               </summary>
-              ${customSpell ? renderSpellCard(customSpell) : `
+              ${customSpell ? renderSpellCard(customSpell, { classId, spellIndex: customSpellIndex }) : `
                 <div class="spell-panel-card">
                   <img src="${panel.image}" alt="${panel.name}">
                 </div>
@@ -264,6 +273,17 @@ function activateSpellTab(button) {
     panel.classList.toggle("active", active);
     panel.hidden = !active;
   });
+}
+
+function activateSpellLevel(button) {
+  const card = button.closest(".spell-card");
+  if (!card) return;
+  const classId = card.dataset.spellClass;
+  const spellIndex = Number(card.dataset.spellIndex);
+  const level = Number(button.dataset.spellLevel);
+  const spell = state.customSpells[classId]?.[spellIndex];
+  if (!spell || !level) return;
+  card.outerHTML = renderSpellCard(spell, { classId, spellIndex, selectedLevel: level });
 }
 
 function navCurrent(pageName) {
@@ -634,6 +654,11 @@ async function init() {
 
   $("#closeDialog")?.addEventListener("click", () => $("#classDialog").close());
   $("#dialogContent")?.addEventListener("click", (event) => {
+    const levelButton = event.target.closest("[data-spell-level]");
+    if (levelButton) {
+      activateSpellLevel(levelButton);
+      return;
+    }
     const tabButton = event.target.closest("[data-spell-tab]");
     if (!tabButton) return;
     activateSpellTab(tabButton);

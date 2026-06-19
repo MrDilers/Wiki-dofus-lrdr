@@ -1,0 +1,26 @@
+Ur} Niveau requis: 103 sara
+
+Des ronces ardentes jaillissent des entrailles des Enfers,
+
+enflammant tout sur leur passage. Leur rage infernale
+
+consume ennemis et espoirs, laissant derrière elles une
+
+Effets
+
+Wor5s0=” ME
+
+da, Dommages : 41 à 45 (feu)
+
+Autres caractéristiques
+
+Probabilité de coup critique 1/50 | Portée modif. X
+
+Probabilité d'échec 17200 | eee 9
+Lancer en ligne 4
+
+Nb. de lancers par tour 2 Cellules x
+
+Nb. de lancers par tour par joueur 2 | ECfiniletour X
+
+Nb. de tours entre deux lancers = | CCactuels 1/54

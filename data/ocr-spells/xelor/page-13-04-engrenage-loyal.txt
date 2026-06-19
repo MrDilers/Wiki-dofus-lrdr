@@ -1,0 +1,28 @@
+Vole 1 PO (1 tour)
+
+Autres caractéristiques
+
+Probabilité de coup critique 1/35 | Portée.
+
+Probabilité d'échec 1/100 | Ligne
+Lancer
+
+Nb. de lancers par tour 1e
+
+Nb. de lancers par tour par joueur - | Ecfini
+
+Nb. de tours entre deux lancers = | CCact
+
+— Niveaux dusort: 1 2 3
+
+|@ | Engrenage Loyai
+
+p2=S | Niveau requis: 142
+
+Guidé par une foi sans faille en sa mission, le Xéle
+
+l'énergie du temps pour renforcer ses alliés, sacrif
+
+propres heures pour faire avancer leur destinée.
+
+Effets

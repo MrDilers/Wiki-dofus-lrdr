@@ -1,0 +1,24 @@
+LA] Niveau requis: 121 4
+
+La Pelle du Marée-Haut n'est pas une arme, c'est l'océan
+
+incarné. Frappez l'ennemi avec cette vague solidifiée pour
+
+des dégôts Eau colossaux. Son impact crée un reflux qui
+
+Effets
+
+pe)
+A, Dommages : 21 à 25 (eau)
+Vole 1 PM
+
+Autres caractéristiques
+
+Probabilité de coup critique 1/50 | Portée modifi..
+
+Probabilité d'échec 1/200 | pedewe
+Lancer en ligne
+
+Nb. de lancers par tour ° Cellules Nbres
+
+Nb. de lancers nar tour nar toueur t PE CE

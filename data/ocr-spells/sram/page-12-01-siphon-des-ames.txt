@@ -1,0 +1,15 @@
+y Niveaux dusort: 1 2 3 4°
+Siphon des Âmes
+Niveau requis: 106
+Le Sram, pilleur d'essences, projette une vague d'eau
+sombre et gélatineuse qui s'abat sur sa cible. Ce Siphon
+Âmes inflige des dégâts d'Eau considérables, mais son
+Effets
+675505” RE
+A, Vole 11 à 25 PDV (eau) se
+25 vol de chance (3 tours) si
+25 vol de force (3 tours) 25
+Autres caractéristiques
+Probabilité de coup critique 1/30 | Portée modif
+Probabilité d'échec 2/100 | Vonedevue
+Lancer en fie

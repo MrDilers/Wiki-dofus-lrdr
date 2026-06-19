@@ -1,0 +1,18 @@
+—- Niveauxdusot: 1 2 3 4 5 63
+CA | Fièche du Revenant 1à 1080
+[SG] Niveau requis: 148 ar
+Lors d'une ancienne guerre, un Cr tira une flèche en bois
+maudit qui ne rata jamais sa cible. Depuis, elle erre, quidée
+par les âmes qu'elle à fauchées.…. et frappe encore, même
+Effets
+Ro”
+-2 PM (1 tour)
+À Dommages : 13 à 14 (terre)
+| Autres caractéristiques
+|| Probobilité de coup critique 1/40 | Portée modif. @
+j Probabilté d'échec 1/200 | tigre dewe v
+Lancer en ligne X
+Nb. de lancers par tour 2er $
+Mb. de lancers par tour par joueur 1 | Ecfiniletour XX
+| Nb. de tours entre deux lancers = \ Ccactuels 1/40
+Ass = =

@@ -1,0 +1,26 @@
+LEE] Niveau requis: 109 5
+
+La Vague du Guerrier jailit d'un Iop défiant les marées ! Sa
+
+colère forge une déferlante colossale qui écrase les
+
+ennemis, les submergeant d'une puissance brute et
+
+Effets
+
+TR
+
+À, Dommages : 61 à 65 (eau)
+
+Autres caractéristiques
+
+Probabilité de coup critique 1/50 Portée modifi.
+
+Probabilité d'échec 1/100 | Ugne de vue
+Lancer en ligne
+
+Nb. de lancers par tour 2
+
+Nb. de lancers par tour par joueur - | EC fini le tour
+
+Nb. de tours entre deux lancers = | CCactuels 4
