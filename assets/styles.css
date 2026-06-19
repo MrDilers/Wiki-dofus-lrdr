@@ -1135,14 +1135,13 @@ input {
 }
 
 .spell-card-description {
-  overflow: hidden;
   margin: 0;
   padding: 10px 14px 12px;
   color: #504938;
   font-size: 0.88rem;
   line-height: 1.3;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  overflow-wrap: anywhere;
+  white-space: normal;
 }
 
 .spell-card-effects,
@@ -1210,7 +1209,7 @@ input {
   display: grid;
   grid-template-columns: 22px minmax(0, 1fr) auto;
   gap: 8px;
-  align-items: center;
+  align-items: start;
   min-height: 28px;
   padding: 6px 8px;
   background: rgba(189, 181, 130, 0.45);
@@ -1226,10 +1225,9 @@ input {
 
 .spell-effect-row > span:nth-child(2),
 .spell-effect-row small {
-  overflow: hidden;
   min-width: 0;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  overflow-wrap: anywhere;
+  white-space: normal;
 }
 
 .spell-effect-mark {
@@ -1260,6 +1258,7 @@ input {
 .spell-effect-row small {
   color: var(--spell-element-dark, #52662b);
   font-weight: 900;
+  text-align: right;
 }
 
 .spell-effect-empty {
@@ -1277,6 +1276,7 @@ input {
 
 .spell-stat-grid p {
   display: flex;
+  align-items: flex-start;
   justify-content: space-between;
   gap: 8px;
   margin: 0;
@@ -1287,14 +1287,13 @@ input {
 
 .spell-stat-grid span,
 .spell-stat-grid strong {
-  overflow: hidden;
   min-width: 0;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  overflow-wrap: anywhere;
+  white-space: normal;
 }
 
 .spell-stat-grid span {
-  max-width: 132px;
+  max-width: none;
 }
 
 .spell-stat-grid strong {
