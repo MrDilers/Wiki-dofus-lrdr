@@ -10,6 +10,23 @@ const state = {
   wikiFilter: "Tous",
 };
 
+const siteVersion = "1.2.0";
+
+function renderSiteVersion() {
+  const createVersion = (extraClass = "") => {
+    const version = document.createElement("div");
+    version.className = `site-version${extraClass}`;
+    version.textContent = `Version ${siteVersion}`;
+    version.setAttribute("aria-label", `Version du site ${siteVersion}`);
+    return version;
+  };
+
+  document.body.append(createVersion());
+  document.querySelectorAll("dialog").forEach((dialog) => {
+    dialog.append(createVersion(" site-version-dialog"));
+  });
+}
+
 const elements = ["Tous", "Terre", "Feu", "Eau", "Air"];
 const wikiFilters = ["Tous", "Panoplies", "Bonus", "PNJ", "Equipements evolutifs", "Donjons"];
 const $ = (selector) => document.querySelector(selector);
@@ -598,6 +615,7 @@ function bindWikiHashNavigation() {
 
 // Initialisation commune.
 async function init() {
+  renderSiteVersion();
   if (window.LRDR_CLASSES && window.LRDR_PAGES) {
     state.classes = window.LRDR_CLASSES;
     state.pages = window.LRDR_PAGES;
