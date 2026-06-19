@@ -1013,9 +1013,9 @@ input {
   display: grid;
   grid-template-columns: 58px minmax(0, 1fr) minmax(104px, auto);
   grid-template-areas:
+    "levels levels levels"
     "icon title required"
-    "icon cost cost"
-    "levels levels levels";
+    "icon cost cost";
   gap: 10px;
   align-items: start;
   padding: 12px 14px 10px;
