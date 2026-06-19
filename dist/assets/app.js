@@ -10,7 +10,7 @@ const state = {
   wikiFilter: "Tous",
 };
 
-const siteVersion = "1.2.0";
+const siteVersion = "1.2.1";
 
 function renderSiteVersion() {
   const createVersion = (extraClass = "") => {
