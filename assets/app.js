@@ -10,7 +10,11 @@ const state = {
   wikiFilter: "Tous",
 };
 
-const siteVersion = "1.2.1";
+const siteVersion = "1.2.2";
+
+function versionedAsset(path) {
+  return `${path}${path.includes("?") ? "&" : "?"}v=${siteVersion}`;
+}
 
 function renderSiteVersion() {
   const createVersion = (extraClass = "") => {
@@ -176,7 +180,7 @@ function renderSpellCard(spell, context = {}) {
   return `
     <article class="spell-card" data-element="${escapeHtml(displayedSpell.element)}" data-spell-class="${escapeHtml(context.classId || "")}" data-spell-index="${escapeHtml(context.spellIndex ?? "")}" data-selected-level="${escapeHtml(displayedSpell.selectedLevel)}">
       <header class="spell-card-head">
-        <img class="spell-card-icon" src="${escapeHtml(displayedSpell.icon)}" alt="">
+        <img class="spell-card-icon" src="${escapeHtml(versionedAsset(displayedSpell.icon))}" alt="">
         <div class="spell-card-title">
           <h4 title="${escapeHtml(displayedSpell.name)}">${escapeHtml(displayedSpell.name)}</h4>
         </div>
@@ -255,7 +259,7 @@ function renderSpellPanels(classId, options = {}) {
             <details class="class-detail spell-detail" data-element="${escapeHtml(spellElement)}">
               <summary>
                 <span class="spell-summary-icon">
-                  ${spellIcon ? `<img src="${escapeHtml(spellIcon)}" alt="">` : renderElementIcon(spellElement)}
+                  ${spellIcon ? `<img src="${escapeHtml(versionedAsset(spellIcon))}" alt="">` : renderElementIcon(spellElement)}
                 </span>
                 <span class="spell-summary-copy">
                   <strong title="${escapeHtml(panel.name)}">${escapeHtml(panel.name)}</strong>
