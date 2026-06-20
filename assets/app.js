@@ -10,7 +10,7 @@ const state = {
   wikiFilter: "Tous",
 };
 
-const siteVersion = "1.2.2";
+const siteVersion = "1.2.3";
 
 function versionedAsset(path) {
   return `${path}${path.includes("?") ? "&" : "?"}v=${siteVersion}`;
@@ -254,7 +254,9 @@ function renderSpellPanels(classId, options = {}) {
           const customSpellIndex = customSpell ? (state.customSpells[classId] || []).indexOf(customSpell) : -1;
           const spellElement = customSpell?.element || "Neutre";
           const spellIcon = customSpell?.icon || "";
-          const spellLevel = customSpell?.requiredLevel || `Page ${panel.page}`;
+          const spellLevel = customSpell
+            ? customSpell.levelData?.["1"]?.requiredLevel ?? customSpell.requiredLevel
+            : `Page ${panel.page}`;
           return `
             <details class="class-detail spell-detail" data-element="${escapeHtml(spellElement)}">
               <summary>
