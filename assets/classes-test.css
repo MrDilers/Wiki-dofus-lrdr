@@ -1,40 +1,14 @@
-:root {
-  color-scheme: dark;
-  --bg: #0a0618;
-  --surface: #1b1e20;
-  --surface-2: #24282a;
-  --line: rgba(240, 192, 64, 0.24);
-  --line-strong: rgba(240, 192, 64, 0.55);
-  --gold: #f0c040;
-  --gold-soft: #ffe680;
-  --green: #718d36;
-  --text: #f0e6cc;
-  --muted: rgba(235, 215, 255, 0.72);
+.test-main {
   --paper: #e6e0bd;
   --paper-dark: #cfc69b;
   --ink: #383329;
+  width: auto;
+  max-width: none;
+  margin: 0 0 70px 280px;
 }
 
-* { box-sizing: border-box; }
-
-html { background: var(--bg); }
-
-body {
-  min-width: 320px;
-  min-height: 100vh;
-  margin: 0;
-  background:
-    linear-gradient(rgba(255,255,255,.018) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255,255,255,.018) 1px, transparent 1px),
-    var(--bg);
-  background-size: 32px 32px;
-  color: var(--text);
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-button, input { font: inherit; }
-
-.test-main { width: auto; max-width: none; margin: 0 0 70px 280px; }
+.test-main button,
+.test-main input { font: inherit; }
 
 .class-browser { border-bottom: 1px solid var(--line); }
 .browser-heading {
