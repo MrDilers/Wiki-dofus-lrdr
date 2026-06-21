@@ -1,0 +1,1648 @@
+CLASSE : SRAM
+==========================================================================================
+Données du client La Revanche de Rétro : classes 184, sorts 441, effets 273
+Sorts réellement utilisés : 21
+
+01. Piège Sournois [ID 65]
+------------------------------------------------------------------------------------------
+Le Piège Sournois inflige des dégâts de Terre à celui qui le déclenche.
+
+NIVEAU DU SORT 1 - niveau joueur requis : 1
+  PA : 2 | Portée : 1 à 3 | Portée modifiable : Oui
+  Coup critique : Aucun | Échec critique : 1/100
+  Ligne uniquement : Non | Ligne de vue : Non | Cellule libre : Oui
+  Lancers par tour : 1 | Par cible : Illimité | Relance : Aucune
+  EC termine le tour : Non | Zone(s) brute(s) : Pa
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Pose un piège de rang 1 [effet 400]
+  Effets critiques : aucun
+
+NIVEAU DU SORT 2 - niveau joueur requis : 1
+  PA : 2 | Portée : 1 à 4 | Portée modifiable : Oui
+  Coup critique : Aucun | Échec critique : 1/100
+  Ligne uniquement : Non | Ligne de vue : Non | Cellule libre : Oui
+  Lancers par tour : 2 | Par cible : Illimité | Relance : Aucune
+  EC termine le tour : Non | Zone(s) brute(s) : Pa
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Pose un piège de rang 2 [effet 400]
+  Effets critiques : aucun
+
+NIVEAU DU SORT 3 - niveau joueur requis : 1
+  PA : 2 | Portée : 1 à 5 | Portée modifiable : Oui
+  Coup critique : Aucun | Échec critique : 1/100
+  Ligne uniquement : Non | Ligne de vue : Non | Cellule libre : Oui
+  Lancers par tour : 3 | Par cible : Illimité | Relance : Aucune
+  EC termine le tour : Non | Zone(s) brute(s) : Pa
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Pose un piège de rang 3 [effet 400]
+  Effets critiques : aucun
+
+NIVEAU DU SORT 4 - niveau joueur requis : 1
+  PA : 2 | Portée : 1 à 6 | Portée modifiable : Oui
+  Coup critique : Aucun | Échec critique : 1/100
+  Ligne uniquement : Non | Ligne de vue : Non | Cellule libre : Oui
+  Lancers par tour : 4 | Par cible : Illimité | Relance : Aucune
+  EC termine le tour : Non | Zone(s) brute(s) : Pa
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Pose un piège de rang 4 [effet 400]
+  Effets critiques : aucun
+
+NIVEAU DU SORT 5 - niveau joueur requis : 1
+  PA : 2 | Portée : 1 à 7 | Portée modifiable : Oui
+  Coup critique : Aucun | Échec critique : 1/100
+  Ligne uniquement : Non | Ligne de vue : Non | Cellule libre : Oui
+  Lancers par tour : 5 | Par cible : Illimité | Relance : Aucune
+  EC termine le tour : Non | Zone(s) brute(s) : Pa
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Pose un piège de rang 5 [effet 400]
+  Effets critiques : aucun
+
+NIVEAU DU SORT 6 - niveau joueur requis : 101
+  PA : 2 | Portée : 1 à 8 | Portée modifiable : Oui
+  Coup critique : Aucun | Échec critique : 1/100
+  Ligne uniquement : Non | Ligne de vue : Non | Cellule libre : Oui
+  Lancers par tour : 6 | Par cible : Illimité | Relance : Aucune
+  EC termine le tour : Non | Zone(s) brute(s) : Pa
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Pose un piège de rang 6 [effet 400]
+  Effets critiques : aucun
+
+==========================================================================================
+
+02. Invisibilité [ID 72]
+------------------------------------------------------------------------------------------
+Rend le personnage invisible.
+
+NIVEAU DU SORT 1 - niveau joueur requis : 1
+  PA : 2 | Portée : 0 à 0 | Portée modifiable : Non
+  Coup critique : Aucun | Échec critique : 1/100
+  Ligne uniquement : Non | Ligne de vue : Oui | Cellule libre : Non
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : 11
+  EC termine le tour : Non | Zone(s) brute(s) : PaPa
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Rend le personnage invisible [effet 150]
+    - +1 PM [effet 128]
+  Effets critiques : aucun
+
+NIVEAU DU SORT 2 - niveau joueur requis : 1
+  PA : 2 | Portée : 0 à 0 | Portée modifiable : Non
+  Coup critique : Aucun | Échec critique : 1/100
+  Ligne uniquement : Non | Ligne de vue : Oui | Cellule libre : Non
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : 10
+  EC termine le tour : Non | Zone(s) brute(s) : PaPa
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Rend le personnage invisible [effet 150]
+    - +1 PM [effet 128]
+  Effets critiques : aucun
+
+NIVEAU DU SORT 3 - niveau joueur requis : 1
+  PA : 2 | Portée : 0 à 0 | Portée modifiable : Non
+  Coup critique : Aucun | Échec critique : 1/100
+  Ligne uniquement : Non | Ligne de vue : Oui | Cellule libre : Non
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : 9
+  EC termine le tour : Non | Zone(s) brute(s) : PaPa
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Rend le personnage invisible [effet 150]
+    - +1 PM [effet 128]
+  Effets critiques : aucun
+
+NIVEAU DU SORT 4 - niveau joueur requis : 1
+  PA : 2 | Portée : 0 à 0 | Portée modifiable : Non
+  Coup critique : Aucun | Échec critique : 1/100
+  Ligne uniquement : Non | Ligne de vue : Oui | Cellule libre : Non
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : 8
+  EC termine le tour : Non | Zone(s) brute(s) : PaPa
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Rend le personnage invisible [effet 150]
+    - +1 PM [effet 128]
+  Effets critiques : aucun
+
+NIVEAU DU SORT 5 - niveau joueur requis : 1
+  PA : 2 | Portée : 0 à 0 | Portée modifiable : Non
+  Coup critique : Aucun | Échec critique : 1/100
+  Ligne uniquement : Non | Ligne de vue : Oui | Cellule libre : Non
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : 7
+  EC termine le tour : Non | Zone(s) brute(s) : PaPa
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Rend le personnage invisible [effet 150]
+    - +1 PM [effet 128]
+  Effets critiques : aucun
+
+NIVEAU DU SORT 6 - niveau joueur requis : 101
+  PA : 2 | Portée : 0 à 0 | Portée modifiable : Non
+  Coup critique : Aucun | Échec critique : 1/100
+  Ligne uniquement : Non | Ligne de vue : Oui | Cellule libre : Non
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : 6
+  EC termine le tour : Non | Zone(s) brute(s) : PaPa
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Rend le personnage invisible [effet 150]
+    - +2 PM [effet 128]
+  Effets critiques : aucun
+
+==========================================================================================
+
+03. Morsure des Profondeurs [ID 61]
+------------------------------------------------------------------------------------------
+Le Sram, chuchoteur des abîmes, matérialise une dent d'eau pure, aussi tranchante que la glace des profondeurs. Il frappe sa cible unique avec une vélocité insaisissable, lui infligeant des dégâts d'eau massifs et gelant son âme pour un instant, la rendant vulnérable aux assauts futurs.
+
+NIVEAU DU SORT 1 - niveau joueur requis : 1
+  PA : 4 | Portée : 1 à 3 | Portée modifiable : Oui
+  Coup critique : 1/50 | Échec critique : 1/100
+  Ligne uniquement : Non | Ligne de vue : Oui | Cellule libre : Non
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : Aucune
+  EC termine le tour : Non | Zone(s) brute(s) : PaPa
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Dommages : 2 à 4 (eau) [effet 96]
+  Effets critiques :
+    - Vole 4 à 6 PDV (eau) [effet 91]
+
+NIVEAU DU SORT 2 - niveau joueur requis : 1
+  PA : 4 | Portée : 1 à 4 | Portée modifiable : Oui
+  Coup critique : 1/50 | Échec critique : 1/100
+  Ligne uniquement : Non | Ligne de vue : Oui | Cellule libre : Non
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : Aucune
+  EC termine le tour : Non | Zone(s) brute(s) : PaPa
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Dommages : 3 à 5 (eau) [effet 96]
+  Effets critiques :
+    - Vole 5 à 7 PDV (eau) [effet 91]
+
+NIVEAU DU SORT 3 - niveau joueur requis : 1
+  PA : 4 | Portée : 1 à 4 | Portée modifiable : Oui
+  Coup critique : 1/50 | Échec critique : 1/100
+  Ligne uniquement : Non | Ligne de vue : Oui | Cellule libre : Non
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : Aucune
+  EC termine le tour : Non | Zone(s) brute(s) : PaPa
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Dommages : 4 à 6 (eau) [effet 96]
+  Effets critiques :
+    - Vole 6 à 8 PDV (eau) [effet 91]
+
+NIVEAU DU SORT 4 - niveau joueur requis : 1
+  PA : 3 | Portée : 1 à 4 | Portée modifiable : Oui
+  Coup critique : 1/50 | Échec critique : 1/100
+  Ligne uniquement : Non | Ligne de vue : Oui | Cellule libre : Non
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : Aucune
+  EC termine le tour : Non | Zone(s) brute(s) : PaPa
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Dommages : 5 à 7 (eau) [effet 96]
+  Effets critiques :
+    - Vole 7 à 9 PDV (eau) [effet 91]
+
+NIVEAU DU SORT 5 - niveau joueur requis : 1
+  PA : 3 | Portée : 1 à 4 | Portée modifiable : Oui
+  Coup critique : 1/50 | Échec critique : 1/100
+  Ligne uniquement : Non | Ligne de vue : Oui | Cellule libre : Non
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : Aucune
+  EC termine le tour : Non | Zone(s) brute(s) : PaPa
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Dommages : 6 à 8 (eau) [effet 96]
+  Effets critiques :
+    - Vole 8 à 10 PDV (eau) [effet 91]
+
+NIVEAU DU SORT 6 - niveau joueur requis : 101
+  PA : 3 | Portée : 1 à 5 | Portée modifiable : Oui
+  Coup critique : 1/30 | Échec critique : 1/100
+  Ligne uniquement : Non | Ligne de vue : Non | Cellule libre : Non
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : Aucune
+  EC termine le tour : Non | Zone(s) brute(s) : PaPa
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Dommages : 11 à 13 (eau) [effet 96]
+  Effets critiques :
+    - Vole 20 PDV (eau) [effet 91]
+
+==========================================================================================
+
+04. Venin Abyssal [ID 66]
+------------------------------------------------------------------------------------------
+Le Sram, maître empoisonneur des profondeurs, projette une fléchette d'eau putride imprégnée du venin des créatures abyssales. Elle s'enfonce dans la chair de sa cible unique, libérant un poison aquatique qui corrode lentement ses défenses et lui inflige des dégâts d'eau progressifs à chaque tour. La victime se sent aspirée par les ténèbres.
+
+NIVEAU DU SORT 1 - niveau joueur requis : 3
+  PA : 3 | Portée : 1 à 4 | Portée modifiable : Oui
+  Coup critique : 1/40 | Échec critique : 1/100
+  Ligne uniquement : Oui | Ligne de vue : Non | Cellule libre : Non
+  Lancers par tour : Illimité | Par cible : 1 | Relance : Aucune
+  EC termine le tour : Non | Zone(s) brute(s) : PaPa
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Dommages : 1 à 2 (eau) [effet 96]
+    - Dommages : 1 à 2 (terre) [effet 97]
+  Effets critiques :
+    - Dommages : 3 à 4 (eau) [effet 96]
+    - Dommages : 3 à 4 (terre) [effet 97]
+
+NIVEAU DU SORT 2 - niveau joueur requis : 3
+  PA : 3 | Portée : 1 à 4 | Portée modifiable : Oui
+  Coup critique : 1/40 | Échec critique : 1/100
+  Ligne uniquement : Oui | Ligne de vue : Non | Cellule libre : Non
+  Lancers par tour : Illimité | Par cible : 1 | Relance : Aucune
+  EC termine le tour : Non | Zone(s) brute(s) : PaPa
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Dommages : 2 à 3 (eau) [effet 96]
+    - Dommages : 2 à 3 (terre) [effet 97]
+  Effets critiques :
+    - Dommages : 4 à 5 (eau) [effet 96]
+    - Dommages : 4 à 5 (terre) [effet 97]
+
+NIVEAU DU SORT 3 - niveau joueur requis : 3
+  PA : 3 | Portée : 1 à 4 | Portée modifiable : Oui
+  Coup critique : 1/40 | Échec critique : 1/100
+  Ligne uniquement : Oui | Ligne de vue : Non | Cellule libre : Non
+  Lancers par tour : Illimité | Par cible : 1 | Relance : Aucune
+  EC termine le tour : Non | Zone(s) brute(s) : PaPa
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Dommages : 3 à 4 (eau) [effet 96]
+    - Dommages : 3 à 4 (terre) [effet 97]
+  Effets critiques :
+    - Dommages : 5 à 6 (eau) [effet 96]
+    - Dommages : 5 à 6 (terre) [effet 97]
+
+NIVEAU DU SORT 4 - niveau joueur requis : 3
+  PA : 3 | Portée : 1 à 4 | Portée modifiable : Oui
+  Coup critique : 1/40 | Échec critique : 1/100
+  Ligne uniquement : Oui | Ligne de vue : Non | Cellule libre : Non
+  Lancers par tour : Illimité | Par cible : 1 | Relance : Aucune
+  EC termine le tour : Non | Zone(s) brute(s) : PaPa
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Dommages : 4 à 5 (eau) [effet 96]
+    - Dommages : 4 à 5 (terre) [effet 97]
+  Effets critiques :
+    - Dommages : 6 à 7 (eau) [effet 96]
+    - Dommages : 6 à 7 (terre) [effet 97]
+
+NIVEAU DU SORT 5 - niveau joueur requis : 3
+  PA : 3 | Portée : 1 à 4 | Portée modifiable : Oui
+  Coup critique : 1/40 | Échec critique : 1/100
+  Ligne uniquement : Oui | Ligne de vue : Non | Cellule libre : Non
+  Lancers par tour : Illimité | Par cible : 1 | Relance : Aucune
+  EC termine le tour : Non | Zone(s) brute(s) : PaPa
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Dommages : 5 à 6 (eau) [effet 96]
+    - Dommages : 5 à 6 (terre) [effet 97]
+  Effets critiques :
+    - Dommages : 7 à 8 (eau) [effet 96]
+    - Dommages : 7 à 8 (terre) [effet 97]
+
+NIVEAU DU SORT 6 - niveau joueur requis : 103
+  PA : 3 | Portée : 1 à 4 | Portée modifiable : Oui
+  Coup critique : 1/40 | Échec critique : 1/100
+  Ligne uniquement : Oui | Ligne de vue : Non | Cellule libre : Non
+  Lancers par tour : Illimité | Par cible : 1 | Relance : Aucune
+  EC termine le tour : Non | Zone(s) brute(s) : PaPa
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Dommages : 8 à 9 (eau) [effet 96]
+    - Dommages : 8 à 9 (terre) [effet 97]
+  Effets critiques :
+    - Dommages : 10 à 11 (eau) [effet 96]
+    - Dommages : 10 à 11 (terre) [effet 97]
+
+==========================================================================================
+
+05. Siphon des Âmes [ID 68]
+------------------------------------------------------------------------------------------
+Le Sram, pilleur d'essences, projette une vague d'eau sombre et gélatineuse qui s'abat sur sa cible. Ce Siphon des Âmes inflige des dégâts d'Eau considérables, mais son véritable pouvoir réside dans son étreinte drainante. La substance corruptrice siphonne les caractéristiques de Force et de Chance de l'ennemi, affaiblissant sa résistance physique et sa fortune au combat, pour les transférer temporairement au Sram. Un vol insidieux qui dénude l'adversaire de ses propres forces.
+
+NIVEAU DU SORT 1 - niveau joueur requis : 6
+  PA : 6 | Portée : 0 à 0 | Portée modifiable : Non
+  Coup critique : 1/30 | Échec critique : 1/100
+  Ligne uniquement : Non | Ligne de vue : Oui | Cellule libre : Non
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : Aucune
+  EC termine le tour : Non | Zone(s) brute(s) : XbXbXbXbXbXb
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Vole 6 à 15 PDV (eau) [effet 91]
+    - 5 vol de chance [effet 266]
+    - 5 vol de force [effet 271]
+  Effets critiques :
+    - Vole 8 à 17 PDV (eau) [effet 91]
+    - 10 vol de chance [effet 266]
+    - 10 vol de force [effet 271]
+
+NIVEAU DU SORT 2 - niveau joueur requis : 6
+  PA : 6 | Portée : 0 à 0 | Portée modifiable : Non
+  Coup critique : 1/30 | Échec critique : 1/100
+  Ligne uniquement : Non | Ligne de vue : Oui | Cellule libre : Non
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : Aucune
+  EC termine le tour : Non | Zone(s) brute(s) : XbXbXbXbXbXb
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Vole 7 à 16 PDV (eau) [effet 91]
+    - 8 vol de chance [effet 266]
+    - 8 vol de force [effet 271]
+  Effets critiques :
+    - Vole 9 à 18 PDV (eau) [effet 91]
+    - 13 vol de chance [effet 266]
+    - 13 vol de force [effet 271]
+
+NIVEAU DU SORT 3 - niveau joueur requis : 6
+  PA : 6 | Portée : 0 à 0 | Portée modifiable : Non
+  Coup critique : 1/30 | Échec critique : 1/100
+  Ligne uniquement : Non | Ligne de vue : Oui | Cellule libre : Non
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : Aucune
+  EC termine le tour : Non | Zone(s) brute(s) : XbXbXbXbXbXb
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Vole 8 à 17 PDV (eau) [effet 91]
+    - 10 vol de chance [effet 266]
+    - 10 vol de force [effet 271]
+  Effets critiques :
+    - Vole 10 à 19 PDV (eau) [effet 91]
+    - 15 vol de chance [effet 266]
+    - 15 vol de force [effet 271]
+
+NIVEAU DU SORT 4 - niveau joueur requis : 6
+  PA : 6 | Portée : 0 à 0 | Portée modifiable : Non
+  Coup critique : 1/30 | Échec critique : 1/100
+  Ligne uniquement : Non | Ligne de vue : Oui | Cellule libre : Non
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : Aucune
+  EC termine le tour : Non | Zone(s) brute(s) : XbXbXbXbXbXb
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Vole 9 à 18 PDV (eau) [effet 91]
+    - 13 vol de chance [effet 266]
+    - 13 vol de force [effet 271]
+  Effets critiques :
+    - Vole 11 à 20 PDV (eau) [effet 91]
+    - 18 vol de chance [effet 266]
+    - 18 vol de force [effet 271]
+
+NIVEAU DU SORT 5 - niveau joueur requis : 6
+  PA : 5 | Portée : 0 à 0 | Portée modifiable : Non
+  Coup critique : 1/30 | Échec critique : 1/100
+  Ligne uniquement : Non | Ligne de vue : Oui | Cellule libre : Non
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : Aucune
+  EC termine le tour : Non | Zone(s) brute(s) : XbXbXbXbXbXb
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Vole 10 à 19 PDV (eau) [effet 91]
+    - 15 vol de chance [effet 266]
+    - 15 vol de force [effet 271]
+  Effets critiques :
+    - Vole 12 à 21 PDV (eau) [effet 91]
+    - 20 vol de chance [effet 266]
+    - 20 vol de force [effet 271]
+
+NIVEAU DU SORT 6 - niveau joueur requis : 106
+  PA : 4 | Portée : 0 à 0 | Portée modifiable : Non
+  Coup critique : 1/30 | Échec critique : 1/100
+  Ligne uniquement : Non | Ligne de vue : Oui | Cellule libre : Non
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : Aucune
+  EC termine le tour : Non | Zone(s) brute(s) : XbXbXbXbXbXb
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Vole 11 à 25 PDV (eau) [effet 91]
+    - 25 vol de chance [effet 266]
+    - 25 vol de force [effet 271]
+  Effets critiques :
+    - Vole 16 à 30 PDV (eau) [effet 91]
+    - 30 vol de chance [effet 266]
+    - 30 vol de force [effet 271]
+
+==========================================================================================
+
+06. Coup Sournois [ID 63]
+------------------------------------------------------------------------------------------
+Inflige des dégâts de Terre à l'adversaire et le fait reculer de plusieurs cases.
+
+NIVEAU DU SORT 1 - niveau joueur requis : 9
+  PA : 4 | Portée : 1 à 1 | Portée modifiable : Non
+  Coup critique : 1/50 | Échec critique : 1/100
+  Ligne uniquement : Non | Ligne de vue : Oui | Cellule libre : Non
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : Aucune
+  EC termine le tour : Non | Zone(s) brute(s) : PaPaPaPa
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Dommages : 2 à 6 (terre) [effet 97]
+    - Fait reculer de 2 case(s) [effet 5]
+  Effets critiques :
+    - Dommages : 5 à 9 (terre) [effet 97]
+    - Fait reculer de 3 case(s) [effet 5]
+
+NIVEAU DU SORT 2 - niveau joueur requis : 9
+  PA : 4 | Portée : 1 à 1 | Portée modifiable : Non
+  Coup critique : 1/50 | Échec critique : 1/100
+  Ligne uniquement : Non | Ligne de vue : Oui | Cellule libre : Non
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : Aucune
+  EC termine le tour : Non | Zone(s) brute(s) : PaPaPaPa
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Dommages : 3 à 7 (terre) [effet 97]
+    - Fait reculer de 2 case(s) [effet 5]
+  Effets critiques :
+    - Dommages : 6 à 10 (terre) [effet 97]
+    - Fait reculer de 3 case(s) [effet 5]
+
+NIVEAU DU SORT 3 - niveau joueur requis : 9
+  PA : 3 | Portée : 1 à 1 | Portée modifiable : Non
+  Coup critique : 1/50 | Échec critique : 1/100
+  Ligne uniquement : Non | Ligne de vue : Oui | Cellule libre : Non
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : Aucune
+  EC termine le tour : Non | Zone(s) brute(s) : PaPaPaPa
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Dommages : 4 à 8 (terre) [effet 97]
+    - Fait reculer de 3 case(s) [effet 5]
+  Effets critiques :
+    - Dommages : 7 à 11 (terre) [effet 97]
+    - Fait reculer de 4 case(s) [effet 5]
+
+NIVEAU DU SORT 4 - niveau joueur requis : 9
+  PA : 3 | Portée : 1 à 1 | Portée modifiable : Non
+  Coup critique : 1/50 | Échec critique : 1/100
+  Ligne uniquement : Non | Ligne de vue : Oui | Cellule libre : Non
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : Aucune
+  EC termine le tour : Non | Zone(s) brute(s) : PaPaPaPa
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Dommages : 6 à 10 (terre) [effet 97]
+    - Fait reculer de 3 case(s) [effet 5]
+  Effets critiques :
+    - Dommages : 9 à 13 (terre) [effet 97]
+    - Fait reculer de 4 case(s) [effet 5]
+
+NIVEAU DU SORT 5 - niveau joueur requis : 9
+  PA : 3 | Portée : 1 à 1 | Portée modifiable : Non
+  Coup critique : 1/50 | Échec critique : 1/100
+  Ligne uniquement : Non | Ligne de vue : Oui | Cellule libre : Non
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : Aucune
+  EC termine le tour : Non | Zone(s) brute(s) : PaPaPaPa
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Dommages : 8 à 12 (terre) [effet 97]
+    - Fait reculer de 3 case(s) [effet 5]
+  Effets critiques :
+    - Dommages : 11 à 15 (terre) [effet 97]
+    - Fait reculer de 4 case(s) [effet 5]
+
+NIVEAU DU SORT 6 - niveau joueur requis : 109
+  PA : 3 | Portée : 1 à 1 | Portée modifiable : Non
+  Coup critique : 1/50 | Échec critique : 1/100
+  Ligne uniquement : Non | Ligne de vue : Oui | Cellule libre : Non
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : Aucune
+  EC termine le tour : Non | Zone(s) brute(s) : PaPaPaPa
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Dommages : 12 à 16 (terre) [effet 97]
+    - Fait reculer de 4 case(s) [effet 5]
+  Effets critiques :
+    - Dommages : 17 à 21 (terre) [effet 97]
+    - Fait reculer de 5 case(s) [effet 5]
+
+==========================================================================================
+
+07. Double [ID 74]
+------------------------------------------------------------------------------------------
+Invoque un double qui possède les mêmes caractéristique que l'invocateur, mais qui n'attaque pas.
+
+NIVEAU DU SORT 1 - niveau joueur requis : 13
+  PA : 5 | Portée : 1 à 1 | Portée modifiable : Non
+  Coup critique : Aucun | Échec critique : 1/100
+  Ligne uniquement : Oui | Ligne de vue : Oui | Cellule libre : Oui
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : 15
+  EC termine le tour : Non | Zone(s) brute(s) : Pa
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Crée un double du lanceur de sort [effet 180]
+  Effets critiques : aucun
+
+NIVEAU DU SORT 2 - niveau joueur requis : 13
+  PA : 5 | Portée : 1 à 1 | Portée modifiable : Non
+  Coup critique : Aucun | Échec critique : 1/100
+  Ligne uniquement : Oui | Ligne de vue : Oui | Cellule libre : Oui
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : 13
+  EC termine le tour : Non | Zone(s) brute(s) : Pa
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Crée un double du lanceur de sort [effet 180]
+  Effets critiques : aucun
+
+NIVEAU DU SORT 3 - niveau joueur requis : 13
+  PA : 5 | Portée : 1 à 1 | Portée modifiable : Non
+  Coup critique : Aucun | Échec critique : 1/100
+  Ligne uniquement : Oui | Ligne de vue : Oui | Cellule libre : Oui
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : 11
+  EC termine le tour : Non | Zone(s) brute(s) : Pa
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Crée un double du lanceur de sort [effet 180]
+  Effets critiques : aucun
+
+NIVEAU DU SORT 4 - niveau joueur requis : 13
+  PA : 5 | Portée : 1 à 1 | Portée modifiable : Non
+  Coup critique : Aucun | Échec critique : 1/100
+  Ligne uniquement : Oui | Ligne de vue : Oui | Cellule libre : Oui
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : 9
+  EC termine le tour : Non | Zone(s) brute(s) : Pa
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Crée un double du lanceur de sort [effet 180]
+  Effets critiques : aucun
+
+NIVEAU DU SORT 5 - niveau joueur requis : 13
+  PA : 4 | Portée : 1 à 1 | Portée modifiable : Non
+  Coup critique : Aucun | Échec critique : 1/100
+  Ligne uniquement : Oui | Ligne de vue : Oui | Cellule libre : Oui
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : 8
+  EC termine le tour : Non | Zone(s) brute(s) : Pa
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Crée un double du lanceur de sort [effet 180]
+  Effets critiques : aucun
+
+NIVEAU DU SORT 6 - niveau joueur requis : 113
+  PA : 2 | Portée : 1 à 1 | Portée modifiable : Non
+  Coup critique : Aucun | Échec critique : 1/100
+  Ligne uniquement : Oui | Ligne de vue : Oui | Cellule libre : Oui
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : 6
+  EC termine le tour : Non | Zone(s) brute(s) : Pa
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Crée un double du lanceur de sort [effet 180]
+  Effets critiques : aucun
+
+==========================================================================================
+
+08. Repérage [ID 64]
+------------------------------------------------------------------------------------------
+Détecte les pièges, les invisibles et augmente la portée.
+
+NIVEAU DU SORT 1 - niveau joueur requis : 17
+  PA : 2 | Portée : 0 à 1 | Portée modifiable : Oui
+  Coup critique : 1/30 | Échec critique : 1/100
+  Ligne uniquement : Non | Ligne de vue : Oui | Cellule libre : Non
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : 7
+  EC termine le tour : Non | Zone(s) brute(s) : CgPaCgPa
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Dévoile tous les objets invisibles [effet 202]
+    - +1 à la portée [effet 117]
+  Effets critiques :
+    - Dévoile tous les objets invisibles [effet 202]
+    - +2 à la portée [effet 117]
+
+NIVEAU DU SORT 2 - niveau joueur requis : 17
+  PA : 2 | Portée : 0 à 2 | Portée modifiable : Oui
+  Coup critique : 1/30 | Échec critique : 1/100
+  Ligne uniquement : Non | Ligne de vue : Oui | Cellule libre : Non
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : 6
+  EC termine le tour : Non | Zone(s) brute(s) : CgPaCgPa
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Dévoile tous les objets invisibles [effet 202]
+    - +1 à la portée [effet 117]
+  Effets critiques :
+    - Dévoile tous les objets invisibles [effet 202]
+    - +2 à la portée [effet 117]
+
+NIVEAU DU SORT 3 - niveau joueur requis : 17
+  PA : 2 | Portée : 0 à 3 | Portée modifiable : Oui
+  Coup critique : 1/30 | Échec critique : 1/100
+  Ligne uniquement : Non | Ligne de vue : Oui | Cellule libre : Non
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : 5
+  EC termine le tour : Non | Zone(s) brute(s) : CgPaCgPa
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Dévoile tous les objets invisibles [effet 202]
+    - +1 à la portée [effet 117]
+  Effets critiques :
+    - Dévoile tous les objets invisibles [effet 202]
+    - +2 à la portée [effet 117]
+
+NIVEAU DU SORT 4 - niveau joueur requis : 17
+  PA : 2 | Portée : 0 à 4 | Portée modifiable : Oui
+  Coup critique : 1/30 | Échec critique : 1/100
+  Ligne uniquement : Non | Ligne de vue : Oui | Cellule libre : Non
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : 4
+  EC termine le tour : Non | Zone(s) brute(s) : CgPaCgPa
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Dévoile tous les objets invisibles [effet 202]
+    - +1 à la portée [effet 117]
+  Effets critiques :
+    - Dévoile tous les objets invisibles [effet 202]
+    - +2 à la portée [effet 117]
+
+NIVEAU DU SORT 5 - niveau joueur requis : 17
+  PA : 2 | Portée : 0 à 5 | Portée modifiable : Oui
+  Coup critique : 1/30 | Échec critique : 1/100
+  Ligne uniquement : Non | Ligne de vue : Oui | Cellule libre : Non
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : 3
+  EC termine le tour : Non | Zone(s) brute(s) : CgPaCgPa
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Dévoile tous les objets invisibles [effet 202]
+    - +1 à la portée [effet 117]
+  Effets critiques :
+    - Dévoile tous les objets invisibles [effet 202]
+    - +2 à la portée [effet 117]
+
+NIVEAU DU SORT 6 - niveau joueur requis : 117
+  PA : 2 | Portée : 0 à 6 | Portée modifiable : Oui
+  Coup critique : 1/30 | Échec critique : 1/100
+  Ligne uniquement : Non | Ligne de vue : Oui | Cellule libre : Non
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : 2
+  EC termine le tour : Non | Zone(s) brute(s) : CiPaCiPa
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Dévoile tous les objets invisibles [effet 202]
+    - +1 à la portée [effet 117]
+  Effets critiques :
+    - Dévoile tous les objets invisibles [effet 202]
+    - +2 à la portée [effet 117]
+
+==========================================================================================
+
+09. Piège de Masse [ID 79]
+------------------------------------------------------------------------------------------
+Le Piège de Masse inflige de sérieux dégâts de terre à celui qui le déclenche et aux joueurs alentours.
+
+NIVEAU DU SORT 1 - niveau joueur requis : 21
+  PA : 5 | Portée : 1 à 3 | Portée modifiable : Oui
+  Coup critique : Aucun | Échec critique : 1/100
+  Ligne uniquement : Oui | Ligne de vue : Non | Cellule libre : Oui
+  Lancers par tour : 1 | Par cible : Illimité | Relance : Aucune
+  EC termine le tour : Non | Zone(s) brute(s) : Cc
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Pose un piège de rang 1 [effet 400]
+  Effets critiques : aucun
+
+NIVEAU DU SORT 2 - niveau joueur requis : 21
+  PA : 5 | Portée : 1 à 3 | Portée modifiable : Oui
+  Coup critique : Aucun | Échec critique : 1/100
+  Ligne uniquement : Oui | Ligne de vue : Non | Cellule libre : Oui
+  Lancers par tour : 1 | Par cible : Illimité | Relance : Aucune
+  EC termine le tour : Non | Zone(s) brute(s) : Cc
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Pose un piège de rang 2 [effet 400]
+  Effets critiques : aucun
+
+NIVEAU DU SORT 3 - niveau joueur requis : 21
+  PA : 5 | Portée : 1 à 4 | Portée modifiable : Oui
+  Coup critique : Aucun | Échec critique : 1/100
+  Ligne uniquement : Oui | Ligne de vue : Non | Cellule libre : Oui
+  Lancers par tour : 1 | Par cible : Illimité | Relance : Aucune
+  EC termine le tour : Non | Zone(s) brute(s) : Cc
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Pose un piège de rang 3 [effet 400]
+  Effets critiques : aucun
+
+NIVEAU DU SORT 4 - niveau joueur requis : 21
+  PA : 5 | Portée : 1 à 4 | Portée modifiable : Oui
+  Coup critique : Aucun | Échec critique : 1/100
+  Ligne uniquement : Oui | Ligne de vue : Non | Cellule libre : Oui
+  Lancers par tour : 1 | Par cible : Illimité | Relance : Aucune
+  EC termine le tour : Non | Zone(s) brute(s) : Cc
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Pose un piège de rang 4 [effet 400]
+  Effets critiques : aucun
+
+NIVEAU DU SORT 5 - niveau joueur requis : 21
+  PA : 5 | Portée : 1 à 5 | Portée modifiable : Oui
+  Coup critique : Aucun | Échec critique : 1/100
+  Ligne uniquement : Oui | Ligne de vue : Non | Cellule libre : Oui
+  Lancers par tour : 1 | Par cible : Illimité | Relance : Aucune
+  EC termine le tour : Non | Zone(s) brute(s) : Cc
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Pose un piège de rang 5 [effet 400]
+  Effets critiques : aucun
+
+NIVEAU DU SORT 6 - niveau joueur requis : 121
+  PA : 4 | Portée : 1 à 5 | Portée modifiable : Oui
+  Coup critique : Aucun | Échec critique : 1/100
+  Ligne uniquement : Oui | Ligne de vue : Non | Cellule libre : Oui
+  Lancers par tour : 1 | Par cible : Illimité | Relance : Aucune
+  EC termine le tour : Non | Zone(s) brute(s) : Cc
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Pose un piège de rang 6 [effet 400]
+  Effets critiques : aucun
+
+==========================================================================================
+
+10. Invisibilité d'Autrui [ID 78]
+------------------------------------------------------------------------------------------
+L'Invisibilité d'Autrui permet de rendre invisible un joueur.
+
+NIVEAU DU SORT 1 - niveau joueur requis : 26
+  PA : 2 | Portée : 1 à 1 | Portée modifiable : Oui
+  Coup critique : Aucun | Échec critique : 1/100
+  Ligne uniquement : Non | Ligne de vue : Oui | Cellule libre : Non
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : 10
+  EC termine le tour : Non | Zone(s) brute(s) : Pa
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Rend le personnage invisible [effet 150]
+  Effets critiques : aucun
+
+NIVEAU DU SORT 2 - niveau joueur requis : 26
+  PA : 2 | Portée : 1 à 2 | Portée modifiable : Oui
+  Coup critique : Aucun | Échec critique : 1/100
+  Ligne uniquement : Non | Ligne de vue : Oui | Cellule libre : Non
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : 9
+  EC termine le tour : Non | Zone(s) brute(s) : Pa
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Rend le personnage invisible [effet 150]
+  Effets critiques : aucun
+
+NIVEAU DU SORT 3 - niveau joueur requis : 26
+  PA : 2 | Portée : 1 à 3 | Portée modifiable : Oui
+  Coup critique : Aucun | Échec critique : 1/100
+  Ligne uniquement : Non | Ligne de vue : Oui | Cellule libre : Non
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : 8
+  EC termine le tour : Non | Zone(s) brute(s) : Pa
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Rend le personnage invisible [effet 150]
+  Effets critiques : aucun
+
+NIVEAU DU SORT 4 - niveau joueur requis : 26
+  PA : 2 | Portée : 1 à 4 | Portée modifiable : Oui
+  Coup critique : Aucun | Échec critique : 1/100
+  Ligne uniquement : Non | Ligne de vue : Oui | Cellule libre : Non
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : 7
+  EC termine le tour : Non | Zone(s) brute(s) : Pa
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Rend le personnage invisible [effet 150]
+  Effets critiques : aucun
+
+NIVEAU DU SORT 5 - niveau joueur requis : 26
+  PA : 2 | Portée : 1 à 5 | Portée modifiable : Oui
+  Coup critique : Aucun | Échec critique : 1/100
+  Ligne uniquement : Non | Ligne de vue : Oui | Cellule libre : Non
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : 6
+  EC termine le tour : Non | Zone(s) brute(s) : Pa
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Rend le personnage invisible [effet 150]
+  Effets critiques : aucun
+
+NIVEAU DU SORT 6 - niveau joueur requis : 126
+  PA : 2 | Portée : 1 à 6 | Portée modifiable : Oui
+  Coup critique : Aucun | Échec critique : 1/100
+  Ligne uniquement : Non | Ligne de vue : Oui | Cellule libre : Non
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : 5
+  EC termine le tour : Non | Zone(s) brute(s) : Pa
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Rend le personnage invisible [effet 150]
+  Effets critiques : aucun
+
+==========================================================================================
+
+11. Piège Empoisonné [ID 71]
+------------------------------------------------------------------------------------------
+Le Piège Empoisonné empoisonne le joueur qui le déclenche.
+
+NIVEAU DU SORT 1 - niveau joueur requis : 31
+  PA : 3 | Portée : 1 à 3 | Portée modifiable : Oui
+  Coup critique : Aucun | Échec critique : 1/100
+  Ligne uniquement : Non | Ligne de vue : Non | Cellule libre : Oui
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : 5
+  EC termine le tour : Non | Zone(s) brute(s) : Cb
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Pose un piège de rang 1 [effet 400]
+  Effets critiques : aucun
+
+NIVEAU DU SORT 2 - niveau joueur requis : 31
+  PA : 3 | Portée : 1 à 3 | Portée modifiable : Oui
+  Coup critique : Aucun | Échec critique : 1/100
+  Ligne uniquement : Non | Ligne de vue : Non | Cellule libre : Oui
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : 5
+  EC termine le tour : Non | Zone(s) brute(s) : Cb
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Pose un piège de rang 2 [effet 400]
+  Effets critiques : aucun
+
+NIVEAU DU SORT 3 - niveau joueur requis : 31
+  PA : 3 | Portée : 1 à 3 | Portée modifiable : Oui
+  Coup critique : Aucun | Échec critique : 1/100
+  Ligne uniquement : Non | Ligne de vue : Non | Cellule libre : Oui
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : 4
+  EC termine le tour : Non | Zone(s) brute(s) : Cb
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Pose un piège de rang 3 [effet 400]
+  Effets critiques : aucun
+
+NIVEAU DU SORT 4 - niveau joueur requis : 31
+  PA : 3 | Portée : 1 à 3 | Portée modifiable : Oui
+  Coup critique : Aucun | Échec critique : 1/100
+  Ligne uniquement : Non | Ligne de vue : Non | Cellule libre : Oui
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : 4
+  EC termine le tour : Non | Zone(s) brute(s) : Cb
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Pose un piège de rang 4 [effet 400]
+  Effets critiques : aucun
+
+NIVEAU DU SORT 5 - niveau joueur requis : 31
+  PA : 3 | Portée : 1 à 3 | Portée modifiable : Oui
+  Coup critique : Aucun | Échec critique : 1/100
+  Ligne uniquement : Non | Ligne de vue : Non | Cellule libre : Oui
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : 3
+  EC termine le tour : Non | Zone(s) brute(s) : Cb
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Pose un piège de rang 5 [effet 400]
+  Effets critiques : aucun
+
+NIVEAU DU SORT 6 - niveau joueur requis : 131
+  PA : 3 | Portée : 1 à 4 | Portée modifiable : Oui
+  Coup critique : Aucun | Échec critique : 1/100
+  Ligne uniquement : Non | Ligne de vue : Non | Cellule libre : Oui
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : 2
+  EC termine le tour : Non | Zone(s) brute(s) : Cb
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Pose un piège de rang 6 [effet 400]
+  Effets critiques : aucun
+
+==========================================================================================
+
+12. Concentration de Chakra [ID 62]
+------------------------------------------------------------------------------------------
+La Concentration de Chakra permet au lanceur d'augmenter considérablement sa force.
+
+NIVEAU DU SORT 1 - niveau joueur requis : 36
+  PA : 4 | Portée : 0 à 1 | Portée modifiable : Non
+  Coup critique : 1/50 | Échec critique : 1/100
+  Ligne uniquement : Non | Ligne de vue : Oui | Cellule libre : Non
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : 6
+  EC termine le tour : Non | Zone(s) brute(s) : PaPa
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - +20 en force [effet 118]
+  Effets critiques :
+    - +25 en force [effet 118]
+
+NIVEAU DU SORT 2 - niveau joueur requis : 36
+  PA : 4 | Portée : 0 à 1 | Portée modifiable : Non
+  Coup critique : 1/50 | Échec critique : 1/100
+  Ligne uniquement : Non | Ligne de vue : Oui | Cellule libre : Non
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : 6
+  EC termine le tour : Non | Zone(s) brute(s) : PaPa
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - +30 en force [effet 118]
+  Effets critiques :
+    - +40 en force [effet 118]
+
+NIVEAU DU SORT 3 - niveau joueur requis : 36
+  PA : 4 | Portée : 0 à 1 | Portée modifiable : Non
+  Coup critique : 1/50 | Échec critique : 1/100
+  Ligne uniquement : Non | Ligne de vue : Oui | Cellule libre : Non
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : 6
+  EC termine le tour : Non | Zone(s) brute(s) : PaPa
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - +40 en force [effet 118]
+  Effets critiques :
+    - +55 en force [effet 118]
+
+NIVEAU DU SORT 4 - niveau joueur requis : 36
+  PA : 4 | Portée : 0 à 1 | Portée modifiable : Non
+  Coup critique : 1/50 | Échec critique : 1/100
+  Ligne uniquement : Non | Ligne de vue : Oui | Cellule libre : Non
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : 6
+  EC termine le tour : Non | Zone(s) brute(s) : PaPa
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - +50 en force [effet 118]
+  Effets critiques :
+    - +70 en force [effet 118]
+
+NIVEAU DU SORT 5 - niveau joueur requis : 36
+  PA : 4 | Portée : 0 à 1 | Portée modifiable : Non
+  Coup critique : 1/50 | Échec critique : 1/100
+  Ligne uniquement : Non | Ligne de vue : Oui | Cellule libre : Non
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : 6
+  EC termine le tour : Non | Zone(s) brute(s) : PaPa
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - +60 en force [effet 118]
+  Effets critiques :
+    - +85 en force [effet 118]
+
+NIVEAU DU SORT 6 - niveau joueur requis : 136
+  PA : 3 | Portée : 0 à 1 | Portée modifiable : Non
+  Coup critique : 1/50 | Échec critique : 1/100
+  Ligne uniquement : Non | Ligne de vue : Oui | Cellule libre : Non
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : 6
+  EC termine le tour : Non | Zone(s) brute(s) : PaPa
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - +80 en force [effet 118]
+  Effets critiques :
+    - +110 en force [effet 118]
+
+==========================================================================================
+
+13. Piège d'Immobilisation [ID 69]
+------------------------------------------------------------------------------------------
+Le Piège d'Immobilisation paralyse tous les joueurs dans sa zone d'effet.
+
+NIVEAU DU SORT 1 - niveau joueur requis : 42
+  PA : 5 | Portée : 1 à 1 | Portée modifiable : Oui
+  Coup critique : Aucun | Échec critique : 1/100
+  Ligne uniquement : Oui | Ligne de vue : Non | Cellule libre : Oui
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : 6
+  EC termine le tour : Non | Zone(s) brute(s) : Cc
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Pose un piège de rang 3 [effet 400]
+  Effets critiques : aucun
+
+NIVEAU DU SORT 2 - niveau joueur requis : 42
+  PA : 5 | Portée : 1 à 2 | Portée modifiable : Oui
+  Coup critique : Aucun | Échec critique : 1/100
+  Ligne uniquement : Oui | Ligne de vue : Non | Cellule libre : Oui
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : 5
+  EC termine le tour : Non | Zone(s) brute(s) : Cc
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Pose un piège de rang 3 [effet 400]
+  Effets critiques : aucun
+
+NIVEAU DU SORT 3 - niveau joueur requis : 42
+  PA : 5 | Portée : 1 à 2 | Portée modifiable : Oui
+  Coup critique : Aucun | Échec critique : 1/100
+  Ligne uniquement : Oui | Ligne de vue : Non | Cellule libre : Oui
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : 5
+  EC termine le tour : Non | Zone(s) brute(s) : Cc
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Pose un piège de rang 4 [effet 400]
+  Effets critiques : aucun
+
+NIVEAU DU SORT 4 - niveau joueur requis : 42
+  PA : 5 | Portée : 1 à 4 | Portée modifiable : Oui
+  Coup critique : Aucun | Échec critique : 1/100
+  Ligne uniquement : Oui | Ligne de vue : Non | Cellule libre : Oui
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : 5
+  EC termine le tour : Non | Zone(s) brute(s) : Cc
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Pose un piège de rang 4 [effet 400]
+  Effets critiques : aucun
+
+NIVEAU DU SORT 5 - niveau joueur requis : 42
+  PA : 5 | Portée : 1 à 4 | Portée modifiable : Oui
+  Coup critique : Aucun | Échec critique : 1/100
+  Ligne uniquement : Oui | Ligne de vue : Non | Cellule libre : Oui
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : 5
+  EC termine le tour : Non | Zone(s) brute(s) : Cd
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Pose un piège de rang 5 [effet 400]
+  Effets critiques : aucun
+
+NIVEAU DU SORT 6 - niveau joueur requis : 142
+  PA : 4 | Portée : 1 à 5 | Portée modifiable : Oui
+  Coup critique : Aucun | Échec critique : 1/100
+  Ligne uniquement : Oui | Ligne de vue : Non | Cellule libre : Oui
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : 5
+  EC termine le tour : Non | Zone(s) brute(s) : Cd
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Pose un piège de rang 6 [effet 400]
+  Effets critiques : aucun
+
+==========================================================================================
+
+14. Piège de Silence [ID 77]
+------------------------------------------------------------------------------------------
+Le Piège de Silence fait perdre des PA au joueur qui le déclenche.
+
+NIVEAU DU SORT 1 - niveau joueur requis : 48
+  PA : 4 | Portée : 1 à 2 | Portée modifiable : Oui
+  Coup critique : Aucun | Échec critique : 1/100
+  Ligne uniquement : Oui | Ligne de vue : Non | Cellule libre : Oui
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : 6
+  EC termine le tour : Non | Zone(s) brute(s) : Cc
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Pose un piège de rang 1 [effet 400]
+  Effets critiques : aucun
+
+NIVEAU DU SORT 2 - niveau joueur requis : 48
+  PA : 4 | Portée : 1 à 3 | Portée modifiable : Oui
+  Coup critique : Aucun | Échec critique : 1/100
+  Ligne uniquement : Oui | Ligne de vue : Non | Cellule libre : Oui
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : 6
+  EC termine le tour : Non | Zone(s) brute(s) : Cc
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Pose un piège de rang 2 [effet 400]
+  Effets critiques : aucun
+
+NIVEAU DU SORT 3 - niveau joueur requis : 48
+  PA : 4 | Portée : 1 à 3 | Portée modifiable : Oui
+  Coup critique : Aucun | Échec critique : 1/100
+  Ligne uniquement : Oui | Ligne de vue : Non | Cellule libre : Oui
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : 6
+  EC termine le tour : Non | Zone(s) brute(s) : Cc
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Pose un piège de rang 3 [effet 400]
+  Effets critiques : aucun
+
+NIVEAU DU SORT 4 - niveau joueur requis : 48
+  PA : 3 | Portée : 1 à 3 | Portée modifiable : Oui
+  Coup critique : Aucun | Échec critique : 1/100
+  Ligne uniquement : Oui | Ligne de vue : Non | Cellule libre : Oui
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : 5
+  EC termine le tour : Non | Zone(s) brute(s) : Cc
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Pose un piège de rang 4 [effet 400]
+  Effets critiques : aucun
+
+NIVEAU DU SORT 5 - niveau joueur requis : 48
+  PA : 3 | Portée : 1 à 3 | Portée modifiable : Oui
+  Coup critique : Aucun | Échec critique : 1/100
+  Ligne uniquement : Oui | Ligne de vue : Non | Cellule libre : Oui
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : 5
+  EC termine le tour : Non | Zone(s) brute(s) : Cc
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Pose un piège de rang 5 [effet 400]
+  Effets critiques : aucun
+
+NIVEAU DU SORT 6 - niveau joueur requis : 148
+  PA : 3 | Portée : 1 à 4 | Portée modifiable : Oui
+  Coup critique : Aucun | Échec critique : 1/100
+  Ligne uniquement : Oui | Ligne de vue : Non | Cellule libre : Oui
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : 4
+  EC termine le tour : Non | Zone(s) brute(s) : Cc
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Pose un piège de rang 6 [effet 400]
+  Effets critiques : aucun
+
+==========================================================================================
+
+15. Piège répulsif [ID 73]
+------------------------------------------------------------------------------------------
+Repousse les alliés et les ennemis.
+
+NIVEAU DU SORT 1 - niveau joueur requis : 54
+  PA : 3 | Portée : 1 à 2 | Portée modifiable : Oui
+  Coup critique : Aucun | Échec critique : 1/100
+  Ligne uniquement : Non | Ligne de vue : Non | Cellule libre : Oui
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : 6
+  EC termine le tour : Non | Zone(s) brute(s) : Cb
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Pose un piège de rang 1 [effet 400]
+  Effets critiques : aucun
+
+NIVEAU DU SORT 2 - niveau joueur requis : 54
+  PA : 3 | Portée : 1 à 3 | Portée modifiable : Oui
+  Coup critique : Aucun | Échec critique : 1/100
+  Ligne uniquement : Non | Ligne de vue : Non | Cellule libre : Oui
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : 5
+  EC termine le tour : Non | Zone(s) brute(s) : Cb
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Pose un piège de rang 1 [effet 400]
+  Effets critiques : aucun
+
+NIVEAU DU SORT 3 - niveau joueur requis : 54
+  PA : 3 | Portée : 1 à 4 | Portée modifiable : Oui
+  Coup critique : Aucun | Échec critique : 1/100
+  Ligne uniquement : Non | Ligne de vue : Non | Cellule libre : Oui
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : 4
+  EC termine le tour : Non | Zone(s) brute(s) : Cb
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Pose un piège de rang 1 [effet 400]
+  Effets critiques : aucun
+
+NIVEAU DU SORT 4 - niveau joueur requis : 54
+  PA : 3 | Portée : 1 à 5 | Portée modifiable : Oui
+  Coup critique : Aucun | Échec critique : 1/100
+  Ligne uniquement : Non | Ligne de vue : Non | Cellule libre : Oui
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : 3
+  EC termine le tour : Non | Zone(s) brute(s) : Cb
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Pose un piège de rang 1 [effet 400]
+  Effets critiques : aucun
+
+NIVEAU DU SORT 5 - niveau joueur requis : 54
+  PA : 3 | Portée : 1 à 6 | Portée modifiable : Oui
+  Coup critique : Aucun | Échec critique : 1/100
+  Ligne uniquement : Non | Ligne de vue : Non | Cellule libre : Oui
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : 2
+  EC termine le tour : Non | Zone(s) brute(s) : Cb
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Pose un piège de rang 1 [effet 400]
+  Effets critiques : aucun
+
+NIVEAU DU SORT 6 - niveau joueur requis : 154
+  PA : 3 | Portée : 1 à 7 | Portée modifiable : Oui
+  Coup critique : Aucun | Échec critique : 1/100
+  Ligne uniquement : Non | Ligne de vue : Non | Cellule libre : Oui
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : 1
+  EC termine le tour : Non | Zone(s) brute(s) : Cb
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Pose un piège de rang 1 [effet 400]
+  Effets critiques : aucun
+
+==========================================================================================
+
+16. Peur [ID 67]
+------------------------------------------------------------------------------------------
+Pousse un allié ou un ennemi sur la case ciblée.
+
+NIVEAU DU SORT 1 - niveau joueur requis : 60
+  PA : 2 | Portée : 2 à 2 | Portée modifiable : Non
+  Coup critique : Aucun | Échec critique : 1/100
+  Ligne uniquement : Oui | Ligne de vue : Non | Cellule libre : Oui
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : Aucune
+  EC termine le tour : Non | Zone(s) brute(s) : Pa
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Pousse jusqu'à la case visée [effet 783]
+  Effets critiques : aucun
+
+NIVEAU DU SORT 2 - niveau joueur requis : 60
+  PA : 2 | Portée : 2 à 3 | Portée modifiable : Non
+  Coup critique : Aucun | Échec critique : 1/100
+  Ligne uniquement : Oui | Ligne de vue : Non | Cellule libre : Oui
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : Aucune
+  EC termine le tour : Non | Zone(s) brute(s) : Pa
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Pousse jusqu'à la case visée [effet 783]
+  Effets critiques : aucun
+
+NIVEAU DU SORT 3 - niveau joueur requis : 60
+  PA : 2 | Portée : 2 à 4 | Portée modifiable : Non
+  Coup critique : Aucun | Échec critique : 1/100
+  Ligne uniquement : Oui | Ligne de vue : Non | Cellule libre : Oui
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : Aucune
+  EC termine le tour : Non | Zone(s) brute(s) : Pa
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Pousse jusqu'à la case visée [effet 783]
+  Effets critiques : aucun
+
+NIVEAU DU SORT 4 - niveau joueur requis : 60
+  PA : 2 | Portée : 2 à 5 | Portée modifiable : Non
+  Coup critique : Aucun | Échec critique : 1/100
+  Ligne uniquement : Oui | Ligne de vue : Non | Cellule libre : Oui
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : Aucune
+  EC termine le tour : Non | Zone(s) brute(s) : Pa
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Pousse jusqu'à la case visée [effet 783]
+  Effets critiques : aucun
+
+NIVEAU DU SORT 5 - niveau joueur requis : 60
+  PA : 2 | Portée : 2 à 6 | Portée modifiable : Non
+  Coup critique : Aucun | Échec critique : 1/100
+  Ligne uniquement : Oui | Ligne de vue : Non | Cellule libre : Oui
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : Aucune
+  EC termine le tour : Non | Zone(s) brute(s) : Pa
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Pousse jusqu'à la case visée [effet 783]
+  Effets critiques : aucun
+
+NIVEAU DU SORT 6 - niveau joueur requis : 160
+  PA : 2 | Portée : 2 à 7 | Portée modifiable : Non
+  Coup critique : Aucun | Échec critique : 1/100
+  Ligne uniquement : Oui | Ligne de vue : Non | Cellule libre : Oui
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : Aucune
+  EC termine le tour : Non | Zone(s) brute(s) : Pa
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Pousse jusqu'à la case visée [effet 783]
+  Effets critiques : aucun
+
+==========================================================================================
+
+17. Pillage Funeste [ID 70]
+------------------------------------------------------------------------------------------
+Le Sram, fossoyeur cupide des terres profanées, maudit le sol sous les pieds de sa victime. Une main d'argile putride jaillit des profondeurs, frappant la cible unique d'un coup dévastateur de Terre. Au-delà de la douleur, l'énergie impie du sort dépouille l'ennemi d'une partie de ses Kamas, les ramenant directement dans les mains du Sram. Une offrande forcée aux ténèbres.
+
+NIVEAU DU SORT 1 - niveau joueur requis : 70
+  PA : 6 | Portée : 1 à 2 | Portée modifiable : Oui
+  Coup critique : 1/50 | Échec critique : 1/100
+  Ligne uniquement : Oui | Ligne de vue : Oui | Cellule libre : Non
+  Lancers par tour : Illimité | Par cible : 2 | Relance : Aucune
+  EC termine le tour : Non | Zone(s) brute(s) : SbSbSbSb
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Vole 1 à 100 d'or [effet 130]
+    - Dommages : 9 à 23 (terre) [effet 97]
+  Effets critiques :
+    - Dommages : 25 (terre) [effet 97]
+    - Vole 1 à 200 d'or [effet 130]
+
+NIVEAU DU SORT 2 - niveau joueur requis : 70
+  PA : 6 | Portée : 1 à 2 | Portée modifiable : Oui
+  Coup critique : 1/45 | Échec critique : 1/100
+  Ligne uniquement : Oui | Ligne de vue : Oui | Cellule libre : Non
+  Lancers par tour : Illimité | Par cible : 2 | Relance : Aucune
+  EC termine le tour : Non | Zone(s) brute(s) : SbSbSbSb
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Vole 1 à 120 d'or [effet 130]
+    - Dommages : 11 à 25 (terre) [effet 97]
+  Effets critiques :
+    - Dommages : 28 (terre) [effet 97]
+    - Vole 1 à 240 d'or [effet 130]
+
+NIVEAU DU SORT 3 - niveau joueur requis : 70
+  PA : 5 | Portée : 1 à 2 | Portée modifiable : Oui
+  Coup critique : 1/40 | Échec critique : 1/100
+  Ligne uniquement : Oui | Ligne de vue : Oui | Cellule libre : Non
+  Lancers par tour : Illimité | Par cible : 2 | Relance : Aucune
+  EC termine le tour : Non | Zone(s) brute(s) : SbSbSbSb
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Vole 1 à 150 d'or [effet 130]
+    - Dommages : 13 à 27 (terre) [effet 97]
+  Effets critiques :
+    - Dommages : 30 (terre) [effet 97]
+    - Vole 1 à 300 d'or [effet 130]
+
+NIVEAU DU SORT 4 - niveau joueur requis : 70
+  PA : 5 | Portée : 1 à 2 | Portée modifiable : Oui
+  Coup critique : 1/35 | Échec critique : 1/100
+  Ligne uniquement : Oui | Ligne de vue : Oui | Cellule libre : Non
+  Lancers par tour : Illimité | Par cible : 2 | Relance : Aucune
+  EC termine le tour : Non | Zone(s) brute(s) : SbSbSbSb
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Vole 1 à 180 d'or [effet 130]
+    - Dommages : 15 à 29 (terre) [effet 97]
+  Effets critiques :
+    - Dommages : 32 (terre) [effet 97]
+    - Vole 1 à 360 d'or [effet 130]
+
+NIVEAU DU SORT 5 - niveau joueur requis : 70
+  PA : 4 | Portée : 1 à 2 | Portée modifiable : Oui
+  Coup critique : 1/30 | Échec critique : 1/100
+  Ligne uniquement : Oui | Ligne de vue : Oui | Cellule libre : Non
+  Lancers par tour : Illimité | Par cible : 2 | Relance : Aucune
+  EC termine le tour : Non | Zone(s) brute(s) : SbSbSbSb
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Vole 1 à 250 d'or [effet 130]
+    - Dommages : 18 à 32 (terre) [effet 97]
+  Effets critiques :
+    - Dommages : 35 (terre) [effet 97]
+    - Vole 1 à 500 d'or [effet 130]
+
+NIVEAU DU SORT 6 - niveau joueur requis : 170
+  PA : 3 | Portée : 1 à 3 | Portée modifiable : Oui
+  Coup critique : 1/30 | Échec critique : 1/100
+  Ligne uniquement : Oui | Ligne de vue : Oui | Cellule libre : Non
+  Lancers par tour : Illimité | Par cible : 2 | Relance : Aucune
+  EC termine le tour : Non | Zone(s) brute(s) : SbSbSbSb
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Vole 1 à 250 d'or [effet 130]
+    - Dommages : 18 à 32 (terre) [effet 97]
+  Effets critiques :
+    - Dommages : 35 (terre) [effet 97]
+    - Vole 1 à 500 d'or [effet 130]
+
+==========================================================================================
+
+18. Pulsion de Chakra [ID 75]
+------------------------------------------------------------------------------------------
+La Pulsion de Chakra permet d'augmenter les coups critiques du lanceur.
+
+NIVEAU DU SORT 1 - niveau joueur requis : 80
+  PA : 3 | Portée : 0 à 1 | Portée modifiable : Non
+  Coup critique : 1/30 | Échec critique : 1/100
+  Ligne uniquement : Non | Ligne de vue : Non | Cellule libre : Non
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : 6
+  EC termine le tour : Non | Zone(s) brute(s) : PaPa
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - +5% aux coups critiques [effet 115]
+  Effets critiques :
+    - +5% aux coups critiques [effet 115]
+
+NIVEAU DU SORT 2 - niveau joueur requis : 80
+  PA : 3 | Portée : 0 à 1 | Portée modifiable : Non
+  Coup critique : 1/30 | Échec critique : 1/100
+  Ligne uniquement : Non | Ligne de vue : Non | Cellule libre : Non
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : 6
+  EC termine le tour : Non | Zone(s) brute(s) : PaPa
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - +6% aux coups critiques [effet 115]
+  Effets critiques :
+    - +6% aux coups critiques [effet 115]
+
+NIVEAU DU SORT 3 - niveau joueur requis : 80
+  PA : 3 | Portée : 0 à 1 | Portée modifiable : Non
+  Coup critique : 1/30 | Échec critique : 1/100
+  Ligne uniquement : Non | Ligne de vue : Non | Cellule libre : Non
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : 6
+  EC termine le tour : Non | Zone(s) brute(s) : PaPa
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - +7% aux coups critiques [effet 115]
+  Effets critiques :
+    - +7% aux coups critiques [effet 115]
+
+NIVEAU DU SORT 4 - niveau joueur requis : 80
+  PA : 3 | Portée : 0 à 1 | Portée modifiable : Non
+  Coup critique : 1/30 | Échec critique : 1/100
+  Ligne uniquement : Non | Ligne de vue : Non | Cellule libre : Non
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : 6
+  EC termine le tour : Non | Zone(s) brute(s) : PaPa
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - +8% aux coups critiques [effet 115]
+  Effets critiques :
+    - +8% aux coups critiques [effet 115]
+
+NIVEAU DU SORT 5 - niveau joueur requis : 80
+  PA : 3 | Portée : 0 à 1 | Portée modifiable : Non
+  Coup critique : 1/30 | Échec critique : 1/100
+  Ligne uniquement : Non | Ligne de vue : Non | Cellule libre : Non
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : 6
+  EC termine le tour : Non | Zone(s) brute(s) : PaPa
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - +9% aux coups critiques [effet 115]
+  Effets critiques :
+    - +9% aux coups critiques [effet 115]
+
+NIVEAU DU SORT 6 - niveau joueur requis : 180
+  PA : 3 | Portée : 0 à 1 | Portée modifiable : Non
+  Coup critique : 1/30 | Échec critique : 1/100
+  Ligne uniquement : Non | Ligne de vue : Non | Cellule libre : Non
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : 6
+  EC termine le tour : Non | Zone(s) brute(s) : PaPa
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - +10% aux coups critiques [effet 115]
+  Effets critiques :
+    - +10% aux coups critiques [effet 115]
+
+==========================================================================================
+
+19. Profanation de Sanctuaire [ID 76]
+------------------------------------------------------------------------------------------
+Le Sram, expert en l'art de la corruption, frappe le sol avec une force impie, profanant l'essence même de la terre. Ce coup, la Profanation de Sanctuaire, est une attaque d'une brutalité inouïe. Au niveau 6, l'énergie corruptrice s'étend, déchirant la terre sous une zone entière d'ennemis. Des roches déformées et des racines noueuses jaillissent, infligeant des dégâts de Terre massifs à toutes les cibles. L'impact laisse derrière lui une cicatrice d'énergie sombre, témoin du sacrilège.
+
+NIVEAU DU SORT 1 - niveau joueur requis : 90
+  PA : 5 | Portée : 1 à 1 | Portée modifiable : Non
+  Coup critique : 1/90 | Échec critique : 1/100
+  Ligne uniquement : Non | Ligne de vue : Oui | Cellule libre : Non
+  Lancers par tour : Illimité | Par cible : 2 | Relance : Aucune
+  EC termine le tour : Non | Zone(s) brute(s) : PaPa
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Dommages : 21 à 40 (terre) [effet 97]
+  Effets critiques :
+    - Dommages : 41 à 60 (terre) [effet 97]
+
+NIVEAU DU SORT 2 - niveau joueur requis : 90
+  PA : 5 | Portée : 1 à 1 | Portée modifiable : Non
+  Coup critique : 1/90 | Échec critique : 1/90
+  Ligne uniquement : Non | Ligne de vue : Oui | Cellule libre : Non
+  Lancers par tour : Illimité | Par cible : 2 | Relance : Aucune
+  EC termine le tour : Non | Zone(s) brute(s) : PaPa
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Dommages : 26 à 45 (terre) [effet 97]
+  Effets critiques :
+    - Dommages : 46 à 65 (terre) [effet 97]
+
+NIVEAU DU SORT 3 - niveau joueur requis : 90
+  PA : 5 | Portée : 1 à 1 | Portée modifiable : Non
+  Coup critique : 1/90 | Échec critique : 1/100
+  Ligne uniquement : Non | Ligne de vue : Oui | Cellule libre : Non
+  Lancers par tour : Illimité | Par cible : 2 | Relance : Aucune
+  EC termine le tour : Non | Zone(s) brute(s) : PaPa
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Dommages : 31 à 50 (terre) [effet 97]
+  Effets critiques :
+    - Dommages : 66 à 85 (terre) [effet 97]
+
+NIVEAU DU SORT 4 - niveau joueur requis : 90
+  PA : 5 | Portée : 1 à 1 | Portée modifiable : Non
+  Coup critique : 1/90 | Échec critique : 1/100
+  Ligne uniquement : Non | Ligne de vue : Oui | Cellule libre : Non
+  Lancers par tour : Illimité | Par cible : 2 | Relance : Aucune
+  EC termine le tour : Non | Zone(s) brute(s) : PaPa
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Dommages : 36 à 55 (terre) [effet 97]
+  Effets critiques :
+    - Dommages : 101 à 120 (terre) [effet 97]
+
+NIVEAU DU SORT 5 - niveau joueur requis : 90
+  PA : 5 | Portée : 1 à 2 | Portée modifiable : Non
+  Coup critique : 1/90 | Échec critique : 1/100
+  Ligne uniquement : Non | Ligne de vue : Oui | Cellule libre : Non
+  Lancers par tour : 2 | Par cible : Illimité | Relance : Aucune
+  EC termine le tour : Non | Zone(s) brute(s) : XbXb
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Dommages : 41 à 60 (terre) [effet 97]
+  Effets critiques :
+    - Dommages : 131 à 150 (terre) [effet 97]
+
+NIVEAU DU SORT 6 - niveau joueur requis : 190
+  PA : 4 | Portée : 1 à 2 | Portée modifiable : Non
+  Coup critique : 1/90 | Échec critique : 1/100
+  Ligne uniquement : Non | Ligne de vue : Oui | Cellule libre : Non
+  Lancers par tour : 2 | Par cible : Illimité | Relance : Aucune
+  EC termine le tour : Non | Zone(s) brute(s) : XbXb
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Dommages : 41 à 60 (terre) [effet 97]
+  Effets critiques :
+    - Dommages : 131 à 150 (terre) [effet 97]
+
+==========================================================================================
+
+20. L'Étreinte des Damnés [ID 80]
+------------------------------------------------------------------------------------------
+Le Piège Mortel Sram, autrefois simple étreinte terrestre, a absorbé l'essence d'une agonie sans nom. Il frappe désormais comme le souvenir glaciaire de la plus grande des morts, mêlant la brutalité de la terre à une vague d'eau suffocante. Une étreinte fatale, née des profondeurs du Désespoir, prête à engloutir quiconque s'y aventure.
+
+NIVEAU DU SORT 1 - niveau joueur requis : 100
+  PA : 4 | Portée : 1 à 2 | Portée modifiable : Oui
+  Coup critique : Aucun | Échec critique : 1/100
+  Ligne uniquement : Oui | Ligne de vue : Non | Cellule libre : Oui
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : 5
+  EC termine le tour : Non | Zone(s) brute(s) : CaCa
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Pose un piège de rang 1 [effet 400]
+  Effets critiques : aucun
+
+NIVEAU DU SORT 2 - niveau joueur requis : 100
+  PA : 4 | Portée : 1 à 2 | Portée modifiable : Oui
+  Coup critique : Aucun | Échec critique : 1/100
+  Ligne uniquement : Oui | Ligne de vue : Non | Cellule libre : Oui
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : 4
+  EC termine le tour : Non | Zone(s) brute(s) : CaCa
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Pose un piège de rang 2 [effet 400]
+  Effets critiques : aucun
+
+NIVEAU DU SORT 3 - niveau joueur requis : 100
+  PA : 4 | Portée : 1 à 2 | Portée modifiable : Oui
+  Coup critique : Aucun | Échec critique : 1/100
+  Ligne uniquement : Oui | Ligne de vue : Non | Cellule libre : Oui
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : 3
+  EC termine le tour : Non | Zone(s) brute(s) : CaCa
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Pose un piège de rang 3 [effet 400]
+  Effets critiques : aucun
+
+NIVEAU DU SORT 4 - niveau joueur requis : 100
+  PA : 4 | Portée : 1 à 2 | Portée modifiable : Oui
+  Coup critique : Aucun | Échec critique : 1/100
+  Ligne uniquement : Oui | Ligne de vue : Non | Cellule libre : Oui
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : 2
+  EC termine le tour : Non | Zone(s) brute(s) : CaCa
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Pose un piège de rang 4 [effet 400]
+  Effets critiques : aucun
+
+NIVEAU DU SORT 5 - niveau joueur requis : 100
+  PA : 4 | Portée : 1 à 3 | Portée modifiable : Oui
+  Coup critique : Aucun | Échec critique : 1/100
+  Ligne uniquement : Oui | Ligne de vue : Non | Cellule libre : Oui
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : 1
+  EC termine le tour : Non | Zone(s) brute(s) : CaCa
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Pose un piège de rang 5 [effet 400]
+  Effets critiques : aucun
+
+NIVEAU DU SORT 6 - niveau joueur requis : 200
+  PA : 3 | Portée : 1 à 4 | Portée modifiable : Oui
+  Coup critique : Aucun | Échec critique : 1/100
+  Ligne uniquement : Oui | Ligne de vue : Non | Cellule libre : Oui
+  Lancers par tour : 2 | Par cible : Illimité | Relance : Aucune
+  EC termine le tour : Non | Zone(s) brute(s) : CaCa
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Pose un piège de rang 6 [effet 400]
+  Effets critiques : aucun
+
+==========================================================================================
+
+21. Invocation de Dopeul Sram [ID 1904]
+------------------------------------------------------------------------------------------
+Ce sort permet d'invoquer un Dopeul Sram qui viendra aider son maître pendant les combats.
+
+NIVEAU DU SORT 1 - niveau joueur requis : 200
+  PA : 8 | Portée : 1 à 1 | Portée modifiable : Non
+  Coup critique : Aucun | Échec critique : 1/100
+  Ligne uniquement : Non | Ligne de vue : Oui | Cellule libre : Oui
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : 10
+  EC termine le tour : Non | Zone(s) brute(s) : Pa
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Invoque : 958 [effet 181]
+  Effets critiques : aucun
+
+NIVEAU DU SORT 2 - niveau joueur requis : 200
+  PA : 8 | Portée : 1 à 1 | Portée modifiable : Non
+  Coup critique : Aucun | Échec critique : 1/100
+  Ligne uniquement : Non | Ligne de vue : Oui | Cellule libre : Oui
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : 10
+  EC termine le tour : Non | Zone(s) brute(s) : Pa
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Invoque : 958 [effet 181]
+  Effets critiques : aucun
+
+NIVEAU DU SORT 3 - niveau joueur requis : 200
+  PA : 8 | Portée : 1 à 1 | Portée modifiable : Non
+  Coup critique : Aucun | Échec critique : 1/100
+  Ligne uniquement : Non | Ligne de vue : Oui | Cellule libre : Oui
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : 10
+  EC termine le tour : Non | Zone(s) brute(s) : Pa
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Invoque : 958 [effet 181]
+  Effets critiques : aucun
+
+NIVEAU DU SORT 4 - niveau joueur requis : 200
+  PA : 8 | Portée : 1 à 1 | Portée modifiable : Non
+  Coup critique : Aucun | Échec critique : 1/100
+  Ligne uniquement : Non | Ligne de vue : Oui | Cellule libre : Oui
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : 10
+  EC termine le tour : Non | Zone(s) brute(s) : Pa
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Invoque : 958 [effet 181]
+  Effets critiques : aucun
+
+NIVEAU DU SORT 5 - niveau joueur requis : 200
+  PA : 8 | Portée : 1 à 1 | Portée modifiable : Non
+  Coup critique : Aucun | Échec critique : 1/100
+  Ligne uniquement : Non | Ligne de vue : Oui | Cellule libre : Oui
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : 10
+  EC termine le tour : Non | Zone(s) brute(s) : Pa
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Invoque : 958 [effet 181]
+  Effets critiques : aucun
+
+NIVEAU DU SORT 6 - niveau joueur requis : 200
+  PA : 8 | Portée : 1 à 1 | Portée modifiable : Non
+  Coup critique : Aucun | Échec critique : 1/100
+  Ligne uniquement : Non | Ligne de vue : Oui | Cellule libre : Oui
+  Lancers par tour : Illimité | Par cible : Illimité | Relance : 10
+  EC termine le tour : Non | Zone(s) brute(s) : Pa
+  États requis : Aucun | États interdits : 19, 41, 3, 1, 18
+  Effets normaux :
+    - Invoque : 958 [effet 181]
+  Effets critiques : aucun
+
+==========================================================================================

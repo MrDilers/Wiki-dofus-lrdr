@@ -10,7 +10,8 @@
     "apply:pdf-spells": "node tools/apply-pdf-spell-data.js",
     "extract:dofusbook-spells": "node tools/extract-dofusbook-retro-spells.js",
     "build:server-spell-icons": "node tools/build-server-spell-icon-mapping.js",
-    "check": "node --check assets/app.js && node --check tools/build-wiki-content.js && node --check tools/build-static-data.js && node --check tools/extract-spell-panels.js && node --check tools/ocr-spell-panels.js && node --check tools/apply-pdf-spell-data.js",
+    "build:server-spell-data": "node tools/build-server-spell-data.js",
+    "check": "node --check assets/app.js && node --check tools/build-wiki-content.js && node --check tools/build-static-data.js && node --check tools/extract-spell-panels.js && node --check tools/ocr-spell-panels.js && node --check tools/apply-pdf-spell-data.js && node --check tools/build-server-spell-data.js",
     "serve": "node tools/serve.js"
   },
   "dependencies": {
