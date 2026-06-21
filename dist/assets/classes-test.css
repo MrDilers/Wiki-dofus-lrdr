@@ -97,15 +97,15 @@
 
 .compact-spell-head {
   display: grid;
-  grid-template-columns: 46px minmax(0, 1fr) auto;
+  grid-template-columns: 52px minmax(0, 1fr) auto;
   gap: 11px;
   align-items: center;
   padding: 10px 12px 9px;
   background: rgba(255,255,255,.26);
 }
-.compact-spell-icon { width: 44px; height: 44px; border: 1px solid #8f886b; background: var(--element); object-fit: cover; }
+.compact-spell-icon { width: 50px; height: 50px; border: 1px solid #8f886b; background: var(--element); object-fit: cover; }
 .compact-spell-title { min-width: 0; }
-.compact-spell-title h3 { overflow: hidden; margin: 0 0 4px; color: #2f2a20; font-family: "Cinzel", "Trebuchet MS", serif; font-size: 1rem; font-weight: 900; letter-spacing: 0; line-height: 1.15; text-overflow: ellipsis; white-space: nowrap; }
+.compact-spell-title h3 { overflow: hidden; margin: 0 0 4px; color: #2f2a20; font-family: "Trebuchet MS", Verdana, "Segoe UI", Arial, sans-serif; font-size: 1.08rem; font-weight: 900; letter-spacing: 0; line-height: 1.15; text-overflow: ellipsis; white-space: nowrap; }
 .compact-spell-title span { display: flex; align-items: center; gap: 5px; color: #625a43; font-size: .74rem; font-weight: 800; }
 .compact-spell-title span img { width: 16px; height: 16px; object-fit: contain; }
 .compact-spell-head > strong { align-self: start; padding-top: 2px; color: #625a43; font-size: .75rem; font-weight: 900; white-space: nowrap; }
