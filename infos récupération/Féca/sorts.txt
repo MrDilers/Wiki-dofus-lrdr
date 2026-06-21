@@ -1,0 +1,8858 @@
+================================================================================
+CLASSE : FÉCA
+================================================================================
+Source : https://retro.dofusbook.net/fr/encyclopedie/sorts/1
+Date de récupération : 2026-06-21
+Nombre de sorts de classe : 22
+
+Ce fichier contient uniquement les sorts propres à cette classe.
+Chaque sort est détaillé séparément pour ses six niveaux.
+Les données techniques originales sont conservées après chaque présentation lisible.
+
+
+################################################################################
+SORT 01/22 : Glyphe Agressif
+################################################################################
+
+Identification :
+- ID interne : 1001
+- ID du sort dans la classe : 1
+- ID de classe : 1
+- Icône locale : images sort/01-glyphe-agressif.png
+
+Description :
+Ce glyphe occasionne des dégâts à tous les joueurs.
+
+Propriétés générales :
+- Variante : non
+- Passif : non
+- Invocation : non
+
+================================================================================
+NIVEAU DU SORT 1
+================================================================================
+- Niveau requis du personnage : 1
+
+Caractéristiques :
+- 3 PA [pa]
+- 1 - 3 Portée [po]
+- PO modifiable [pb] : oui
+- Relance : 2 tours [ir]
+
+Groupes et effets :
+
+  GROUPE D'EFFETS 1
+  - ID du groupe : 1001-1-1
+  - Ordre : 1
+  - Titre : non renseigné
+  - Cible : non renseigné
+  - Zone : Cercle de 2 cases
+  - Portée de la zone (valeur brute) : 2
+  - Effets cumulés : non
+
+  Effets normaux :
+  - Glyphe Feu [gf] : 1 à 3 ; durée : 3 tours ; ID effet : 1
+
+  Effets critiques :
+  - Aucun
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 1,
+  "characteristics": {
+    "pa": 3,
+    "po": "1 - 3",
+    "pb": 1,
+    "ir": 2
+  },
+  "groups": [
+    {
+      "id": "1001-1-1",
+      "spell_id": 1001,
+      "level": 1,
+      "group_order": 1,
+      "title": null,
+      "target": null,
+      "zone": "cercle",
+      "range": 2,
+      "cumulated": 0,
+      "effects": [
+        {
+          "id": 1,
+          "group_id": "1001-1-1",
+          "effect": "gf",
+          "cc": 0,
+          "min": 1,
+          "max": 3,
+          "duration": 3,
+          "ignore_do_crit": 0
+        }
+      ]
+    }
+  ]
+}
+
+================================================================================
+NIVEAU DU SORT 2
+================================================================================
+- Niveau requis du personnage : 1
+
+Caractéristiques :
+- 3 PA [pa]
+- 1 - 4 Portée [po]
+- PO modifiable [pb] : oui
+- Relance : 2 tours [ir]
+
+Groupes et effets :
+
+  GROUPE D'EFFETS 1
+  - ID du groupe : 1001-2-1
+  - Ordre : 1
+  - Titre : non renseigné
+  - Cible : non renseigné
+  - Zone : Cercle de 2 cases
+  - Portée de la zone (valeur brute) : 2
+  - Effets cumulés : non
+
+  Effets normaux :
+  - Glyphe Feu [gf] : 2 à 4 ; durée : 3 tours ; ID effet : 2
+
+  Effets critiques :
+  - Aucun
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 1,
+  "characteristics": {
+    "pa": 3,
+    "po": "1 - 4",
+    "pb": 1,
+    "ir": 2
+  },
+  "groups": [
+    {
+      "id": "1001-2-1",
+      "spell_id": 1001,
+      "level": 2,
+      "group_order": 1,
+      "title": null,
+      "target": null,
+      "zone": "cercle",
+      "range": 2,
+      "cumulated": 0,
+      "effects": [
+        {
+          "id": 2,
+          "group_id": "1001-2-1",
+          "effect": "gf",
+          "cc": 0,
+          "min": 2,
+          "max": 4,
+          "duration": 3,
+          "ignore_do_crit": 0
+        }
+      ]
+    }
+  ]
+}
+
+================================================================================
+NIVEAU DU SORT 3
+================================================================================
+- Niveau requis du personnage : 1
+
+Caractéristiques :
+- 3 PA [pa]
+- 1 - 5 Portée [po]
+- PO modifiable [pb] : oui
+- Relance : 2 tours [ir]
+
+Groupes et effets :
+
+  GROUPE D'EFFETS 1
+  - ID du groupe : 1001-3-1
+  - Ordre : 1
+  - Titre : non renseigné
+  - Cible : non renseigné
+  - Zone : Cercle de 2 cases
+  - Portée de la zone (valeur brute) : 2
+  - Effets cumulés : non
+
+  Effets normaux :
+  - Glyphe Feu [gf] : 3 à 5 ; durée : 3 tours ; ID effet : 3
+
+  Effets critiques :
+  - Aucun
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 1,
+  "characteristics": {
+    "pa": 3,
+    "po": "1 - 5",
+    "pb": 1,
+    "ir": 2
+  },
+  "groups": [
+    {
+      "id": "1001-3-1",
+      "spell_id": 1001,
+      "level": 3,
+      "group_order": 1,
+      "title": null,
+      "target": null,
+      "zone": "cercle",
+      "range": 2,
+      "cumulated": 0,
+      "effects": [
+        {
+          "id": 3,
+          "group_id": "1001-3-1",
+          "effect": "gf",
+          "cc": 0,
+          "min": 3,
+          "max": 5,
+          "duration": 3,
+          "ignore_do_crit": 0
+        }
+      ]
+    }
+  ]
+}
+
+================================================================================
+NIVEAU DU SORT 4
+================================================================================
+- Niveau requis du personnage : 1
+
+Caractéristiques :
+- 3 PA [pa]
+- 1 - 6 Portée [po]
+- PO modifiable [pb] : oui
+- Relance : 2 tours [ir]
+
+Groupes et effets :
+
+  GROUPE D'EFFETS 1
+  - ID du groupe : 1001-4-1
+  - Ordre : 1
+  - Titre : non renseigné
+  - Cible : non renseigné
+  - Zone : Cercle de 2 cases
+  - Portée de la zone (valeur brute) : 2
+  - Effets cumulés : non
+
+  Effets normaux :
+  - Glyphe Feu [gf] : 5 à 7 ; durée : 3 tours ; ID effet : 4
+
+  Effets critiques :
+  - Aucun
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 1,
+  "characteristics": {
+    "pa": 3,
+    "po": "1 - 6",
+    "pb": 1,
+    "ir": 2
+  },
+  "groups": [
+    {
+      "id": "1001-4-1",
+      "spell_id": 1001,
+      "level": 4,
+      "group_order": 1,
+      "title": null,
+      "target": null,
+      "zone": "cercle",
+      "range": 2,
+      "cumulated": 0,
+      "effects": [
+        {
+          "id": 4,
+          "group_id": "1001-4-1",
+          "effect": "gf",
+          "cc": 0,
+          "min": 5,
+          "max": 7,
+          "duration": 3,
+          "ignore_do_crit": 0
+        }
+      ]
+    }
+  ]
+}
+
+================================================================================
+NIVEAU DU SORT 5
+================================================================================
+- Niveau requis du personnage : 1
+
+Caractéristiques :
+- 3 PA [pa]
+- 1 - 7 Portée [po]
+- PO modifiable [pb] : oui
+- Relance : 2 tours [ir]
+
+Groupes et effets :
+
+  GROUPE D'EFFETS 1
+  - ID du groupe : 1001-5-1
+  - Ordre : 1
+  - Titre : non renseigné
+  - Cible : non renseigné
+  - Zone : Cercle de 2 cases
+  - Portée de la zone (valeur brute) : 2
+  - Effets cumulés : non
+
+  Effets normaux :
+  - Glyphe Feu [gf] : 6 à 8 ; durée : 3 tours ; ID effet : 5
+
+  Effets critiques :
+  - Aucun
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 1,
+  "characteristics": {
+    "pa": 3,
+    "po": "1 - 7",
+    "pb": 1,
+    "ir": 2
+  },
+  "groups": [
+    {
+      "id": "1001-5-1",
+      "spell_id": 1001,
+      "level": 5,
+      "group_order": 1,
+      "title": null,
+      "target": null,
+      "zone": "cercle",
+      "range": 2,
+      "cumulated": 0,
+      "effects": [
+        {
+          "id": 5,
+          "group_id": "1001-5-1",
+          "effect": "gf",
+          "cc": 0,
+          "min": 6,
+          "max": 8,
+          "duration": 3,
+          "ignore_do_crit": 0
+        }
+      ]
+    }
+  ]
+}
+
+================================================================================
+NIVEAU DU SORT 6
+================================================================================
+- Niveau requis du personnage : 101
+
+Caractéristiques :
+- 3 PA [pa]
+- 1 - 8 Portée [po]
+- PO modifiable [pb] : oui
+- Relance : 2 tours [ir]
+
+Groupes et effets :
+
+  GROUPE D'EFFETS 1
+  - ID du groupe : 1001-6-1
+  - Ordre : 1
+  - Titre : non renseigné
+  - Cible : non renseigné
+  - Zone : Cercle de 2 cases
+  - Portée de la zone (valeur brute) : 2
+  - Effets cumulés : non
+
+  Effets normaux :
+  - Glyphe Feu [gf] : 8 à 10 ; durée : 3 tours ; ID effet : 6
+
+  Effets critiques :
+  - Aucun
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 101,
+  "characteristics": {
+    "pa": 3,
+    "po": "1 - 8",
+    "pb": 1,
+    "ir": 2
+  },
+  "groups": [
+    {
+      "id": "1001-6-1",
+      "spell_id": 1001,
+      "level": 6,
+      "group_order": 1,
+      "title": null,
+      "target": null,
+      "zone": "cercle",
+      "range": 2,
+      "cumulated": 0,
+      "effects": [
+        {
+          "id": 6,
+          "group_id": "1001-6-1",
+          "effect": "gf",
+          "cc": 0,
+          "min": 8,
+          "max": 10,
+          "duration": 3,
+          "ignore_do_crit": 0
+        }
+      ]
+    }
+  ]
+}
+
+Données techniques originales complètes du sort :
+{
+  "id": 1001,
+  "class_id": 1,
+  "spell_id": 1,
+  "icon": null,
+  "level1": 1,
+  "level2": 1,
+  "level3": 1,
+  "level4": 1,
+  "level5": 1,
+  "level6": 101,
+  "is_variante": 0,
+  "is_passif": 0,
+  "is_invoc": 0,
+  "name_fallback": "Glyphe Agressif",
+  "description_fallback": "Ce glyphe occasionne des dégâts à tous les joueurs.",
+  "name": "Glyphe Agressif",
+  "description": "Ce glyphe occasionne des dégâts à tous les joueurs.",
+  "caracs": [
+    {
+      "pa": 3,
+      "po": "1 - 3",
+      "pb": 1,
+      "ir": 2
+    },
+    {
+      "pa": 3,
+      "po": "1 - 4",
+      "pb": 1,
+      "ir": 2
+    },
+    {
+      "pa": 3,
+      "po": "1 - 5",
+      "pb": 1,
+      "ir": 2
+    },
+    {
+      "pa": 3,
+      "po": "1 - 6",
+      "pb": 1,
+      "ir": 2
+    },
+    {
+      "pa": 3,
+      "po": "1 - 7",
+      "pb": 1,
+      "ir": 2
+    },
+    {
+      "pa": 3,
+      "po": "1 - 8",
+      "pb": 1,
+      "ir": 2
+    }
+  ],
+  "invocs": [],
+  "groups": [
+    {
+      "id": "1001-1-1",
+      "spell_id": 1001,
+      "level": 1,
+      "group_order": 1,
+      "title": null,
+      "target": null,
+      "zone": "cercle",
+      "range": 2,
+      "cumulated": 0,
+      "effects": [
+        {
+          "id": 1,
+          "group_id": "1001-1-1",
+          "effect": "gf",
+          "cc": 0,
+          "min": 1,
+          "max": 3,
+          "duration": 3,
+          "ignore_do_crit": 0
+        }
+      ]
+    },
+    {
+      "id": "1001-2-1",
+      "spell_id": 1001,
+      "level": 2,
+      "group_order": 1,
+      "title": null,
+      "target": null,
+      "zone": "cercle",
+      "range": 2,
+      "cumulated": 0,
+      "effects": [
+        {
+          "id": 2,
+          "group_id": "1001-2-1",
+          "effect": "gf",
+          "cc": 0,
+          "min": 2,
+          "max": 4,
+          "duration": 3,
+          "ignore_do_crit": 0
+        }
+      ]
+    },
+    {
+      "id": "1001-3-1",
+      "spell_id": 1001,
+      "level": 3,
+      "group_order": 1,
+      "title": null,
+      "target": null,
+      "zone": "cercle",
+      "range": 2,
+      "cumulated": 0,
+      "effects": [
+        {
+          "id": 3,
+          "group_id": "1001-3-1",
+          "effect": "gf",
+          "cc": 0,
+          "min": 3,
+          "max": 5,
+          "duration": 3,
+          "ignore_do_crit": 0
+        }
+      ]
+    },
+    {
+      "id": "1001-4-1",
+      "spell_id": 1001,
+      "level": 4,
+      "group_order": 1,
+      "title": null,
+      "target": null,
+      "zone": "cercle",
+      "range": 2,
+      "cumulated": 0,
+      "effects": [
+        {
+          "id": 4,
+          "group_id": "1001-4-1",
+          "effect": "gf",
+          "cc": 0,
+          "min": 5,
+          "max": 7,
+          "duration": 3,
+          "ignore_do_crit": 0
+        }
+      ]
+    },
+    {
+      "id": "1001-5-1",
+      "spell_id": 1001,
+      "level": 5,
+      "group_order": 1,
+      "title": null,
+      "target": null,
+      "zone": "cercle",
+      "range": 2,
+      "cumulated": 0,
+      "effects": [
+        {
+          "id": 5,
+          "group_id": "1001-5-1",
+          "effect": "gf",
+          "cc": 0,
+          "min": 6,
+          "max": 8,
+          "duration": 3,
+          "ignore_do_crit": 0
+        }
+      ]
+    },
+    {
+      "id": "1001-6-1",
+      "spell_id": 1001,
+      "level": 6,
+      "group_order": 1,
+      "title": null,
+      "target": null,
+      "zone": "cercle",
+      "range": 2,
+      "cumulated": 0,
+      "effects": [
+        {
+          "id": 6,
+          "group_id": "1001-6-1",
+          "effect": "gf",
+          "cc": 0,
+          "min": 8,
+          "max": 10,
+          "duration": 3,
+          "ignore_do_crit": 0
+        }
+      ]
+    }
+  ]
+}
+
+
+################################################################################
+SORT 02/22 : Armure Terrestre
+################################################################################
+
+Identification :
+- ID interne : 1002
+- ID du sort dans la classe : 2
+- ID de classe : 1
+- Icône locale : images sort/02-armure-terrestre.png
+
+Description :
+Cette armure prévient des dégâts neutres et terre.
+
+Propriétés générales :
+- Variante : non
+- Passif : non
+- Invocation : non
+
+================================================================================
+NIVEAU DU SORT 1
+================================================================================
+- Niveau requis du personnage : 1
+
+Caractéristiques :
+- 2 PA [pa]
+- 0 Portée [po]
+- 1/50 CC [cc]
+- 1/50 CC tot [cc_rate]
+- Relance : 5 tours [ir]
+
+Groupes et effets :
+- Aucun effet renseigné pour ce niveau.
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 1,
+  "characteristics": {
+    "pa": 2,
+    "po": "0",
+    "cc": 50,
+    "cc_rate": 50,
+    "ir": 5
+  },
+  "groups": []
+}
+
+================================================================================
+NIVEAU DU SORT 2
+================================================================================
+- Niveau requis du personnage : 1
+
+Caractéristiques :
+- 2 PA [pa]
+- 0 Portée [po]
+- 1/50 CC [cc]
+- 1/50 CC tot [cc_rate]
+- Relance : 5 tours [ir]
+
+Groupes et effets :
+- Aucun effet renseigné pour ce niveau.
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 1,
+  "characteristics": {
+    "pa": 2,
+    "po": "0",
+    "cc": 50,
+    "cc_rate": 50,
+    "ir": 5
+  },
+  "groups": []
+}
+
+================================================================================
+NIVEAU DU SORT 3
+================================================================================
+- Niveau requis du personnage : 1
+
+Caractéristiques :
+- 2 PA [pa]
+- 0 Portée [po]
+- 1/50 CC [cc]
+- 1/50 CC tot [cc_rate]
+- Relance : 5 tours [ir]
+
+Groupes et effets :
+- Aucun effet renseigné pour ce niveau.
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 1,
+  "characteristics": {
+    "pa": 2,
+    "po": "0",
+    "cc": 50,
+    "cc_rate": 50,
+    "ir": 5
+  },
+  "groups": []
+}
+
+================================================================================
+NIVEAU DU SORT 4
+================================================================================
+- Niveau requis du personnage : 1
+
+Caractéristiques :
+- 2 PA [pa]
+- 0 Portée [po]
+- 1/50 CC [cc]
+- 1/50 CC tot [cc_rate]
+- Relance : 5 tours [ir]
+
+Groupes et effets :
+- Aucun effet renseigné pour ce niveau.
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 1,
+  "characteristics": {
+    "pa": 2,
+    "po": "0",
+    "cc": 50,
+    "cc_rate": 50,
+    "ir": 5
+  },
+  "groups": []
+}
+
+================================================================================
+NIVEAU DU SORT 5
+================================================================================
+- Niveau requis du personnage : 1
+
+Caractéristiques :
+- 2 PA [pa]
+- 0 Portée [po]
+- 1/50 CC [cc]
+- 1/50 CC tot [cc_rate]
+- Relance : 5 tours [ir]
+
+Groupes et effets :
+- Aucun effet renseigné pour ce niveau.
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 1,
+  "characteristics": {
+    "pa": 2,
+    "po": "0",
+    "cc": 50,
+    "cc_rate": 50,
+    "ir": 5
+  },
+  "groups": []
+}
+
+================================================================================
+NIVEAU DU SORT 6
+================================================================================
+- Niveau requis du personnage : 101
+
+Caractéristiques :
+- 2 PA [pa]
+- 0 Portée [po]
+- 1/50 CC [cc]
+- 1/50 CC tot [cc_rate]
+- Relance : 5 tours [ir]
+
+Groupes et effets :
+- Aucun effet renseigné pour ce niveau.
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 101,
+  "characteristics": {
+    "pa": 2,
+    "po": "0",
+    "cc": 50,
+    "cc_rate": 50,
+    "ir": 5
+  },
+  "groups": []
+}
+
+Données techniques originales complètes du sort :
+{
+  "id": 1002,
+  "class_id": 1,
+  "spell_id": 2,
+  "icon": null,
+  "level1": 1,
+  "level2": 1,
+  "level3": 1,
+  "level4": 1,
+  "level5": 1,
+  "level6": 101,
+  "is_variante": 0,
+  "is_passif": 0,
+  "is_invoc": 0,
+  "name_fallback": "Armure Terrestre",
+  "description_fallback": "Cette armure prévient des dégâts neutres et terre.",
+  "name": "Armure Terrestre",
+  "description": "Cette armure prévient des dégâts neutres et terre.",
+  "caracs": [
+    {
+      "pa": 2,
+      "po": "0",
+      "cc": 50,
+      "cc_rate": 50,
+      "ir": 5
+    },
+    {
+      "pa": 2,
+      "po": "0",
+      "cc": 50,
+      "cc_rate": 50,
+      "ir": 5
+    },
+    {
+      "pa": 2,
+      "po": "0",
+      "cc": 50,
+      "cc_rate": 50,
+      "ir": 5
+    },
+    {
+      "pa": 2,
+      "po": "0",
+      "cc": 50,
+      "cc_rate": 50,
+      "ir": 5
+    },
+    {
+      "pa": 2,
+      "po": "0",
+      "cc": 50,
+      "cc_rate": 50,
+      "ir": 5
+    },
+    {
+      "pa": 2,
+      "po": "0",
+      "cc": 50,
+      "cc_rate": 50,
+      "ir": 5
+    }
+  ],
+  "invocs": [],
+  "groups": []
+}
+
+
+################################################################################
+SORT 03/22 : Attaque Naturelle
+################################################################################
+
+Identification :
+- ID interne : 1003
+- ID du sort dans la classe : 3
+- ID de classe : 1
+- Icône locale : images sort/03-attaque-naturelle.png
+
+Description :
+L'Attaque Naturelle occasionne des dégâts de Feu.
+
+Propriétés générales :
+- Variante : non
+- Passif : non
+- Invocation : non
+
+================================================================================
+NIVEAU DU SORT 1
+================================================================================
+- Niveau requis du personnage : 1
+
+Caractéristiques :
+- 5 PA [pa]
+- 1 - 6 Portée [po]
+- 1/50 CC [cc]
+- 1/50 CC tot [cc_rate]
+- PO modifiable [pb] : oui
+- Ø ligne de vue [ldv] : oui
+
+Groupes et effets :
+
+  GROUPE D'EFFETS 1
+  - ID du groupe : 1003-1-1
+  - Ordre : 1
+  - Titre : non renseigné
+  - Cible : non renseigné
+  - Zone : aucune zone renseignée
+  - Portée de la zone (valeur brute) : non renseigné
+  - Effets cumulés : non
+
+  Effets normaux :
+  - Dégât Feu [df] : 2 à 6 ; ID effet : 7
+
+  Effets critiques :
+  - Dégât Feu [df] : 8 ; ID effet : 8
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 1,
+  "characteristics": {
+    "pa": 5,
+    "po": "1 - 6",
+    "cc": 50,
+    "cc_rate": 50,
+    "pb": 1,
+    "ldv": 1
+  },
+  "groups": [
+    {
+      "id": "1003-1-1",
+      "spell_id": 1003,
+      "level": 1,
+      "group_order": 1,
+      "title": null,
+      "target": null,
+      "zone": null,
+      "range": null,
+      "cumulated": 0,
+      "effects": [
+        {
+          "id": 7,
+          "group_id": "1003-1-1",
+          "effect": "df",
+          "cc": 0,
+          "min": 2,
+          "max": 6,
+          "duration": 0,
+          "ignore_do_crit": 0
+        },
+        {
+          "id": 8,
+          "group_id": "1003-1-1",
+          "effect": "df",
+          "cc": 1,
+          "min": 8,
+          "max": 8,
+          "duration": 0,
+          "ignore_do_crit": 0
+        }
+      ]
+    }
+  ]
+}
+
+================================================================================
+NIVEAU DU SORT 2
+================================================================================
+- Niveau requis du personnage : 1
+
+Caractéristiques :
+- 5 PA [pa]
+- 1 - 6 Portée [po]
+- 1/50 CC [cc]
+- 1/50 CC tot [cc_rate]
+- PO modifiable [pb] : oui
+- Ø ligne de vue [ldv] : oui
+
+Groupes et effets :
+
+  GROUPE D'EFFETS 1
+  - ID du groupe : 1003-2-1
+  - Ordre : 1
+  - Titre : non renseigné
+  - Cible : non renseigné
+  - Zone : aucune zone renseignée
+  - Portée de la zone (valeur brute) : non renseigné
+  - Effets cumulés : non
+
+  Effets normaux :
+  - Dégât Feu [df] : 3 à 7 ; ID effet : 9
+
+  Effets critiques :
+  - Dégât Feu [df] : 9 ; ID effet : 10
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 1,
+  "characteristics": {
+    "pa": 5,
+    "po": "1 - 6",
+    "cc": 50,
+    "cc_rate": 50,
+    "pb": 1,
+    "ldv": 1
+  },
+  "groups": [
+    {
+      "id": "1003-2-1",
+      "spell_id": 1003,
+      "level": 2,
+      "group_order": 1,
+      "title": null,
+      "target": null,
+      "zone": null,
+      "range": null,
+      "cumulated": 0,
+      "effects": [
+        {
+          "id": 9,
+          "group_id": "1003-2-1",
+          "effect": "df",
+          "cc": 0,
+          "min": 3,
+          "max": 7,
+          "duration": 0,
+          "ignore_do_crit": 0
+        },
+        {
+          "id": 10,
+          "group_id": "1003-2-1",
+          "effect": "df",
+          "cc": 1,
+          "min": 9,
+          "max": 9,
+          "duration": 0,
+          "ignore_do_crit": 0
+        }
+      ]
+    }
+  ]
+}
+
+================================================================================
+NIVEAU DU SORT 3
+================================================================================
+- Niveau requis du personnage : 1
+
+Caractéristiques :
+- 4 PA [pa]
+- 1 - 6 Portée [po]
+- 1/50 CC [cc]
+- 1/50 CC tot [cc_rate]
+- PO modifiable [pb] : oui
+- Ø ligne de vue [ldv] : oui
+
+Groupes et effets :
+
+  GROUPE D'EFFETS 1
+  - ID du groupe : 1003-3-1
+  - Ordre : 1
+  - Titre : non renseigné
+  - Cible : non renseigné
+  - Zone : aucune zone renseignée
+  - Portée de la zone (valeur brute) : non renseigné
+  - Effets cumulés : non
+
+  Effets normaux :
+  - Dégât Feu [df] : 4 à 8 ; ID effet : 11
+
+  Effets critiques :
+  - Dégât Feu [df] : 10 ; ID effet : 12
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 1,
+  "characteristics": {
+    "pa": 4,
+    "po": "1 - 6",
+    "cc": 50,
+    "cc_rate": 50,
+    "pb": 1,
+    "ldv": 1
+  },
+  "groups": [
+    {
+      "id": "1003-3-1",
+      "spell_id": 1003,
+      "level": 3,
+      "group_order": 1,
+      "title": null,
+      "target": null,
+      "zone": null,
+      "range": null,
+      "cumulated": 0,
+      "effects": [
+        {
+          "id": 11,
+          "group_id": "1003-3-1",
+          "effect": "df",
+          "cc": 0,
+          "min": 4,
+          "max": 8,
+          "duration": 0,
+          "ignore_do_crit": 0
+        },
+        {
+          "id": 12,
+          "group_id": "1003-3-1",
+          "effect": "df",
+          "cc": 1,
+          "min": 10,
+          "max": 10,
+          "duration": 0,
+          "ignore_do_crit": 0
+        }
+      ]
+    }
+  ]
+}
+
+================================================================================
+NIVEAU DU SORT 4
+================================================================================
+- Niveau requis du personnage : 1
+
+Caractéristiques :
+- 4 PA [pa]
+- 1 - 6 Portée [po]
+- 1/50 CC [cc]
+- 1/50 CC tot [cc_rate]
+- PO modifiable [pb] : oui
+- Ø ligne de vue [ldv] : oui
+
+Groupes et effets :
+
+  GROUPE D'EFFETS 1
+  - ID du groupe : 1003-4-1
+  - Ordre : 1
+  - Titre : non renseigné
+  - Cible : non renseigné
+  - Zone : aucune zone renseignée
+  - Portée de la zone (valeur brute) : non renseigné
+  - Effets cumulés : non
+
+  Effets normaux :
+  - Dégât Feu [df] : 5 à 9 ; ID effet : 13
+
+  Effets critiques :
+  - Dégât Feu [df] : 11 ; ID effet : 14
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 1,
+  "characteristics": {
+    "pa": 4,
+    "po": "1 - 6",
+    "cc": 50,
+    "cc_rate": 50,
+    "pb": 1,
+    "ldv": 1
+  },
+  "groups": [
+    {
+      "id": "1003-4-1",
+      "spell_id": 1003,
+      "level": 4,
+      "group_order": 1,
+      "title": null,
+      "target": null,
+      "zone": null,
+      "range": null,
+      "cumulated": 0,
+      "effects": [
+        {
+          "id": 13,
+          "group_id": "1003-4-1",
+          "effect": "df",
+          "cc": 0,
+          "min": 5,
+          "max": 9,
+          "duration": 0,
+          "ignore_do_crit": 0
+        },
+        {
+          "id": 14,
+          "group_id": "1003-4-1",
+          "effect": "df",
+          "cc": 1,
+          "min": 11,
+          "max": 11,
+          "duration": 0,
+          "ignore_do_crit": 0
+        }
+      ]
+    }
+  ]
+}
+
+================================================================================
+NIVEAU DU SORT 5
+================================================================================
+- Niveau requis du personnage : 1
+
+Caractéristiques :
+- 4 PA [pa]
+- 1 - 7 Portée [po]
+- 1/50 CC [cc]
+- 1/50 CC tot [cc_rate]
+- PO modifiable [pb] : oui
+- Ø ligne de vue [ldv] : oui
+
+Groupes et effets :
+
+  GROUPE D'EFFETS 1
+  - ID du groupe : 1003-5-1
+  - Ordre : 1
+  - Titre : non renseigné
+  - Cible : non renseigné
+  - Zone : aucune zone renseignée
+  - Portée de la zone (valeur brute) : non renseigné
+  - Effets cumulés : non
+
+  Effets normaux :
+  - Dégât Feu [df] : 7 à 11 ; ID effet : 15
+
+  Effets critiques :
+  - Dégât Feu [df] : 13 ; ID effet : 16
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 1,
+  "characteristics": {
+    "pa": 4,
+    "po": "1 - 7",
+    "cc": 50,
+    "cc_rate": 50,
+    "pb": 1,
+    "ldv": 1
+  },
+  "groups": [
+    {
+      "id": "1003-5-1",
+      "spell_id": 1003,
+      "level": 5,
+      "group_order": 1,
+      "title": null,
+      "target": null,
+      "zone": null,
+      "range": null,
+      "cumulated": 0,
+      "effects": [
+        {
+          "id": 15,
+          "group_id": "1003-5-1",
+          "effect": "df",
+          "cc": 0,
+          "min": 7,
+          "max": 11,
+          "duration": 0,
+          "ignore_do_crit": 0
+        },
+        {
+          "id": 16,
+          "group_id": "1003-5-1",
+          "effect": "df",
+          "cc": 1,
+          "min": 13,
+          "max": 13,
+          "duration": 0,
+          "ignore_do_crit": 0
+        }
+      ]
+    }
+  ]
+}
+
+================================================================================
+NIVEAU DU SORT 6
+================================================================================
+- Niveau requis du personnage : 101
+
+Caractéristiques :
+- 3 PA [pa]
+- 1 - 8 Portée [po]
+- 1/50 CC [cc]
+- 1/50 CC tot [cc_rate]
+- PO modifiable [pb] : oui
+- Ø ligne de vue [ldv] : oui
+
+Groupes et effets :
+
+  GROUPE D'EFFETS 1
+  - ID du groupe : 1003-6-1
+  - Ordre : 1
+  - Titre : non renseigné
+  - Cible : non renseigné
+  - Zone : aucune zone renseignée
+  - Portée de la zone (valeur brute) : non renseigné
+  - Effets cumulés : non
+
+  Effets normaux :
+  - Dégât Feu [df] : 9 à 13 ; ID effet : 17
+
+  Effets critiques :
+  - Dégât Feu [df] : 15 ; ID effet : 18
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 101,
+  "characteristics": {
+    "pa": 3,
+    "po": "1 - 8",
+    "cc": 50,
+    "cc_rate": 50,
+    "pb": 1,
+    "ldv": 1
+  },
+  "groups": [
+    {
+      "id": "1003-6-1",
+      "spell_id": 1003,
+      "level": 6,
+      "group_order": 1,
+      "title": null,
+      "target": null,
+      "zone": null,
+      "range": null,
+      "cumulated": 0,
+      "effects": [
+        {
+          "id": 17,
+          "group_id": "1003-6-1",
+          "effect": "df",
+          "cc": 0,
+          "min": 9,
+          "max": 13,
+          "duration": 0,
+          "ignore_do_crit": 0
+        },
+        {
+          "id": 18,
+          "group_id": "1003-6-1",
+          "effect": "df",
+          "cc": 1,
+          "min": 15,
+          "max": 15,
+          "duration": 0,
+          "ignore_do_crit": 0
+        }
+      ]
+    }
+  ]
+}
+
+Données techniques originales complètes du sort :
+{
+  "id": 1003,
+  "class_id": 1,
+  "spell_id": 3,
+  "icon": null,
+  "level1": 1,
+  "level2": 1,
+  "level3": 1,
+  "level4": 1,
+  "level5": 1,
+  "level6": 101,
+  "is_variante": 0,
+  "is_passif": 0,
+  "is_invoc": 0,
+  "name_fallback": "Attaque Naturelle",
+  "description_fallback": "L'Attaque Naturelle occasionne des dégâts de Feu.",
+  "name": "Attaque Naturelle",
+  "description": "L'Attaque Naturelle occasionne des dégâts de Feu.",
+  "caracs": [
+    {
+      "pa": 5,
+      "po": "1 - 6",
+      "cc": 50,
+      "cc_rate": 50,
+      "pb": 1,
+      "ldv": 1
+    },
+    {
+      "pa": 5,
+      "po": "1 - 6",
+      "cc": 50,
+      "cc_rate": 50,
+      "pb": 1,
+      "ldv": 1
+    },
+    {
+      "pa": 4,
+      "po": "1 - 6",
+      "cc": 50,
+      "cc_rate": 50,
+      "pb": 1,
+      "ldv": 1
+    },
+    {
+      "pa": 4,
+      "po": "1 - 6",
+      "cc": 50,
+      "cc_rate": 50,
+      "pb": 1,
+      "ldv": 1
+    },
+    {
+      "pa": 4,
+      "po": "1 - 7",
+      "cc": 50,
+      "cc_rate": 50,
+      "pb": 1,
+      "ldv": 1
+    },
+    {
+      "pa": 3,
+      "po": "1 - 8",
+      "cc": 50,
+      "cc_rate": 50,
+      "pb": 1,
+      "ldv": 1
+    }
+  ],
+  "invocs": [],
+  "groups": [
+    {
+      "id": "1003-1-1",
+      "spell_id": 1003,
+      "level": 1,
+      "group_order": 1,
+      "title": null,
+      "target": null,
+      "zone": null,
+      "range": null,
+      "cumulated": 0,
+      "effects": [
+        {
+          "id": 7,
+          "group_id": "1003-1-1",
+          "effect": "df",
+          "cc": 0,
+          "min": 2,
+          "max": 6,
+          "duration": 0,
+          "ignore_do_crit": 0
+        },
+        {
+          "id": 8,
+          "group_id": "1003-1-1",
+          "effect": "df",
+          "cc": 1,
+          "min": 8,
+          "max": 8,
+          "duration": 0,
+          "ignore_do_crit": 0
+        }
+      ]
+    },
+    {
+      "id": "1003-2-1",
+      "spell_id": 1003,
+      "level": 2,
+      "group_order": 1,
+      "title": null,
+      "target": null,
+      "zone": null,
+      "range": null,
+      "cumulated": 0,
+      "effects": [
+        {
+          "id": 9,
+          "group_id": "1003-2-1",
+          "effect": "df",
+          "cc": 0,
+          "min": 3,
+          "max": 7,
+          "duration": 0,
+          "ignore_do_crit": 0
+        },
+        {
+          "id": 10,
+          "group_id": "1003-2-1",
+          "effect": "df",
+          "cc": 1,
+          "min": 9,
+          "max": 9,
+          "duration": 0,
+          "ignore_do_crit": 0
+        }
+      ]
+    },
+    {
+      "id": "1003-3-1",
+      "spell_id": 1003,
+      "level": 3,
+      "group_order": 1,
+      "title": null,
+      "target": null,
+      "zone": null,
+      "range": null,
+      "cumulated": 0,
+      "effects": [
+        {
+          "id": 11,
+          "group_id": "1003-3-1",
+          "effect": "df",
+          "cc": 0,
+          "min": 4,
+          "max": 8,
+          "duration": 0,
+          "ignore_do_crit": 0
+        },
+        {
+          "id": 12,
+          "group_id": "1003-3-1",
+          "effect": "df",
+          "cc": 1,
+          "min": 10,
+          "max": 10,
+          "duration": 0,
+          "ignore_do_crit": 0
+        }
+      ]
+    },
+    {
+      "id": "1003-4-1",
+      "spell_id": 1003,
+      "level": 4,
+      "group_order": 1,
+      "title": null,
+      "target": null,
+      "zone": null,
+      "range": null,
+      "cumulated": 0,
+      "effects": [
+        {
+          "id": 13,
+          "group_id": "1003-4-1",
+          "effect": "df",
+          "cc": 0,
+          "min": 5,
+          "max": 9,
+          "duration": 0,
+          "ignore_do_crit": 0
+        },
+        {
+          "id": 14,
+          "group_id": "1003-4-1",
+          "effect": "df",
+          "cc": 1,
+          "min": 11,
+          "max": 11,
+          "duration": 0,
+          "ignore_do_crit": 0
+        }
+      ]
+    },
+    {
+      "id": "1003-5-1",
+      "spell_id": 1003,
+      "level": 5,
+      "group_order": 1,
+      "title": null,
+      "target": null,
+      "zone": null,
+      "range": null,
+      "cumulated": 0,
+      "effects": [
+        {
+          "id": 15,
+          "group_id": "1003-5-1",
+          "effect": "df",
+          "cc": 0,
+          "min": 7,
+          "max": 11,
+          "duration": 0,
+          "ignore_do_crit": 0
+        },
+        {
+          "id": 16,
+          "group_id": "1003-5-1",
+          "effect": "df",
+          "cc": 1,
+          "min": 13,
+          "max": 13,
+          "duration": 0,
+          "ignore_do_crit": 0
+        }
+      ]
+    },
+    {
+      "id": "1003-6-1",
+      "spell_id": 1003,
+      "level": 6,
+      "group_order": 1,
+      "title": null,
+      "target": null,
+      "zone": null,
+      "range": null,
+      "cumulated": 0,
+      "effects": [
+        {
+          "id": 17,
+          "group_id": "1003-6-1",
+          "effect": "df",
+          "cc": 0,
+          "min": 9,
+          "max": 13,
+          "duration": 0,
+          "ignore_do_crit": 0
+        },
+        {
+          "id": 18,
+          "group_id": "1003-6-1",
+          "effect": "df",
+          "cc": 1,
+          "min": 15,
+          "max": 15,
+          "duration": 0,
+          "ignore_do_crit": 0
+        }
+      ]
+    }
+  ]
+}
+
+
+################################################################################
+SORT 04/22 : Renvoi de Sort
+################################################################################
+
+Identification :
+- ID interne : 1004
+- ID du sort dans la classe : 4
+- ID de classe : 1
+- Icône locale : images sort/04-renvoi-de-sort.png
+
+Description :
+Le renvoi de Sorts permet de renvoyer un sort occasionnant une perte de PDV ou de PA.
+
+Propriétés générales :
+- Variante : non
+- Passif : non
+- Invocation : non
+
+================================================================================
+NIVEAU DU SORT 1
+================================================================================
+- Niveau requis du personnage : 3
+
+Caractéristiques :
+- 3 PA [pa]
+- 0 - 1 Portée [po]
+- PO modifiable [pb] : oui
+- Relance : 6 tours [ir]
+
+Groupes et effets :
+- Aucun effet renseigné pour ce niveau.
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 3,
+  "characteristics": {
+    "pa": 3,
+    "po": "0 - 1",
+    "pb": 1,
+    "ir": 6
+  },
+  "groups": []
+}
+
+================================================================================
+NIVEAU DU SORT 2
+================================================================================
+- Niveau requis du personnage : 3
+
+Caractéristiques :
+- 3 PA [pa]
+- 0 - 2 Portée [po]
+- PO modifiable [pb] : oui
+- Relance : 6 tours [ir]
+
+Groupes et effets :
+- Aucun effet renseigné pour ce niveau.
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 3,
+  "characteristics": {
+    "pa": 3,
+    "po": "0 - 2",
+    "pb": 1,
+    "ir": 6
+  },
+  "groups": []
+}
+
+================================================================================
+NIVEAU DU SORT 3
+================================================================================
+- Niveau requis du personnage : 3
+
+Caractéristiques :
+- 3 PA [pa]
+- 0 - 3 Portée [po]
+- PO modifiable [pb] : oui
+- Relance : 6 tours [ir]
+
+Groupes et effets :
+- Aucun effet renseigné pour ce niveau.
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 3,
+  "characteristics": {
+    "pa": 3,
+    "po": "0 - 3",
+    "pb": 1,
+    "ir": 6
+  },
+  "groups": []
+}
+
+================================================================================
+NIVEAU DU SORT 4
+================================================================================
+- Niveau requis du personnage : 3
+
+Caractéristiques :
+- 3 PA [pa]
+- 0 - 4 Portée [po]
+- PO modifiable [pb] : oui
+- Relance : 6 tours [ir]
+
+Groupes et effets :
+- Aucun effet renseigné pour ce niveau.
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 3,
+  "characteristics": {
+    "pa": 3,
+    "po": "0 - 4",
+    "pb": 1,
+    "ir": 6
+  },
+  "groups": []
+}
+
+================================================================================
+NIVEAU DU SORT 5
+================================================================================
+- Niveau requis du personnage : 3
+
+Caractéristiques :
+- 3 PA [pa]
+- 0 - 5 Portée [po]
+- PO modifiable [pb] : oui
+- Relance : 6 tours [ir]
+
+Groupes et effets :
+- Aucun effet renseigné pour ce niveau.
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 3,
+  "characteristics": {
+    "pa": 3,
+    "po": "0 - 5",
+    "pb": 1,
+    "ir": 6
+  },
+  "groups": []
+}
+
+================================================================================
+NIVEAU DU SORT 6
+================================================================================
+- Niveau requis du personnage : 103
+
+Caractéristiques :
+- 3 PA [pa]
+- 0 - 6 Portée [po]
+- PO modifiable [pb] : oui
+- Relance : 6 tours [ir]
+
+Groupes et effets :
+- Aucun effet renseigné pour ce niveau.
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 103,
+  "characteristics": {
+    "pa": 3,
+    "po": "0 - 6",
+    "pb": 1,
+    "ir": 6
+  },
+  "groups": []
+}
+
+Données techniques originales complètes du sort :
+{
+  "id": 1004,
+  "class_id": 1,
+  "spell_id": 4,
+  "icon": null,
+  "level1": 3,
+  "level2": 3,
+  "level3": 3,
+  "level4": 3,
+  "level5": 3,
+  "level6": 103,
+  "is_variante": 0,
+  "is_passif": 0,
+  "is_invoc": 0,
+  "name_fallback": "Renvoi de Sort",
+  "description_fallback": "Le renvoi de Sorts permet de renvoyer un sort occasionnant une perte de PDV ou de PA.",
+  "name": "Renvoi de Sort",
+  "description": "Le renvoi de Sorts permet de renvoyer un sort occasionnant une perte de PDV ou de PA.",
+  "caracs": [
+    {
+      "pa": 3,
+      "po": "0 - 1",
+      "pb": 1,
+      "ir": 6
+    },
+    {
+      "pa": 3,
+      "po": "0 - 2",
+      "pb": 1,
+      "ir": 6
+    },
+    {
+      "pa": 3,
+      "po": "0 - 3",
+      "pb": 1,
+      "ir": 6
+    },
+    {
+      "pa": 3,
+      "po": "0 - 4",
+      "pb": 1,
+      "ir": 6
+    },
+    {
+      "pa": 3,
+      "po": "0 - 5",
+      "pb": 1,
+      "ir": 6
+    },
+    {
+      "pa": 3,
+      "po": "0 - 6",
+      "pb": 1,
+      "ir": 6
+    }
+  ],
+  "invocs": [],
+  "groups": []
+}
+
+
+################################################################################
+SORT 05/22 : Aveuglement
+################################################################################
+
+Identification :
+- ID interne : 1005
+- ID du sort dans la classe : 5
+- ID de classe : 1
+- Icône locale : images sort/05-aveuglement.png
+
+Description :
+Occasionne des dommages Neutre et retire des PA à la cible.
+
+Propriétés générales :
+- Variante : non
+- Passif : non
+- Invocation : non
+
+================================================================================
+NIVEAU DU SORT 1
+================================================================================
+- Niveau requis du personnage : 6
+
+Caractéristiques :
+- 3 PA [pa]
+- 1 - 6 Portée [po]
+- 1/50 CC [cc]
+- 1/50 CC tot [cc_rate]
+- PO modifiable [pb] : oui
+- Ø ligne de vue [ldv] : oui
+- 1 lancer par cible [ltj]
+
+Groupes et effets :
+
+  GROUPE D'EFFETS 1
+  - ID du groupe : 1005-1-1
+  - Ordre : 1
+  - Titre : non renseigné
+  - Cible : non renseigné
+  - Zone : aucune zone renseignée
+  - Portée de la zone (valeur brute) : non renseigné
+  - Effets cumulés : non
+
+  Effets normaux :
+  - Dégât Neutre [dn] : 1 ; ID effet : 19
+
+  Effets critiques :
+  - Dégât Neutre [dn] : 2 ; ID effet : 20
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 6,
+  "characteristics": {
+    "pa": 3,
+    "po": "1 - 6",
+    "cc": 50,
+    "cc_rate": 50,
+    "pb": 1,
+    "ldv": 1,
+    "ltj": 1
+  },
+  "groups": [
+    {
+      "id": "1005-1-1",
+      "spell_id": 1005,
+      "level": 1,
+      "group_order": 1,
+      "title": null,
+      "target": null,
+      "zone": null,
+      "range": null,
+      "cumulated": 0,
+      "effects": [
+        {
+          "id": 19,
+          "group_id": "1005-1-1",
+          "effect": "dn",
+          "cc": 0,
+          "min": 1,
+          "max": 1,
+          "duration": 0,
+          "ignore_do_crit": 0
+        },
+        {
+          "id": 20,
+          "group_id": "1005-1-1",
+          "effect": "dn",
+          "cc": 1,
+          "min": 2,
+          "max": 2,
+          "duration": 0,
+          "ignore_do_crit": 0
+        }
+      ]
+    }
+  ]
+}
+
+================================================================================
+NIVEAU DU SORT 2
+================================================================================
+- Niveau requis du personnage : 6
+
+Caractéristiques :
+- 3 PA [pa]
+- 1 - 7 Portée [po]
+- 1/50 CC [cc]
+- 1/50 CC tot [cc_rate]
+- PO modifiable [pb] : oui
+- Ø ligne de vue [ldv] : oui
+- 1 lancer par cible [ltj]
+
+Groupes et effets :
+
+  GROUPE D'EFFETS 1
+  - ID du groupe : 1005-2-1
+  - Ordre : 1
+  - Titre : non renseigné
+  - Cible : non renseigné
+  - Zone : aucune zone renseignée
+  - Portée de la zone (valeur brute) : non renseigné
+  - Effets cumulés : non
+
+  Effets normaux :
+  - Dégât Neutre [dn] : 1 à 2 ; ID effet : 21
+
+  Effets critiques :
+  - Dégât Neutre [dn] : 4 ; ID effet : 22
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 6,
+  "characteristics": {
+    "pa": 3,
+    "po": "1 - 7",
+    "cc": 50,
+    "cc_rate": 50,
+    "pb": 1,
+    "ldv": 1,
+    "ltj": 1
+  },
+  "groups": [
+    {
+      "id": "1005-2-1",
+      "spell_id": 1005,
+      "level": 2,
+      "group_order": 1,
+      "title": null,
+      "target": null,
+      "zone": null,
+      "range": null,
+      "cumulated": 0,
+      "effects": [
+        {
+          "id": 21,
+          "group_id": "1005-2-1",
+          "effect": "dn",
+          "cc": 0,
+          "min": 1,
+          "max": 2,
+          "duration": 0,
+          "ignore_do_crit": 0
+        },
+        {
+          "id": 22,
+          "group_id": "1005-2-1",
+          "effect": "dn",
+          "cc": 1,
+          "min": 4,
+          "max": 4,
+          "duration": 0,
+          "ignore_do_crit": 0
+        }
+      ]
+    }
+  ]
+}
+
+================================================================================
+NIVEAU DU SORT 3
+================================================================================
+- Niveau requis du personnage : 6
+
+Caractéristiques :
+- 3 PA [pa]
+- 1 - 7 Portée [po]
+- 1/50 CC [cc]
+- 1/50 CC tot [cc_rate]
+- PO modifiable [pb] : oui
+- Ø ligne de vue [ldv] : oui
+- 1 lancer par cible [ltj]
+
+Groupes et effets :
+
+  GROUPE D'EFFETS 1
+  - ID du groupe : 1005-3-1
+  - Ordre : 1
+  - Titre : non renseigné
+  - Cible : non renseigné
+  - Zone : aucune zone renseignée
+  - Portée de la zone (valeur brute) : non renseigné
+  - Effets cumulés : non
+
+  Effets normaux :
+  - Dégât Neutre [dn] : 2 à 4 ; ID effet : 23
+
+  Effets critiques :
+  - Dégât Neutre [dn] : 5 ; ID effet : 24
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 6,
+  "characteristics": {
+    "pa": 3,
+    "po": "1 - 7",
+    "cc": 50,
+    "cc_rate": 50,
+    "pb": 1,
+    "ldv": 1,
+    "ltj": 1
+  },
+  "groups": [
+    {
+      "id": "1005-3-1",
+      "spell_id": 1005,
+      "level": 3,
+      "group_order": 1,
+      "title": null,
+      "target": null,
+      "zone": null,
+      "range": null,
+      "cumulated": 0,
+      "effects": [
+        {
+          "id": 23,
+          "group_id": "1005-3-1",
+          "effect": "dn",
+          "cc": 0,
+          "min": 2,
+          "max": 4,
+          "duration": 0,
+          "ignore_do_crit": 0
+        },
+        {
+          "id": 24,
+          "group_id": "1005-3-1",
+          "effect": "dn",
+          "cc": 1,
+          "min": 5,
+          "max": 5,
+          "duration": 0,
+          "ignore_do_crit": 0
+        }
+      ]
+    }
+  ]
+}
+
+================================================================================
+NIVEAU DU SORT 4
+================================================================================
+- Niveau requis du personnage : 6
+
+Caractéristiques :
+- 3 PA [pa]
+- 1 - 7 Portée [po]
+- 1/50 CC [cc]
+- 1/50 CC tot [cc_rate]
+- PO modifiable [pb] : oui
+- Ø ligne de vue [ldv] : oui
+- 1 lancer par cible [ltj]
+
+Groupes et effets :
+
+  GROUPE D'EFFETS 1
+  - ID du groupe : 1005-4-1
+  - Ordre : 1
+  - Titre : non renseigné
+  - Cible : non renseigné
+  - Zone : aucune zone renseignée
+  - Portée de la zone (valeur brute) : non renseigné
+  - Effets cumulés : non
+
+  Effets normaux :
+  - Dégât Neutre [dn] : 2 à 5 ; ID effet : 25
+
+  Effets critiques :
+  - Dégât Neutre [dn] : 6 ; ID effet : 26
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 6,
+  "characteristics": {
+    "pa": 3,
+    "po": "1 - 7",
+    "cc": 50,
+    "cc_rate": 50,
+    "pb": 1,
+    "ldv": 1,
+    "ltj": 1
+  },
+  "groups": [
+    {
+      "id": "1005-4-1",
+      "spell_id": 1005,
+      "level": 4,
+      "group_order": 1,
+      "title": null,
+      "target": null,
+      "zone": null,
+      "range": null,
+      "cumulated": 0,
+      "effects": [
+        {
+          "id": 25,
+          "group_id": "1005-4-1",
+          "effect": "dn",
+          "cc": 0,
+          "min": 2,
+          "max": 5,
+          "duration": 0,
+          "ignore_do_crit": 0
+        },
+        {
+          "id": 26,
+          "group_id": "1005-4-1",
+          "effect": "dn",
+          "cc": 1,
+          "min": 6,
+          "max": 6,
+          "duration": 0,
+          "ignore_do_crit": 0
+        }
+      ]
+    }
+  ]
+}
+
+================================================================================
+NIVEAU DU SORT 5
+================================================================================
+- Niveau requis du personnage : 6
+
+Caractéristiques :
+- 3 PA [pa]
+- 1 - 7 Portée [po]
+- 1/50 CC [cc]
+- 1/50 CC tot [cc_rate]
+- PO modifiable [pb] : oui
+- Ø ligne de vue [ldv] : oui
+- 1 lancer par cible [ltj]
+
+Groupes et effets :
+
+  GROUPE D'EFFETS 1
+  - ID du groupe : 1005-5-1
+  - Ordre : 1
+  - Titre : non renseigné
+  - Cible : non renseigné
+  - Zone : aucune zone renseignée
+  - Portée de la zone (valeur brute) : non renseigné
+  - Effets cumulés : non
+
+  Effets normaux :
+  - Dégât Neutre [dn] : 3 à 7 ; ID effet : 27
+
+  Effets critiques :
+  - Dégât Neutre [dn] : 8 ; ID effet : 28
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 6,
+  "characteristics": {
+    "pa": 3,
+    "po": "1 - 7",
+    "cc": 50,
+    "cc_rate": 50,
+    "pb": 1,
+    "ldv": 1,
+    "ltj": 1
+  },
+  "groups": [
+    {
+      "id": "1005-5-1",
+      "spell_id": 1005,
+      "level": 5,
+      "group_order": 1,
+      "title": null,
+      "target": null,
+      "zone": null,
+      "range": null,
+      "cumulated": 0,
+      "effects": [
+        {
+          "id": 27,
+          "group_id": "1005-5-1",
+          "effect": "dn",
+          "cc": 0,
+          "min": 3,
+          "max": 7,
+          "duration": 0,
+          "ignore_do_crit": 0
+        },
+        {
+          "id": 28,
+          "group_id": "1005-5-1",
+          "effect": "dn",
+          "cc": 1,
+          "min": 8,
+          "max": 8,
+          "duration": 0,
+          "ignore_do_crit": 0
+        }
+      ]
+    }
+  ]
+}
+
+================================================================================
+NIVEAU DU SORT 6
+================================================================================
+- Niveau requis du personnage : 106
+
+Caractéristiques :
+- 3 PA [pa]
+- 1 - 8 Portée [po]
+- 1/50 CC [cc]
+- 1/50 CC tot [cc_rate]
+- PO modifiable [pb] : oui
+- Ø ligne de vue [ldv] : oui
+- 1 lancer par cible [ltj]
+
+Groupes et effets :
+
+  GROUPE D'EFFETS 1
+  - ID du groupe : 1005-6-1
+  - Ordre : 1
+  - Titre : non renseigné
+  - Cible : non renseigné
+  - Zone : aucune zone renseignée
+  - Portée de la zone (valeur brute) : non renseigné
+  - Effets cumulés : non
+
+  Effets normaux :
+  - Dégât Neutre [dn] : 6 à 15 ; ID effet : 29
+
+  Effets critiques :
+  - Dégât Neutre [dn] : 16 ; ID effet : 30
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 106,
+  "characteristics": {
+    "pa": 3,
+    "po": "1 - 8",
+    "cc": 50,
+    "cc_rate": 50,
+    "pb": 1,
+    "ldv": 1,
+    "ltj": 1
+  },
+  "groups": [
+    {
+      "id": "1005-6-1",
+      "spell_id": 1005,
+      "level": 6,
+      "group_order": 1,
+      "title": null,
+      "target": null,
+      "zone": null,
+      "range": null,
+      "cumulated": 0,
+      "effects": [
+        {
+          "id": 29,
+          "group_id": "1005-6-1",
+          "effect": "dn",
+          "cc": 0,
+          "min": 6,
+          "max": 15,
+          "duration": 0,
+          "ignore_do_crit": 0
+        },
+        {
+          "id": 30,
+          "group_id": "1005-6-1",
+          "effect": "dn",
+          "cc": 1,
+          "min": 16,
+          "max": 16,
+          "duration": 0,
+          "ignore_do_crit": 0
+        }
+      ]
+    }
+  ]
+}
+
+Données techniques originales complètes du sort :
+{
+  "id": 1005,
+  "class_id": 1,
+  "spell_id": 5,
+  "icon": null,
+  "level1": 6,
+  "level2": 6,
+  "level3": 6,
+  "level4": 6,
+  "level5": 6,
+  "level6": 106,
+  "is_variante": 0,
+  "is_passif": 0,
+  "is_invoc": 0,
+  "name_fallback": "Aveuglement",
+  "description_fallback": "Occasionne des dommages Neutre et retire des PA à la cible.",
+  "name": "Aveuglement",
+  "description": "Occasionne des dommages Neutre et retire des PA à la cible.",
+  "caracs": [
+    {
+      "pa": 3,
+      "po": "1 - 6",
+      "cc": 50,
+      "cc_rate": 50,
+      "pb": 1,
+      "ldv": 1,
+      "ltj": 1
+    },
+    {
+      "pa": 3,
+      "po": "1 - 7",
+      "cc": 50,
+      "cc_rate": 50,
+      "pb": 1,
+      "ldv": 1,
+      "ltj": 1
+    },
+    {
+      "pa": 3,
+      "po": "1 - 7",
+      "cc": 50,
+      "cc_rate": 50,
+      "pb": 1,
+      "ldv": 1,
+      "ltj": 1
+    },
+    {
+      "pa": 3,
+      "po": "1 - 7",
+      "cc": 50,
+      "cc_rate": 50,
+      "pb": 1,
+      "ldv": 1,
+      "ltj": 1
+    },
+    {
+      "pa": 3,
+      "po": "1 - 7",
+      "cc": 50,
+      "cc_rate": 50,
+      "pb": 1,
+      "ldv": 1,
+      "ltj": 1
+    },
+    {
+      "pa": 3,
+      "po": "1 - 8",
+      "cc": 50,
+      "cc_rate": 50,
+      "pb": 1,
+      "ldv": 1,
+      "ltj": 1
+    }
+  ],
+  "invocs": [],
+  "groups": [
+    {
+      "id": "1005-1-1",
+      "spell_id": 1005,
+      "level": 1,
+      "group_order": 1,
+      "title": null,
+      "target": null,
+      "zone": null,
+      "range": null,
+      "cumulated": 0,
+      "effects": [
+        {
+          "id": 19,
+          "group_id": "1005-1-1",
+          "effect": "dn",
+          "cc": 0,
+          "min": 1,
+          "max": 1,
+          "duration": 0,
+          "ignore_do_crit": 0
+        },
+        {
+          "id": 20,
+          "group_id": "1005-1-1",
+          "effect": "dn",
+          "cc": 1,
+          "min": 2,
+          "max": 2,
+          "duration": 0,
+          "ignore_do_crit": 0
+        }
+      ]
+    },
+    {
+      "id": "1005-2-1",
+      "spell_id": 1005,
+      "level": 2,
+      "group_order": 1,
+      "title": null,
+      "target": null,
+      "zone": null,
+      "range": null,
+      "cumulated": 0,
+      "effects": [
+        {
+          "id": 21,
+          "group_id": "1005-2-1",
+          "effect": "dn",
+          "cc": 0,
+          "min": 1,
+          "max": 2,
+          "duration": 0,
+          "ignore_do_crit": 0
+        },
+        {
+          "id": 22,
+          "group_id": "1005-2-1",
+          "effect": "dn",
+          "cc": 1,
+          "min": 4,
+          "max": 4,
+          "duration": 0,
+          "ignore_do_crit": 0
+        }
+      ]
+    },
+    {
+      "id": "1005-3-1",
+      "spell_id": 1005,
+      "level": 3,
+      "group_order": 1,
+      "title": null,
+      "target": null,
+      "zone": null,
+      "range": null,
+      "cumulated": 0,
+      "effects": [
+        {
+          "id": 23,
+          "group_id": "1005-3-1",
+          "effect": "dn",
+          "cc": 0,
+          "min": 2,
+          "max": 4,
+          "duration": 0,
+          "ignore_do_crit": 0
+        },
+        {
+          "id": 24,
+          "group_id": "1005-3-1",
+          "effect": "dn",
+          "cc": 1,
+          "min": 5,
+          "max": 5,
+          "duration": 0,
+          "ignore_do_crit": 0
+        }
+      ]
+    },
+    {
+      "id": "1005-4-1",
+      "spell_id": 1005,
+      "level": 4,
+      "group_order": 1,
+      "title": null,
+      "target": null,
+      "zone": null,
+      "range": null,
+      "cumulated": 0,
+      "effects": [
+        {
+          "id": 25,
+          "group_id": "1005-4-1",
+          "effect": "dn",
+          "cc": 0,
+          "min": 2,
+          "max": 5,
+          "duration": 0,
+          "ignore_do_crit": 0
+        },
+        {
+          "id": 26,
+          "group_id": "1005-4-1",
+          "effect": "dn",
+          "cc": 1,
+          "min": 6,
+          "max": 6,
+          "duration": 0,
+          "ignore_do_crit": 0
+        }
+      ]
+    },
+    {
+      "id": "1005-5-1",
+      "spell_id": 1005,
+      "level": 5,
+      "group_order": 1,
+      "title": null,
+      "target": null,
+      "zone": null,
+      "range": null,
+      "cumulated": 0,
+      "effects": [
+        {
+          "id": 27,
+          "group_id": "1005-5-1",
+          "effect": "dn",
+          "cc": 0,
+          "min": 3,
+          "max": 7,
+          "duration": 0,
+          "ignore_do_crit": 0
+        },
+        {
+          "id": 28,
+          "group_id": "1005-5-1",
+          "effect": "dn",
+          "cc": 1,
+          "min": 8,
+          "max": 8,
+          "duration": 0,
+          "ignore_do_crit": 0
+        }
+      ]
+    },
+    {
+      "id": "1005-6-1",
+      "spell_id": 1005,
+      "level": 6,
+      "group_order": 1,
+      "title": null,
+      "target": null,
+      "zone": null,
+      "range": null,
+      "cumulated": 0,
+      "effects": [
+        {
+          "id": 29,
+          "group_id": "1005-6-1",
+          "effect": "dn",
+          "cc": 0,
+          "min": 6,
+          "max": 15,
+          "duration": 0,
+          "ignore_do_crit": 0
+        },
+        {
+          "id": 30,
+          "group_id": "1005-6-1",
+          "effect": "dn",
+          "cc": 1,
+          "min": 16,
+          "max": 16,
+          "duration": 0,
+          "ignore_do_crit": 0
+        }
+      ]
+    }
+  ]
+}
+
+
+################################################################################
+SORT 06/22 : Armure Incandescente
+################################################################################
+
+Identification :
+- ID interne : 1006
+- ID du sort dans la classe : 6
+- ID de classe : 1
+- Icône locale : images sort/06-armure-incandescente.png
+
+Description :
+Cette armure prévient des dégâts de Feu.
+
+Propriétés générales :
+- Variante : non
+- Passif : non
+- Invocation : non
+
+================================================================================
+NIVEAU DU SORT 1
+================================================================================
+- Niveau requis du personnage : 9
+
+Caractéristiques :
+- 2 PA [pa]
+- 0 Portée [po]
+- 1/50 CC [cc]
+- 1/50 CC tot [cc_rate]
+- Relance : 5 tours [ir]
+
+Groupes et effets :
+- Aucun effet renseigné pour ce niveau.
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 9,
+  "characteristics": {
+    "pa": 2,
+    "po": "0",
+    "cc": 50,
+    "cc_rate": 50,
+    "ir": 5
+  },
+  "groups": []
+}
+
+================================================================================
+NIVEAU DU SORT 2
+================================================================================
+- Niveau requis du personnage : 9
+
+Caractéristiques :
+- 2 PA [pa]
+- 0 Portée [po]
+- 1/50 CC [cc]
+- 1/50 CC tot [cc_rate]
+- Relance : 5 tours [ir]
+
+Groupes et effets :
+- Aucun effet renseigné pour ce niveau.
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 9,
+  "characteristics": {
+    "pa": 2,
+    "po": "0",
+    "cc": 50,
+    "cc_rate": 50,
+    "ir": 5
+  },
+  "groups": []
+}
+
+================================================================================
+NIVEAU DU SORT 3
+================================================================================
+- Niveau requis du personnage : 9
+
+Caractéristiques :
+- 2 PA [pa]
+- 0 Portée [po]
+- 1/50 CC [cc]
+- 1/50 CC tot [cc_rate]
+- Relance : 5 tours [ir]
+
+Groupes et effets :
+- Aucun effet renseigné pour ce niveau.
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 9,
+  "characteristics": {
+    "pa": 2,
+    "po": "0",
+    "cc": 50,
+    "cc_rate": 50,
+    "ir": 5
+  },
+  "groups": []
+}
+
+================================================================================
+NIVEAU DU SORT 4
+================================================================================
+- Niveau requis du personnage : 9
+
+Caractéristiques :
+- 2 PA [pa]
+- 0 Portée [po]
+- 1/50 CC [cc]
+- 1/50 CC tot [cc_rate]
+- Relance : 5 tours [ir]
+
+Groupes et effets :
+- Aucun effet renseigné pour ce niveau.
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 9,
+  "characteristics": {
+    "pa": 2,
+    "po": "0",
+    "cc": 50,
+    "cc_rate": 50,
+    "ir": 5
+  },
+  "groups": []
+}
+
+================================================================================
+NIVEAU DU SORT 5
+================================================================================
+- Niveau requis du personnage : 9
+
+Caractéristiques :
+- 2 PA [pa]
+- 0 Portée [po]
+- 1/50 CC [cc]
+- 1/50 CC tot [cc_rate]
+- Relance : 5 tours [ir]
+
+Groupes et effets :
+- Aucun effet renseigné pour ce niveau.
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 9,
+  "characteristics": {
+    "pa": 2,
+    "po": "0",
+    "cc": 50,
+    "cc_rate": 50,
+    "ir": 5
+  },
+  "groups": []
+}
+
+================================================================================
+NIVEAU DU SORT 6
+================================================================================
+- Niveau requis du personnage : 109
+
+Caractéristiques :
+- 2 PA [pa]
+- 0 Portée [po]
+- 1/50 CC [cc]
+- 1/50 CC tot [cc_rate]
+- Relance : 5 tours [ir]
+
+Groupes et effets :
+- Aucun effet renseigné pour ce niveau.
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 109,
+  "characteristics": {
+    "pa": 2,
+    "po": "0",
+    "cc": 50,
+    "cc_rate": 50,
+    "ir": 5
+  },
+  "groups": []
+}
+
+Données techniques originales complètes du sort :
+{
+  "id": 1006,
+  "class_id": 1,
+  "spell_id": 6,
+  "icon": null,
+  "level1": 9,
+  "level2": 9,
+  "level3": 9,
+  "level4": 9,
+  "level5": 9,
+  "level6": 109,
+  "is_variante": 0,
+  "is_passif": 0,
+  "is_invoc": 0,
+  "name_fallback": "Armure Incandescente",
+  "description_fallback": "Cette armure prévient des dégâts de Feu.",
+  "name": "Armure Incandescente",
+  "description": "Cette armure prévient des dégâts de Feu.",
+  "caracs": [
+    {
+      "pa": 2,
+      "po": "0",
+      "cc": 50,
+      "cc_rate": 50,
+      "ir": 5
+    },
+    {
+      "pa": 2,
+      "po": "0",
+      "cc": 50,
+      "cc_rate": 50,
+      "ir": 5
+    },
+    {
+      "pa": 2,
+      "po": "0",
+      "cc": 50,
+      "cc_rate": 50,
+      "ir": 5
+    },
+    {
+      "pa": 2,
+      "po": "0",
+      "cc": 50,
+      "cc_rate": 50,
+      "ir": 5
+    },
+    {
+      "pa": 2,
+      "po": "0",
+      "cc": 50,
+      "cc_rate": 50,
+      "ir": 5
+    },
+    {
+      "pa": 2,
+      "po": "0",
+      "cc": 50,
+      "cc_rate": 50,
+      "ir": 5
+    }
+  ],
+  "invocs": [],
+  "groups": []
+}
+
+
+################################################################################
+SORT 07/22 : Attaque Nuageuse
+################################################################################
+
+Identification :
+- ID interne : 1007
+- ID du sort dans la classe : 7
+- ID de classe : 1
+- Icône locale : images sort/07-attaque-nuageuse.png
+
+Description :
+L'Attaque Nuageuse occasionne de sérieux dégâts.
+
+Propriétés générales :
+- Variante : non
+- Passif : non
+- Invocation : non
+
+================================================================================
+NIVEAU DU SORT 1
+================================================================================
+- Niveau requis du personnage : 13
+
+Caractéristiques :
+- 5 PA [pa]
+- 1 Portée [po]
+- 1/50 CC [cc]
+- 1/50 CC tot [cc_rate]
+- PO modifiable [pb] : oui
+- Lancer en ligne [lel] : oui
+- Ø ligne de vue [ldv] : oui
+
+Groupes et effets :
+
+  GROUPE D'EFFETS 1
+  - ID du groupe : 1007-1-1
+  - Ordre : 1
+  - Titre : non renseigné
+  - Cible : non renseigné
+  - Zone : aucune zone renseignée
+  - Portée de la zone (valeur brute) : non renseigné
+  - Effets cumulés : non
+
+  Effets normaux :
+  - Dégât Feu [df] : 2 à 13 ; ID effet : 31
+
+  Effets critiques :
+  - Dégât Feu [df] : 11 ; ID effet : 32
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 13,
+  "characteristics": {
+    "pa": 5,
+    "po": "1",
+    "cc": 50,
+    "cc_rate": 50,
+    "pb": 1,
+    "lel": 1,
+    "ldv": 1
+  },
+  "groups": [
+    {
+      "id": "1007-1-1",
+      "spell_id": 1007,
+      "level": 1,
+      "group_order": 1,
+      "title": null,
+      "target": null,
+      "zone": null,
+      "range": null,
+      "cumulated": 0,
+      "effects": [
+        {
+          "id": 31,
+          "group_id": "1007-1-1",
+          "effect": "df",
+          "cc": 0,
+          "min": 2,
+          "max": 13,
+          "duration": 0,
+          "ignore_do_crit": 0
+        },
+        {
+          "id": 32,
+          "group_id": "1007-1-1",
+          "effect": "df",
+          "cc": 1,
+          "min": 11,
+          "max": 11,
+          "duration": 0,
+          "ignore_do_crit": 0
+        }
+      ]
+    }
+  ]
+}
+
+================================================================================
+NIVEAU DU SORT 2
+================================================================================
+- Niveau requis du personnage : 13
+
+Caractéristiques :
+- 5 PA [pa]
+- 1 - 2 Portée [po]
+- 1/50 CC [cc]
+- 1/50 CC tot [cc_rate]
+- PO modifiable [pb] : oui
+- Lancer en ligne [lel] : oui
+- Ø ligne de vue [ldv] : oui
+
+Groupes et effets :
+
+  GROUPE D'EFFETS 1
+  - ID du groupe : 1007-2-1
+  - Ordre : 1
+  - Titre : non renseigné
+  - Cible : non renseigné
+  - Zone : aucune zone renseignée
+  - Portée de la zone (valeur brute) : non renseigné
+  - Effets cumulés : non
+
+  Effets normaux :
+  - Dégât Feu [df] : 3 à 14 ; ID effet : 33
+
+  Effets critiques :
+  - Dégât Feu [df] : 13 ; ID effet : 34
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 13,
+  "characteristics": {
+    "pa": 5,
+    "po": "1 - 2",
+    "cc": 50,
+    "cc_rate": 50,
+    "pb": 1,
+    "lel": 1,
+    "ldv": 1
+  },
+  "groups": [
+    {
+      "id": "1007-2-1",
+      "spell_id": 1007,
+      "level": 2,
+      "group_order": 1,
+      "title": null,
+      "target": null,
+      "zone": null,
+      "range": null,
+      "cumulated": 0,
+      "effects": [
+        {
+          "id": 33,
+          "group_id": "1007-2-1",
+          "effect": "df",
+          "cc": 0,
+          "min": 3,
+          "max": 14,
+          "duration": 0,
+          "ignore_do_crit": 0
+        },
+        {
+          "id": 34,
+          "group_id": "1007-2-1",
+          "effect": "df",
+          "cc": 1,
+          "min": 13,
+          "max": 13,
+          "duration": 0,
+          "ignore_do_crit": 0
+        }
+      ]
+    }
+  ]
+}
+
+================================================================================
+NIVEAU DU SORT 3
+================================================================================
+- Niveau requis du personnage : 13
+
+Caractéristiques :
+- 5 PA [pa]
+- 1 - 3 Portée [po]
+- 1/50 CC [cc]
+- 1/50 CC tot [cc_rate]
+- PO modifiable [pb] : oui
+- Lancer en ligne [lel] : oui
+- Ø ligne de vue [ldv] : oui
+
+Groupes et effets :
+
+  GROUPE D'EFFETS 1
+  - ID du groupe : 1007-3-1
+  - Ordre : 1
+  - Titre : non renseigné
+  - Cible : non renseigné
+  - Zone : aucune zone renseignée
+  - Portée de la zone (valeur brute) : non renseigné
+  - Effets cumulés : non
+
+  Effets normaux :
+  - Dégât Feu [df] : 4 à 15 ; ID effet : 35
+
+  Effets critiques :
+  - Dégât Feu [df] : 16 ; ID effet : 36
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 13,
+  "characteristics": {
+    "pa": 5,
+    "po": "1 - 3",
+    "cc": 50,
+    "cc_rate": 50,
+    "pb": 1,
+    "lel": 1,
+    "ldv": 1
+  },
+  "groups": [
+    {
+      "id": "1007-3-1",
+      "spell_id": 1007,
+      "level": 3,
+      "group_order": 1,
+      "title": null,
+      "target": null,
+      "zone": null,
+      "range": null,
+      "cumulated": 0,
+      "effects": [
+        {
+          "id": 35,
+          "group_id": "1007-3-1",
+          "effect": "df",
+          "cc": 0,
+          "min": 4,
+          "max": 15,
+          "duration": 0,
+          "ignore_do_crit": 0
+        },
+        {
+          "id": 36,
+          "group_id": "1007-3-1",
+          "effect": "df",
+          "cc": 1,
+          "min": 16,
+          "max": 16,
+          "duration": 0,
+          "ignore_do_crit": 0
+        }
+      ]
+    }
+  ]
+}
+
+================================================================================
+NIVEAU DU SORT 4
+================================================================================
+- Niveau requis du personnage : 13
+
+Caractéristiques :
+- 4 PA [pa]
+- 1 - 4 Portée [po]
+- 1/50 CC [cc]
+- 1/50 CC tot [cc_rate]
+- PO modifiable [pb] : oui
+- Lancer en ligne [lel] : oui
+- Ø ligne de vue [ldv] : oui
+
+Groupes et effets :
+
+  GROUPE D'EFFETS 1
+  - ID du groupe : 1007-4-1
+  - Ordre : 1
+  - Titre : non renseigné
+  - Cible : non renseigné
+  - Zone : aucune zone renseignée
+  - Portée de la zone (valeur brute) : non renseigné
+  - Effets cumulés : non
+
+  Effets normaux :
+  - Dégât Feu [df] : 5 à 16 ; ID effet : 37
+
+  Effets critiques :
+  - Dégât Feu [df] : 18 ; ID effet : 38
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 13,
+  "characteristics": {
+    "pa": 4,
+    "po": "1 - 4",
+    "cc": 50,
+    "cc_rate": 50,
+    "pb": 1,
+    "lel": 1,
+    "ldv": 1
+  },
+  "groups": [
+    {
+      "id": "1007-4-1",
+      "spell_id": 1007,
+      "level": 4,
+      "group_order": 1,
+      "title": null,
+      "target": null,
+      "zone": null,
+      "range": null,
+      "cumulated": 0,
+      "effects": [
+        {
+          "id": 37,
+          "group_id": "1007-4-1",
+          "effect": "df",
+          "cc": 0,
+          "min": 5,
+          "max": 16,
+          "duration": 0,
+          "ignore_do_crit": 0
+        },
+        {
+          "id": 38,
+          "group_id": "1007-4-1",
+          "effect": "df",
+          "cc": 1,
+          "min": 18,
+          "max": 18,
+          "duration": 0,
+          "ignore_do_crit": 0
+        }
+      ]
+    }
+  ]
+}
+
+================================================================================
+NIVEAU DU SORT 5
+================================================================================
+- Niveau requis du personnage : 13
+
+Caractéristiques :
+- 4 PA [pa]
+- 1 - 5 Portée [po]
+- 1/50 CC [cc]
+- 1/50 CC tot [cc_rate]
+- PO modifiable [pb] : oui
+- Lancer en ligne [lel] : oui
+- Ø ligne de vue [ldv] : oui
+
+Groupes et effets :
+
+  GROUPE D'EFFETS 1
+  - ID du groupe : 1007-5-1
+  - Ordre : 1
+  - Titre : non renseigné
+  - Cible : non renseigné
+  - Zone : aucune zone renseignée
+  - Portée de la zone (valeur brute) : non renseigné
+  - Effets cumulés : non
+
+  Effets normaux :
+  - Dégât Feu [df] : 7 à 18 ; ID effet : 39
+
+  Effets critiques :
+  - Dégât Feu [df] : 20 ; ID effet : 40
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 13,
+  "characteristics": {
+    "pa": 4,
+    "po": "1 - 5",
+    "cc": 50,
+    "cc_rate": 50,
+    "pb": 1,
+    "lel": 1,
+    "ldv": 1
+  },
+  "groups": [
+    {
+      "id": "1007-5-1",
+      "spell_id": 1007,
+      "level": 5,
+      "group_order": 1,
+      "title": null,
+      "target": null,
+      "zone": null,
+      "range": null,
+      "cumulated": 0,
+      "effects": [
+        {
+          "id": 39,
+          "group_id": "1007-5-1",
+          "effect": "df",
+          "cc": 0,
+          "min": 7,
+          "max": 18,
+          "duration": 0,
+          "ignore_do_crit": 0
+        },
+        {
+          "id": 40,
+          "group_id": "1007-5-1",
+          "effect": "df",
+          "cc": 1,
+          "min": 20,
+          "max": 20,
+          "duration": 0,
+          "ignore_do_crit": 0
+        }
+      ]
+    }
+  ]
+}
+
+================================================================================
+NIVEAU DU SORT 6
+================================================================================
+- Niveau requis du personnage : 113
+
+Caractéristiques :
+- 4 PA [pa]
+- 1 - 6 Portée [po]
+- 1/50 CC [cc]
+- 1/50 CC tot [cc_rate]
+- PO modifiable [pb] : oui
+- Lancer en ligne [lel] : oui
+- Ø ligne de vue [ldv] : oui
+
+Groupes et effets :
+
+  GROUPE D'EFFETS 1
+  - ID du groupe : 1007-6-1
+  - Ordre : 1
+  - Titre : non renseigné
+  - Cible : non renseigné
+  - Zone : aucune zone renseignée
+  - Portée de la zone (valeur brute) : non renseigné
+  - Effets cumulés : non
+
+  Effets normaux :
+  - Dégât Feu [df] : 11 à 22 ; ID effet : 41
+
+  Effets critiques :
+  - Dégât Feu [df] : 25 ; ID effet : 42
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 113,
+  "characteristics": {
+    "pa": 4,
+    "po": "1 - 6",
+    "cc": 50,
+    "cc_rate": 50,
+    "pb": 1,
+    "lel": 1,
+    "ldv": 1
+  },
+  "groups": [
+    {
+      "id": "1007-6-1",
+      "spell_id": 1007,
+      "level": 6,
+      "group_order": 1,
+      "title": null,
+      "target": null,
+      "zone": null,
+      "range": null,
+      "cumulated": 0,
+      "effects": [
+        {
+          "id": 41,
+          "group_id": "1007-6-1",
+          "effect": "df",
+          "cc": 0,
+          "min": 11,
+          "max": 22,
+          "duration": 0,
+          "ignore_do_crit": 0
+        },
+        {
+          "id": 42,
+          "group_id": "1007-6-1",
+          "effect": "df",
+          "cc": 1,
+          "min": 25,
+          "max": 25,
+          "duration": 0,
+          "ignore_do_crit": 0
+        }
+      ]
+    }
+  ]
+}
+
+Données techniques originales complètes du sort :
+{
+  "id": 1007,
+  "class_id": 1,
+  "spell_id": 7,
+  "icon": null,
+  "level1": 13,
+  "level2": 13,
+  "level3": 13,
+  "level4": 13,
+  "level5": 13,
+  "level6": 113,
+  "is_variante": 0,
+  "is_passif": 0,
+  "is_invoc": 0,
+  "name_fallback": "Attaque Nuageuse",
+  "description_fallback": "L'Attaque Nuageuse occasionne de sérieux dégâts.",
+  "name": "Attaque Nuageuse",
+  "description": "L'Attaque Nuageuse occasionne de sérieux dégâts.",
+  "caracs": [
+    {
+      "pa": 5,
+      "po": "1",
+      "cc": 50,
+      "cc_rate": 50,
+      "pb": 1,
+      "lel": 1,
+      "ldv": 1
+    },
+    {
+      "pa": 5,
+      "po": "1 - 2",
+      "cc": 50,
+      "cc_rate": 50,
+      "pb": 1,
+      "lel": 1,
+      "ldv": 1
+    },
+    {
+      "pa": 5,
+      "po": "1 - 3",
+      "cc": 50,
+      "cc_rate": 50,
+      "pb": 1,
+      "lel": 1,
+      "ldv": 1
+    },
+    {
+      "pa": 4,
+      "po": "1 - 4",
+      "cc": 50,
+      "cc_rate": 50,
+      "pb": 1,
+      "lel": 1,
+      "ldv": 1
+    },
+    {
+      "pa": 4,
+      "po": "1 - 5",
+      "cc": 50,
+      "cc_rate": 50,
+      "pb": 1,
+      "lel": 1,
+      "ldv": 1
+    },
+    {
+      "pa": 4,
+      "po": "1 - 6",
+      "cc": 50,
+      "cc_rate": 50,
+      "pb": 1,
+      "lel": 1,
+      "ldv": 1
+    }
+  ],
+  "invocs": [],
+  "groups": [
+    {
+      "id": "1007-1-1",
+      "spell_id": 1007,
+      "level": 1,
+      "group_order": 1,
+      "title": null,
+      "target": null,
+      "zone": null,
+      "range": null,
+      "cumulated": 0,
+      "effects": [
+        {
+          "id": 31,
+          "group_id": "1007-1-1",
+          "effect": "df",
+          "cc": 0,
+          "min": 2,
+          "max": 13,
+          "duration": 0,
+          "ignore_do_crit": 0
+        },
+        {
+          "id": 32,
+          "group_id": "1007-1-1",
+          "effect": "df",
+          "cc": 1,
+          "min": 11,
+          "max": 11,
+          "duration": 0,
+          "ignore_do_crit": 0
+        }
+      ]
+    },
+    {
+      "id": "1007-2-1",
+      "spell_id": 1007,
+      "level": 2,
+      "group_order": 1,
+      "title": null,
+      "target": null,
+      "zone": null,
+      "range": null,
+      "cumulated": 0,
+      "effects": [
+        {
+          "id": 33,
+          "group_id": "1007-2-1",
+          "effect": "df",
+          "cc": 0,
+          "min": 3,
+          "max": 14,
+          "duration": 0,
+          "ignore_do_crit": 0
+        },
+        {
+          "id": 34,
+          "group_id": "1007-2-1",
+          "effect": "df",
+          "cc": 1,
+          "min": 13,
+          "max": 13,
+          "duration": 0,
+          "ignore_do_crit": 0
+        }
+      ]
+    },
+    {
+      "id": "1007-3-1",
+      "spell_id": 1007,
+      "level": 3,
+      "group_order": 1,
+      "title": null,
+      "target": null,
+      "zone": null,
+      "range": null,
+      "cumulated": 0,
+      "effects": [
+        {
+          "id": 35,
+          "group_id": "1007-3-1",
+          "effect": "df",
+          "cc": 0,
+          "min": 4,
+          "max": 15,
+          "duration": 0,
+          "ignore_do_crit": 0
+        },
+        {
+          "id": 36,
+          "group_id": "1007-3-1",
+          "effect": "df",
+          "cc": 1,
+          "min": 16,
+          "max": 16,
+          "duration": 0,
+          "ignore_do_crit": 0
+        }
+      ]
+    },
+    {
+      "id": "1007-4-1",
+      "spell_id": 1007,
+      "level": 4,
+      "group_order": 1,
+      "title": null,
+      "target": null,
+      "zone": null,
+      "range": null,
+      "cumulated": 0,
+      "effects": [
+        {
+          "id": 37,
+          "group_id": "1007-4-1",
+          "effect": "df",
+          "cc": 0,
+          "min": 5,
+          "max": 16,
+          "duration": 0,
+          "ignore_do_crit": 0
+        },
+        {
+          "id": 38,
+          "group_id": "1007-4-1",
+          "effect": "df",
+          "cc": 1,
+          "min": 18,
+          "max": 18,
+          "duration": 0,
+          "ignore_do_crit": 0
+        }
+      ]
+    },
+    {
+      "id": "1007-5-1",
+      "spell_id": 1007,
+      "level": 5,
+      "group_order": 1,
+      "title": null,
+      "target": null,
+      "zone": null,
+      "range": null,
+      "cumulated": 0,
+      "effects": [
+        {
+          "id": 39,
+          "group_id": "1007-5-1",
+          "effect": "df",
+          "cc": 0,
+          "min": 7,
+          "max": 18,
+          "duration": 0,
+          "ignore_do_crit": 0
+        },
+        {
+          "id": 40,
+          "group_id": "1007-5-1",
+          "effect": "df",
+          "cc": 1,
+          "min": 20,
+          "max": 20,
+          "duration": 0,
+          "ignore_do_crit": 0
+        }
+      ]
+    },
+    {
+      "id": "1007-6-1",
+      "spell_id": 1007,
+      "level": 6,
+      "group_order": 1,
+      "title": null,
+      "target": null,
+      "zone": null,
+      "range": null,
+      "cumulated": 0,
+      "effects": [
+        {
+          "id": 41,
+          "group_id": "1007-6-1",
+          "effect": "df",
+          "cc": 0,
+          "min": 11,
+          "max": 22,
+          "duration": 0,
+          "ignore_do_crit": 0
+        },
+        {
+          "id": 42,
+          "group_id": "1007-6-1",
+          "effect": "df",
+          "cc": 1,
+          "min": 25,
+          "max": 25,
+          "duration": 0,
+          "ignore_do_crit": 0
+        }
+      ]
+    }
+  ]
+}
+
+
+################################################################################
+SORT 08/22 : Armure Aqueuse
+################################################################################
+
+Identification :
+- ID interne : 1008
+- ID du sort dans la classe : 8
+- ID de classe : 1
+- Icône locale : images sort/08-armure-aqueuse.png
+
+Description :
+Cette armure prévient des dégâts d'Eau et octroie une résistance à la perte de PA.
+
+Propriétés générales :
+- Variante : non
+- Passif : non
+- Invocation : non
+
+================================================================================
+NIVEAU DU SORT 1
+================================================================================
+- Niveau requis du personnage : 17
+
+Caractéristiques :
+- 2 PA [pa]
+- 0 Portée [po]
+- 1/50 CC [cc]
+- 1/50 CC tot [cc_rate]
+- Lancer en ligne [lel] : oui
+- Relance : 5 tours [ir]
+
+Groupes et effets :
+- Aucun effet renseigné pour ce niveau.
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 17,
+  "characteristics": {
+    "pa": 2,
+    "po": "0",
+    "cc": 50,
+    "cc_rate": 50,
+    "lel": 1,
+    "ir": 5
+  },
+  "groups": []
+}
+
+================================================================================
+NIVEAU DU SORT 2
+================================================================================
+- Niveau requis du personnage : 17
+
+Caractéristiques :
+- 2 PA [pa]
+- 0 Portée [po]
+- 1/50 CC [cc]
+- 1/50 CC tot [cc_rate]
+- Lancer en ligne [lel] : oui
+- Relance : 5 tours [ir]
+
+Groupes et effets :
+- Aucun effet renseigné pour ce niveau.
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 17,
+  "characteristics": {
+    "pa": 2,
+    "po": "0",
+    "cc": 50,
+    "cc_rate": 50,
+    "lel": 1,
+    "ir": 5
+  },
+  "groups": []
+}
+
+================================================================================
+NIVEAU DU SORT 3
+================================================================================
+- Niveau requis du personnage : 17
+
+Caractéristiques :
+- 2 PA [pa]
+- 0 Portée [po]
+- 1/50 CC [cc]
+- 1/50 CC tot [cc_rate]
+- Lancer en ligne [lel] : oui
+- Relance : 5 tours [ir]
+
+Groupes et effets :
+- Aucun effet renseigné pour ce niveau.
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 17,
+  "characteristics": {
+    "pa": 2,
+    "po": "0",
+    "cc": 50,
+    "cc_rate": 50,
+    "lel": 1,
+    "ir": 5
+  },
+  "groups": []
+}
+
+================================================================================
+NIVEAU DU SORT 4
+================================================================================
+- Niveau requis du personnage : 17
+
+Caractéristiques :
+- 2 PA [pa]
+- 0 Portée [po]
+- 1/50 CC [cc]
+- 1/50 CC tot [cc_rate]
+- Lancer en ligne [lel] : oui
+- Relance : 5 tours [ir]
+
+Groupes et effets :
+- Aucun effet renseigné pour ce niveau.
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 17,
+  "characteristics": {
+    "pa": 2,
+    "po": "0",
+    "cc": 50,
+    "cc_rate": 50,
+    "lel": 1,
+    "ir": 5
+  },
+  "groups": []
+}
+
+================================================================================
+NIVEAU DU SORT 5
+================================================================================
+- Niveau requis du personnage : 17
+
+Caractéristiques :
+- 2 PA [pa]
+- 0 Portée [po]
+- 1/50 CC [cc]
+- 1/50 CC tot [cc_rate]
+- Lancer en ligne [lel] : oui
+- Relance : 5 tours [ir]
+
+Groupes et effets :
+- Aucun effet renseigné pour ce niveau.
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 17,
+  "characteristics": {
+    "pa": 2,
+    "po": "0",
+    "cc": 50,
+    "cc_rate": 50,
+    "lel": 1,
+    "ir": 5
+  },
+  "groups": []
+}
+
+================================================================================
+NIVEAU DU SORT 6
+================================================================================
+- Niveau requis du personnage : 117
+
+Caractéristiques :
+- 2 PA [pa]
+- 0 Portée [po]
+- 1/50 CC [cc]
+- 1/50 CC tot [cc_rate]
+- Lancer en ligne [lel] : oui
+- Relance : 5 tours [ir]
+
+Groupes et effets :
+- Aucun effet renseigné pour ce niveau.
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 117,
+  "characteristics": {
+    "pa": 2,
+    "po": "0",
+    "cc": 50,
+    "cc_rate": 50,
+    "lel": 1,
+    "ir": 5
+  },
+  "groups": []
+}
+
+Données techniques originales complètes du sort :
+{
+  "id": 1008,
+  "class_id": 1,
+  "spell_id": 8,
+  "icon": null,
+  "level1": 17,
+  "level2": 17,
+  "level3": 17,
+  "level4": 17,
+  "level5": 17,
+  "level6": 117,
+  "is_variante": 0,
+  "is_passif": 0,
+  "is_invoc": 0,
+  "name_fallback": "Armure Aqueuse",
+  "description_fallback": "Cette armure prévient des dégâts d'Eau et octroie une résistance à la perte de PA.",
+  "name": "Armure Aqueuse",
+  "description": "Cette armure prévient des dégâts d'Eau et octroie une résistance à la perte de PA.",
+  "caracs": [
+    {
+      "pa": 2,
+      "po": "0",
+      "cc": 50,
+      "cc_rate": 50,
+      "lel": 1,
+      "ir": 5
+    },
+    {
+      "pa": 2,
+      "po": "0",
+      "cc": 50,
+      "cc_rate": 50,
+      "lel": 1,
+      "ir": 5
+    },
+    {
+      "pa": 2,
+      "po": "0",
+      "cc": 50,
+      "cc_rate": 50,
+      "lel": 1,
+      "ir": 5
+    },
+    {
+      "pa": 2,
+      "po": "0",
+      "cc": 50,
+      "cc_rate": 50,
+      "lel": 1,
+      "ir": 5
+    },
+    {
+      "pa": 2,
+      "po": "0",
+      "cc": 50,
+      "cc_rate": 50,
+      "lel": 1,
+      "ir": 5
+    },
+    {
+      "pa": 2,
+      "po": "0",
+      "cc": 50,
+      "cc_rate": 50,
+      "lel": 1,
+      "ir": 5
+    }
+  ],
+  "invocs": [],
+  "groups": []
+}
+
+
+################################################################################
+SORT 09/22 : Immunité
+################################################################################
+
+Identification :
+- ID interne : 1009
+- ID du sort dans la classe : 9
+- ID de classe : 1
+- Icône locale : images sort/09-immunite.png
+
+Description :
+L'immunité permet de rendre le lancer ou un allié invincible pendant un tour.
+
+Propriétés générales :
+- Variante : non
+- Passif : non
+- Invocation : non
+
+================================================================================
+NIVEAU DU SORT 1
+================================================================================
+- Niveau requis du personnage : 21
+
+Caractéristiques :
+- 4 PA [pa]
+- 0 - 1 Portée [po]
+- PO modifiable [pb] : oui
+- Relance : 11 tours [ir]
+
+Groupes et effets :
+- Aucun effet renseigné pour ce niveau.
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 21,
+  "characteristics": {
+    "pa": 4,
+    "po": "0 - 1",
+    "pb": 1,
+    "ir": 11
+  },
+  "groups": []
+}
+
+================================================================================
+NIVEAU DU SORT 2
+================================================================================
+- Niveau requis du personnage : 21
+
+Caractéristiques :
+- 4 PA [pa]
+- 0 - 2 Portée [po]
+- PO modifiable [pb] : oui
+- Relance : 10 tours [ir]
+
+Groupes et effets :
+- Aucun effet renseigné pour ce niveau.
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 21,
+  "characteristics": {
+    "pa": 4,
+    "po": "0 - 2",
+    "pb": 1,
+    "ir": 10
+  },
+  "groups": []
+}
+
+================================================================================
+NIVEAU DU SORT 3
+================================================================================
+- Niveau requis du personnage : 21
+
+Caractéristiques :
+- 4 PA [pa]
+- 0 - 3 Portée [po]
+- PO modifiable [pb] : oui
+- Relance : 9 tours [ir]
+
+Groupes et effets :
+- Aucun effet renseigné pour ce niveau.
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 21,
+  "characteristics": {
+    "pa": 4,
+    "po": "0 - 3",
+    "pb": 1,
+    "ir": 9
+  },
+  "groups": []
+}
+
+================================================================================
+NIVEAU DU SORT 4
+================================================================================
+- Niveau requis du personnage : 21
+
+Caractéristiques :
+- 4 PA [pa]
+- 0 - 4 Portée [po]
+- PO modifiable [pb] : oui
+- Relance : 8 tours [ir]
+
+Groupes et effets :
+- Aucun effet renseigné pour ce niveau.
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 21,
+  "characteristics": {
+    "pa": 4,
+    "po": "0 - 4",
+    "pb": 1,
+    "ir": 8
+  },
+  "groups": []
+}
+
+================================================================================
+NIVEAU DU SORT 5
+================================================================================
+- Niveau requis du personnage : 21
+
+Caractéristiques :
+- 4 PA [pa]
+- 0 - 5 Portée [po]
+- PO modifiable [pb] : oui
+- Relance : 7 tours [ir]
+
+Groupes et effets :
+- Aucun effet renseigné pour ce niveau.
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 21,
+  "characteristics": {
+    "pa": 4,
+    "po": "0 - 5",
+    "pb": 1,
+    "ir": 7
+  },
+  "groups": []
+}
+
+================================================================================
+NIVEAU DU SORT 6
+================================================================================
+- Niveau requis du personnage : 121
+
+Caractéristiques :
+- 3 PA [pa]
+- 0 - 6 Portée [po]
+- PO modifiable [pb] : oui
+- Relance : 6 tours [ir]
+
+Groupes et effets :
+- Aucun effet renseigné pour ce niveau.
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 121,
+  "characteristics": {
+    "pa": 3,
+    "po": "0 - 6",
+    "pb": 1,
+    "ir": 6
+  },
+  "groups": []
+}
+
+Données techniques originales complètes du sort :
+{
+  "id": 1009,
+  "class_id": 1,
+  "spell_id": 9,
+  "icon": null,
+  "level1": 21,
+  "level2": 21,
+  "level3": 21,
+  "level4": 21,
+  "level5": 21,
+  "level6": 121,
+  "is_variante": 0,
+  "is_passif": 0,
+  "is_invoc": 0,
+  "name_fallback": "Immunité",
+  "description_fallback": "L'immunité permet de rendre le lancer ou un allié invincible pendant un tour.",
+  "name": "Immunité",
+  "description": "L'immunité permet de rendre le lancer ou un allié invincible pendant un tour.",
+  "caracs": [
+    {
+      "pa": 4,
+      "po": "0 - 1",
+      "pb": 1,
+      "ir": 11
+    },
+    {
+      "pa": 4,
+      "po": "0 - 2",
+      "pb": 1,
+      "ir": 10
+    },
+    {
+      "pa": 4,
+      "po": "0 - 3",
+      "pb": 1,
+      "ir": 9
+    },
+    {
+      "pa": 4,
+      "po": "0 - 4",
+      "pb": 1,
+      "ir": 8
+    },
+    {
+      "pa": 4,
+      "po": "0 - 5",
+      "pb": 1,
+      "ir": 7
+    },
+    {
+      "pa": 3,
+      "po": "0 - 6",
+      "pb": 1,
+      "ir": 6
+    }
+  ],
+  "invocs": [],
+  "groups": []
+}
+
+
+################################################################################
+SORT 10/22 : Armure Venteuse
+################################################################################
+
+Identification :
+- ID interne : 1010
+- ID du sort dans la classe : 10
+- ID de classe : 1
+- Icône locale : images sort/10-armure-venteuse.png
+
+Description :
+Cette armure prévient des dégâts d'Air et octroie une résistance à la perte de PM.
+
+Propriétés générales :
+- Variante : non
+- Passif : non
+- Invocation : non
+
+================================================================================
+NIVEAU DU SORT 1
+================================================================================
+- Niveau requis du personnage : 26
+
+Caractéristiques :
+- 2 PA [pa]
+- 0 Portée [po]
+- 1/50 CC [cc]
+- 1/50 CC tot [cc_rate]
+- Relance : 5 tours [ir]
+
+Groupes et effets :
+- Aucun effet renseigné pour ce niveau.
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 26,
+  "characteristics": {
+    "pa": 2,
+    "po": "0",
+    "cc": 50,
+    "cc_rate": 50,
+    "ir": 5
+  },
+  "groups": []
+}
+
+================================================================================
+NIVEAU DU SORT 2
+================================================================================
+- Niveau requis du personnage : 26
+
+Caractéristiques :
+- 2 PA [pa]
+- 0 Portée [po]
+- 1/50 CC [cc]
+- 1/50 CC tot [cc_rate]
+- Relance : 5 tours [ir]
+
+Groupes et effets :
+- Aucun effet renseigné pour ce niveau.
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 26,
+  "characteristics": {
+    "pa": 2,
+    "po": "0",
+    "cc": 50,
+    "cc_rate": 50,
+    "ir": 5
+  },
+  "groups": []
+}
+
+================================================================================
+NIVEAU DU SORT 3
+================================================================================
+- Niveau requis du personnage : 26
+
+Caractéristiques :
+- 2 PA [pa]
+- 0 Portée [po]
+- 1/50 CC [cc]
+- 1/50 CC tot [cc_rate]
+- Relance : 5 tours [ir]
+
+Groupes et effets :
+- Aucun effet renseigné pour ce niveau.
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 26,
+  "characteristics": {
+    "pa": 2,
+    "po": "0",
+    "cc": 50,
+    "cc_rate": 50,
+    "ir": 5
+  },
+  "groups": []
+}
+
+================================================================================
+NIVEAU DU SORT 4
+================================================================================
+- Niveau requis du personnage : 26
+
+Caractéristiques :
+- 2 PA [pa]
+- 0 Portée [po]
+- 1/50 CC [cc]
+- 1/50 CC tot [cc_rate]
+- Relance : 5 tours [ir]
+
+Groupes et effets :
+- Aucun effet renseigné pour ce niveau.
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 26,
+  "characteristics": {
+    "pa": 2,
+    "po": "0",
+    "cc": 50,
+    "cc_rate": 50,
+    "ir": 5
+  },
+  "groups": []
+}
+
+================================================================================
+NIVEAU DU SORT 5
+================================================================================
+- Niveau requis du personnage : 26
+
+Caractéristiques :
+- 2 PA [pa]
+- 0 Portée [po]
+- 1/50 CC [cc]
+- 1/50 CC tot [cc_rate]
+- Relance : 5 tours [ir]
+
+Groupes et effets :
+- Aucun effet renseigné pour ce niveau.
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 26,
+  "characteristics": {
+    "pa": 2,
+    "po": "0",
+    "cc": 50,
+    "cc_rate": 50,
+    "ir": 5
+  },
+  "groups": []
+}
+
+================================================================================
+NIVEAU DU SORT 6
+================================================================================
+- Niveau requis du personnage : 126
+
+Caractéristiques :
+- 2 PA [pa]
+- 0 Portée [po]
+- 1/50 CC [cc]
+- 1/50 CC tot [cc_rate]
+- Relance : 5 tours [ir]
+
+Groupes et effets :
+- Aucun effet renseigné pour ce niveau.
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 126,
+  "characteristics": {
+    "pa": 2,
+    "po": "0",
+    "cc": 50,
+    "cc_rate": 50,
+    "ir": 5
+  },
+  "groups": []
+}
+
+Données techniques originales complètes du sort :
+{
+  "id": 1010,
+  "class_id": 1,
+  "spell_id": 10,
+  "icon": null,
+  "level1": 26,
+  "level2": 26,
+  "level3": 26,
+  "level4": 26,
+  "level5": 26,
+  "level6": 126,
+  "is_variante": 0,
+  "is_passif": 0,
+  "is_invoc": 0,
+  "name_fallback": "Armure Venteuse",
+  "description_fallback": "Cette armure prévient des dégâts d'Air et octroie une résistance à la perte de PM.",
+  "name": "Armure Venteuse",
+  "description": "Cette armure prévient des dégâts d'Air et octroie une résistance à la perte de PM.",
+  "caracs": [
+    {
+      "pa": 2,
+      "po": "0",
+      "cc": 50,
+      "cc_rate": 50,
+      "ir": 5
+    },
+    {
+      "pa": 2,
+      "po": "0",
+      "cc": 50,
+      "cc_rate": 50,
+      "ir": 5
+    },
+    {
+      "pa": 2,
+      "po": "0",
+      "cc": 50,
+      "cc_rate": 50,
+      "ir": 5
+    },
+    {
+      "pa": 2,
+      "po": "0",
+      "cc": 50,
+      "cc_rate": 50,
+      "ir": 5
+    },
+    {
+      "pa": 2,
+      "po": "0",
+      "cc": 50,
+      "cc_rate": 50,
+      "ir": 5
+    },
+    {
+      "pa": 2,
+      "po": "0",
+      "cc": 50,
+      "cc_rate": 50,
+      "ir": 5
+    }
+  ],
+  "invocs": [],
+  "groups": []
+}
+
+
+################################################################################
+SORT 11/22 : Bulle
+################################################################################
+
+Identification :
+- ID interne : 1011
+- ID du sort dans la classe : 11
+- ID de classe : 1
+- Icône locale : images sort/11-bulle.png
+
+Description :
+Occasionne des dommages Eau.
+
+Propriétés générales :
+- Variante : non
+- Passif : non
+- Invocation : non
+
+================================================================================
+NIVEAU DU SORT 1
+================================================================================
+- Niveau requis du personnage : 31
+
+Caractéristiques :
+- 5 PA [pa]
+- 4 - 6 Portée [po]
+- 1/50 CC [cc]
+- 1/50 CC tot [cc_rate]
+- PO modifiable [pb] : oui
+- Ø ligne de vue [ldv] : oui
+- 2 lancer par cible [ltj]
+
+Groupes et effets :
+
+  GROUPE D'EFFETS 1
+  - ID du groupe : 1011-1-1
+  - Ordre : 1
+  - Titre : non renseigné
+  - Cible : non renseigné
+  - Zone : aucune zone renseignée
+  - Portée de la zone (valeur brute) : non renseigné
+  - Effets cumulés : non
+
+  Effets normaux :
+  - Dégât Eau [de] : 9 à 13 ; ID effet : 43
+
+  Effets critiques :
+  - Dégât Eau [de] : 11 à 15 ; ID effet : 44
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 31,
+  "characteristics": {
+    "pa": 5,
+    "po": "4 - 6",
+    "cc": 50,
+    "cc_rate": 50,
+    "pb": 1,
+    "ldv": 1,
+    "ltj": 2
+  },
+  "groups": [
+    {
+      "id": "1011-1-1",
+      "spell_id": 1011,
+      "level": 1,
+      "group_order": 1,
+      "title": null,
+      "target": null,
+      "zone": null,
+      "range": null,
+      "cumulated": 0,
+      "effects": [
+        {
+          "id": 43,
+          "group_id": "1011-1-1",
+          "effect": "de",
+          "cc": 0,
+          "min": 9,
+          "max": 13,
+          "duration": 0,
+          "ignore_do_crit": 0
+        },
+        {
+          "id": 44,
+          "group_id": "1011-1-1",
+          "effect": "de",
+          "cc": 1,
+          "min": 11,
+          "max": 15,
+          "duration": 0,
+          "ignore_do_crit": 0
+        }
+      ]
+    }
+  ]
+}
+
+================================================================================
+NIVEAU DU SORT 2
+================================================================================
+- Niveau requis du personnage : 31
+
+Caractéristiques :
+- 5 PA [pa]
+- 4 - 6 Portée [po]
+- 1/50 CC [cc]
+- 1/50 CC tot [cc_rate]
+- PO modifiable [pb] : oui
+- Ø ligne de vue [ldv] : oui
+- 2 lancer par cible [ltj]
+
+Groupes et effets :
+
+  GROUPE D'EFFETS 1
+  - ID du groupe : 1011-2-1
+  - Ordre : 1
+  - Titre : non renseigné
+  - Cible : non renseigné
+  - Zone : aucune zone renseignée
+  - Portée de la zone (valeur brute) : non renseigné
+  - Effets cumulés : non
+
+  Effets normaux :
+  - Dégât Eau [de] : 9 à 15 ; ID effet : 45
+
+  Effets critiques :
+  - Dégât Eau [de] : 11 à 17 ; ID effet : 46
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 31,
+  "characteristics": {
+    "pa": 5,
+    "po": "4 - 6",
+    "cc": 50,
+    "cc_rate": 50,
+    "pb": 1,
+    "ldv": 1,
+    "ltj": 2
+  },
+  "groups": [
+    {
+      "id": "1011-2-1",
+      "spell_id": 1011,
+      "level": 2,
+      "group_order": 1,
+      "title": null,
+      "target": null,
+      "zone": null,
+      "range": null,
+      "cumulated": 0,
+      "effects": [
+        {
+          "id": 45,
+          "group_id": "1011-2-1",
+          "effect": "de",
+          "cc": 0,
+          "min": 9,
+          "max": 15,
+          "duration": 0,
+          "ignore_do_crit": 0
+        },
+        {
+          "id": 46,
+          "group_id": "1011-2-1",
+          "effect": "de",
+          "cc": 1,
+          "min": 11,
+          "max": 17,
+          "duration": 0,
+          "ignore_do_crit": 0
+        }
+      ]
+    }
+  ]
+}
+
+================================================================================
+NIVEAU DU SORT 3
+================================================================================
+- Niveau requis du personnage : 31
+
+Caractéristiques :
+- 4 PA [pa]
+- 4 - 6 Portée [po]
+- 1/50 CC [cc]
+- 1/50 CC tot [cc_rate]
+- PO modifiable [pb] : oui
+- Ø ligne de vue [ldv] : oui
+- 2 lancer par cible [ltj]
+
+Groupes et effets :
+
+  GROUPE D'EFFETS 1
+  - ID du groupe : 1011-3-1
+  - Ordre : 1
+  - Titre : non renseigné
+  - Cible : non renseigné
+  - Zone : aucune zone renseignée
+  - Portée de la zone (valeur brute) : non renseigné
+  - Effets cumulés : non
+
+  Effets normaux :
+  - Dégât Eau [de] : 11 à 17 ; ID effet : 47
+
+  Effets critiques :
+  - Dégât Eau [de] : 13 à 19 ; ID effet : 48
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 31,
+  "characteristics": {
+    "pa": 4,
+    "po": "4 - 6",
+    "cc": 50,
+    "cc_rate": 50,
+    "pb": 1,
+    "ldv": 1,
+    "ltj": 2
+  },
+  "groups": [
+    {
+      "id": "1011-3-1",
+      "spell_id": 1011,
+      "level": 3,
+      "group_order": 1,
+      "title": null,
+      "target": null,
+      "zone": null,
+      "range": null,
+      "cumulated": 0,
+      "effects": [
+        {
+          "id": 47,
+          "group_id": "1011-3-1",
+          "effect": "de",
+          "cc": 0,
+          "min": 11,
+          "max": 17,
+          "duration": 0,
+          "ignore_do_crit": 0
+        },
+        {
+          "id": 48,
+          "group_id": "1011-3-1",
+          "effect": "de",
+          "cc": 1,
+          "min": 13,
+          "max": 19,
+          "duration": 0,
+          "ignore_do_crit": 0
+        }
+      ]
+    }
+  ]
+}
+
+================================================================================
+NIVEAU DU SORT 4
+================================================================================
+- Niveau requis du personnage : 31
+
+Caractéristiques :
+- 4 PA [pa]
+- 4 - 6 Portée [po]
+- 1/50 CC [cc]
+- 1/50 CC tot [cc_rate]
+- PO modifiable [pb] : oui
+- Ø ligne de vue [ldv] : oui
+- 2 lancer par cible [ltj]
+
+Groupes et effets :
+
+  GROUPE D'EFFETS 1
+  - ID du groupe : 1011-4-1
+  - Ordre : 1
+  - Titre : non renseigné
+  - Cible : non renseigné
+  - Zone : aucune zone renseignée
+  - Portée de la zone (valeur brute) : non renseigné
+  - Effets cumulés : non
+
+  Effets normaux :
+  - Dégât Eau [de] : 11 à 19 ; ID effet : 49
+
+  Effets critiques :
+  - Dégât Eau [de] : 13 à 21 ; ID effet : 50
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 31,
+  "characteristics": {
+    "pa": 4,
+    "po": "4 - 6",
+    "cc": 50,
+    "cc_rate": 50,
+    "pb": 1,
+    "ldv": 1,
+    "ltj": 2
+  },
+  "groups": [
+    {
+      "id": "1011-4-1",
+      "spell_id": 1011,
+      "level": 4,
+      "group_order": 1,
+      "title": null,
+      "target": null,
+      "zone": null,
+      "range": null,
+      "cumulated": 0,
+      "effects": [
+        {
+          "id": 49,
+          "group_id": "1011-4-1",
+          "effect": "de",
+          "cc": 0,
+          "min": 11,
+          "max": 19,
+          "duration": 0,
+          "ignore_do_crit": 0
+        },
+        {
+          "id": 50,
+          "group_id": "1011-4-1",
+          "effect": "de",
+          "cc": 1,
+          "min": 13,
+          "max": 21,
+          "duration": 0,
+          "ignore_do_crit": 0
+        }
+      ]
+    }
+  ]
+}
+
+================================================================================
+NIVEAU DU SORT 5
+================================================================================
+- Niveau requis du personnage : 31
+
+Caractéristiques :
+- 3 PA [pa]
+- 4 - 7 Portée [po]
+- 1/50 CC [cc]
+- 1/50 CC tot [cc_rate]
+- PO modifiable [pb] : oui
+- Ø ligne de vue [ldv] : oui
+- 2 lancer par cible [ltj]
+
+Groupes et effets :
+
+  GROUPE D'EFFETS 1
+  - ID du groupe : 1011-5-1
+  - Ordre : 1
+  - Titre : non renseigné
+  - Cible : non renseigné
+  - Zone : aucune zone renseignée
+  - Portée de la zone (valeur brute) : non renseigné
+  - Effets cumulés : non
+
+  Effets normaux :
+  - Dégât Eau [de] : 13 à 21 ; ID effet : 51
+
+  Effets critiques :
+  - Dégât Eau [de] : 15 à 23 ; ID effet : 52
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 31,
+  "characteristics": {
+    "pa": 3,
+    "po": "4 - 7",
+    "cc": 50,
+    "cc_rate": 50,
+    "pb": 1,
+    "ldv": 1,
+    "ltj": 2
+  },
+  "groups": [
+    {
+      "id": "1011-5-1",
+      "spell_id": 1011,
+      "level": 5,
+      "group_order": 1,
+      "title": null,
+      "target": null,
+      "zone": null,
+      "range": null,
+      "cumulated": 0,
+      "effects": [
+        {
+          "id": 51,
+          "group_id": "1011-5-1",
+          "effect": "de",
+          "cc": 0,
+          "min": 13,
+          "max": 21,
+          "duration": 0,
+          "ignore_do_crit": 0
+        },
+        {
+          "id": 52,
+          "group_id": "1011-5-1",
+          "effect": "de",
+          "cc": 1,
+          "min": 15,
+          "max": 23,
+          "duration": 0,
+          "ignore_do_crit": 0
+        }
+      ]
+    }
+  ]
+}
+
+================================================================================
+NIVEAU DU SORT 6
+================================================================================
+- Niveau requis du personnage : 131
+
+Caractéristiques :
+- 3 PA [pa]
+- 4 - 8 Portée [po]
+- 1/50 CC [cc]
+- 1/50 CC tot [cc_rate]
+- PO modifiable [pb] : oui
+- Ø ligne de vue [ldv] : oui
+- 2 lancer par cible [ltj]
+
+Groupes et effets :
+
+  GROUPE D'EFFETS 1
+  - ID du groupe : 1011-6-1
+  - Ordre : 1
+  - Titre : non renseigné
+  - Cible : non renseigné
+  - Zone : aucune zone renseignée
+  - Portée de la zone (valeur brute) : non renseigné
+  - Effets cumulés : non
+
+  Effets normaux :
+  - Dégât Eau [de] : 16 à 24 ; ID effet : 53
+
+  Effets critiques :
+  - Dégât Eau [de] : 18 à 26 ; ID effet : 54
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 131,
+  "characteristics": {
+    "pa": 3,
+    "po": "4 - 8",
+    "cc": 50,
+    "cc_rate": 50,
+    "pb": 1,
+    "ldv": 1,
+    "ltj": 2
+  },
+  "groups": [
+    {
+      "id": "1011-6-1",
+      "spell_id": 1011,
+      "level": 6,
+      "group_order": 1,
+      "title": null,
+      "target": null,
+      "zone": null,
+      "range": null,
+      "cumulated": 0,
+      "effects": [
+        {
+          "id": 53,
+          "group_id": "1011-6-1",
+          "effect": "de",
+          "cc": 0,
+          "min": 16,
+          "max": 24,
+          "duration": 0,
+          "ignore_do_crit": 0
+        },
+        {
+          "id": 54,
+          "group_id": "1011-6-1",
+          "effect": "de",
+          "cc": 1,
+          "min": 18,
+          "max": 26,
+          "duration": 0,
+          "ignore_do_crit": 0
+        }
+      ]
+    }
+  ]
+}
+
+Données techniques originales complètes du sort :
+{
+  "id": 1011,
+  "class_id": 1,
+  "spell_id": 11,
+  "icon": null,
+  "level1": 31,
+  "level2": 31,
+  "level3": 31,
+  "level4": 31,
+  "level5": 31,
+  "level6": 131,
+  "is_variante": 0,
+  "is_passif": 0,
+  "is_invoc": 0,
+  "name_fallback": "Bulle",
+  "description_fallback": "Occasionne des dommages Eau.",
+  "name": "Bulle",
+  "description": "Occasionne des dommages Eau.",
+  "caracs": [
+    {
+      "pa": 5,
+      "po": "4 - 6",
+      "cc": 50,
+      "cc_rate": 50,
+      "pb": 1,
+      "ldv": 1,
+      "ltj": 2
+    },
+    {
+      "pa": 5,
+      "po": "4 - 6",
+      "cc": 50,
+      "cc_rate": 50,
+      "pb": 1,
+      "ldv": 1,
+      "ltj": 2
+    },
+    {
+      "pa": 4,
+      "po": "4 - 6",
+      "cc": 50,
+      "cc_rate": 50,
+      "pb": 1,
+      "ldv": 1,
+      "ltj": 2
+    },
+    {
+      "pa": 4,
+      "po": "4 - 6",
+      "cc": 50,
+      "cc_rate": 50,
+      "pb": 1,
+      "ldv": 1,
+      "ltj": 2
+    },
+    {
+      "pa": 3,
+      "po": "4 - 7",
+      "cc": 50,
+      "cc_rate": 50,
+      "pb": 1,
+      "ldv": 1,
+      "ltj": 2
+    },
+    {
+      "pa": 3,
+      "po": "4 - 8",
+      "cc": 50,
+      "cc_rate": 50,
+      "pb": 1,
+      "ldv": 1,
+      "ltj": 2
+    }
+  ],
+  "invocs": [],
+  "groups": [
+    {
+      "id": "1011-1-1",
+      "spell_id": 1011,
+      "level": 1,
+      "group_order": 1,
+      "title": null,
+      "target": null,
+      "zone": null,
+      "range": null,
+      "cumulated": 0,
+      "effects": [
+        {
+          "id": 43,
+          "group_id": "1011-1-1",
+          "effect": "de",
+          "cc": 0,
+          "min": 9,
+          "max": 13,
+          "duration": 0,
+          "ignore_do_crit": 0
+        },
+        {
+          "id": 44,
+          "group_id": "1011-1-1",
+          "effect": "de",
+          "cc": 1,
+          "min": 11,
+          "max": 15,
+          "duration": 0,
+          "ignore_do_crit": 0
+        }
+      ]
+    },
+    {
+      "id": "1011-2-1",
+      "spell_id": 1011,
+      "level": 2,
+      "group_order": 1,
+      "title": null,
+      "target": null,
+      "zone": null,
+      "range": null,
+      "cumulated": 0,
+      "effects": [
+        {
+          "id": 45,
+          "group_id": "1011-2-1",
+          "effect": "de",
+          "cc": 0,
+          "min": 9,
+          "max": 15,
+          "duration": 0,
+          "ignore_do_crit": 0
+        },
+        {
+          "id": 46,
+          "group_id": "1011-2-1",
+          "effect": "de",
+          "cc": 1,
+          "min": 11,
+          "max": 17,
+          "duration": 0,
+          "ignore_do_crit": 0
+        }
+      ]
+    },
+    {
+      "id": "1011-3-1",
+      "spell_id": 1011,
+      "level": 3,
+      "group_order": 1,
+      "title": null,
+      "target": null,
+      "zone": null,
+      "range": null,
+      "cumulated": 0,
+      "effects": [
+        {
+          "id": 47,
+          "group_id": "1011-3-1",
+          "effect": "de",
+          "cc": 0,
+          "min": 11,
+          "max": 17,
+          "duration": 0,
+          "ignore_do_crit": 0
+        },
+        {
+          "id": 48,
+          "group_id": "1011-3-1",
+          "effect": "de",
+          "cc": 1,
+          "min": 13,
+          "max": 19,
+          "duration": 0,
+          "ignore_do_crit": 0
+        }
+      ]
+    },
+    {
+      "id": "1011-4-1",
+      "spell_id": 1011,
+      "level": 4,
+      "group_order": 1,
+      "title": null,
+      "target": null,
+      "zone": null,
+      "range": null,
+      "cumulated": 0,
+      "effects": [
+        {
+          "id": 49,
+          "group_id": "1011-4-1",
+          "effect": "de",
+          "cc": 0,
+          "min": 11,
+          "max": 19,
+          "duration": 0,
+          "ignore_do_crit": 0
+        },
+        {
+          "id": 50,
+          "group_id": "1011-4-1",
+          "effect": "de",
+          "cc": 1,
+          "min": 13,
+          "max": 21,
+          "duration": 0,
+          "ignore_do_crit": 0
+        }
+      ]
+    },
+    {
+      "id": "1011-5-1",
+      "spell_id": 1011,
+      "level": 5,
+      "group_order": 1,
+      "title": null,
+      "target": null,
+      "zone": null,
+      "range": null,
+      "cumulated": 0,
+      "effects": [
+        {
+          "id": 51,
+          "group_id": "1011-5-1",
+          "effect": "de",
+          "cc": 0,
+          "min": 13,
+          "max": 21,
+          "duration": 0,
+          "ignore_do_crit": 0
+        },
+        {
+          "id": 52,
+          "group_id": "1011-5-1",
+          "effect": "de",
+          "cc": 1,
+          "min": 15,
+          "max": 23,
+          "duration": 0,
+          "ignore_do_crit": 0
+        }
+      ]
+    },
+    {
+      "id": "1011-6-1",
+      "spell_id": 1011,
+      "level": 6,
+      "group_order": 1,
+      "title": null,
+      "target": null,
+      "zone": null,
+      "range": null,
+      "cumulated": 0,
+      "effects": [
+        {
+          "id": 53,
+          "group_id": "1011-6-1",
+          "effect": "de",
+          "cc": 0,
+          "min": 16,
+          "max": 24,
+          "duration": 0,
+          "ignore_do_crit": 0
+        },
+        {
+          "id": 54,
+          "group_id": "1011-6-1",
+          "effect": "de",
+          "cc": 1,
+          "min": 18,
+          "max": 26,
+          "duration": 0,
+          "ignore_do_crit": 0
+        }
+      ]
+    }
+  ]
+}
+
+
+################################################################################
+SORT 12/22 : Trêve
+################################################################################
+
+Identification :
+- ID interne : 1012
+- ID du sort dans la classe : 12
+- ID de classe : 1
+- Icône locale : images sort/12-treve.png
+
+Description :
+Ce sort permet de protéger tous les joueurs présents sur la carte.
+
+Propriétés générales :
+- Variante : non
+- Passif : non
+- Invocation : non
+
+================================================================================
+NIVEAU DU SORT 1
+================================================================================
+- Niveau requis du personnage : 36
+
+Caractéristiques :
+- 4 PA [pa]
+- 0 Portée [po]
+- 1/40 CC [cc]
+- 1/40 CC tot [cc_rate]
+- Relance : 13 tours [ir]
+
+Groupes et effets :
+- Aucun effet renseigné pour ce niveau.
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 36,
+  "characteristics": {
+    "pa": 4,
+    "po": "0",
+    "cc": 40,
+    "cc_rate": 40,
+    "ir": 13
+  },
+  "groups": []
+}
+
+================================================================================
+NIVEAU DU SORT 2
+================================================================================
+- Niveau requis du personnage : 36
+
+Caractéristiques :
+- 4 PA [pa]
+- 0 Portée [po]
+- 1/40 CC [cc]
+- 1/40 CC tot [cc_rate]
+- Relance : 12 tours [ir]
+
+Groupes et effets :
+- Aucun effet renseigné pour ce niveau.
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 36,
+  "characteristics": {
+    "pa": 4,
+    "po": "0",
+    "cc": 40,
+    "cc_rate": 40,
+    "ir": 12
+  },
+  "groups": []
+}
+
+================================================================================
+NIVEAU DU SORT 3
+================================================================================
+- Niveau requis du personnage : 36
+
+Caractéristiques :
+- 4 PA [pa]
+- 0 Portée [po]
+- 1/40 CC [cc]
+- 1/40 CC tot [cc_rate]
+- Relance : 11 tours [ir]
+
+Groupes et effets :
+- Aucun effet renseigné pour ce niveau.
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 36,
+  "characteristics": {
+    "pa": 4,
+    "po": "0",
+    "cc": 40,
+    "cc_rate": 40,
+    "ir": 11
+  },
+  "groups": []
+}
+
+================================================================================
+NIVEAU DU SORT 4
+================================================================================
+- Niveau requis du personnage : 36
+
+Caractéristiques :
+- 4 PA [pa]
+- 0 Portée [po]
+- 1/40 CC [cc]
+- 1/40 CC tot [cc_rate]
+- Relance : 10 tours [ir]
+
+Groupes et effets :
+- Aucun effet renseigné pour ce niveau.
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 36,
+  "characteristics": {
+    "pa": 4,
+    "po": "0",
+    "cc": 40,
+    "cc_rate": 40,
+    "ir": 10
+  },
+  "groups": []
+}
+
+================================================================================
+NIVEAU DU SORT 5
+================================================================================
+- Niveau requis du personnage : 36
+
+Caractéristiques :
+- 4 PA [pa]
+- 0 Portée [po]
+- 1/40 CC [cc]
+- 1/40 CC tot [cc_rate]
+- Relance : 9 tours [ir]
+
+Groupes et effets :
+- Aucun effet renseigné pour ce niveau.
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 36,
+  "characteristics": {
+    "pa": 4,
+    "po": "0",
+    "cc": 40,
+    "cc_rate": 40,
+    "ir": 9
+  },
+  "groups": []
+}
+
+================================================================================
+NIVEAU DU SORT 6
+================================================================================
+- Niveau requis du personnage : 136
+
+Caractéristiques :
+- 4 PA [pa]
+- 0 Portée [po]
+- 1/40 CC [cc]
+- 1/40 CC tot [cc_rate]
+- Relance : 8 tours [ir]
+
+Groupes et effets :
+- Aucun effet renseigné pour ce niveau.
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 136,
+  "characteristics": {
+    "pa": 4,
+    "po": "0",
+    "cc": 40,
+    "cc_rate": 40,
+    "ir": 8
+  },
+  "groups": []
+}
+
+Données techniques originales complètes du sort :
+{
+  "id": 1012,
+  "class_id": 1,
+  "spell_id": 12,
+  "icon": null,
+  "level1": 36,
+  "level2": 36,
+  "level3": 36,
+  "level4": 36,
+  "level5": 36,
+  "level6": 136,
+  "is_variante": 0,
+  "is_passif": 0,
+  "is_invoc": 0,
+  "name_fallback": "Trêve",
+  "description_fallback": "Ce sort permet de protéger tous les joueurs présents sur la carte.",
+  "name": "Trêve",
+  "description": "Ce sort permet de protéger tous les joueurs présents sur la carte.",
+  "caracs": [
+    {
+      "pa": 4,
+      "po": "0",
+      "cc": 40,
+      "cc_rate": 40,
+      "ir": 13
+    },
+    {
+      "pa": 4,
+      "po": "0",
+      "cc": 40,
+      "cc_rate": 40,
+      "ir": 12
+    },
+    {
+      "pa": 4,
+      "po": "0",
+      "cc": 40,
+      "cc_rate": 40,
+      "ir": 11
+    },
+    {
+      "pa": 4,
+      "po": "0",
+      "cc": 40,
+      "cc_rate": 40,
+      "ir": 10
+    },
+    {
+      "pa": 4,
+      "po": "0",
+      "cc": 40,
+      "cc_rate": 40,
+      "ir": 9
+    },
+    {
+      "pa": 4,
+      "po": "0",
+      "cc": 40,
+      "cc_rate": 40,
+      "ir": 8
+    }
+  ],
+  "invocs": [],
+  "groups": []
+}
+
+
+################################################################################
+SORT 13/22 : Science du bâton
+################################################################################
+
+Identification :
+- ID interne : 1013
+- ID du sort dans la classe : 13
+- ID de classe : 1
+- Icône locale : images sort/13-science-du-baton.png
+
+Description :
+Ce sort permet aux disciples de cette guilde d'augmenter leurs dégâts physiques.
+
+Propriétés générales :
+- Variante : non
+- Passif : non
+- Invocation : non
+
+================================================================================
+NIVEAU DU SORT 1
+================================================================================
+- Niveau requis du personnage : 42
+
+Caractéristiques :
+- 3 PA [pa]
+- 0 - 1 Portée [po]
+- 1/40 CC [cc]
+- 1/40 CC tot [cc_rate]
+- PO modifiable [pb] : oui
+- Relance : 6 tours [ir]
+
+Groupes et effets :
+- Aucun effet renseigné pour ce niveau.
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 42,
+  "characteristics": {
+    "pa": 3,
+    "po": "0 - 1",
+    "cc": 40,
+    "cc_rate": 40,
+    "pb": 1,
+    "ir": 6
+  },
+  "groups": []
+}
+
+================================================================================
+NIVEAU DU SORT 2
+================================================================================
+- Niveau requis du personnage : 42
+
+Caractéristiques :
+- 3 PA [pa]
+- 0 - 2 Portée [po]
+- 1/40 CC [cc]
+- 1/40 CC tot [cc_rate]
+- PO modifiable [pb] : oui
+- Relance : 6 tours [ir]
+
+Groupes et effets :
+- Aucun effet renseigné pour ce niveau.
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 42,
+  "characteristics": {
+    "pa": 3,
+    "po": "0 - 2",
+    "cc": 40,
+    "cc_rate": 40,
+    "pb": 1,
+    "ir": 6
+  },
+  "groups": []
+}
+
+================================================================================
+NIVEAU DU SORT 3
+================================================================================
+- Niveau requis du personnage : 42
+
+Caractéristiques :
+- 3 PA [pa]
+- 0 - 3 Portée [po]
+- 1/40 CC [cc]
+- 1/40 CC tot [cc_rate]
+- PO modifiable [pb] : oui
+- Relance : 6 tours [ir]
+
+Groupes et effets :
+- Aucun effet renseigné pour ce niveau.
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 42,
+  "characteristics": {
+    "pa": 3,
+    "po": "0 - 3",
+    "cc": 40,
+    "cc_rate": 40,
+    "pb": 1,
+    "ir": 6
+  },
+  "groups": []
+}
+
+================================================================================
+NIVEAU DU SORT 4
+================================================================================
+- Niveau requis du personnage : 42
+
+Caractéristiques :
+- 3 PA [pa]
+- 0 - 4 Portée [po]
+- 1/40 CC [cc]
+- 1/40 CC tot [cc_rate]
+- PO modifiable [pb] : oui
+- Relance : 6 tours [ir]
+
+Groupes et effets :
+- Aucun effet renseigné pour ce niveau.
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 42,
+  "characteristics": {
+    "pa": 3,
+    "po": "0 - 4",
+    "cc": 40,
+    "cc_rate": 40,
+    "pb": 1,
+    "ir": 6
+  },
+  "groups": []
+}
+
+================================================================================
+NIVEAU DU SORT 5
+================================================================================
+- Niveau requis du personnage : 42
+
+Caractéristiques :
+- 3 PA [pa]
+- 0 - 5 Portée [po]
+- 1/40 CC [cc]
+- 1/40 CC tot [cc_rate]
+- PO modifiable [pb] : oui
+- Relance : 6 tours [ir]
+
+Groupes et effets :
+- Aucun effet renseigné pour ce niveau.
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 42,
+  "characteristics": {
+    "pa": 3,
+    "po": "0 - 5",
+    "cc": 40,
+    "cc_rate": 40,
+    "pb": 1,
+    "ir": 6
+  },
+  "groups": []
+}
+
+================================================================================
+NIVEAU DU SORT 6
+================================================================================
+- Niveau requis du personnage : 142
+
+Caractéristiques :
+- 2 PA [pa]
+- 0 - 6 Portée [po]
+- 1/40 CC [cc]
+- 1/40 CC tot [cc_rate]
+- PO modifiable [pb] : oui
+- Relance : 6 tours [ir]
+
+Groupes et effets :
+- Aucun effet renseigné pour ce niveau.
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 142,
+  "characteristics": {
+    "pa": 2,
+    "po": "0 - 6",
+    "cc": 40,
+    "cc_rate": 40,
+    "pb": 1,
+    "ir": 6
+  },
+  "groups": []
+}
+
+Données techniques originales complètes du sort :
+{
+  "id": 1013,
+  "class_id": 1,
+  "spell_id": 13,
+  "icon": null,
+  "level1": 42,
+  "level2": 42,
+  "level3": 42,
+  "level4": 42,
+  "level5": 42,
+  "level6": 142,
+  "is_variante": 0,
+  "is_passif": 0,
+  "is_invoc": 0,
+  "name_fallback": "Science du bâton",
+  "description_fallback": "Ce sort permet aux disciples de cette guilde d'augmenter leurs dégâts physiques.",
+  "name": "Science du bâton",
+  "description": "Ce sort permet aux disciples de cette guilde d'augmenter leurs dégâts physiques.",
+  "caracs": [
+    {
+      "pa": 3,
+      "po": "0 - 1",
+      "cc": 40,
+      "cc_rate": 40,
+      "pb": 1,
+      "ir": 6
+    },
+    {
+      "pa": 3,
+      "po": "0 - 2",
+      "cc": 40,
+      "cc_rate": 40,
+      "pb": 1,
+      "ir": 6
+    },
+    {
+      "pa": 3,
+      "po": "0 - 3",
+      "cc": 40,
+      "cc_rate": 40,
+      "pb": 1,
+      "ir": 6
+    },
+    {
+      "pa": 3,
+      "po": "0 - 4",
+      "cc": 40,
+      "cc_rate": 40,
+      "pb": 1,
+      "ir": 6
+    },
+    {
+      "pa": 3,
+      "po": "0 - 5",
+      "cc": 40,
+      "cc_rate": 40,
+      "pb": 1,
+      "ir": 6
+    },
+    {
+      "pa": 2,
+      "po": "0 - 6",
+      "cc": 40,
+      "cc_rate": 40,
+      "pb": 1,
+      "ir": 6
+    }
+  ],
+  "invocs": [],
+  "groups": []
+}
+
+
+################################################################################
+SORT 14/22 : Retour du bâton
+################################################################################
+
+Identification :
+- ID interne : 1014
+- ID du sort dans la classe : 14
+- ID de classe : 1
+- Icône locale : images sort/14-retour-du-baton.png
+
+Description :
+Sort d'attaque au corps à corps infligeant des dégâts Neutres.
+
+Propriétés générales :
+- Variante : non
+- Passif : non
+- Invocation : non
+
+================================================================================
+NIVEAU DU SORT 1
+================================================================================
+- Niveau requis du personnage : 48
+
+Caractéristiques :
+- 3 PA [pa]
+- 1 - 3 Portée [po]
+- 1/50 CC [cc]
+- 1/50 CC tot [cc_rate]
+- Lancer en ligne [lel] : oui
+- Ø ligne de vue [ldv] : oui
+- 2 lancer par cible [ltj]
+
+Groupes et effets :
+
+  GROUPE D'EFFETS 1
+  - ID du groupe : 1014-1-1
+  - Ordre : 1
+  - Titre : non renseigné
+  - Cible : non renseigné
+  - Zone : aucune zone renseignée
+  - Portée de la zone (valeur brute) : non renseigné
+  - Effets cumulés : non
+
+  Effets normaux :
+  - Dégât Neutre [dn] : 6 à 20 ; ID effet : 55
+
+  Effets critiques :
+  - Dégât Neutre [dn] : 16 à 18 ; ID effet : 56
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 48,
+  "characteristics": {
+    "pa": 3,
+    "po": "1 - 3",
+    "cc": 50,
+    "cc_rate": 50,
+    "lel": 1,
+    "ldv": 1,
+    "ltj": 2
+  },
+  "groups": [
+    {
+      "id": "1014-1-1",
+      "spell_id": 1014,
+      "level": 1,
+      "group_order": 1,
+      "title": null,
+      "target": null,
+      "zone": null,
+      "range": null,
+      "cumulated": 0,
+      "effects": [
+        {
+          "id": 55,
+          "group_id": "1014-1-1",
+          "effect": "dn",
+          "cc": 0,
+          "min": 6,
+          "max": 20,
+          "duration": 0,
+          "ignore_do_crit": 0
+        },
+        {
+          "id": 56,
+          "group_id": "1014-1-1",
+          "effect": "dn",
+          "cc": 1,
+          "min": 16,
+          "max": 18,
+          "duration": 0,
+          "ignore_do_crit": 0
+        }
+      ]
+    }
+  ]
+}
+
+================================================================================
+NIVEAU DU SORT 2
+================================================================================
+- Niveau requis du personnage : 48
+
+Caractéristiques :
+- 3 PA [pa]
+- 1 - 3 Portée [po]
+- 1/50 CC [cc]
+- 1/50 CC tot [cc_rate]
+- Lancer en ligne [lel] : oui
+- Ø ligne de vue [ldv] : oui
+- 2 lancer par cible [ltj]
+
+Groupes et effets :
+
+  GROUPE D'EFFETS 1
+  - ID du groupe : 1014-2-1
+  - Ordre : 1
+  - Titre : non renseigné
+  - Cible : non renseigné
+  - Zone : aucune zone renseignée
+  - Portée de la zone (valeur brute) : non renseigné
+  - Effets cumulés : non
+
+  Effets normaux :
+  - Dégât Neutre [dn] : 8 à 22 ; ID effet : 57
+
+  Effets critiques :
+  - Dégât Neutre [dn] : 18 à 21 ; ID effet : 58
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 48,
+  "characteristics": {
+    "pa": 3,
+    "po": "1 - 3",
+    "cc": 50,
+    "cc_rate": 50,
+    "lel": 1,
+    "ldv": 1,
+    "ltj": 2
+  },
+  "groups": [
+    {
+      "id": "1014-2-1",
+      "spell_id": 1014,
+      "level": 2,
+      "group_order": 1,
+      "title": null,
+      "target": null,
+      "zone": null,
+      "range": null,
+      "cumulated": 0,
+      "effects": [
+        {
+          "id": 57,
+          "group_id": "1014-2-1",
+          "effect": "dn",
+          "cc": 0,
+          "min": 8,
+          "max": 22,
+          "duration": 0,
+          "ignore_do_crit": 0
+        },
+        {
+          "id": 58,
+          "group_id": "1014-2-1",
+          "effect": "dn",
+          "cc": 1,
+          "min": 18,
+          "max": 21,
+          "duration": 0,
+          "ignore_do_crit": 0
+        }
+      ]
+    }
+  ]
+}
+
+================================================================================
+NIVEAU DU SORT 3
+================================================================================
+- Niveau requis du personnage : 48
+
+Caractéristiques :
+- 3 PA [pa]
+- 1 - 3 Portée [po]
+- 1/50 CC [cc]
+- 1/50 CC tot [cc_rate]
+- Lancer en ligne [lel] : oui
+- Ø ligne de vue [ldv] : oui
+- 2 lancer par cible [ltj]
+
+Groupes et effets :
+
+  GROUPE D'EFFETS 1
+  - ID du groupe : 1014-3-1
+  - Ordre : 1
+  - Titre : non renseigné
+  - Cible : non renseigné
+  - Zone : aucune zone renseignée
+  - Portée de la zone (valeur brute) : non renseigné
+  - Effets cumulés : non
+
+  Effets normaux :
+  - Dégât Neutre [dn] : 10 à 24 ; ID effet : 59
+
+  Effets critiques :
+  - Dégât Neutre [dn] : 20 à 24 ; ID effet : 60
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 48,
+  "characteristics": {
+    "pa": 3,
+    "po": "1 - 3",
+    "cc": 50,
+    "cc_rate": 50,
+    "lel": 1,
+    "ldv": 1,
+    "ltj": 2
+  },
+  "groups": [
+    {
+      "id": "1014-3-1",
+      "spell_id": 1014,
+      "level": 3,
+      "group_order": 1,
+      "title": null,
+      "target": null,
+      "zone": null,
+      "range": null,
+      "cumulated": 0,
+      "effects": [
+        {
+          "id": 59,
+          "group_id": "1014-3-1",
+          "effect": "dn",
+          "cc": 0,
+          "min": 10,
+          "max": 24,
+          "duration": 0,
+          "ignore_do_crit": 0
+        },
+        {
+          "id": 60,
+          "group_id": "1014-3-1",
+          "effect": "dn",
+          "cc": 1,
+          "min": 20,
+          "max": 24,
+          "duration": 0,
+          "ignore_do_crit": 0
+        }
+      ]
+    }
+  ]
+}
+
+================================================================================
+NIVEAU DU SORT 4
+================================================================================
+- Niveau requis du personnage : 48
+
+Caractéristiques :
+- 3 PA [pa]
+- 1 - 3 Portée [po]
+- 1/50 CC [cc]
+- 1/50 CC tot [cc_rate]
+- Lancer en ligne [lel] : oui
+- Ø ligne de vue [ldv] : oui
+- 2 lancer par cible [ltj]
+
+Groupes et effets :
+
+  GROUPE D'EFFETS 1
+  - ID du groupe : 1014-4-1
+  - Ordre : 1
+  - Titre : non renseigné
+  - Cible : non renseigné
+  - Zone : aucune zone renseignée
+  - Portée de la zone (valeur brute) : non renseigné
+  - Effets cumulés : non
+
+  Effets normaux :
+  - Dégât Neutre [dn] : 12 à 26 ; ID effet : 61
+
+  Effets critiques :
+  - Dégât Neutre [dn] : 22 à 27 ; ID effet : 62
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 48,
+  "characteristics": {
+    "pa": 3,
+    "po": "1 - 3",
+    "cc": 50,
+    "cc_rate": 50,
+    "lel": 1,
+    "ldv": 1,
+    "ltj": 2
+  },
+  "groups": [
+    {
+      "id": "1014-4-1",
+      "spell_id": 1014,
+      "level": 4,
+      "group_order": 1,
+      "title": null,
+      "target": null,
+      "zone": null,
+      "range": null,
+      "cumulated": 0,
+      "effects": [
+        {
+          "id": 61,
+          "group_id": "1014-4-1",
+          "effect": "dn",
+          "cc": 0,
+          "min": 12,
+          "max": 26,
+          "duration": 0,
+          "ignore_do_crit": 0
+        },
+        {
+          "id": 62,
+          "group_id": "1014-4-1",
+          "effect": "dn",
+          "cc": 1,
+          "min": 22,
+          "max": 27,
+          "duration": 0,
+          "ignore_do_crit": 0
+        }
+      ]
+    }
+  ]
+}
+
+================================================================================
+NIVEAU DU SORT 5
+================================================================================
+- Niveau requis du personnage : 48
+
+Caractéristiques :
+- 3 PA [pa]
+- 1 - 3 Portée [po]
+- 1/35 CC [cc]
+- 1/35 CC tot [cc_rate]
+- Lancer en ligne [lel] : oui
+- Ø ligne de vue [ldv] : oui
+- 2 lancer par cible [ltj]
+
+Groupes et effets :
+
+  GROUPE D'EFFETS 1
+  - ID du groupe : 1014-5-1
+  - Ordre : 1
+  - Titre : non renseigné
+  - Cible : non renseigné
+  - Zone : aucune zone renseignée
+  - Portée de la zone (valeur brute) : non renseigné
+  - Effets cumulés : non
+
+  Effets normaux :
+  - Dégât Neutre [dn] : 16 à 30 ; ID effet : 63
+
+  Effets critiques :
+  - Dégât Neutre [dn] : 26 à 32 ; ID effet : 64
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 48,
+  "characteristics": {
+    "pa": 3,
+    "po": "1 - 3",
+    "cc": 35,
+    "cc_rate": 35,
+    "lel": 1,
+    "ldv": 1,
+    "ltj": 2
+  },
+  "groups": [
+    {
+      "id": "1014-5-1",
+      "spell_id": 1014,
+      "level": 5,
+      "group_order": 1,
+      "title": null,
+      "target": null,
+      "zone": null,
+      "range": null,
+      "cumulated": 0,
+      "effects": [
+        {
+          "id": 63,
+          "group_id": "1014-5-1",
+          "effect": "dn",
+          "cc": 0,
+          "min": 16,
+          "max": 30,
+          "duration": 0,
+          "ignore_do_crit": 0
+        },
+        {
+          "id": 64,
+          "group_id": "1014-5-1",
+          "effect": "dn",
+          "cc": 1,
+          "min": 26,
+          "max": 32,
+          "duration": 0,
+          "ignore_do_crit": 0
+        }
+      ]
+    }
+  ]
+}
+
+================================================================================
+NIVEAU DU SORT 6
+================================================================================
+- Niveau requis du personnage : 148
+
+Caractéristiques :
+- 3 PA [pa]
+- 1 - 3 Portée [po]
+- 1/35 CC [cc]
+- 1/35 CC tot [cc_rate]
+- Lancer en ligne [lel] : oui
+- Ø ligne de vue [ldv] : oui
+- 2 lancer par cible [ltj]
+
+Groupes et effets :
+
+  GROUPE D'EFFETS 1
+  - ID du groupe : 1014-6-1
+  - Ordre : 1
+  - Titre : non renseigné
+  - Cible : non renseigné
+  - Zone : aucune zone renseignée
+  - Portée de la zone (valeur brute) : non renseigné
+  - Effets cumulés : non
+
+  Effets normaux :
+  - Dégât Neutre [dn] : 21 à 35 ; ID effet : 65
+
+  Effets critiques :
+  - Dégât Neutre [dn] : 31 à 37 ; ID effet : 66
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 148,
+  "characteristics": {
+    "pa": 3,
+    "po": "1 - 3",
+    "cc": 35,
+    "cc_rate": 35,
+    "lel": 1,
+    "ldv": 1,
+    "ltj": 2
+  },
+  "groups": [
+    {
+      "id": "1014-6-1",
+      "spell_id": 1014,
+      "level": 6,
+      "group_order": 1,
+      "title": null,
+      "target": null,
+      "zone": null,
+      "range": null,
+      "cumulated": 0,
+      "effects": [
+        {
+          "id": 65,
+          "group_id": "1014-6-1",
+          "effect": "dn",
+          "cc": 0,
+          "min": 21,
+          "max": 35,
+          "duration": 0,
+          "ignore_do_crit": 0
+        },
+        {
+          "id": 66,
+          "group_id": "1014-6-1",
+          "effect": "dn",
+          "cc": 1,
+          "min": 31,
+          "max": 37,
+          "duration": 0,
+          "ignore_do_crit": 0
+        }
+      ]
+    }
+  ]
+}
+
+Données techniques originales complètes du sort :
+{
+  "id": 1014,
+  "class_id": 1,
+  "spell_id": 14,
+  "icon": null,
+  "level1": 48,
+  "level2": 48,
+  "level3": 48,
+  "level4": 48,
+  "level5": 48,
+  "level6": 148,
+  "is_variante": 0,
+  "is_passif": 0,
+  "is_invoc": 0,
+  "name_fallback": "Retour du bâton",
+  "description_fallback": "Sort d'attaque au corps à corps infligeant des dégâts Neutres.",
+  "name": "Retour du bâton",
+  "description": "Sort d'attaque au corps à corps infligeant des dégâts Neutres.",
+  "caracs": [
+    {
+      "pa": 3,
+      "po": "1 - 3",
+      "cc": 50,
+      "cc_rate": 50,
+      "lel": 1,
+      "ldv": 1,
+      "ltj": 2
+    },
+    {
+      "pa": 3,
+      "po": "1 - 3",
+      "cc": 50,
+      "cc_rate": 50,
+      "lel": 1,
+      "ldv": 1,
+      "ltj": 2
+    },
+    {
+      "pa": 3,
+      "po": "1 - 3",
+      "cc": 50,
+      "cc_rate": 50,
+      "lel": 1,
+      "ldv": 1,
+      "ltj": 2
+    },
+    {
+      "pa": 3,
+      "po": "1 - 3",
+      "cc": 50,
+      "cc_rate": 50,
+      "lel": 1,
+      "ldv": 1,
+      "ltj": 2
+    },
+    {
+      "pa": 3,
+      "po": "1 - 3",
+      "cc": 35,
+      "cc_rate": 35,
+      "lel": 1,
+      "ldv": 1,
+      "ltj": 2
+    },
+    {
+      "pa": 3,
+      "po": "1 - 3",
+      "cc": 35,
+      "cc_rate": 35,
+      "lel": 1,
+      "ldv": 1,
+      "ltj": 2
+    }
+  ],
+  "invocs": [],
+  "groups": [
+    {
+      "id": "1014-1-1",
+      "spell_id": 1014,
+      "level": 1,
+      "group_order": 1,
+      "title": null,
+      "target": null,
+      "zone": null,
+      "range": null,
+      "cumulated": 0,
+      "effects": [
+        {
+          "id": 55,
+          "group_id": "1014-1-1",
+          "effect": "dn",
+          "cc": 0,
+          "min": 6,
+          "max": 20,
+          "duration": 0,
+          "ignore_do_crit": 0
+        },
+        {
+          "id": 56,
+          "group_id": "1014-1-1",
+          "effect": "dn",
+          "cc": 1,
+          "min": 16,
+          "max": 18,
+          "duration": 0,
+          "ignore_do_crit": 0
+        }
+      ]
+    },
+    {
+      "id": "1014-2-1",
+      "spell_id": 1014,
+      "level": 2,
+      "group_order": 1,
+      "title": null,
+      "target": null,
+      "zone": null,
+      "range": null,
+      "cumulated": 0,
+      "effects": [
+        {
+          "id": 57,
+          "group_id": "1014-2-1",
+          "effect": "dn",
+          "cc": 0,
+          "min": 8,
+          "max": 22,
+          "duration": 0,
+          "ignore_do_crit": 0
+        },
+        {
+          "id": 58,
+          "group_id": "1014-2-1",
+          "effect": "dn",
+          "cc": 1,
+          "min": 18,
+          "max": 21,
+          "duration": 0,
+          "ignore_do_crit": 0
+        }
+      ]
+    },
+    {
+      "id": "1014-3-1",
+      "spell_id": 1014,
+      "level": 3,
+      "group_order": 1,
+      "title": null,
+      "target": null,
+      "zone": null,
+      "range": null,
+      "cumulated": 0,
+      "effects": [
+        {
+          "id": 59,
+          "group_id": "1014-3-1",
+          "effect": "dn",
+          "cc": 0,
+          "min": 10,
+          "max": 24,
+          "duration": 0,
+          "ignore_do_crit": 0
+        },
+        {
+          "id": 60,
+          "group_id": "1014-3-1",
+          "effect": "dn",
+          "cc": 1,
+          "min": 20,
+          "max": 24,
+          "duration": 0,
+          "ignore_do_crit": 0
+        }
+      ]
+    },
+    {
+      "id": "1014-4-1",
+      "spell_id": 1014,
+      "level": 4,
+      "group_order": 1,
+      "title": null,
+      "target": null,
+      "zone": null,
+      "range": null,
+      "cumulated": 0,
+      "effects": [
+        {
+          "id": 61,
+          "group_id": "1014-4-1",
+          "effect": "dn",
+          "cc": 0,
+          "min": 12,
+          "max": 26,
+          "duration": 0,
+          "ignore_do_crit": 0
+        },
+        {
+          "id": 62,
+          "group_id": "1014-4-1",
+          "effect": "dn",
+          "cc": 1,
+          "min": 22,
+          "max": 27,
+          "duration": 0,
+          "ignore_do_crit": 0
+        }
+      ]
+    },
+    {
+      "id": "1014-5-1",
+      "spell_id": 1014,
+      "level": 5,
+      "group_order": 1,
+      "title": null,
+      "target": null,
+      "zone": null,
+      "range": null,
+      "cumulated": 0,
+      "effects": [
+        {
+          "id": 63,
+          "group_id": "1014-5-1",
+          "effect": "dn",
+          "cc": 0,
+          "min": 16,
+          "max": 30,
+          "duration": 0,
+          "ignore_do_crit": 0
+        },
+        {
+          "id": 64,
+          "group_id": "1014-5-1",
+          "effect": "dn",
+          "cc": 1,
+          "min": 26,
+          "max": 32,
+          "duration": 0,
+          "ignore_do_crit": 0
+        }
+      ]
+    },
+    {
+      "id": "1014-6-1",
+      "spell_id": 1014,
+      "level": 6,
+      "group_order": 1,
+      "title": null,
+      "target": null,
+      "zone": null,
+      "range": null,
+      "cumulated": 0,
+      "effects": [
+        {
+          "id": 65,
+          "group_id": "1014-6-1",
+          "effect": "dn",
+          "cc": 0,
+          "min": 21,
+          "max": 35,
+          "duration": 0,
+          "ignore_do_crit": 0
+        },
+        {
+          "id": 66,
+          "group_id": "1014-6-1",
+          "effect": "dn",
+          "cc": 1,
+          "min": 31,
+          "max": 37,
+          "duration": 0,
+          "ignore_do_crit": 0
+        }
+      ]
+    }
+  ]
+}
+
+
+################################################################################
+SORT 15/22 : Glyphe d'Aveuglement
+################################################################################
+
+Identification :
+- ID interne : 1015
+- ID du sort dans la classe : 15
+- ID de classe : 1
+- Icône locale : images sort/15-glyphe-d-aveuglement.png
+
+Description :
+Ce glyphe fait perdre des PA.
+
+Propriétés générales :
+- Variante : non
+- Passif : non
+- Invocation : non
+
+================================================================================
+NIVEAU DU SORT 1
+================================================================================
+- Niveau requis du personnage : 54
+
+Caractéristiques :
+- 3 PA [pa]
+- 0 - 4 Portée [po]
+- Lancer en ligne [lel] : oui
+- 1 lancer par tour [lt]
+
+Groupes et effets :
+- Aucun effet renseigné pour ce niveau.
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 54,
+  "characteristics": {
+    "pa": 3,
+    "po": "0 - 4",
+    "lel": 1,
+    "lt": 1
+  },
+  "groups": []
+}
+
+================================================================================
+NIVEAU DU SORT 2
+================================================================================
+- Niveau requis du personnage : 54
+
+Caractéristiques :
+- 3 PA [pa]
+- 0 - 4 Portée [po]
+- Lancer en ligne [lel] : oui
+- 1 lancer par tour [lt]
+
+Groupes et effets :
+- Aucun effet renseigné pour ce niveau.
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 54,
+  "characteristics": {
+    "pa": 3,
+    "po": "0 - 4",
+    "lel": 1,
+    "lt": 1
+  },
+  "groups": []
+}
+
+================================================================================
+NIVEAU DU SORT 3
+================================================================================
+- Niveau requis du personnage : 54
+
+Caractéristiques :
+- 3 PA [pa]
+- 0 - 4 Portée [po]
+- Lancer en ligne [lel] : oui
+- 1 lancer par tour [lt]
+
+Groupes et effets :
+- Aucun effet renseigné pour ce niveau.
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 54,
+  "characteristics": {
+    "pa": 3,
+    "po": "0 - 4",
+    "lel": 1,
+    "lt": 1
+  },
+  "groups": []
+}
+
+================================================================================
+NIVEAU DU SORT 4
+================================================================================
+- Niveau requis du personnage : 54
+
+Caractéristiques :
+- 3 PA [pa]
+- 0 - 4 Portée [po]
+- Lancer en ligne [lel] : oui
+- 1 lancer par tour [lt]
+
+Groupes et effets :
+- Aucun effet renseigné pour ce niveau.
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 54,
+  "characteristics": {
+    "pa": 3,
+    "po": "0 - 4",
+    "lel": 1,
+    "lt": 1
+  },
+  "groups": []
+}
+
+================================================================================
+NIVEAU DU SORT 5
+================================================================================
+- Niveau requis du personnage : 54
+
+Caractéristiques :
+- 3 PA [pa]
+- 0 - 4 Portée [po]
+- Lancer en ligne [lel] : oui
+- 1 lancer par tour [lt]
+
+Groupes et effets :
+- Aucun effet renseigné pour ce niveau.
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 54,
+  "characteristics": {
+    "pa": 3,
+    "po": "0 - 4",
+    "lel": 1,
+    "lt": 1
+  },
+  "groups": []
+}
+
+================================================================================
+NIVEAU DU SORT 6
+================================================================================
+- Niveau requis du personnage : 154
+
+Caractéristiques :
+- 3 PA [pa]
+- 0 - 5 Portée [po]
+- Lancer en ligne [lel] : oui
+- 1 lancer par tour [lt]
+
+Groupes et effets :
+- Aucun effet renseigné pour ce niveau.
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 154,
+  "characteristics": {
+    "pa": 3,
+    "po": "0 - 5",
+    "lel": 1,
+    "lt": 1
+  },
+  "groups": []
+}
+
+Données techniques originales complètes du sort :
+{
+  "id": 1015,
+  "class_id": 1,
+  "spell_id": 15,
+  "icon": null,
+  "level1": 54,
+  "level2": 54,
+  "level3": 54,
+  "level4": 54,
+  "level5": 54,
+  "level6": 154,
+  "is_variante": 0,
+  "is_passif": 0,
+  "is_invoc": 0,
+  "name_fallback": "Glyphe d'Aveuglement",
+  "description_fallback": "Ce glyphe fait perdre des PA.",
+  "name": "Glyphe d'Aveuglement",
+  "description": "Ce glyphe fait perdre des PA.",
+  "caracs": [
+    {
+      "pa": 3,
+      "po": "0 - 4",
+      "lel": 1,
+      "lt": 1
+    },
+    {
+      "pa": 3,
+      "po": "0 - 4",
+      "lel": 1,
+      "lt": 1
+    },
+    {
+      "pa": 3,
+      "po": "0 - 4",
+      "lel": 1,
+      "lt": 1
+    },
+    {
+      "pa": 3,
+      "po": "0 - 4",
+      "lel": 1,
+      "lt": 1
+    },
+    {
+      "pa": 3,
+      "po": "0 - 4",
+      "lel": 1,
+      "lt": 1
+    },
+    {
+      "pa": 3,
+      "po": "0 - 5",
+      "lel": 1,
+      "lt": 1
+    }
+  ],
+  "invocs": [],
+  "groups": []
+}
+
+
+################################################################################
+SORT 16/22 : Téléportation
+################################################################################
+
+Identification :
+- ID interne : 1016
+- ID du sort dans la classe : 16
+- ID de classe : 1
+- Icône locale : images sort/16-teleportation.png
+
+Description :
+La téléportation permet à un joueur de se déplacer rapidement.
+
+Propriétés générales :
+- Variante : non
+- Passif : non
+- Invocation : non
+
+================================================================================
+NIVEAU DU SORT 1
+================================================================================
+- Niveau requis du personnage : 60
+
+Caractéristiques :
+- 5 PA [pa]
+- 1 - 3 Portée [po]
+- Relance : 8 tours [ir]
+
+Groupes et effets :
+- Aucun effet renseigné pour ce niveau.
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 60,
+  "characteristics": {
+    "pa": 5,
+    "po": "1 - 3",
+    "ir": 8
+  },
+  "groups": []
+}
+
+================================================================================
+NIVEAU DU SORT 2
+================================================================================
+- Niveau requis du personnage : 60
+
+Caractéristiques :
+- 5 PA [pa]
+- 1 - 4 Portée [po]
+- Relance : 8 tours [ir]
+
+Groupes et effets :
+- Aucun effet renseigné pour ce niveau.
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 60,
+  "characteristics": {
+    "pa": 5,
+    "po": "1 - 4",
+    "ir": 8
+  },
+  "groups": []
+}
+
+================================================================================
+NIVEAU DU SORT 3
+================================================================================
+- Niveau requis du personnage : 60
+
+Caractéristiques :
+- 5 PA [pa]
+- 1 - 5 Portée [po]
+- Relance : 8 tours [ir]
+
+Groupes et effets :
+- Aucun effet renseigné pour ce niveau.
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 60,
+  "characteristics": {
+    "pa": 5,
+    "po": "1 - 5",
+    "ir": 8
+  },
+  "groups": []
+}
+
+================================================================================
+NIVEAU DU SORT 4
+================================================================================
+- Niveau requis du personnage : 60
+
+Caractéristiques :
+- 5 PA [pa]
+- 1 - 6 Portée [po]
+- Relance : 7 tours [ir]
+
+Groupes et effets :
+- Aucun effet renseigné pour ce niveau.
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 60,
+  "characteristics": {
+    "pa": 5,
+    "po": "1 - 6",
+    "ir": 7
+  },
+  "groups": []
+}
+
+================================================================================
+NIVEAU DU SORT 5
+================================================================================
+- Niveau requis du personnage : 60
+
+Caractéristiques :
+- 5 PA [pa]
+- 1 - 8 Portée [po]
+- Relance : 6 tours [ir]
+
+Groupes et effets :
+- Aucun effet renseigné pour ce niveau.
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 60,
+  "characteristics": {
+    "pa": 5,
+    "po": "1 - 8",
+    "ir": 6
+  },
+  "groups": []
+}
+
+================================================================================
+NIVEAU DU SORT 6
+================================================================================
+- Niveau requis du personnage : 160
+
+Caractéristiques :
+- 4 PA [pa]
+- 1 - 9 Portée [po]
+- Relance : 6 tours [ir]
+
+Groupes et effets :
+- Aucun effet renseigné pour ce niveau.
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 160,
+  "characteristics": {
+    "pa": 4,
+    "po": "1 - 9",
+    "ir": 6
+  },
+  "groups": []
+}
+
+Données techniques originales complètes du sort :
+{
+  "id": 1016,
+  "class_id": 1,
+  "spell_id": 16,
+  "icon": null,
+  "level1": 60,
+  "level2": 60,
+  "level3": 60,
+  "level4": 60,
+  "level5": 60,
+  "level6": 160,
+  "is_variante": 0,
+  "is_passif": 0,
+  "is_invoc": 0,
+  "name_fallback": "Téléportation",
+  "description_fallback": "La téléportation permet à un joueur de se déplacer rapidement.",
+  "name": "Téléportation",
+  "description": "La téléportation permet à un joueur de se déplacer rapidement.",
+  "caracs": [
+    {
+      "pa": 5,
+      "po": "1 - 3",
+      "ir": 8
+    },
+    {
+      "pa": 5,
+      "po": "1 - 4",
+      "ir": 8
+    },
+    {
+      "pa": 5,
+      "po": "1 - 5",
+      "ir": 8
+    },
+    {
+      "pa": 5,
+      "po": "1 - 6",
+      "ir": 7
+    },
+    {
+      "pa": 5,
+      "po": "1 - 8",
+      "ir": 6
+    },
+    {
+      "pa": 4,
+      "po": "1 - 9",
+      "ir": 6
+    }
+  ],
+  "invocs": [],
+  "groups": []
+}
+
+
+################################################################################
+SORT 17/22 : Glyphe Enflammé
+################################################################################
+
+Identification :
+- ID interne : 1017
+- ID du sort dans la classe : 17
+- ID de classe : 1
+- Icône locale : images sort/17-glyphe-enflamme.png
+
+Description :
+Ce glyphe brûle les personnes se trouvant dans sa zone.
+
+Propriétés générales :
+- Variante : non
+- Passif : non
+- Invocation : non
+
+================================================================================
+NIVEAU DU SORT 1
+================================================================================
+- Niveau requis du personnage : 70
+
+Caractéristiques :
+- 4 PA [pa]
+- 1 - 3 Portée [po]
+- Lancer en ligne [lel] : oui
+- Relance : 3 tours [ir]
+
+Groupes et effets :
+
+  GROUPE D'EFFETS 1
+  - ID du groupe : 1017-1-1
+  - Ordre : 1
+  - Titre : non renseigné
+  - Cible : non renseigné
+  - Zone : Cercle de 1 case
+  - Portée de la zone (valeur brute) : 1
+  - Effets cumulés : non
+
+  Effets normaux :
+  - Glyphe Feu [gf] : 19 à 27 ; ID effet : 67
+
+  Effets critiques :
+  - Aucun
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 70,
+  "characteristics": {
+    "pa": 4,
+    "po": "1 - 3",
+    "lel": 1,
+    "ir": 3
+  },
+  "groups": [
+    {
+      "id": "1017-1-1",
+      "spell_id": 1017,
+      "level": 1,
+      "group_order": 1,
+      "title": null,
+      "target": null,
+      "zone": "cercle",
+      "range": 1,
+      "cumulated": 0,
+      "effects": [
+        {
+          "id": 67,
+          "group_id": "1017-1-1",
+          "effect": "gf",
+          "cc": 0,
+          "min": 19,
+          "max": 27,
+          "duration": 0,
+          "ignore_do_crit": 0
+        }
+      ]
+    }
+  ]
+}
+
+================================================================================
+NIVEAU DU SORT 2
+================================================================================
+- Niveau requis du personnage : 70
+
+Caractéristiques :
+- 4 PA [pa]
+- 1 - 3 Portée [po]
+- Lancer en ligne [lel] : oui
+- Relance : 3 tours [ir]
+
+Groupes et effets :
+
+  GROUPE D'EFFETS 1
+  - ID du groupe : 1017-2-1
+  - Ordre : 1
+  - Titre : non renseigné
+  - Cible : non renseigné
+  - Zone : Cercle de 1 case
+  - Portée de la zone (valeur brute) : 1
+  - Effets cumulés : non
+
+  Effets normaux :
+  - Glyphe Feu [gf] : 21 à 29 ; ID effet : 68
+
+  Effets critiques :
+  - Aucun
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 70,
+  "characteristics": {
+    "pa": 4,
+    "po": "1 - 3",
+    "lel": 1,
+    "ir": 3
+  },
+  "groups": [
+    {
+      "id": "1017-2-1",
+      "spell_id": 1017,
+      "level": 2,
+      "group_order": 1,
+      "title": null,
+      "target": null,
+      "zone": "cercle",
+      "range": 1,
+      "cumulated": 0,
+      "effects": [
+        {
+          "id": 68,
+          "group_id": "1017-2-1",
+          "effect": "gf",
+          "cc": 0,
+          "min": 21,
+          "max": 29,
+          "duration": 0,
+          "ignore_do_crit": 0
+        }
+      ]
+    }
+  ]
+}
+
+================================================================================
+NIVEAU DU SORT 3
+================================================================================
+- Niveau requis du personnage : 70
+
+Caractéristiques :
+- 3 PA [pa]
+- 1 - 3 Portée [po]
+- Lancer en ligne [lel] : oui
+- Relance : 3 tours [ir]
+
+Groupes et effets :
+
+  GROUPE D'EFFETS 1
+  - ID du groupe : 1017-3-1
+  - Ordre : 1
+  - Titre : non renseigné
+  - Cible : non renseigné
+  - Zone : Cercle de 1 case
+  - Portée de la zone (valeur brute) : 1
+  - Effets cumulés : non
+
+  Effets normaux :
+  - Glyphe Feu [gf] : 23 à 31 ; ID effet : 69
+
+  Effets critiques :
+  - Aucun
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 70,
+  "characteristics": {
+    "pa": 3,
+    "po": "1 - 3",
+    "lel": 1,
+    "ir": 3
+  },
+  "groups": [
+    {
+      "id": "1017-3-1",
+      "spell_id": 1017,
+      "level": 3,
+      "group_order": 1,
+      "title": null,
+      "target": null,
+      "zone": "cercle",
+      "range": 1,
+      "cumulated": 0,
+      "effects": [
+        {
+          "id": 69,
+          "group_id": "1017-3-1",
+          "effect": "gf",
+          "cc": 0,
+          "min": 23,
+          "max": 31,
+          "duration": 0,
+          "ignore_do_crit": 0
+        }
+      ]
+    }
+  ]
+}
+
+================================================================================
+NIVEAU DU SORT 4
+================================================================================
+- Niveau requis du personnage : 70
+
+Caractéristiques :
+- 3 PA [pa]
+- 1 - 4 Portée [po]
+- Lancer en ligne [lel] : oui
+- Relance : 3 tours [ir]
+
+Groupes et effets :
+
+  GROUPE D'EFFETS 1
+  - ID du groupe : 1017-4-1
+  - Ordre : 1
+  - Titre : non renseigné
+  - Cible : non renseigné
+  - Zone : Cercle de 1 case
+  - Portée de la zone (valeur brute) : 1
+  - Effets cumulés : non
+
+  Effets normaux :
+  - Glyphe Feu [gf] : 25 à 33 ; ID effet : 70
+
+  Effets critiques :
+  - Aucun
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 70,
+  "characteristics": {
+    "pa": 3,
+    "po": "1 - 4",
+    "lel": 1,
+    "ir": 3
+  },
+  "groups": [
+    {
+      "id": "1017-4-1",
+      "spell_id": 1017,
+      "level": 4,
+      "group_order": 1,
+      "title": null,
+      "target": null,
+      "zone": "cercle",
+      "range": 1,
+      "cumulated": 0,
+      "effects": [
+        {
+          "id": 70,
+          "group_id": "1017-4-1",
+          "effect": "gf",
+          "cc": 0,
+          "min": 25,
+          "max": 33,
+          "duration": 0,
+          "ignore_do_crit": 0
+        }
+      ]
+    }
+  ]
+}
+
+================================================================================
+NIVEAU DU SORT 5
+================================================================================
+- Niveau requis du personnage : 70
+
+Caractéristiques :
+- 3 PA [pa]
+- 1 - 4 Portée [po]
+- Lancer en ligne [lel] : oui
+- Relance : 3 tours [ir]
+
+Groupes et effets :
+
+  GROUPE D'EFFETS 1
+  - ID du groupe : 1017-5-1
+  - Ordre : 1
+  - Titre : non renseigné
+  - Cible : non renseigné
+  - Zone : Cercle de 1 case
+  - Portée de la zone (valeur brute) : 1
+  - Effets cumulés : non
+
+  Effets normaux :
+  - Glyphe Feu [gf] : 27 à 35 ; ID effet : 71
+
+  Effets critiques :
+  - Aucun
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 70,
+  "characteristics": {
+    "pa": 3,
+    "po": "1 - 4",
+    "lel": 1,
+    "ir": 3
+  },
+  "groups": [
+    {
+      "id": "1017-5-1",
+      "spell_id": 1017,
+      "level": 5,
+      "group_order": 1,
+      "title": null,
+      "target": null,
+      "zone": "cercle",
+      "range": 1,
+      "cumulated": 0,
+      "effects": [
+        {
+          "id": 71,
+          "group_id": "1017-5-1",
+          "effect": "gf",
+          "cc": 0,
+          "min": 27,
+          "max": 35,
+          "duration": 0,
+          "ignore_do_crit": 0
+        }
+      ]
+    }
+  ]
+}
+
+================================================================================
+NIVEAU DU SORT 6
+================================================================================
+- Niveau requis du personnage : 170
+
+Caractéristiques :
+- 3 PA [pa]
+- 1 - 5 Portée [po]
+- Lancer en ligne [lel] : oui
+- Relance : 2 tours [ir]
+
+Groupes et effets :
+
+  GROUPE D'EFFETS 1
+  - ID du groupe : 1017-6-1
+  - Ordre : 1
+  - Titre : non renseigné
+  - Cible : non renseigné
+  - Zone : Cercle de 1 case
+  - Portée de la zone (valeur brute) : 1
+  - Effets cumulés : non
+
+  Effets normaux :
+  - Glyphe Feu [gf] : 27 à 35 ; ID effet : 72
+
+  Effets critiques :
+  - Aucun
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 170,
+  "characteristics": {
+    "pa": 3,
+    "po": "1 - 5",
+    "lel": 1,
+    "ir": 2
+  },
+  "groups": [
+    {
+      "id": "1017-6-1",
+      "spell_id": 1017,
+      "level": 6,
+      "group_order": 1,
+      "title": null,
+      "target": null,
+      "zone": "cercle",
+      "range": 1,
+      "cumulated": 0,
+      "effects": [
+        {
+          "id": 72,
+          "group_id": "1017-6-1",
+          "effect": "gf",
+          "cc": 0,
+          "min": 27,
+          "max": 35,
+          "duration": 0,
+          "ignore_do_crit": 0
+        }
+      ]
+    }
+  ]
+}
+
+Données techniques originales complètes du sort :
+{
+  "id": 1017,
+  "class_id": 1,
+  "spell_id": 17,
+  "icon": null,
+  "level1": 70,
+  "level2": 70,
+  "level3": 70,
+  "level4": 70,
+  "level5": 70,
+  "level6": 170,
+  "is_variante": 0,
+  "is_passif": 0,
+  "is_invoc": 0,
+  "name_fallback": "Glyphe Enflammé",
+  "description_fallback": "Ce glyphe brûle les personnes se trouvant dans sa zone.",
+  "name": "Glyphe Enflammé",
+  "description": "Ce glyphe brûle les personnes se trouvant dans sa zone.",
+  "caracs": [
+    {
+      "pa": 4,
+      "po": "1 - 3",
+      "lel": 1,
+      "ir": 3
+    },
+    {
+      "pa": 4,
+      "po": "1 - 3",
+      "lel": 1,
+      "ir": 3
+    },
+    {
+      "pa": 3,
+      "po": "1 - 3",
+      "lel": 1,
+      "ir": 3
+    },
+    {
+      "pa": 3,
+      "po": "1 - 4",
+      "lel": 1,
+      "ir": 3
+    },
+    {
+      "pa": 3,
+      "po": "1 - 4",
+      "lel": 1,
+      "ir": 3
+    },
+    {
+      "pa": 3,
+      "po": "1 - 5",
+      "lel": 1,
+      "ir": 2
+    }
+  ],
+  "invocs": [],
+  "groups": [
+    {
+      "id": "1017-1-1",
+      "spell_id": 1017,
+      "level": 1,
+      "group_order": 1,
+      "title": null,
+      "target": null,
+      "zone": "cercle",
+      "range": 1,
+      "cumulated": 0,
+      "effects": [
+        {
+          "id": 67,
+          "group_id": "1017-1-1",
+          "effect": "gf",
+          "cc": 0,
+          "min": 19,
+          "max": 27,
+          "duration": 0,
+          "ignore_do_crit": 0
+        }
+      ]
+    },
+    {
+      "id": "1017-2-1",
+      "spell_id": 1017,
+      "level": 2,
+      "group_order": 1,
+      "title": null,
+      "target": null,
+      "zone": "cercle",
+      "range": 1,
+      "cumulated": 0,
+      "effects": [
+        {
+          "id": 68,
+          "group_id": "1017-2-1",
+          "effect": "gf",
+          "cc": 0,
+          "min": 21,
+          "max": 29,
+          "duration": 0,
+          "ignore_do_crit": 0
+        }
+      ]
+    },
+    {
+      "id": "1017-3-1",
+      "spell_id": 1017,
+      "level": 3,
+      "group_order": 1,
+      "title": null,
+      "target": null,
+      "zone": "cercle",
+      "range": 1,
+      "cumulated": 0,
+      "effects": [
+        {
+          "id": 69,
+          "group_id": "1017-3-1",
+          "effect": "gf",
+          "cc": 0,
+          "min": 23,
+          "max": 31,
+          "duration": 0,
+          "ignore_do_crit": 0
+        }
+      ]
+    },
+    {
+      "id": "1017-4-1",
+      "spell_id": 1017,
+      "level": 4,
+      "group_order": 1,
+      "title": null,
+      "target": null,
+      "zone": "cercle",
+      "range": 1,
+      "cumulated": 0,
+      "effects": [
+        {
+          "id": 70,
+          "group_id": "1017-4-1",
+          "effect": "gf",
+          "cc": 0,
+          "min": 25,
+          "max": 33,
+          "duration": 0,
+          "ignore_do_crit": 0
+        }
+      ]
+    },
+    {
+      "id": "1017-5-1",
+      "spell_id": 1017,
+      "level": 5,
+      "group_order": 1,
+      "title": null,
+      "target": null,
+      "zone": "cercle",
+      "range": 1,
+      "cumulated": 0,
+      "effects": [
+        {
+          "id": 71,
+          "group_id": "1017-5-1",
+          "effect": "gf",
+          "cc": 0,
+          "min": 27,
+          "max": 35,
+          "duration": 0,
+          "ignore_do_crit": 0
+        }
+      ]
+    },
+    {
+      "id": "1017-6-1",
+      "spell_id": 1017,
+      "level": 6,
+      "group_order": 1,
+      "title": null,
+      "target": null,
+      "zone": "cercle",
+      "range": 1,
+      "cumulated": 0,
+      "effects": [
+        {
+          "id": 72,
+          "group_id": "1017-6-1",
+          "effect": "gf",
+          "cc": 0,
+          "min": 27,
+          "max": 35,
+          "duration": 0,
+          "ignore_do_crit": 0
+        }
+      ]
+    }
+  ]
+}
+
+
+################################################################################
+SORT 18/22 : Bouclier Féca
+################################################################################
+
+Identification :
+- ID interne : 1018
+- ID du sort dans la classe : 18
+- ID de classe : 1
+- Icône locale : images sort/18-bouclier-feca.png
+
+Description :
+Ce bouclier réduit (en pourcentage) kes dégats reçus.
+
+Propriétés générales :
+- Variante : non
+- Passif : non
+- Invocation : non
+
+================================================================================
+NIVEAU DU SORT 1
+================================================================================
+- Niveau requis du personnage : 80
+
+Caractéristiques :
+- 4 PA [pa]
+- 0 - 1 Portée [po]
+- 1/40 CC [cc]
+- 1/40 CC tot [cc_rate]
+- Lancer en ligne [lel] : oui
+- Ø ligne de vue [ldv] : oui
+- Relance : 6 tours [ir]
+
+Groupes et effets :
+- Aucun effet renseigné pour ce niveau.
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 80,
+  "characteristics": {
+    "pa": 4,
+    "po": "0 - 1",
+    "cc": 40,
+    "cc_rate": 40,
+    "lel": 1,
+    "ldv": 1,
+    "ir": 6
+  },
+  "groups": []
+}
+
+================================================================================
+NIVEAU DU SORT 2
+================================================================================
+- Niveau requis du personnage : 80
+
+Caractéristiques :
+- 4 PA [pa]
+- 0 - 1 Portée [po]
+- 1/40 CC [cc]
+- 1/40 CC tot [cc_rate]
+- Lancer en ligne [lel] : oui
+- Ø ligne de vue [ldv] : oui
+- Relance : 6 tours [ir]
+
+Groupes et effets :
+- Aucun effet renseigné pour ce niveau.
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 80,
+  "characteristics": {
+    "pa": 4,
+    "po": "0 - 1",
+    "cc": 40,
+    "cc_rate": 40,
+    "lel": 1,
+    "ldv": 1,
+    "ir": 6
+  },
+  "groups": []
+}
+
+================================================================================
+NIVEAU DU SORT 3
+================================================================================
+- Niveau requis du personnage : 80
+
+Caractéristiques :
+- 4 PA [pa]
+- 0 - 1 Portée [po]
+- 1/40 CC [cc]
+- 1/40 CC tot [cc_rate]
+- Lancer en ligne [lel] : oui
+- Ø ligne de vue [ldv] : oui
+- Relance : 6 tours [ir]
+
+Groupes et effets :
+- Aucun effet renseigné pour ce niveau.
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 80,
+  "characteristics": {
+    "pa": 4,
+    "po": "0 - 1",
+    "cc": 40,
+    "cc_rate": 40,
+    "lel": 1,
+    "ldv": 1,
+    "ir": 6
+  },
+  "groups": []
+}
+
+================================================================================
+NIVEAU DU SORT 4
+================================================================================
+- Niveau requis du personnage : 80
+
+Caractéristiques :
+- 4 PA [pa]
+- 0 - 1 Portée [po]
+- 1/40 CC [cc]
+- 1/40 CC tot [cc_rate]
+- Lancer en ligne [lel] : oui
+- Ø ligne de vue [ldv] : oui
+- Relance : 6 tours [ir]
+
+Groupes et effets :
+- Aucun effet renseigné pour ce niveau.
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 80,
+  "characteristics": {
+    "pa": 4,
+    "po": "0 - 1",
+    "cc": 40,
+    "cc_rate": 40,
+    "lel": 1,
+    "ldv": 1,
+    "ir": 6
+  },
+  "groups": []
+}
+
+================================================================================
+NIVEAU DU SORT 5
+================================================================================
+- Niveau requis du personnage : 80
+
+Caractéristiques :
+- 4 PA [pa]
+- 0 - 1 Portée [po]
+- 1/40 CC [cc]
+- 1/40 CC tot [cc_rate]
+- Lancer en ligne [lel] : oui
+- Ø ligne de vue [ldv] : oui
+- Relance : 6 tours [ir]
+
+Groupes et effets :
+- Aucun effet renseigné pour ce niveau.
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 80,
+  "characteristics": {
+    "pa": 4,
+    "po": "0 - 1",
+    "cc": 40,
+    "cc_rate": 40,
+    "lel": 1,
+    "ldv": 1,
+    "ir": 6
+  },
+  "groups": []
+}
+
+================================================================================
+NIVEAU DU SORT 6
+================================================================================
+- Niveau requis du personnage : 180
+
+Caractéristiques :
+- 3 PA [pa]
+- 0 - 1 Portée [po]
+- 1/40 CC [cc]
+- 1/40 CC tot [cc_rate]
+- Lancer en ligne [lel] : oui
+- Ø ligne de vue [ldv] : oui
+- Relance : 6 tours [ir]
+
+Groupes et effets :
+- Aucun effet renseigné pour ce niveau.
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 180,
+  "characteristics": {
+    "pa": 3,
+    "po": "0 - 1",
+    "cc": 40,
+    "cc_rate": 40,
+    "lel": 1,
+    "ldv": 1,
+    "ir": 6
+  },
+  "groups": []
+}
+
+Données techniques originales complètes du sort :
+{
+  "id": 1018,
+  "class_id": 1,
+  "spell_id": 18,
+  "icon": null,
+  "level1": 80,
+  "level2": 80,
+  "level3": 80,
+  "level4": 80,
+  "level5": 80,
+  "level6": 180,
+  "is_variante": 0,
+  "is_passif": 0,
+  "is_invoc": 0,
+  "name_fallback": "Bouclier Féca",
+  "description_fallback": "Ce bouclier réduit (en pourcentage) kes dégats reçus.",
+  "name": "Bouclier Féca",
+  "description": "Ce bouclier réduit (en pourcentage) kes dégats reçus.",
+  "caracs": [
+    {
+      "pa": 4,
+      "po": "0 - 1",
+      "cc": 40,
+      "cc_rate": 40,
+      "lel": 1,
+      "ldv": 1,
+      "ir": 6
+    },
+    {
+      "pa": 4,
+      "po": "0 - 1",
+      "cc": 40,
+      "cc_rate": 40,
+      "lel": 1,
+      "ldv": 1,
+      "ir": 6
+    },
+    {
+      "pa": 4,
+      "po": "0 - 1",
+      "cc": 40,
+      "cc_rate": 40,
+      "lel": 1,
+      "ldv": 1,
+      "ir": 6
+    },
+    {
+      "pa": 4,
+      "po": "0 - 1",
+      "cc": 40,
+      "cc_rate": 40,
+      "lel": 1,
+      "ldv": 1,
+      "ir": 6
+    },
+    {
+      "pa": 4,
+      "po": "0 - 1",
+      "cc": 40,
+      "cc_rate": 40,
+      "lel": 1,
+      "ldv": 1,
+      "ir": 6
+    },
+    {
+      "pa": 3,
+      "po": "0 - 1",
+      "cc": 40,
+      "cc_rate": 40,
+      "lel": 1,
+      "ldv": 1,
+      "ir": 6
+    }
+  ],
+  "invocs": [],
+  "groups": []
+}
+
+
+################################################################################
+SORT 19/22 : Glyphe d'immobilisation
+################################################################################
+
+Identification :
+- ID interne : 1019
+- ID du sort dans la classe : 19
+- ID de classe : 1
+- Icône locale : images sort/19-glyphe-d-immobilisation.png
+
+Description :
+Ce glyphe immobilise tous les joueurs, alliés comme ennemis.
+
+Propriétés générales :
+- Variante : non
+- Passif : non
+- Invocation : non
+
+================================================================================
+NIVEAU DU SORT 1
+================================================================================
+- Niveau requis du personnage : 90
+
+Caractéristiques :
+- 3 PA [pa]
+- 0 - 3 Portée [po]
+- Ø ligne de vue [ldv] : oui
+- Relance : 10 tours [ir]
+
+Groupes et effets :
+- Aucun effet renseigné pour ce niveau.
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 90,
+  "characteristics": {
+    "pa": 3,
+    "po": "0 - 3",
+    "ldv": 1,
+    "ir": 10
+  },
+  "groups": []
+}
+
+================================================================================
+NIVEAU DU SORT 2
+================================================================================
+- Niveau requis du personnage : 90
+
+Caractéristiques :
+- 3 PA [pa]
+- 0 - 4 Portée [po]
+- Ø ligne de vue [ldv] : oui
+- Relance : 9 tours [ir]
+
+Groupes et effets :
+- Aucun effet renseigné pour ce niveau.
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 90,
+  "characteristics": {
+    "pa": 3,
+    "po": "0 - 4",
+    "ldv": 1,
+    "ir": 9
+  },
+  "groups": []
+}
+
+================================================================================
+NIVEAU DU SORT 3
+================================================================================
+- Niveau requis du personnage : 90
+
+Caractéristiques :
+- 3 PA [pa]
+- 0 - 4 Portée [po]
+- Ø ligne de vue [ldv] : oui
+- Relance : 8 tours [ir]
+
+Groupes et effets :
+- Aucun effet renseigné pour ce niveau.
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 90,
+  "characteristics": {
+    "pa": 3,
+    "po": "0 - 4",
+    "ldv": 1,
+    "ir": 8
+  },
+  "groups": []
+}
+
+================================================================================
+NIVEAU DU SORT 4
+================================================================================
+- Niveau requis du personnage : 90
+
+Caractéristiques :
+- 3 PA [pa]
+- 0 - 5 Portée [po]
+- Ø ligne de vue [ldv] : oui
+- Relance : 7 tours [ir]
+
+Groupes et effets :
+- Aucun effet renseigné pour ce niveau.
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 90,
+  "characteristics": {
+    "pa": 3,
+    "po": "0 - 5",
+    "ldv": 1,
+    "ir": 7
+  },
+  "groups": []
+}
+
+================================================================================
+NIVEAU DU SORT 5
+================================================================================
+- Niveau requis du personnage : 90
+
+Caractéristiques :
+- 3 PA [pa]
+- 0 - 5 Portée [po]
+- Ø ligne de vue [ldv] : oui
+- Relance : 6 tours [ir]
+
+Groupes et effets :
+- Aucun effet renseigné pour ce niveau.
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 90,
+  "characteristics": {
+    "pa": 3,
+    "po": "0 - 5",
+    "ldv": 1,
+    "ir": 6
+  },
+  "groups": []
+}
+
+================================================================================
+NIVEAU DU SORT 6
+================================================================================
+- Niveau requis du personnage : 190
+
+Caractéristiques :
+- 3 PA [pa]
+- 0 - 6 Portée [po]
+- Ø ligne de vue [ldv] : oui
+- Relance : 5 tours [ir]
+
+Groupes et effets :
+- Aucun effet renseigné pour ce niveau.
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 190,
+  "characteristics": {
+    "pa": 3,
+    "po": "0 - 6",
+    "ldv": 1,
+    "ir": 5
+  },
+  "groups": []
+}
+
+Données techniques originales complètes du sort :
+{
+  "id": 1019,
+  "class_id": 1,
+  "spell_id": 19,
+  "icon": null,
+  "level1": 90,
+  "level2": 90,
+  "level3": 90,
+  "level4": 90,
+  "level5": 90,
+  "level6": 190,
+  "is_variante": 0,
+  "is_passif": 0,
+  "is_invoc": 0,
+  "name_fallback": "Glyphe d'immobilisation",
+  "description_fallback": "Ce glyphe immobilise tous les joueurs, alliés comme ennemis.",
+  "name": "Glyphe d'immobilisation",
+  "description": "Ce glyphe immobilise tous les joueurs, alliés comme ennemis.",
+  "caracs": [
+    {
+      "pa": 3,
+      "po": "0 - 3",
+      "ldv": 1,
+      "ir": 10
+    },
+    {
+      "pa": 3,
+      "po": "0 - 4",
+      "ldv": 1,
+      "ir": 9
+    },
+    {
+      "pa": 3,
+      "po": "0 - 4",
+      "ldv": 1,
+      "ir": 8
+    },
+    {
+      "pa": 3,
+      "po": "0 - 5",
+      "ldv": 1,
+      "ir": 7
+    },
+    {
+      "pa": 3,
+      "po": "0 - 5",
+      "ldv": 1,
+      "ir": 6
+    },
+    {
+      "pa": 3,
+      "po": "0 - 6",
+      "ldv": 1,
+      "ir": 5
+    }
+  ],
+  "invocs": [],
+  "groups": []
+}
+
+
+################################################################################
+SORT 20/22 : Glyphe de Silence
+################################################################################
+
+Identification :
+- ID interne : 1020
+- ID du sort dans la classe : 20
+- ID de classe : 1
+- Icône locale : images sort/20-glyphe-de-silence.png
+
+Description :
+Ce glyphe empêche les joueurs se trouvant dans sa zone de lancer des sorts.
+
+Propriétés générales :
+- Variante : non
+- Passif : non
+- Invocation : non
+
+================================================================================
+NIVEAU DU SORT 1
+================================================================================
+- Niveau requis du personnage : 100
+
+Caractéristiques :
+- 6 PA [pa]
+- 0 - 1 Portée [po]
+- Lancer en ligne [lel] : oui
+- Relance : 10 tours [ir]
+
+Groupes et effets :
+- Aucun effet renseigné pour ce niveau.
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 100,
+  "characteristics": {
+    "pa": 6,
+    "po": "0 - 1",
+    "lel": 1,
+    "ir": 10
+  },
+  "groups": []
+}
+
+================================================================================
+NIVEAU DU SORT 2
+================================================================================
+- Niveau requis du personnage : 100
+
+Caractéristiques :
+- 6 PA [pa]
+- 0 - 1 Portée [po]
+- Lancer en ligne [lel] : oui
+- Relance : 10 tours [ir]
+
+Groupes et effets :
+- Aucun effet renseigné pour ce niveau.
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 100,
+  "characteristics": {
+    "pa": 6,
+    "po": "0 - 1",
+    "lel": 1,
+    "ir": 10
+  },
+  "groups": []
+}
+
+================================================================================
+NIVEAU DU SORT 3
+================================================================================
+- Niveau requis du personnage : 100
+
+Caractéristiques :
+- 6 PA [pa]
+- 0 - 1 Portée [po]
+- Lancer en ligne [lel] : oui
+- Relance : 9 tours [ir]
+
+Groupes et effets :
+- Aucun effet renseigné pour ce niveau.
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 100,
+  "characteristics": {
+    "pa": 6,
+    "po": "0 - 1",
+    "lel": 1,
+    "ir": 9
+  },
+  "groups": []
+}
+
+================================================================================
+NIVEAU DU SORT 4
+================================================================================
+- Niveau requis du personnage : 100
+
+Caractéristiques :
+- 6 PA [pa]
+- 0 - 1 Portée [po]
+- Lancer en ligne [lel] : oui
+- Relance : 8 tours [ir]
+
+Groupes et effets :
+- Aucun effet renseigné pour ce niveau.
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 100,
+  "characteristics": {
+    "pa": 6,
+    "po": "0 - 1",
+    "lel": 1,
+    "ir": 8
+  },
+  "groups": []
+}
+
+================================================================================
+NIVEAU DU SORT 5
+================================================================================
+- Niveau requis du personnage : 100
+
+Caractéristiques :
+- 6 PA [pa]
+- 0 - 2 Portée [po]
+- Lancer en ligne [lel] : oui
+- Relance : 7 tours [ir]
+
+Groupes et effets :
+- Aucun effet renseigné pour ce niveau.
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 100,
+  "characteristics": {
+    "pa": 6,
+    "po": "0 - 2",
+    "lel": 1,
+    "ir": 7
+  },
+  "groups": []
+}
+
+================================================================================
+NIVEAU DU SORT 6
+================================================================================
+- Niveau requis du personnage : 200
+
+Caractéristiques :
+- 4 PA [pa]
+- 0 - 3 Portée [po]
+- Lancer en ligne [lel] : oui
+- Relance : 6 tours [ir]
+
+Groupes et effets :
+- Aucun effet renseigné pour ce niveau.
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 200,
+  "characteristics": {
+    "pa": 4,
+    "po": "0 - 3",
+    "lel": 1,
+    "ir": 6
+  },
+  "groups": []
+}
+
+Données techniques originales complètes du sort :
+{
+  "id": 1020,
+  "class_id": 1,
+  "spell_id": 20,
+  "icon": null,
+  "level1": 100,
+  "level2": 100,
+  "level3": 100,
+  "level4": 100,
+  "level5": 100,
+  "level6": 200,
+  "is_variante": 0,
+  "is_passif": 0,
+  "is_invoc": 0,
+  "name_fallback": "Glyphe de Silence",
+  "description_fallback": "Ce glyphe empêche les joueurs se trouvant dans sa zone de lancer des sorts.",
+  "name": "Glyphe de Silence",
+  "description": "Ce glyphe empêche les joueurs se trouvant dans sa zone de lancer des sorts.",
+  "caracs": [
+    {
+      "pa": 6,
+      "po": "0 - 1",
+      "lel": 1,
+      "ir": 10
+    },
+    {
+      "pa": 6,
+      "po": "0 - 1",
+      "lel": 1,
+      "ir": 10
+    },
+    {
+      "pa": 6,
+      "po": "0 - 1",
+      "lel": 1,
+      "ir": 9
+    },
+    {
+      "pa": 6,
+      "po": "0 - 1",
+      "lel": 1,
+      "ir": 8
+    },
+    {
+      "pa": 6,
+      "po": "0 - 2",
+      "lel": 1,
+      "ir": 7
+    },
+    {
+      "pa": 4,
+      "po": "0 - 3",
+      "lel": 1,
+      "ir": 6
+    }
+  ],
+  "invocs": [],
+  "groups": []
+}
+
+
+################################################################################
+SORT 21/22 : Invocation de Dopeul Féca
+################################################################################
+
+Identification :
+- ID interne : 1021
+- ID du sort dans la classe : 21
+- ID de classe : 1
+- Icône locale : images sort/21-invocation-de-dopeul-feca.png
+
+Description :
+Ce sort permet d'invoquer un Dopeul Féca qui aidera son maître pendant les combats.
+
+Propriétés générales :
+- Variante : non
+- Passif : non
+- Invocation : oui
+
+================================================================================
+NIVEAU DU SORT 1
+================================================================================
+- Niveau requis du personnage : 200
+
+Caractéristiques :
+- 8 PA [pa]
+- 1 Portée [po]
+- Ø ligne de vue [ldv] : oui
+- Relance : 10 tours [ir]
+
+Groupes et effets :
+- Aucun effet renseigné pour ce niveau.
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 200,
+  "characteristics": {
+    "pa": 8,
+    "po": "1",
+    "ldv": 1,
+    "ir": 10
+  },
+  "groups": []
+}
+
+================================================================================
+NIVEAU DU SORT 2
+================================================================================
+- Niveau requis du personnage : 200
+
+Caractéristiques :
+- 8 PA [pa]
+- 1 Portée [po]
+- Ø ligne de vue [ldv] : oui
+- Relance : 10 tours [ir]
+
+Groupes et effets :
+- Aucun effet renseigné pour ce niveau.
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 200,
+  "characteristics": {
+    "pa": 8,
+    "po": "1",
+    "ldv": 1,
+    "ir": 10
+  },
+  "groups": []
+}
+
+================================================================================
+NIVEAU DU SORT 3
+================================================================================
+- Niveau requis du personnage : 200
+
+Caractéristiques :
+- 8 PA [pa]
+- 1 Portée [po]
+- Ø ligne de vue [ldv] : oui
+- Relance : 10 tours [ir]
+
+Groupes et effets :
+- Aucun effet renseigné pour ce niveau.
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 200,
+  "characteristics": {
+    "pa": 8,
+    "po": "1",
+    "ldv": 1,
+    "ir": 10
+  },
+  "groups": []
+}
+
+================================================================================
+NIVEAU DU SORT 4
+================================================================================
+- Niveau requis du personnage : 200
+
+Caractéristiques :
+- 8 PA [pa]
+- 1 Portée [po]
+- Ø ligne de vue [ldv] : oui
+- Relance : 10 tours [ir]
+
+Groupes et effets :
+- Aucun effet renseigné pour ce niveau.
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 200,
+  "characteristics": {
+    "pa": 8,
+    "po": "1",
+    "ldv": 1,
+    "ir": 10
+  },
+  "groups": []
+}
+
+================================================================================
+NIVEAU DU SORT 5
+================================================================================
+- Niveau requis du personnage : 200
+
+Caractéristiques :
+- 8 PA [pa]
+- 1 Portée [po]
+- Ø ligne de vue [ldv] : oui
+- Relance : 10 tours [ir]
+
+Groupes et effets :
+- Aucun effet renseigné pour ce niveau.
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 200,
+  "characteristics": {
+    "pa": 8,
+    "po": "1",
+    "ldv": 1,
+    "ir": 10
+  },
+  "groups": []
+}
+
+================================================================================
+NIVEAU DU SORT 6
+================================================================================
+- Niveau requis du personnage : 200
+
+Caractéristiques :
+- 8 PA [pa]
+- 1 Portée [po]
+- Ø ligne de vue [ldv] : oui
+- Relance : 10 tours [ir]
+
+Groupes et effets :
+- Aucun effet renseigné pour ce niveau.
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 200,
+  "characteristics": {
+    "pa": 8,
+    "po": "1",
+    "ldv": 1,
+    "ir": 10
+  },
+  "groups": []
+}
+
+Données techniques originales complètes du sort :
+{
+  "id": 1021,
+  "class_id": 1,
+  "spell_id": 21,
+  "icon": null,
+  "level1": 200,
+  "level2": 200,
+  "level3": 200,
+  "level4": 200,
+  "level5": 200,
+  "level6": 200,
+  "is_variante": 0,
+  "is_passif": 0,
+  "is_invoc": 1,
+  "name_fallback": "Invocation de Dopeul Féca",
+  "description_fallback": "Ce sort permet d'invoquer un Dopeul Féca qui aidera son maître pendant les combats.",
+  "name": "Invocation de Dopeul Féca",
+  "description": "Ce sort permet d'invoquer un Dopeul Féca qui aidera son maître pendant les combats.",
+  "caracs": [
+    {
+      "pa": 8,
+      "po": "1",
+      "ldv": 1,
+      "ir": 10
+    },
+    {
+      "pa": 8,
+      "po": "1",
+      "ldv": 1,
+      "ir": 10
+    },
+    {
+      "pa": 8,
+      "po": "1",
+      "ldv": 1,
+      "ir": 10
+    },
+    {
+      "pa": 8,
+      "po": "1",
+      "ldv": 1,
+      "ir": 10
+    },
+    {
+      "pa": 8,
+      "po": "1",
+      "ldv": 1,
+      "ir": 10
+    },
+    {
+      "pa": 8,
+      "po": "1",
+      "ldv": 1,
+      "ir": 10
+    }
+  ],
+  "invocs": [],
+  "groups": []
+}
+
+
+################################################################################
+SORT 22/22 : Mise en garde
+################################################################################
+
+Identification :
+- ID interne : 1022
+- ID du sort dans la classe : 22
+- ID de classe : 1
+- Icône locale : images sort/22-mise-en-garde.png
+
+Description :
+Augmente l'armure d'un allié mais l'empêche d'utiliser une arme.
+
+Propriétés générales :
+- Variante : non
+- Passif : non
+- Invocation : non
+
+================================================================================
+NIVEAU DU SORT 1
+================================================================================
+- Niveau requis du personnage : 0
+
+Caractéristiques :
+- 1 PA [pa]
+- 0 - 1 Portée [po]
+- 1/40 CC [cc]
+- 1/40 CC tot [cc_rate]
+- PO modifiable [pb] : oui
+- 1 lancer par tour [lt]
+- 1 lancer par cible [ltj]
+
+Groupes et effets :
+- Aucun effet renseigné pour ce niveau.
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 0,
+  "characteristics": {
+    "pa": 1,
+    "po": "0 - 1",
+    "cc": 40,
+    "cc_rate": 40,
+    "pb": 1,
+    "lt": 1,
+    "ltj": 1
+  },
+  "groups": []
+}
+
+================================================================================
+NIVEAU DU SORT 2
+================================================================================
+- Niveau requis du personnage : 0
+
+Caractéristiques :
+- 1 PA [pa]
+- 0 - 2 Portée [po]
+- 1/40 CC [cc]
+- 1/40 CC tot [cc_rate]
+- PO modifiable [pb] : oui
+- 2 lancer par tour [lt]
+- 1 lancer par cible [ltj]
+
+Groupes et effets :
+- Aucun effet renseigné pour ce niveau.
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 0,
+  "characteristics": {
+    "pa": 1,
+    "po": "0 - 2",
+    "cc": 40,
+    "cc_rate": 40,
+    "pb": 1,
+    "lt": 2,
+    "ltj": 1
+  },
+  "groups": []
+}
+
+================================================================================
+NIVEAU DU SORT 3
+================================================================================
+- Niveau requis du personnage : 0
+
+Caractéristiques :
+- 1 PA [pa]
+- 0 - 3 Portée [po]
+- 1/40 CC [cc]
+- 1/40 CC tot [cc_rate]
+- PO modifiable [pb] : oui
+- 3 lancer par tour [lt]
+- 1 lancer par cible [ltj]
+
+Groupes et effets :
+- Aucun effet renseigné pour ce niveau.
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 0,
+  "characteristics": {
+    "pa": 1,
+    "po": "0 - 3",
+    "cc": 40,
+    "cc_rate": 40,
+    "pb": 1,
+    "lt": 3,
+    "ltj": 1
+  },
+  "groups": []
+}
+
+================================================================================
+NIVEAU DU SORT 4
+================================================================================
+- Niveau requis du personnage : 0
+
+Caractéristiques :
+- 1 PA [pa]
+- 0 - 4 Portée [po]
+- 1/40 CC [cc]
+- 1/40 CC tot [cc_rate]
+- PO modifiable [pb] : oui
+- 4 lancer par tour [lt]
+- 1 lancer par cible [ltj]
+
+Groupes et effets :
+- Aucun effet renseigné pour ce niveau.
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 0,
+  "characteristics": {
+    "pa": 1,
+    "po": "0 - 4",
+    "cc": 40,
+    "cc_rate": 40,
+    "pb": 1,
+    "lt": 4,
+    "ltj": 1
+  },
+  "groups": []
+}
+
+================================================================================
+NIVEAU DU SORT 5
+================================================================================
+- Niveau requis du personnage : 0
+
+Caractéristiques :
+- 1 PA [pa]
+- 0 - 5 Portée [po]
+- 1/40 CC [cc]
+- 1/40 CC tot [cc_rate]
+- PO modifiable [pb] : oui
+- 5 lancer par tour [lt]
+- 1 lancer par cible [ltj]
+
+Groupes et effets :
+- Aucun effet renseigné pour ce niveau.
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 0,
+  "characteristics": {
+    "pa": 1,
+    "po": "0 - 5",
+    "cc": 40,
+    "cc_rate": 40,
+    "pb": 1,
+    "lt": 5,
+    "ltj": 1
+  },
+  "groups": []
+}
+
+================================================================================
+NIVEAU DU SORT 6
+================================================================================
+- Niveau requis du personnage : 100
+
+Caractéristiques :
+- 1 PA [pa]
+- 0 - 7 Portée [po]
+- 1/40 CC [cc]
+- 1/40 CC tot [cc_rate]
+- PO modifiable [pb] : oui
+- 6 lancer par tour [lt]
+- 1 lancer par cible [ltj]
+
+Groupes et effets :
+- Aucun effet renseigné pour ce niveau.
+
+Données techniques brutes de ce niveau :
+{
+  "requiredLevel": 100,
+  "characteristics": {
+    "pa": 1,
+    "po": "0 - 7",
+    "cc": 40,
+    "cc_rate": 40,
+    "pb": 1,
+    "lt": 6,
+    "ltj": 1
+  },
+  "groups": []
+}
+
+Données techniques originales complètes du sort :
+{
+  "id": 1022,
+  "class_id": 1,
+  "spell_id": 22,
+  "icon": null,
+  "level1": 0,
+  "level2": 0,
+  "level3": 0,
+  "level4": 0,
+  "level5": 0,
+  "level6": 100,
+  "is_variante": 0,
+  "is_passif": 0,
+  "is_invoc": 0,
+  "name_fallback": "Mise en garde",
+  "description_fallback": "Augmente l'armure d'un allié mais l'empêche d'utiliser une arme.",
+  "name": "Mise en garde",
+  "description": "Augmente l'armure d'un allié mais l'empêche d'utiliser une arme.",
+  "caracs": [
+    {
+      "pa": 1,
+      "po": "0 - 1",
+      "cc": 40,
+      "cc_rate": 40,
+      "pb": 1,
+      "lt": 1,
+      "ltj": 1
+    },
+    {
+      "pa": 1,
+      "po": "0 - 2",
+      "cc": 40,
+      "cc_rate": 40,
+      "pb": 1,
+      "lt": 2,
+      "ltj": 1
+    },
+    {
+      "pa": 1,
+      "po": "0 - 3",
+      "cc": 40,
+      "cc_rate": 40,
+      "pb": 1,
+      "lt": 3,
+      "ltj": 1
+    },
+    {
+      "pa": 1,
+      "po": "0 - 4",
+      "cc": 40,
+      "cc_rate": 40,
+      "pb": 1,
+      "lt": 4,
+      "ltj": 1
+    },
+    {
+      "pa": 1,
+      "po": "0 - 5",
+      "cc": 40,
+      "cc_rate": 40,
+      "pb": 1,
+      "lt": 5,
+      "ltj": 1
+    },
+    {
+      "pa": 1,
+      "po": "0 - 7",
+      "cc": 40,
+      "cc_rate": 40,
+      "pb": 1,
+      "lt": 6,
+      "ltj": 1
+    }
+  ],
+  "invocs": [],
+  "groups": []
+}
+

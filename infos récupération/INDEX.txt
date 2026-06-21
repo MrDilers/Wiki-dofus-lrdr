@@ -1,0 +1,24 @@
+RÉCUPÉRATION DES SORTS DOFUS RETRO
+==================================
+
+Source : https://retro.dofusbook.net/fr/encyclopedie/sorts/
+Date de récupération : 2026-06-21
+
+- Féca (classe 1) : 22 sorts
+- Osamodas (classe 2) : 22 sorts
+- Enutrof (classe 3) : 22 sorts
+- Sram (classe 4) : 22 sorts
+- Xélor (classe 5) : 22 sorts
+- Ecaflip (classe 6) : 22 sorts
+- Eniripsa (classe 7) : 22 sorts
+- Iop (classe 8) : 22 sorts
+- Crâ (classe 9) : 22 sorts
+- Sadida (classe 10) : 22 sorts
+- Sacrieur (classe 11) : 22 sorts
+- Pandawa (classe 12) : 22 sorts
+
+Total : 264 sorts et icônes
+
+Organisation de chaque dossier :
+- sorts.txt : informations lisibles, niveaux 1 à 6 et données techniques complètes.
+- images sort : icônes originales des sorts, nommées et ordonnées.
