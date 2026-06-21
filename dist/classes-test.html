@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Wiki LRDR - Classes test</title>
+    <link rel="stylesheet" href="assets/classes-test.css?v=1">
+  </head>
+  <body>
+    <header class="test-topbar">
+      <a class="test-brand" href="index.html" aria-label="Accueil La Revanche de Rétro">
+        <span class="test-brand-mark">LR</span>
+        <span><strong>La Revanche de Rétro</strong><small>Encyclopédie des sorts</small></span>
+      </a>
+      <nav aria-label="Navigation principale">
+        <a href="index.html">Accueil</a>
+        <a href="classes.html">Classes</a>
+        <a class="active" href="classes-test.html" aria-current="page">Classes test</a>
+        <a href="wiki.html">Wiki</a>
+      </nav>
+    </header>
+
+    <main class="test-main">
+      <section class="class-browser" aria-labelledby="pageTitle">
+        <div class="browser-heading">
+          <div>
+            <p>Encyclopédie</p>
+            <h1 id="pageTitle">Sorts modifiés</h1>
+          </div>
+          <label class="spell-search">
+            <span>Rechercher un sort</span>
+            <input id="testSearch" type="search" placeholder="Nom, effet, élément...">
+          </label>
+        </div>
+
+        <div id="testClassPicker" class="class-picker" role="tablist" aria-label="Choisir une classe"></div>
+      </section>
+
+      <section class="spell-browser" aria-live="polite">
+        <header class="spell-browser-head">
+          <div class="selected-class">
+            <img id="selectedClassIcon" src="" alt="">
+            <div><small>Classe sélectionnée</small><h2 id="selectedClassName"></h2></div>
+          </div>
+          <span id="testSpellCount"></span>
+        </header>
+        <div id="testSpellGrid" class="test-spell-grid"></div>
+      </section>
+    </main>
+
+    <div class="test-version">Version 1.3.2 · Test</div>
+
+    <script src="data/wiki-data.js"></script>
+    <script src="data/spells-custom.js?v=1.3.2"></script>
+    <script src="assets/classes-test.js?v=1"></script>
+  </body>
+</html>
