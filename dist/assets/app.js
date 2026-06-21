@@ -10,7 +10,7 @@ const state = {
   wikiFilter: "Tous",
 };
 
-const siteVersion = "1.2.9";
+const siteVersion = "1.3.0";
 
 function versionedAsset(path) {
   return `${path}${path.includes("?") ? "&" : "?"}v=${siteVersion}`;
@@ -234,12 +234,6 @@ function renderSpellCard(spell, context = {}) {
           </div>
         </div>
       </section>
-      ${displayedSpell.sourceImage ? `
-        <details class="spell-source">
-          <summary>Source PDF</summary>
-          <img src="${escapeHtml(displayedSpell.sourceImage)}" alt="${escapeHtml(displayedSpell.name)}">
-        </details>
-      ` : ""}
     </article>
   `;
 }
