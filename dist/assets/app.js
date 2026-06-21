@@ -10,7 +10,7 @@ const state = {
   wikiFilter: "Tous",
 };
 
-const siteVersion = "1.2.8";
+const siteVersion = "1.2.9";
 
 function versionedAsset(path) {
   return `${path}${path.includes("?") ? "&" : "?"}v=${siteVersion}`;
@@ -162,7 +162,7 @@ function renderSpellEffect(effect) {
     <li class="spell-effect-row" data-element="${escapeHtml(element)}">
       ${renderElementIcon(element, "spell-effect-icon")}
       <span title="${escapeHtml(effect.text)}">${escapeHtml(effect.text)}</span>
-      ${area ? `<small class="spell-effect-area" title="Zone de ${area} cases"><span class="spell-zone-icon" aria-hidden="true"><i></i><i></i><i></i></span>${area} (C)</small>` : effect.meta ? `<small title="${escapeHtml(effect.meta)}">${escapeHtml(effect.meta)}</small>` : ""}
+      ${area || effect.meta ? `<small class="${area ? "spell-effect-area" : ""}" title="${escapeHtml([area ? `Zone de ${area} cases` : "", effect.meta || ""].filter(Boolean).join(" · "))}">${area ? `<span class="spell-zone-icon" aria-hidden="true"><i></i><i></i><i></i></span>${area} (C)` : ""}${area && effect.meta ? " · " : ""}${effect.meta ? escapeHtml(effect.meta) : ""}</small>` : ""}
     </li>
   `;
 }

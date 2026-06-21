@@ -43,12 +43,12 @@ window.LRDR_SPELL_PANELS = {
       "image": "assets/spells/sadida/page-02-04-ronce-du-chaos.png"
     },
     {
-      "name": "Ronce Reine",
+      "name": "Larme Epineuse",
       "page": 3,
       "image": "assets/spells/sadida/page-03-01-ronce-reine.png"
     },
     {
-      "name": "Ronce Epineuse",
+      "name": "Ronce des Enfers",
       "page": 3,
       "image": "assets/spells/sadida/page-03-02-ronce-epineuse.png"
     },
@@ -75,7 +75,7 @@ window.LRDR_SPELL_PANELS = {
       "image": "assets/spells/sacrieur/page-04-01-pied-du-tsunami.png"
     },
     {
-      "name": "Assaut",
+      "name": "Assaut 51",
       "page": 4,
       "image": "assets/spells/sacrieur/page-04-02-assaut.png"
     },
@@ -90,7 +90,7 @@ window.LRDR_SPELL_PANELS = {
       "image": "assets/spells/sacrieur/page-04-04-absorption-terrestre.png"
     },
     {
-      "name": "Punition Sanglante",
+      "name": "Furie Sanglantes",
       "page": 5,
       "image": "assets/spells/sacrieur/page-05-01-punition-sanglante.png"
     }
@@ -102,17 +102,17 @@ window.LRDR_SPELL_PANELS = {
       "image": "assets/spells/pandawa/page-05-02-poing-de-pierre.png"
     },
     {
-      "name": "Uppercut a la McGregor",
+      "name": "Uppercut à la McGregor",
       "page": 5,
       "image": "assets/spells/pandawa/page-05-03-uppercut-a-la-mcgregor.png"
     },
     {
-      "name": "Tempete Alcoolisee",
+      "name": "Tempête Alcoolisée",
       "page": 5,
       "image": "assets/spells/pandawa/page-05-04-tempete-alcoolisee.png"
     },
     {
-      "name": "La Charge Rocailleuse",
+      "name": "Charge Rocailleuse",
       "page": 5,
       "image": "assets/spells/pandawa/page-05-05-la-charge-rocailleuse.png"
     },
@@ -122,93 +122,93 @@ window.LRDR_SPELL_PANELS = {
       "image": "assets/spells/pandawa/page-06-01-flasque-terrestre.png"
     },
     {
-      "name": "Pandatak Enflamme",
+      "name": "Pandatak Enflammé",
       "page": 6,
       "image": "assets/spells/pandawa/page-06-02-pandatak-enflamme.png"
     }
   ],
   "feca": [
     {
-      "name": "Armure Brulante",
+      "name": "Attaque Volcanique",
       "page": 6,
       "image": "assets/spells/feca/page-06-03-armure-brulante.png"
     },
     {
-      "name": "Glyphe Protecteur",
+      "name": "Voile des Abysses",
       "page": 6,
       "image": "assets/spells/feca/page-06-04-glyphe-protecteur.png"
     },
     {
-      "name": "Retour du Baton",
+      "name": "Attaque Orageuse",
       "page": 7,
       "image": "assets/spells/feca/page-07-01-retour-du-baton.png"
     },
     {
-      "name": "Glyphe Abyssal",
+      "name": "Secousse Lointaine",
       "page": 7,
       "image": "assets/spells/feca/page-07-02-glyphe-abyssal.png"
     },
     {
-      "name": "Bulle Tellurique",
+      "name": "Poigne Tellurique",
       "page": 7,
       "image": "assets/spells/feca/page-07-03-bulle-tellurique.png"
     },
     {
-      "name": "Glyphe du Jugement",
+      "name": "Glyphe Apocalyptique",
       "page": 7,
       "image": "assets/spells/feca/page-07-04-glyphe-du-jugement.png"
     }
   ],
   "osamodas": [
     {
-      "name": "Plume du Corbeau",
+      "name": "Souffle Zéphyr",
       "page": 8,
       "image": "assets/spells/osamodas/page-08-01-plume-du-corbeau.png"
     },
     {
-      "name": "Griffe Rocheuse",
+      "name": "Fureur Sauvage",
       "page": 8,
       "image": "assets/spells/osamodas/page-08-02-griffe-rocheuse.png"
     },
     {
-      "name": "Cri Sauvage",
+      "name": "Patte Agiles",
       "page": 8,
       "image": "assets/spells/osamodas/page-08-03-cri-sauvage.png"
     },
     {
-      "name": "Benediction Bestiale",
+      "name": "Élan de la Bête",
       "page": 8,
       "image": "assets/spells/osamodas/page-08-04-benediction-bestiale.png"
     },
     {
-      "name": "Apogee de l'Alize",
+      "name": "Danse du Cyclone",
       "page": 9,
       "image": "assets/spells/osamodas/page-09-01-apogee-de-l-alize.png"
     },
     {
-      "name": "Dernier Souffle",
+      "name": "Fureur Ouragan",
       "page": 9,
       "image": "assets/spells/osamodas/page-09-02-dernier-souffle.png"
     },
     {
-      "name": "Lien Bestial",
+      "name": "Apogée de l'Alizé",
       "page": 9,
       "image": "assets/spells/osamodas/page-09-03-lien-bestial.png"
     },
     {
-      "name": "Soin Naturel",
+      "name": "Dernier Espoir",
       "page": 9,
       "image": "assets/spells/osamodas/page-09-04-soin-naturel.png"
     },
     {
-      "name": "Rage Primordiale",
+      "name": "Rage Bestiale",
       "page": 10,
       "image": "assets/spells/osamodas/page-10-01-rage-primordiale.png"
     }
   ],
   "enutrof": [
     {
-      "name": "Flammes Traitresses",
+      "name": "Flammes Traîtresses",
       "page": 10,
       "image": "assets/spells/enutrof/page-10-02-flammes-traitresses.png"
     },
@@ -218,7 +218,7 @@ window.LRDR_SPELL_PANELS = {
       "image": "assets/spells/enutrof/page-10-03-rapine-souterraine.png"
     },
     {
-      "name": "Pelle du Maree-Haut",
+      "name": "Pelle du Marée-Haut",
       "page": 10,
       "image": "assets/spells/enutrof/page-10-04-pelle-du-maree-haut.png"
     },
@@ -226,16 +226,6 @@ window.LRDR_SPELL_PANELS = {
       "name": "Pelle Terrifiante",
       "page": 10,
       "image": "assets/spells/enutrof/page-10-05-pelle-terrifiante.png"
-    },
-    {
-      "name": "Pelle du Maree-Haut",
-      "page": 11,
-      "image": "assets/spells/enutrof/page-11-01-pelle-du-maree-haut.png"
-    },
-    {
-      "name": "Pelle Terrifiante",
-      "page": 11,
-      "image": "assets/spells/enutrof/page-11-02-pelle-terrifiante.png"
     }
   ],
   "sram": [
@@ -250,7 +240,7 @@ window.LRDR_SPELL_PANELS = {
       "image": "assets/spells/sram/page-11-04-venin-abyssal.png"
     },
     {
-      "name": "Siphon des Ames",
+      "name": "Siphon des Âmes",
       "page": 12,
       "image": "assets/spells/sram/page-12-01-siphon-des-ames.png"
     },
@@ -265,14 +255,14 @@ window.LRDR_SPELL_PANELS = {
       "image": "assets/spells/sram/page-12-03-profanation-de-sanctuaire.png"
     },
     {
-      "name": "L'Etreinte des Damnes",
+      "name": "L'Étreinte des Damnés",
       "page": 12,
       "image": "assets/spells/sram/page-12-04-l-etreinte-des-damnes.png"
     }
   ],
   "xelor": [
     {
-      "name": "Gelure Spectrale",
+      "name": "Gelure Spectral",
       "page": 13,
       "image": "assets/spells/xelor/page-13-01-gelure-spectrale.png"
     },
@@ -300,11 +290,6 @@ window.LRDR_SPELL_PANELS = {
       "name": "Sablier Ardent",
       "page": 13,
       "image": "assets/spells/xelor/page-13-06-sablier-ardent.png"
-    },
-    {
-      "name": "Sablier Ardent",
-      "page": 14,
-      "image": "assets/spells/xelor/page-14-01-sablier-ardent.png"
     }
   ],
   "ecaflip": [
@@ -319,12 +304,12 @@ window.LRDR_SPELL_PANELS = {
       "image": "assets/spells/ecaflip/page-14-03-rafale-de-poker.png"
     },
     {
-      "name": "Esprit Felin",
+      "name": "Esprit Félin",
       "page": 14,
       "image": "assets/spells/ecaflip/page-14-04-esprit-felin.png"
     },
     {
-      "name": "Vague Celeste",
+      "name": "Vague Céleste",
       "page": 14,
       "image": "assets/spells/ecaflip/page-14-05-vague-celeste.png"
     },
@@ -349,36 +334,16 @@ window.LRDR_SPELL_PANELS = {
       "name": "Larme d'Ondine",
       "page": 15,
       "image": "assets/spells/eniripsa/page-15-04-larme-d-ondine.png"
-    },
-    {
-      "name": "Le Baiser Incandescent",
-      "page": 16,
-      "image": "assets/spells/eniripsa/page-16-01-le-baiser-incandescent.png"
-    },
-    {
-      "name": "Impulsion Vitale",
-      "page": 16,
-      "image": "assets/spells/eniripsa/page-16-02-impulsion-vitale.png"
-    },
-    {
-      "name": "Larme d'Ondine",
-      "page": 16,
-      "image": "assets/spells/eniripsa/page-16-03-larme-d-ondine.png"
     }
   ],
   "iop": [
     {
-      "name": "Vague du Guerrier",
+      "name": "La Vague du Guerrier",
       "page": 16,
       "image": "assets/spells/iop/page-16-04-vague-du-guerrier.png"
     },
     {
-      "name": "Vague du Guerrier",
-      "page": 17,
-      "image": "assets/spells/iop/page-17-01-vague-du-guerrier.png"
-    },
-    {
-      "name": "Couperet Ardent",
+      "name": "Flamme Divine",
       "page": 17,
       "image": "assets/spells/iop/page-17-02-couperet-ardent.png"
     },
@@ -388,7 +353,7 @@ window.LRDR_SPELL_PANELS = {
       "image": "assets/spells/iop/page-17-03-poing-epique.png"
     },
     {
-      "name": "Pression Tellurique",
+      "name": "Geyser du Colosse",
       "page": 17,
       "image": "assets/spells/iop/page-17-04-pression-tellurique.png"
     }
