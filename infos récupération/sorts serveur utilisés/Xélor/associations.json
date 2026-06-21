@@ -1,0 +1,431 @@
+{
+  "classId": 5,
+  "className": "Xélor",
+  "sourceVersions": {
+    "classes": 184,
+    "spells": 441
+  },
+  "spellCount": 21,
+  "spells": [
+    {
+      "order": 1,
+      "spellId": 81,
+      "name": "Ralentissement",
+      "description": "Le Ralentissement retire des PA à un ennemi. Un même joueur ne peut être ciblé qu'une fois par tour.",
+      "iconId": 81,
+      "icon": "images sort/01-81-ralentissement.png",
+      "variants": [
+        "images sort/variantes/01-81-ralentissement-etat-2.png",
+        "images sort/variantes/01-81-ralentissement-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 2,
+      "spellId": 83,
+      "name": "Aiguille",
+      "description": "Ce sort projette une grande aiguille sur l'adversaire pour lui infliger des dégâts de Feu.",
+      "iconId": 83,
+      "icon": "images sort/02-83-aiguille.png",
+      "variants": [
+        "images sort/variantes/02-83-aiguille-etat-2.png",
+        "images sort/variantes/02-83-aiguille-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 3,
+      "spellId": 82,
+      "name": "Contre",
+      "description": "Le Contre permet de renvoyer des dégâts.",
+      "iconId": 82,
+      "icon": "images sort/03-82-contre.png",
+      "variants": [
+        "images sort/variantes/03-82-contre-etat-2.png",
+        "images sort/variantes/03-82-contre-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 4,
+      "spellId": 84,
+      "name": "Gelure Spectral",
+      "description": "Le Xélor murmure un sort ancestral, figeant le temps lui-même. De ses mains glacées émane une bourrasque d'eau gelée, capable de pétrifier l'âme de ses ennemis. Frissons garantis pour ceux qui osent défier la danse macabre du temps.",
+      "iconId": 84,
+      "icon": "images sort/04-84-gelure-spectral.png",
+      "variants": [
+        "images sort/variantes/04-84-gelure-spectral-etat-2.png",
+        "images sort/variantes/04-84-gelure-spectral-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 5,
+      "spellId": 100,
+      "name": "Sablier de Xélor",
+      "description": "Le Sablier de Xélor inflige des dégâts de Feu et fait perdre des PA à un ennemi.",
+      "iconId": 100,
+      "icon": "images sort/05-100-sablier-de-xelor.png",
+      "variants": [
+        "images sort/variantes/05-100-sablier-de-xelor-etat-2.png",
+        "images sort/variantes/05-100-sablier-de-xelor-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 6,
+      "spellId": 92,
+      "name": "Sablier Ensoleillé",
+      "description": "La légende murmure que Xélor lui-même, dans un accès de colère, figea le temps d'une étoile filante. Le sable de cette étoile, imprégné de son courroux, se matérialisa en un sablier. Ses grains ne décomptent plus les secondes, mais écrasent les ennemis sous le poids d'un soleil ancestral, rappelant que même le temps peut être pétrifié par la furie des profondeurs.",
+      "iconId": 92,
+      "icon": "images sort/06-92-sablier-ensoleille.png",
+      "variants": [
+        "images sort/variantes/06-92-sablier-ensoleille-etat-2.png",
+        "images sort/variantes/06-92-sablier-ensoleille-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 7,
+      "spellId": 88,
+      "name": "Téléportation",
+      "description": "La Téléportation permet à un joueur de se déplacer rapidement.",
+      "iconId": 88,
+      "icon": "images sort/07-88-teleportation.png",
+      "variants": [
+        "images sort/variantes/07-88-teleportation-etat-2.png",
+        "images sort/variantes/07-88-teleportation-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 8,
+      "spellId": 93,
+      "name": "Sablier Abyssal",
+      "description": "Des profondeurs insondables de l'océan primordial, Xélor a puisé une essence liquide du temps. Chaque grain de ce sablier n'est pas de sable, mais une goutte d'un déluge ancestral, capable d'engloutir l'adversaire sous une pression aquatique inouïe, le laissant pantelant comme un poisson hors de l'eau, pris au piège des marées du temps.",
+      "iconId": 93,
+      "icon": "images sort/08-93-sablier-abyssal.png",
+      "variants": [
+        "images sort/variantes/08-93-sablier-abyssal-etat-2.png",
+        "images sort/variantes/08-93-sablier-abyssal-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 9,
+      "spellId": 85,
+      "name": "Flou",
+      "description": "Le Flou baisse les PA de tous les joueurs pour une courte durée.",
+      "iconId": 85,
+      "icon": "images sort/09-85-flou.png",
+      "variants": [
+        "images sort/variantes/09-85-flou-etat-2.png",
+        "images sort/variantes/09-85-flou-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 10,
+      "spellId": 96,
+      "name": "Poussière Temporelle",
+      "description": "La Poussière Temporelle inflige des dégâts de Feu et fait perdre des PA à plusieurs joueurs.",
+      "iconId": 96,
+      "icon": "images sort/10-96-poussiere-temporelle.png",
+      "variants": [
+        "images sort/variantes/10-96-poussiere-temporelle-etat-2.png",
+        "images sort/variantes/10-96-poussiere-temporelle-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 11,
+      "spellId": 98,
+      "name": "Vol du Temps",
+      "description": "Ce sort vole des PA à un ennemi pour les donner au lanceur.",
+      "iconId": 98,
+      "icon": "images sort/11-98-vol-du-temps.png",
+      "variants": [
+        "images sort/variantes/11-98-vol-du-temps-etat-2.png",
+        "images sort/variantes/11-98-vol-du-temps-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 12,
+      "spellId": 86,
+      "name": "Aiguille Chercheuse",
+      "description": "Ce sort permet de lancer une aiguille qui va exploser sur l'ennemi le plus proche.",
+      "iconId": 86,
+      "icon": "images sort/12-86-aiguille-chercheuse.png",
+      "variants": [
+        "images sort/variantes/12-86-aiguille-chercheuse-etat-2.png",
+        "images sort/variantes/12-86-aiguille-chercheuse-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 13,
+      "spellId": 89,
+      "name": "Engrenage Loyal",
+      "description": "Guidé par une foi sans faille en sa mission, le Xélor invoque l’énergie du temps pour renforcer ses alliés, sacrifiant ses propres heures pour faire avancer leur destinée.",
+      "iconId": 89,
+      "icon": "images sort/13-89-engrenage-loyal.png",
+      "variants": [
+        "images sort/variantes/13-89-engrenage-loyal-etat-2.png",
+        "images sort/variantes/13-89-engrenage-loyal-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 14,
+      "spellId": 90,
+      "name": "Fuite",
+      "description": "La Fuite permet de s'éloigner très vite des zones dangereuses.",
+      "iconId": 90,
+      "icon": "images sort/14-90-fuite.png",
+      "variants": [
+        "images sort/variantes/14-90-fuite-etat-2.png",
+        "images sort/variantes/14-90-fuite-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 15,
+      "spellId": 87,
+      "name": "Démotivation",
+      "description": "La démotivation permet de baisser les résistances aux pertes de PA d'un ennemi.",
+      "iconId": 87,
+      "icon": "images sort/15-87-demotivation.png",
+      "variants": [
+        "images sort/variantes/15-87-demotivation-etat-2.png",
+        "images sort/variantes/15-87-demotivation-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 16,
+      "spellId": 94,
+      "name": "Protection Aveuglante",
+      "description": "La protection aveuglante permet au lanceur d'esquiver la perte de PA (en pourcentage).",
+      "iconId": 94,
+      "icon": "images sort/16-94-protection-aveuglante.png",
+      "variants": [
+        "images sort/variantes/16-94-protection-aveuglante-etat-2.png",
+        "images sort/variantes/16-94-protection-aveuglante-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 17,
+      "spellId": 99,
+      "name": "Momification",
+      "description": "Ce sort permet  à son lanceur de se transformer en momie pour bénéficier de certaines résistances.",
+      "iconId": 99,
+      "icon": "images sort/17-99-momification.png",
+      "variants": [
+        "images sort/variantes/17-99-momification-etat-2.png",
+        "images sort/variantes/17-99-momification-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 18,
+      "spellId": 95,
+      "name": "Larcin Temporel",
+      "description": "Le Xélor dérobe des fragments de temps à ses ennemis. Aux douze coups, son horloge maudite arrête le flux d’énergie, volée à ceux qui résistent au fil inépuisable des heures.",
+      "iconId": 95,
+      "icon": "images sort/18-95-larcin-temporel.png",
+      "variants": [
+        "images sort/variantes/18-95-larcin-temporel-etat-2.png",
+        "images sort/variantes/18-95-larcin-temporel-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 19,
+      "spellId": 91,
+      "name": "Sablier Ardent",
+      "description": "Forgé dans le cœur d'une supernova mourante, ce sablier concentre la fureur des astres. Ses grains ne sont que des braises cosmiques, et leur chute déchaîne une fournaise incandescente sur l'ennemi. Le temps lui-même se consume, et l'adversaire est réduit en cendres, témoin impuissant de l'implacable danse du feu et du temps.",
+      "iconId": 91,
+      "icon": "images sort/19-91-sablier-ardent.png",
+      "variants": [
+        "images sort/variantes/19-91-sablier-ardent-etat-2.png",
+        "images sort/variantes/19-91-sablier-ardent-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 20,
+      "spellId": 97,
+      "name": "Cadran de Xélor",
+      "description": "Ce sort permet de placer un écran de protection devant le lanceur.",
+      "iconId": 97,
+      "icon": "images sort/20-97-cadran-de-xelor.png",
+      "variants": [
+        "images sort/variantes/20-97-cadran-de-xelor-etat-2.png",
+        "images sort/variantes/20-97-cadran-de-xelor-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 21,
+      "spellId": 1905,
+      "name": "Invocation de Dopeul Xélor",
+      "description": "Ce sort permet d'invoquer un Dopeul Xélor qui viendra aider son maître pendant les combats.",
+      "iconId": 1905,
+      "icon": "images sort/21-1905-invocation-de-dopeul-xelor.png",
+      "variants": [
+        "images sort/variantes/21-1905-invocation-de-dopeul-xelor-etat-2.png",
+        "images sort/variantes/21-1905-invocation-de-dopeul-xelor-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  ]
+}

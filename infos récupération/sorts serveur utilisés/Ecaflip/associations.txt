@@ -1,0 +1,48 @@
+CLASSE : ECAFLIP
+================================================================================
+Table des classes : classes_fr_184.swf
+Table des sorts : spells_fr_441.swf
+Nombre de sorts utilisés : 21
+
+01. [sort 102 / icône 102] Bourrasque du Hasard
+    images sort/01-102-bourrasque-du-hasard.png
+02. [sort 103 / icône 103] Chance d'Ecaflip
+    images sort/02-103-chance-d-ecaflip.png
+03. [sort 105 / icône 105] Bond du Félin
+    images sort/03-105-bond-du-felin.png
+04. [sort 109 / icône 109] Rafale de Poker
+    images sort/04-109-rafale-de-poker.png
+05. [sort 113 / icône 113] Perception
+    images sort/05-113-perception.png
+06. [sort 111 / icône 111] Contrecoup
+    images sort/06-111-contrecoup.png
+07. [sort 104 / icône 104] Trèfle
+    images sort/07-104-trefle.png
+08. [sort 119 / icône 119] Tout ou rien
+    images sort/08-119-tout-ou-rien.png
+09. [sort 101 / icône 101] Roulette
+    images sort/09-101-roulette.png
+10. [sort 107 / icône 107] Topkaj
+    images sort/10-107-topkaj.png
+11. [sort 116 / icône 116] Langue Râpeuse
+    images sort/11-116-langue-rapeuse.png
+12. [sort 106 / icône 106] Roue de la Fortune
+    images sort/12-106-roue-de-la-fortune.png
+13. [sort 117 / icône 117] Griffe Invocatrice
+    images sort/13-117-griffe-invocatrice.png
+14. [sort 108 / icône 108] Esprit Félin
+    images sort/14-108-esprit-felin.png
+15. [sort 115 / icône 115] Odorat
+    images sort/15-115-odorat.png
+16. [sort 118 / icône 118] Réflexes
+    images sort/16-118-reflexes.png
+17. [sort 110 / icône 110] Vague Céleste
+    images sort/17-110-vague-celeste.png
+18. [sort 112 / icône 112] Griffe de Ceangal
+    images sort/18-112-griffe-de-ceangal.png
+19. [sort 114 / icône 114] Quitte ou Double Fatal
+    images sort/19-114-quitte-ou-double-fatal.png
+20. [sort 120 / icône 120] Destin d'Ecaflip
+    images sort/20-120-destin-d-ecaflip.png
+21. [sort 1906 / icône 1906] Invocation de Dopeul Ecaflip
+    images sort/21-1906-invocation-de-dopeul-ecaflip.png

@@ -1,0 +1,48 @@
+CLASSE : ENUTROF
+================================================================================
+Table des classes : classes_fr_184.swf
+Table des sorts : spells_fr_441.swf
+Nombre de sorts utilisés : 21
+
+01. [sort 51 / icône 51] Lancer de Pièces
+    images sort/01-51-lancer-de-pieces.png
+02. [sort 41 / icône 41] Sac Animé
+    images sort/02-41-sac-anime.png
+03. [sort 43 / icône 43] Lancer de Pelle
+    images sort/03-43-lancer-de-pelle.png
+04. [sort 49 / icône 49] Flammes Traîtresses
+    images sort/04-49-flammes-traitresses.png
+05. [sort 42 / icône 42] Chance
+    images sort/05-42-chance.png
+06. [sort 47 / icône 47] Boîte de Pandore
+    images sort/06-47-boite-de-pandore.png
+07. [sort 48 / icône 48] Rapine Souterraine
+    images sort/07-48-rapine-souterraine.png
+08. [sort 45 / icône 45] Clé Réductrice
+    images sort/08-45-cle-reductrice.png
+09. [sort 53 / icône 53] Pelle du Marée-Haut
+    images sort/09-53-pelle-du-maree-haut.png
+10. [sort 46 / icône 46] Désinvocation
+    images sort/10-46-desinvocation.png
+11. [sort 52 / icône 52] Cupidité
+    images sort/11-52-cupidite.png
+12. [sort 44 / icône 44] Roulage de Pelle
+    images sort/12-44-roulage-de-pelle.png
+13. [sort 50 / icône 50] Maladresse
+    images sort/13-50-maladresse.png
+14. [sort 54 / icône 54] Maladresse de Masse
+    images sort/14-54-maladresse-de-masse.png
+15. [sort 55 / icône 55] Accélération
+    images sort/15-55-acceleration.png
+16. [sort 56 / icône 56] Pelle du Jugement
+    images sort/16-56-pelle-du-jugement.png
+17. [sort 58 / icône 58] Pelle Terrifiante
+    images sort/17-58-pelle-terrifiante.png
+18. [sort 59 / icône 59] Corruption
+    images sort/18-59-corruption.png
+19. [sort 57 / icône 57] Pelle Animée
+    images sort/19-57-pelle-animee.png
+20. [sort 60 / icône 60] Coffre Animé
+    images sort/20-60-coffre-anime.png
+21. [sort 1903 / icône 1903] Invocation de Dopeul Enutrof
+    images sort/21-1903-invocation-de-dopeul-enutrof.png

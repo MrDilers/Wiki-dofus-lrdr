@@ -1,0 +1,48 @@
+CLASSE : PANDAWA
+================================================================================
+Table des classes : classes_fr_184.swf
+Table des sorts : spells_fr_441.swf
+Nombre de sorts utilisés : 21
+
+01. [sort 686 / icône 686] Picole
+    images sort/01-686-picole.png
+02. [sort 692 / icône 692] Poing de Pierre
+    images sort/02-692-poing-de-pierre.png
+03. [sort 687 / icône 687] Uppercut à la McGregor
+    images sort/03-687-uppercut-a-la-mcgregor.png
+04. [sort 689 / icône 689] Epouvante
+    images sort/04-689-epouvante.png
+05. [sort 690 / icône 690] Tempête Alcoolisée
+    images sort/05-690-tempete-alcoolisee.png
+06. [sort 691 / icône 691] Vulnérabilité Aqueuse
+    images sort/06-691-vulnerabilite-aqueuse.png
+07. [sort 688 / icône 688] Vulnérabilité Incandescente
+    images sort/07-688-vulnerabilite-incandescente.png
+08. [sort 693 / icône 693] Karcham
+    images sort/08-693-karcham.png
+09. [sort 694 / icône 694] Vulnérabilité Venteuse
+    images sort/09-694-vulnerabilite-venteuse.png
+10. [sort 695 / icône 695] Stabilisation
+    images sort/10-695-stabilisation.png
+11. [sort 696 / icône 696] Chamrak
+    images sort/11-696-chamrak.png
+12. [sort 697 / icône 697] Vulnérabilité Terrestre
+    images sort/12-697-vulnerabilite-terrestre.png
+13. [sort 698 / icône 698] Souillure
+    images sort/13-698-souillure.png
+14. [sort 699 / icône 699] Lait de Bambou
+    images sort/14-699-lait-de-bambou.png
+15. [sort 700 / icône 700] Charge Rocailleuse
+    images sort/15-700-charge-rocailleuse.png
+16. [sort 701 / icône 701] Colère de Zatoïshwan
+    images sort/16-701-colere-de-zatoishwan.png
+17. [sort 702 / icône 702] Flasque Terrestre
+    images sort/17-702-flasque-terrestre.png
+18. [sort 703 / icône 703] Pandatak Enflammé
+    images sort/18-703-pandatak-enflamme.png
+19. [sort 704 / icône 704] Pandanlku
+    images sort/19-704-pandanlku.png
+20. [sort 705 / icône 705] Lien Spiritueux
+    images sort/20-705-lien-spiritueux.png
+21. [sort 1912 / icône 1912] Invocation de Dopeul Pandawa
+    images sort/21-1912-invocation-de-dopeul-pandawa.png

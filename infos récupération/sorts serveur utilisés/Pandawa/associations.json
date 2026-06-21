@@ -1,0 +1,431 @@
+{
+  "classId": 12,
+  "className": "Pandawa",
+  "sourceVersions": {
+    "classes": 184,
+    "spells": 441
+  },
+  "spellCount": 21,
+  "spells": [
+    {
+      "order": 1,
+      "spellId": 686,
+      "name": "Picole",
+      "description": "Permet de rentrer en état d'ébriété et d'augmenter ses résistances aux dommages.",
+      "iconId": 686,
+      "icon": "images sort/01-686-picole.png",
+      "variants": [
+        "images sort/variantes/01-686-picole-etat-2.png",
+        "images sort/variantes/01-686-picole-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 2,
+      "spellId": 692,
+      "name": "Poing de Pierre",
+      "description": "Le Pandawa, par un coup de poing puissant, fusionne sa force avec la robustesse de la terre. Ses poings deviennent aussi durs que la roche, écrasant les ennemis avec une force inouïe.",
+      "iconId": 692,
+      "icon": "images sort/02-692-poing-de-pierre.png",
+      "variants": [
+        "images sort/variantes/02-692-poing-de-pierre-etat-2.png",
+        "images sort/variantes/02-692-poing-de-pierre-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 3,
+      "spellId": 687,
+      "name": "Uppercut à la McGregor",
+      "description": "Le sort Uppercut à la McGregor à remplacé le poing enflammé, celui-ci n'était pas assez puissant pour tuer d'un seul coup de poing les ennemis..",
+      "iconId": 687,
+      "icon": "images sort/03-687-uppercut-a-la-mcgregor.png",
+      "variants": [
+        "images sort/variantes/03-687-uppercut-a-la-mcgregor-etat-2.png",
+        "images sort/variantes/03-687-uppercut-a-la-mcgregor-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 4,
+      "spellId": 689,
+      "name": "Epouvante",
+      "description": "Repousse et réduit les coups critiques de la cible.",
+      "iconId": 689,
+      "icon": "images sort/04-689-epouvante.png",
+      "variants": [
+        "images sort/variantes/04-689-epouvante-etat-2.png",
+        "images sort/variantes/04-689-epouvante-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 5,
+      "spellId": 690,
+      "name": "Tempête Alcoolisée",
+      "description": "La femme du Pandawa lui a servi une leçon inoubliable ! Ce sort canalise la fureur d'une cuite mémorable, infligeant une gueule de bois carabinée. Vos ennemis titubent, perdent leur volonté et subissent plus de dégâts. Un remède radical ",
+      "iconId": 690,
+      "icon": "images sort/05-690-tempete-alcoolisee.png",
+      "variants": [
+        "images sort/variantes/05-690-tempete-alcoolisee-etat-2.png",
+        "images sort/variantes/05-690-tempete-alcoolisee-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 6,
+      "spellId": 691,
+      "name": "Vulnérabilité Aqueuse",
+      "description": "Ce sort permet de baisser les résistances \"Eau\" d'un ennemi. \n",
+      "iconId": 691,
+      "icon": "images sort/06-691-vulnerabilite-aqueuse.png",
+      "variants": [
+        "images sort/variantes/06-691-vulnerabilite-aqueuse-etat-2.png",
+        "images sort/variantes/06-691-vulnerabilite-aqueuse-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 7,
+      "spellId": 688,
+      "name": "Vulnérabilité Incandescente",
+      "description": "Ce sort permet de baisser les resistances \"Feu\" d'un ennemi.",
+      "iconId": 688,
+      "icon": "images sort/07-688-vulnerabilite-incandescente.png",
+      "variants": [
+        "images sort/variantes/07-688-vulnerabilite-incandescente-etat-2.png",
+        "images sort/variantes/07-688-vulnerabilite-incandescente-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 8,
+      "spellId": 693,
+      "name": "Karcham",
+      "description": "Ce sort permet de porter un allié ou un ennemi.",
+      "iconId": 693,
+      "icon": "images sort/08-693-karcham.png",
+      "variants": [
+        "images sort/variantes/08-693-karcham-etat-2.png",
+        "images sort/variantes/08-693-karcham-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 9,
+      "spellId": 694,
+      "name": "Vulnérabilité Venteuse",
+      "description": "Ce sort permet de baisser les resistances \"Air\" d'un ennemi. \n",
+      "iconId": 694,
+      "icon": "images sort/09-694-vulnerabilite-venteuse.png",
+      "variants": [
+        "images sort/variantes/09-694-vulnerabilite-venteuse-etat-2.png",
+        "images sort/variantes/09-694-vulnerabilite-venteuse-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 10,
+      "spellId": 695,
+      "name": "Stabilisation",
+      "description": "Ce sort permet de ne plus être repoussé, et de ne plus être taclé, mais empêche de tacler ses adversaires.",
+      "iconId": 695,
+      "icon": "images sort/10-695-stabilisation.png",
+      "variants": [
+        "images sort/variantes/10-695-stabilisation-etat-2.png",
+        "images sort/variantes/10-695-stabilisation-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 11,
+      "spellId": 696,
+      "name": "Chamrak",
+      "description": "Permet de lancer un personnage porté.",
+      "iconId": 696,
+      "icon": "images sort/11-696-chamrak.png",
+      "variants": [
+        "images sort/variantes/11-696-chamrak-etat-2.png",
+        "images sort/variantes/11-696-chamrak-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 12,
+      "spellId": 697,
+      "name": "Vulnérabilité Terrestre",
+      "description": "Ce sort permet de baisser les resistances \"Terre\" d'un ennemi. \n",
+      "iconId": 697,
+      "icon": "images sort/12-697-vulnerabilite-terrestre.png",
+      "variants": [
+        "images sort/variantes/12-697-vulnerabilite-terrestre-etat-2.png",
+        "images sort/variantes/12-697-vulnerabilite-terrestre-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 13,
+      "spellId": 698,
+      "name": "Souillure",
+      "description": "Ce sort lance un effet aléatoire afin de déconcentrer l'ennemi. L'état d'ébriété est nécessaire pour lancer ce sort.",
+      "iconId": 698,
+      "icon": "images sort/13-698-souillure.png",
+      "variants": [
+        "images sort/variantes/13-698-souillure-etat-2.png",
+        "images sort/variantes/13-698-souillure-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 14,
+      "spellId": 699,
+      "name": "Lait de Bambou",
+      "description": "Ce sort permet de désenvoûter le lanceur et de lui rendre son état \"normal\".",
+      "iconId": 699,
+      "icon": "images sort/14-699-lait-de-bambou.png",
+      "variants": [
+        "images sort/variantes/14-699-lait-de-bambou-etat-2.png",
+        "images sort/variantes/14-699-lait-de-bambou-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 15,
+      "spellId": 700,
+      "name": "Charge Rocailleuse",
+      "description": " Le Pandawa s'empare d'un fragment de pierre et, avec la puissance de la montagne, le projette sur ses ennemis. L'impact est dévastateur, laissant l'adversaire étourdi.",
+      "iconId": 700,
+      "icon": "images sort/15-700-charge-rocailleuse.png",
+      "variants": [
+        "images sort/variantes/15-700-charge-rocailleuse-etat-2.png",
+        "images sort/variantes/15-700-charge-rocailleuse-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 16,
+      "spellId": 701,
+      "name": "Colère de Zatoïshwan",
+      "description": "Ce sort permet d'entrer dans la terrible colère de Zatoïshwan.",
+      "iconId": 701,
+      "icon": "images sort/16-701-colere-de-zatoishwan.png",
+      "variants": [
+        "images sort/variantes/16-701-colere-de-zatoishwan-etat-2.png",
+        "images sort/variantes/16-701-colere-de-zatoishwan-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 17,
+      "spellId": 702,
+      "name": "Flasque Terrestre",
+      "description": "Ce sort ne permet pas de jeter une bouteille à la mer mais plutôt une flasque terrestre.",
+      "iconId": 702,
+      "icon": "images sort/17-702-flasque-terrestre.png",
+      "variants": [
+        "images sort/variantes/17-702-flasque-terrestre-etat-2.png",
+        "images sort/variantes/17-702-flasque-terrestre-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 18,
+      "spellId": 703,
+      "name": "Pandatak Enflammé",
+      "description": "La guerre a fait énormément de dégât. Les terres des Pandawas ont été ravagées, aucun survivant n'est à déplorer. Ce sort vous délivre un pouvoir surpuissant, celui de bruler vif tous ses ennemis.",
+      "iconId": 703,
+      "icon": "images sort/18-703-pandatak-enflamme.png",
+      "variants": [
+        "images sort/variantes/18-703-pandatak-enflamme-etat-2.png",
+        "images sort/variantes/18-703-pandatak-enflamme-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 19,
+      "spellId": 704,
+      "name": "Pandanlku",
+      "description": "Ce sort permet au lanceur d'augmenter ses PM ou ceux d'un allié. Ce sort nécessite l'état d'ébriété pour être lancé.",
+      "iconId": 704,
+      "icon": "images sort/19-704-pandanlku.png",
+      "variants": [
+        "images sort/variantes/19-704-pandanlku-etat-2.png",
+        "images sort/variantes/19-704-pandanlku-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 20,
+      "spellId": 705,
+      "name": "Lien Spiritueux",
+      "description": "Ce sort permet d'invoquer un vieux maître Pandawa. L'état d'ébriété est nécessaire pour lancer ce sort.",
+      "iconId": 705,
+      "icon": "images sort/20-705-lien-spiritueux.png",
+      "variants": [
+        "images sort/variantes/20-705-lien-spiritueux-etat-2.png",
+        "images sort/variantes/20-705-lien-spiritueux-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 21,
+      "spellId": 1912,
+      "name": "Invocation de Dopeul Pandawa",
+      "description": "Ce sort permet d'invoquer un Dopeul Pandawa qui viendra aider son maître pendant les combats.",
+      "iconId": 1912,
+      "icon": "images sort/21-1912-invocation-de-dopeul-pandawa.png",
+      "variants": [
+        "images sort/variantes/21-1912-invocation-de-dopeul-pandawa-etat-2.png",
+        "images sort/variantes/21-1912-invocation-de-dopeul-pandawa-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  ]
+}

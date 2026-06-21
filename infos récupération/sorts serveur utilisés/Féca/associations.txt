@@ -1,0 +1,48 @@
+CLASSE : FÉCA
+================================================================================
+Table des classes : classes_fr_184.swf
+Table des sorts : spells_fr_441.swf
+Nombre de sorts utilisés : 21
+
+01. [sort 3 / icône 3] Attaque Volcanique
+    images sort/01-3-attaque-volcanique.png
+02. [sort 17 / icône 17] Glyphe Agressif
+    images sort/02-17-glyphe-agressif.png
+03. [sort 6 / icône 6] Armure Terrestre
+    images sort/03-6-armure-terrestre.png
+04. [sort 4 / icône 4] Renvoi de Sort
+    images sort/04-4-renvoi-de-sort.png
+05. [sort 2 / icône 2] Voile des Abysses
+    images sort/05-2-voile-des-abysses.png
+06. [sort 1 / icône 1] Armure Incandescente
+    images sort/06-1-armure-incandescente.png
+07. [sort 9 / icône 9] Attaque Orageuse
+    images sort/07-9-attaque-orageuse.png
+08. [sort 18 / icône 18] Armure Aqueuse
+    images sort/08-18-armure-aqueuse.png
+09. [sort 20 / icône 20] Immunité
+    images sort/09-20-immunite.png
+10. [sort 14 / icône 14] Armure Venteuse
+    images sort/10-14-armure-venteuse.png
+11. [sort 19 / icône 19] Secousse Lointaine
+    images sort/11-19-secousse-lointaine.png
+12. [sort 5 / icône 5] Trêve
+    images sort/12-5-treve.png
+13. [sort 16 / icône 16] Science du bâton
+    images sort/13-16-science-du-baton.png
+14. [sort 8 / icône 8] Poigne Tellurique
+    images sort/14-8-poigne-tellurique.png
+15. [sort 12 / icône 12] Glyphe d'Aveuglement
+    images sort/15-12-glyphe-d-aveuglement.png
+16. [sort 11 / icône 11] Téléportation
+    images sort/16-11-teleportation.png
+17. [sort 10 / icône 10] Glyphe Apocalyptique
+    images sort/17-10-glyphe-apocalyptique.png
+18. [sort 7 / icône 7] Bouclier Féca
+    images sort/18-7-bouclier-feca.png
+19. [sort 15 / icône 15] Glyphe d'immobilisation
+    images sort/19-15-glyphe-d-immobilisation.png
+20. [sort 13 / icône 13] Glyphe de Silence
+    images sort/20-13-glyphe-de-silence.png
+21. [sort 1901 / icône 1901] Invocation de Dopeul Féca
+    images sort/21-1901-invocation-de-dopeul-feca.png

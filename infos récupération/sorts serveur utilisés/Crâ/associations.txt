@@ -1,0 +1,48 @@
+CLASSE : CRÂ
+================================================================================
+Table des classes : classes_fr_184.swf
+Table des sorts : spells_fr_441.swf
+Nombre de sorts utilisés : 21
+
+01. [sort 169 / icône 169] Flèche de Recul
+    images sort/01-169-fleche-de-recul.png
+02. [sort 164 / icône 164] Souffle de l’Humus
+    images sort/02-164-souffle-de-l-humus.png
+03. [sort 161 / icône 161] Flèche Magique
+    images sort/03-161-fleche-magique.png
+04. [sort 163 / icône 163] Flèche Glacée
+    images sort/04-163-fleche-glacee.png
+05. [sort 165 / icône 165] Flèche Enflammée
+    images sort/05-165-fleche-enflammee.png
+06. [sort 172 / icône 172] Tir Eloigné
+    images sort/06-172-tir-eloigne.png
+07. [sort 167 / icône 167] Frisson de l'Abîme
+    images sort/07-167-frisson-de-l-abime.png
+08. [sort 168 / icône 168] Oeil de Taupe
+    images sort/08-168-oeil-de-taupe.png
+09. [sort 162 / icône 162] Tir Critique
+    images sort/09-162-tir-critique.png
+10. [sort 170 / icône 170] Flèche d'Immobilisation
+    images sort/10-170-fleche-d-immobilisation.png
+11. [sort 171 / icône 171] Flèche Massacrante
+    images sort/11-171-fleche-massacrante.png
+12. [sort 166 / icône 166] Tir Puissant
+    images sort/12-166-tir-puissant.png
+13. [sort 173 / icône 173] Flèche des Murmures
+    images sort/13-173-fleche-des-murmures.png
+14. [sort 174 / icône 174] Flèche du Revenant
+    images sort/14-174-fleche-du-revenant.png
+15. [sort 176 / icône 176] Flèche du Néant
+    images sort/15-176-fleche-du-neant.png
+16. [sort 175 / icône 175] Flèche Destructrice
+    images sort/16-175-fleche-destructrice.png
+17. [sort 178 / icône 178] Flèche du Vent Cisaillant
+    images sort/17-178-fleche-du-vent-cisaillant.png
+18. [sort 177 / icône 177] Flèche Ralentissante
+    images sort/18-177-fleche-ralentissante.png
+19. [sort 179 / icône 179] Flèche Explosive
+    images sort/19-179-fleche-explosive.png
+20. [sort 180 / icône 180] Maîtrise de l'Arc
+    images sort/20-180-maitrise-de-l-arc.png
+21. [sort 1909 / icône 1909] Invocation de Dopeul Crâ
+    images sort/21-1909-invocation-de-dopeul-cra.png

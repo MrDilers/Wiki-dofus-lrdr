@@ -1,0 +1,48 @@
+CLASSE : SACRIEUR
+================================================================================
+Table des classes : classes_fr_184.swf
+Table des sorts : spells_fr_441.swf
+Nombre de sorts utilisés : 21
+
+01. [sort 431 / icône 431] Châtiment Forcé
+    images sort/01-431-chatiment-force.png
+02. [sort 432 / icône 432] Pied du Tsunami
+    images sort/02-432-pied-du-tsunami.png
+03. [sort 434 / icône 434] Attirance
+    images sort/03-434-attirance.png
+04. [sort 444 / icône 444] Dérobade
+    images sort/04-444-derobade.png
+05. [sort 449 / icône 449] Détour
+    images sort/05-449-detour.png
+06. [sort 436 / icône 436] Assaut 51
+    images sort/06-436-assaut-51.png
+07. [sort 437 / icône 437] Châtiment Agile
+    images sort/07-437-chatiment-agile.png
+08. [sort 439 / icône 439] Dissolution des Enfers
+    images sort/08-439-dissolution-des-enfers.png
+09. [sort 433 / icône 433] Châtiment Osé
+    images sort/09-433-chatiment-ose.png
+10. [sort 443 / icône 443] Châtiment Spirituel
+    images sort/10-443-chatiment-spirituel.png
+11. [sort 440 / icône 440] Sacrifice
+    images sort/11-440-sacrifice.png
+12. [sort 442 / icône 442] Absorption Terrestre
+    images sort/12-442-absorption-terrestre.png
+13. [sort 441 / icône 441] Châtiment Vitalesque
+    images sort/13-441-chatiment-vitalesque.png
+14. [sort 445 / icône 445] Coopération
+    images sort/14-445-cooperation.png
+15. [sort 438 / icône 438] Transposition
+    images sort/15-438-transposition.png
+16. [sort 446 / icône 446] Punition
+    images sort/16-446-punition.png
+17. [sort 447 / icône 447] Furie Sanglantes
+    images sort/17-447-furie-sanglantes.png
+18. [sort 448 / icône 448] Epée volante
+    images sort/18-448-epee-volante.png
+19. [sort 435 / icône 435] Transfert de Vie
+    images sort/19-435-transfert-de-vie.png
+20. [sort 450 / icône 450] Folie sanguinaire
+    images sort/20-450-folie-sanguinaire.png
+21. [sort 1911 / icône 1911] Invocation de Dopeul Sacrieur
+    images sort/21-1911-invocation-de-dopeul-sacrieur.png

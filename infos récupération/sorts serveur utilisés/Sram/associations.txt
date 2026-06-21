@@ -1,0 +1,48 @@
+CLASSE : SRAM
+================================================================================
+Table des classes : classes_fr_184.swf
+Table des sorts : spells_fr_441.swf
+Nombre de sorts utilisés : 21
+
+01. [sort 65 / icône 65] Piège Sournois
+    images sort/01-65-piege-sournois.png
+02. [sort 72 / icône 72] Invisibilité
+    images sort/02-72-invisibilite.png
+03. [sort 61 / icône 61] Morsure des Profondeurs
+    images sort/03-61-morsure-des-profondeurs.png
+04. [sort 66 / icône 66] Venin Abyssal
+    images sort/04-66-venin-abyssal.png
+05. [sort 68 / icône 68] Siphon des Âmes
+    images sort/05-68-siphon-des-ames.png
+06. [sort 63 / icône 63] Coup Sournois
+    images sort/06-63-coup-sournois.png
+07. [sort 74 / icône 74] Double
+    images sort/07-74-double.png
+08. [sort 64 / icône 64] Repérage
+    images sort/08-64-reperage.png
+09. [sort 79 / icône 79] Piège de Masse
+    images sort/09-79-piege-de-masse.png
+10. [sort 78 / icône 78] Invisibilité d'Autrui
+    images sort/10-78-invisibilite-d-autrui.png
+11. [sort 71 / icône 71] Piège Empoisonné
+    images sort/11-71-piege-empoisonne.png
+12. [sort 62 / icône 62] Concentration de Chakra
+    images sort/12-62-concentration-de-chakra.png
+13. [sort 69 / icône 69] Piège d'Immobilisation
+    images sort/13-69-piege-d-immobilisation.png
+14. [sort 77 / icône 77] Piège de Silence
+    images sort/14-77-piege-de-silence.png
+15. [sort 73 / icône 73] Piège répulsif
+    images sort/15-73-piege-repulsif.png
+16. [sort 67 / icône 67] Peur
+    images sort/16-67-peur.png
+17. [sort 70 / icône 70] Pillage Funeste
+    images sort/17-70-pillage-funeste.png
+18. [sort 75 / icône 75] Pulsion de Chakra
+    images sort/18-75-pulsion-de-chakra.png
+19. [sort 76 / icône 76] Profanation de Sanctuaire
+    images sort/19-76-profanation-de-sanctuaire.png
+20. [sort 80 / icône 80] L'Étreinte des Damnés
+    images sort/20-80-l-etreinte-des-damnes.png
+21. [sort 1904 / icône 1904] Invocation de Dopeul Sram
+    images sort/21-1904-invocation-de-dopeul-sram.png

@@ -1,0 +1,431 @@
+{
+  "classId": 10,
+  "className": "Sadida",
+  "sourceVersions": {
+    "classes": 184,
+    "spells": 441
+  },
+  "spellCount": 21,
+  "spells": [
+    {
+      "order": 1,
+      "spellId": 193,
+      "name": "La Bloqueuse",
+      "description": "La Bloqueuse, comme son nom l'indique, gêne les adversaires en se plaçant sur leur trajectoire.",
+      "iconId": 193,
+      "icon": "images sort/01-193-la-bloqueuse.png",
+      "variants": [
+        "images sort/variantes/01-193-la-bloqueuse-etat-2.png",
+        "images sort/variantes/01-193-la-bloqueuse-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 2,
+      "spellId": 183,
+      "name": "Ronce Aride",
+      "description": "Depuis que la ronce a poussé sur les cendres du brasier, elle se prend pour une ronce aride... Une ronce de feu, qui embrase et calcine tout sur son passage, laissant derrière elle une terre désolée et brûlante.",
+      "iconId": 183,
+      "icon": "images sort/02-183-ronce-aride.png",
+      "variants": [
+        "images sort/variantes/02-183-ronce-aride-etat-2.png",
+        "images sort/variantes/02-183-ronce-aride-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 3,
+      "spellId": 200,
+      "name": "Ronce du Chaos",
+      "description": "La Ronce du Chaos est née d'un Sadida errant, fou de douleur, qui fusionna la sève de l'Arbre Hakam avec des larmes de Dragoeuf. Cette ronce imprévisible frappe désormais de toutes les forces élémentaires, infligeant des dégâts aléatoires et incontrôlables à quiconque ose s'approcher.",
+      "iconId": 200,
+      "icon": "images sort/03-200-ronce-du-chaos.png",
+      "variants": [
+        "images sort/variantes/03-200-ronce-du-chaos-etat-2.png",
+        "images sort/variantes/03-200-ronce-du-chaos-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 4,
+      "spellId": 198,
+      "name": "Ronce des Enfers",
+      "description": "Des ronces ardentes jaillissent des entrailles des Enfers, enflammant tout sur leur passage. Leur rage infernale consume ennemis et espoirs, laissant derrière elles une trace brûlante de vengeance végétale.",
+      "iconId": 198,
+      "icon": "images sort/04-198-ronce-des-enfers.png",
+      "variants": [
+        "images sort/variantes/04-198-ronce-des-enfers-etat-2.png",
+        "images sort/variantes/04-198-ronce-des-enfers-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 5,
+      "spellId": 195,
+      "name": "Larme Epineuse",
+      "description": "La tristesse et la déception du Sadi n'ont fait qu'attiser sa rage. Ses larmes sont devenues si puissantes qu'elles plantent leurs épines dans tous ceux qui lui veulent du mal. ",
+      "iconId": 195,
+      "icon": "images sort/05-195-larme-epineuse.png",
+      "variants": [
+        "images sort/variantes/05-195-larme-epineuse-etat-2.png",
+        "images sort/variantes/05-195-larme-epineuse-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 6,
+      "spellId": 182,
+      "name": "La Folle",
+      "description": "La Folle est une poupée créée avec des ossements de Chafer. Elle se fera un plaisir d'énerver les ennemis du lanceur.",
+      "iconId": 182,
+      "icon": "images sort/06-182-la-folle.png",
+      "variants": [
+        "images sort/variantes/06-182-la-folle-etat-2.png",
+        "images sort/variantes/06-182-la-folle-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 7,
+      "spellId": 192,
+      "name": "Ronce Apaisante",
+      "description": "La Ronce Apaisante permet de ralentir un ennemi mais lui rend des PDV.",
+      "iconId": 192,
+      "icon": "images sort/07-192-ronce-apaisante.png",
+      "variants": [
+        "images sort/variantes/07-192-ronce-apaisante-etat-2.png",
+        "images sort/variantes/07-192-ronce-apaisante-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 8,
+      "spellId": 197,
+      "name": "Puissance Sylvestre",
+      "description": "Ce sort permet au lanceur de se transformer en arbre afin d'être protégé quelques tours.",
+      "iconId": 197,
+      "icon": "images sort/08-197-puissance-sylvestre.png",
+      "variants": [
+        "images sort/variantes/08-197-puissance-sylvestre-etat-2.png",
+        "images sort/variantes/08-197-puissance-sylvestre-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 9,
+      "spellId": 189,
+      "name": "La Sacrifiée",
+      "description": "Cette poupée se jette sur l'ennemi en explosant.",
+      "iconId": 189,
+      "icon": "images sort/09-189-la-sacrifiee.png",
+      "variants": [
+        "images sort/variantes/09-189-la-sacrifiee-etat-2.png",
+        "images sort/variantes/09-189-la-sacrifiee-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 10,
+      "spellId": 181,
+      "name": "Tremblement",
+      "description": "Le Tremblement inflige des dégâts à tous les joueurs de la zone.",
+      "iconId": 181,
+      "icon": "images sort/10-181-tremblement.png",
+      "variants": [
+        "images sort/variantes/10-181-tremblement-etat-2.png",
+        "images sort/variantes/10-181-tremblement-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 11,
+      "spellId": 199,
+      "name": "Connaissance des Poupées",
+      "description": "La Connaissance des Poupées permet d'invoquer plusieurs poupées.",
+      "iconId": 199,
+      "icon": "images sort/11-199-connaissance-des-poupees.png",
+      "variants": [
+        "images sort/variantes/11-199-connaissance-des-poupees-etat-2.png",
+        "images sort/variantes/11-199-connaissance-des-poupees-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 12,
+      "spellId": 191,
+      "name": "Ronces Multiples du Roi Sadi",
+      "description": "La Ronce Multiple du Roi Sadi jadis était pour protéger son Royaume attaqué par une horde de Cra, Iop et Sram. Tous affamés par les nombreux fruits que le Roi Sadi gardait précieusement au milieu de toutes ses ronces ..",
+      "iconId": 191,
+      "icon": "images sort/12-191-ronces-multiples-du-roi-sadi.png",
+      "variants": [
+        "images sort/variantes/12-191-ronces-multiples-du-roi-sadi-etat-2.png",
+        "images sort/variantes/12-191-ronces-multiples-du-roi-sadi-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 13,
+      "spellId": 186,
+      "name": "Arbre",
+      "description": "Ce sort permet de faire grandir un arbre à vos pieds. L'arbre bloque le passage et gêne la ligne de vue.",
+      "iconId": 186,
+      "icon": "images sort/13-186-arbre.png",
+      "variants": [
+        "images sort/variantes/13-186-arbre-etat-2.png",
+        "images sort/variantes/13-186-arbre-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 14,
+      "spellId": 196,
+      "name": "Vent Empoisonné",
+      "description": "Le Vent Empoisonné empoisonne tous les joueurs présents dans la zone, amis comme ennemis, et leur retire de l'intelligence pendant plusieurs tours.",
+      "iconId": 196,
+      "icon": "images sort/14-196-vent-empoisonne.png",
+      "variants": [
+        "images sort/variantes/14-196-vent-empoisonne-etat-2.png",
+        "images sort/variantes/14-196-vent-empoisonne-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 15,
+      "spellId": 190,
+      "name": "La Gonflable",
+      "description": "La Poupée Gonflable augmente les points de mouvement et peut guérir un allié ou le  lanceur.",
+      "iconId": 190,
+      "icon": "images sort/15-190-la-gonflable.png",
+      "variants": [
+        "images sort/variantes/15-190-la-gonflable-etat-2.png",
+        "images sort/variantes/15-190-la-gonflable-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 16,
+      "spellId": 194,
+      "name": "Ronces Aerienne",
+      "description": "Une fois que le Roi Sadi avait terminé sa plantation, il se rendit compte qu'il n'avait plus assez d'espace dans son jardin pour se balader. Il décida alors de faire appelle aux Dieux du Ciel pour lui envoyer la Ronce Aerienne, unique en son genre, elle foudroie tout sur son passage. Un conseil du Roi, ne vous mettez pas en travers.",
+      "iconId": 194,
+      "icon": "images sort/16-194-ronces-aerienne.png",
+      "variants": [
+        "images sort/variantes/16-194-ronces-aerienne-etat-2.png",
+        "images sort/variantes/16-194-ronces-aerienne-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 17,
+      "spellId": 185,
+      "name": "Herbe Folle Ichonne",
+      "description": "Le Roi Sadi aimait beaucoup les petits et les gros N'Ichonnes .. Il a décidé de planter des graines ou des herbes Folles Ichonnes pourraient pousser en énorme quantité .. Et oui, à quoi t'attends tu jeune aventurier ? Le Roi Sadi avait un énorme jardin ou il plantait toute sorte d'herbe aussi farfelues les unes que les autres.",
+      "iconId": 185,
+      "icon": "images sort/17-185-herbe-folle-ichonne.png",
+      "variants": [
+        "images sort/variantes/17-185-herbe-folle-ichonne-etat-2.png",
+        "images sort/variantes/17-185-herbe-folle-ichonne-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 18,
+      "spellId": 184,
+      "name": "Feu de Brousse",
+      "description": "Ce sort permet d'infliger des dégâts de type Feu et Eau.",
+      "iconId": 184,
+      "icon": "images sort/18-184-feu-de-brousse.png",
+      "variants": [
+        "images sort/variantes/18-184-feu-de-brousse-etat-2.png",
+        "images sort/variantes/18-184-feu-de-brousse-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 19,
+      "spellId": 188,
+      "name": "Ronce Insolente",
+      "description": "La Ronce Insolente s'enfonce dans le sol pour ressortir et retirer tous les envoûtements d'un joueur.",
+      "iconId": 188,
+      "icon": "images sort/19-188-ronce-insolente.png",
+      "variants": [
+        "images sort/variantes/19-188-ronce-insolente-etat-2.png",
+        "images sort/variantes/19-188-ronce-insolente-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 20,
+      "spellId": 187,
+      "name": "La Surpuissante",
+      "description": "La Poupée Surpuissante peut invoquer de petites poupées fourbes qui réduisent le nombre de points de mouvement des ennemis et leurs résistances aux pertes de points de mouvement.",
+      "iconId": 187,
+      "icon": "images sort/20-187-la-surpuissante.png",
+      "variants": [
+        "images sort/variantes/20-187-la-surpuissante-etat-2.png",
+        "images sort/variantes/20-187-la-surpuissante-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 21,
+      "spellId": 1910,
+      "name": "Invocation de Dopeul Sadida",
+      "description": "Ce sort permet d'invoquer un Dopeul Sadida qui viendra aider son maître pendant les combats.",
+      "iconId": 1910,
+      "icon": "images sort/21-1910-invocation-de-dopeul-sadida.png",
+      "variants": [
+        "images sort/variantes/21-1910-invocation-de-dopeul-sadida-etat-2.png",
+        "images sort/variantes/21-1910-invocation-de-dopeul-sadida-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  ]
+}

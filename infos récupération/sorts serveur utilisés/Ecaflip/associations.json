@@ -1,0 +1,431 @@
+{
+  "classId": 6,
+  "className": "Ecaflip",
+  "sourceVersions": {
+    "classes": 184,
+    "spells": 441
+  },
+  "spellCount": 21,
+  "spells": [
+    {
+      "order": 1,
+      "spellId": 102,
+      "name": "Bourrasque du Hasard",
+      "description": "L'Écaflip lance une poignée de dés tourbillonnants ! Chaque face est une rafale, chaque jet une déferlante. Que la chance double la mise en un coup critique foudroyant ou non, le destin est scellé : une bourrasque assourdissante emporte l'adversaire. Avec l'Écaflip, la seule certitude, c'est l'incertitude venteuse !",
+      "iconId": 102,
+      "icon": "images sort/01-102-bourrasque-du-hasard.png",
+      "variants": [
+        "images sort/variantes/01-102-bourrasque-du-hasard-etat-2.png",
+        "images sort/variantes/01-102-bourrasque-du-hasard-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 2,
+      "spellId": 103,
+      "name": "Chance d'Ecaflip",
+      "description": "Lors d'une attaque reçue, la Chance d'Ecaflip redonne des PDV ou multiplie les dégâts reçus.",
+      "iconId": 103,
+      "icon": "images sort/02-103-chance-d-ecaflip.png",
+      "variants": [
+        "images sort/variantes/02-103-chance-d-ecaflip-etat-2.png",
+        "images sort/variantes/02-103-chance-d-ecaflip-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 3,
+      "spellId": 105,
+      "name": "Bond du Félin",
+      "description": "Le Bond du Félin permet de se déplacer plus vite et plus loin.",
+      "iconId": 105,
+      "icon": "images sort/03-105-bond-du-felin.png",
+      "variants": [
+        "images sort/variantes/03-105-bond-du-felin-etat-2.png",
+        "images sort/variantes/03-105-bond-du-felin-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 4,
+      "spellId": 109,
+      "name": "Rafale de Poker",
+      "description": "L'Ecaflip abat ses cartes ! Un souffle du dragon embrasé s'échappe, porté par des vents de fortune. Que la main soit critique ou non, c'est une déferlante de flammes tourbillonnantes et de lames d'air chaudes qui s'abat. La chance dicte la puissance, le désastre est garanti pour l'adversaire !",
+      "iconId": 109,
+      "icon": "images sort/04-109-rafale-de-poker.png",
+      "variants": [
+        "images sort/variantes/04-109-rafale-de-poker-etat-2.png",
+        "images sort/variantes/04-109-rafale-de-poker-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 5,
+      "spellId": 113,
+      "name": "Perception",
+      "description": "La Perception permet de révéler au lanceur et à ses alliés, la position des pièges et personnages cachés.",
+      "iconId": 113,
+      "icon": "images sort/05-113-perception.png",
+      "variants": [
+        "images sort/variantes/05-113-perception-etat-2.png",
+        "images sort/variantes/05-113-perception-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 6,
+      "spellId": 111,
+      "name": "Contrecoup",
+      "description": "Le Contrecoup augmente énormément la vitalité du lanceur sur une courte durée, mais au prix d'un peu de PDV.",
+      "iconId": 111,
+      "icon": "images sort/06-111-contrecoup.png",
+      "variants": [
+        "images sort/variantes/06-111-contrecoup-etat-2.png",
+        "images sort/variantes/06-111-contrecoup-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 7,
+      "spellId": 104,
+      "name": "Trèfle",
+      "description": "Le Trèfle augmente les coups critiques.",
+      "iconId": 104,
+      "icon": "images sort/07-104-trefle.png",
+      "variants": [
+        "images sort/variantes/07-104-trefle-etat-2.png",
+        "images sort/variantes/07-104-trefle-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 8,
+      "spellId": 119,
+      "name": "Tout ou rien",
+      "description": "Le Tout ou Rien inflige des dégâts à tous les joueurs ou leur rend des PDV s'ils sont chanceux.",
+      "iconId": 119,
+      "icon": "images sort/08-119-tout-ou-rien.png",
+      "variants": [
+        "images sort/variantes/08-119-tout-ou-rien-etat-2.png",
+        "images sort/variantes/08-119-tout-ou-rien-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 9,
+      "spellId": 101,
+      "name": "Roulette",
+      "description": "La Roulette lance des effets aléatoires sur vos adversaires, vos alliés et parfois tous les personnages présents dans votre combat.",
+      "iconId": 101,
+      "icon": "images sort/09-101-roulette.png",
+      "variants": [
+        "images sort/variantes/09-101-roulette-etat-2.png",
+        "images sort/variantes/09-101-roulette-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 10,
+      "spellId": 107,
+      "name": "Topkaj",
+      "description": "Topkaj inflige d'importants dégâts de Feu.",
+      "iconId": 107,
+      "icon": "images sort/10-107-topkaj.png",
+      "variants": [
+        "images sort/variantes/10-107-topkaj-etat-2.png",
+        "images sort/variantes/10-107-topkaj-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 11,
+      "spellId": 116,
+      "name": "Langue Râpeuse",
+      "description": "La Langue Râpeuse inflige des dégâts de Feu et diminue la portée de l'ennemi en cas de coup critique.",
+      "iconId": 116,
+      "icon": "images sort/11-116-langue-rapeuse.png",
+      "variants": [
+        "images sort/variantes/11-116-langue-rapeuse-etat-2.png",
+        "images sort/variantes/11-116-langue-rapeuse-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 12,
+      "spellId": 106,
+      "name": "Roue de la Fortune",
+      "description": "La Roue de la Fortune multiplie par 2 les dégâts, mais fait perdre des PDV au lanceur.",
+      "iconId": 106,
+      "icon": "images sort/12-106-roue-de-la-fortune.png",
+      "variants": [
+        "images sort/variantes/12-106-roue-de-la-fortune-etat-2.png",
+        "images sort/variantes/12-106-roue-de-la-fortune-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 13,
+      "spellId": 117,
+      "name": "Griffe Invocatrice",
+      "description": "Ce sort permet d'invoquer un félin.",
+      "iconId": 117,
+      "icon": "images sort/13-117-griffe-invocatrice.png",
+      "variants": [
+        "images sort/variantes/13-117-griffe-invocatrice-etat-2.png",
+        "images sort/variantes/13-117-griffe-invocatrice-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 14,
+      "spellId": 108,
+      "name": "Esprit Félin",
+      "description": "L'Esprit Félin est une attaque rapprochée infligeant des dégâts de Terre mais pouvant se retourner contre son lanceur.",
+      "iconId": 108,
+      "icon": "images sort/14-108-esprit-felin.png",
+      "variants": [
+        "images sort/variantes/14-108-esprit-felin-etat-2.png",
+        "images sort/variantes/14-108-esprit-felin-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 15,
+      "spellId": 115,
+      "name": "Odorat",
+      "description": "Décuple l'odorat de tous les participants du combat présents autour du lanceur, ce qui occasionne une déconcentration ou une motivation...",
+      "iconId": 115,
+      "icon": "images sort/15-115-odorat.png",
+      "variants": [
+        "images sort/variantes/15-115-odorat-etat-2.png",
+        "images sort/variantes/15-115-odorat-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 16,
+      "spellId": 118,
+      "name": "Réflexes",
+      "description": "Le sort Réflexes permet d'augmenter énormément ses points d'agilité.",
+      "iconId": 118,
+      "icon": "images sort/16-118-reflexes.png",
+      "variants": [
+        "images sort/variantes/16-118-reflexes-etat-2.png",
+        "images sort/variantes/16-118-reflexes-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 17,
+      "spellId": 110,
+      "name": "Vague Céleste",
+      "description": "Née d’un coup du sort, une vague céleste imprévue surgit sous l’impulsion de l’écalip. Portée par le vent, elle balaie ennemis et certitudes, transformant l’aléa en puissance déferlante.",
+      "iconId": 110,
+      "icon": "images sort/17-110-vague-celeste.png",
+      "variants": [
+        "images sort/variantes/17-110-vague-celeste-etat-2.png",
+        "images sort/variantes/17-110-vague-celeste-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 18,
+      "spellId": 112,
+      "name": "Griffe de Ceangal",
+      "description": "La Griffe de Ceangal inflige des dégâts de terre et peut faire perdre un PA pour plusieurs tours sur un coup critique.",
+      "iconId": 112,
+      "icon": "images sort/18-112-griffe-de-ceangal.png",
+      "variants": [
+        "images sort/variantes/18-112-griffe-de-ceangal-etat-2.png",
+        "images sort/variantes/18-112-griffe-de-ceangal-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 19,
+      "spellId": 114,
+      "name": "Quitte ou Double Fatal",
+      "description": "L'Ecaflip joue le tout pour le tout ! Un lancer de dés divin où chaque face scelle un destin explosif. Que la chance opère un Coup Critique dévastateur ou non, les dés sont jetés et les éclats élémentaires pulvérisent l'adversité ! La chance est avec toi, la malchance, pour tes ennemis.",
+      "iconId": 114,
+      "icon": "images sort/19-114-quitte-ou-double-fatal.png",
+      "variants": [
+        "images sort/variantes/19-114-quitte-ou-double-fatal-etat-2.png",
+        "images sort/variantes/19-114-quitte-ou-double-fatal-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 20,
+      "spellId": 120,
+      "name": "Destin d'Ecaflip",
+      "description": "Le Destin d'Ecaflip inflige des dégâts de Terre et enlève un PM pendant plusieurs tours à un ennemi sur un coup critique.",
+      "iconId": 120,
+      "icon": "images sort/20-120-destin-d-ecaflip.png",
+      "variants": [
+        "images sort/variantes/20-120-destin-d-ecaflip-etat-2.png",
+        "images sort/variantes/20-120-destin-d-ecaflip-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 21,
+      "spellId": 1906,
+      "name": "Invocation de Dopeul Ecaflip",
+      "description": "Ce sort permet d'invoquer un Dopeul Ecaflip qui viendra aider son maître pendant les combats.",
+      "iconId": 1906,
+      "icon": "images sort/21-1906-invocation-de-dopeul-ecaflip.png",
+      "variants": [
+        "images sort/variantes/21-1906-invocation-de-dopeul-ecaflip-etat-2.png",
+        "images sort/variantes/21-1906-invocation-de-dopeul-ecaflip-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  ]
+}

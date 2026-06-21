@@ -1,0 +1,48 @@
+CLASSE : IOP
+================================================================================
+Table des classes : classes_fr_184.swf
+Table des sorts : spells_fr_441.swf
+Nombre de sorts utilisés : 21
+
+01. [sort 142 / icône 142] Bond
+    images sort/01-142-bond.png
+02. [sort 143 / icône 143] Intimidation
+    images sort/02-143-intimidation.png
+03. [sort 141 / icône 141] Pression
+    images sort/03-141-pression.png
+04. [sort 144 / icône 144] Compulsion
+    images sort/04-144-compulsion.png
+05. [sort 145 / icône 145] Epée Divine
+    images sort/05-145-epee-divine.png
+06. [sort 146 / icône 146] La Vague du Guerrier
+    images sort/06-146-la-vague-du-guerrier.png
+07. [sort 147 / icône 147] Guide de Bravoure
+    images sort/07-147-guide-de-bravoure.png
+08. [sort 148 / icône 148] Amplification
+    images sort/08-148-amplification.png
+09. [sort 154 / icône 154] Flamme Divine
+    images sort/09-154-flamme-divine.png
+10. [sort 150 / icône 150] Couper
+    images sort/10-150-couper.png
+11. [sort 151 / icône 151] Souffle
+    images sort/11-151-souffle.png
+12. [sort 155 / icône 155] Vitalité
+    images sort/12-155-vitalite.png
+13. [sort 152 / icône 152] Poing Epique
+    images sort/13-152-poing-epique.png
+14. [sort 153 / icône 153] Puissance
+    images sort/14-153-puissance.png
+15. [sort 149 / icône 149] Mutilation
+    images sort/15-149-mutilation.png
+16. [sort 156 / icône 156] Tempête de Puissance
+    images sort/16-156-tempete-de-puissance.png
+17. [sort 157 / icône 157] Epée Céleste
+    images sort/17-157-epee-celeste.png
+18. [sort 158 / icône 158] Geyser du Colosse
+    images sort/18-158-geyser-du-colosse.png
+19. [sort 160 / icône 160] Epée de Iop
+    images sort/19-160-epee-de-iop.png
+20. [sort 159 / icône 159] Colère de Iop
+    images sort/20-159-colere-de-iop.png
+21. [sort 1908 / icône 1908] Invocation de Dopeul Iop
+    images sort/21-1908-invocation-de-dopeul-iop.png

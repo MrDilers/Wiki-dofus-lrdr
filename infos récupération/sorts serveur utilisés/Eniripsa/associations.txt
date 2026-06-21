@@ -1,0 +1,48 @@
+CLASSE : ENIRIPSA
+================================================================================
+Table des classes : classes_fr_184.swf
+Table des sorts : spells_fr_441.swf
+Nombre de sorts utilisés : 21
+
+01. [sort 125 / icône 125] Mot Interdit
+    images sort/01-125-mot-interdit.png
+02. [sort 128 / icône 128] Mot de Frayeur
+    images sort/02-128-mot-de-frayeur.png
+03. [sort 121 / icône 121] Mot Curatif
+    images sort/03-121-mot-curatif.png
+04. [sort 124 / icône 124] Mot Soignant
+    images sort/04-124-mot-soignant.png
+05. [sort 122 / icône 122] Le Baiser Incandescent
+    images sort/05-122-le-baiser-incandescent.png
+06. [sort 126 / icône 126] Impulsion Vitale
+    images sort/06-126-impulsion-vitale.png
+07. [sort 127 / icône 127] Mot de Prévention
+    images sort/07-127-mot-de-prevention.png
+08. [sort 123 / icône 123] Mot Drainant
+    images sort/08-123-mot-drainant.png
+09. [sort 130 / icône 130] Mot Revitalisant
+    images sort/09-130-mot-revitalisant.png
+10. [sort 131 / icône 131] Mot de Régénération
+    images sort/10-131-mot-de-regeneration.png
+11. [sort 132 / icône 132] Mot d'Epine
+    images sort/11-132-mot-d-epine.png
+12. [sort 133 / icône 133] Mot de Jouvence
+    images sort/12-133-mot-de-jouvence.png
+13. [sort 134 / icône 134] Larme d'Ondine
+    images sort/13-134-larme-d-ondine.png
+14. [sort 135 / icône 135] Mot de Sacrifice
+    images sort/14-135-mot-de-sacrifice.png
+15. [sort 129 / icône 129] Mot d'Amitié
+    images sort/15-129-mot-d-amitie.png
+16. [sort 136 / icône 136] Mot d'Immobilisation
+    images sort/16-136-mot-d-immobilisation.png
+17. [sort 137 / icône 137] Mot d'Envol
+    images sort/17-137-mot-d-envol.png
+18. [sort 138 / icône 138] Mot de Silence
+    images sort/18-138-mot-de-silence.png
+19. [sort 139 / icône 139] Mot d'Altruisme
+    images sort/19-139-mot-d-altruisme.png
+20. [sort 140 / icône 140] Mot de Reconstitution
+    images sort/20-140-mot-de-reconstitution.png
+21. [sort 1907 / icône 1907] Invocation de Dopeul Eniripsa
+    images sort/21-1907-invocation-de-dopeul-eniripsa.png

@@ -10,7 +10,7 @@ const state = {
   wikiFilter: "Tous",
 };
 
-const siteVersion = "1.2.5";
+const siteVersion = "1.2.6";
 
 function versionedAsset(path) {
   return `${path}${path.includes("?") ? "&" : "?"}v=${siteVersion}`;

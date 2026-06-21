@@ -1,0 +1,48 @@
+CLASSE : SADIDA
+================================================================================
+Table des classes : classes_fr_184.swf
+Table des sorts : spells_fr_441.swf
+Nombre de sorts utilisés : 21
+
+01. [sort 193 / icône 193] La Bloqueuse
+    images sort/01-193-la-bloqueuse.png
+02. [sort 183 / icône 183] Ronce Aride
+    images sort/02-183-ronce-aride.png
+03. [sort 200 / icône 200] Ronce du Chaos
+    images sort/03-200-ronce-du-chaos.png
+04. [sort 198 / icône 198] Ronce des Enfers
+    images sort/04-198-ronce-des-enfers.png
+05. [sort 195 / icône 195] Larme Epineuse
+    images sort/05-195-larme-epineuse.png
+06. [sort 182 / icône 182] La Folle
+    images sort/06-182-la-folle.png
+07. [sort 192 / icône 192] Ronce Apaisante
+    images sort/07-192-ronce-apaisante.png
+08. [sort 197 / icône 197] Puissance Sylvestre
+    images sort/08-197-puissance-sylvestre.png
+09. [sort 189 / icône 189] La Sacrifiée
+    images sort/09-189-la-sacrifiee.png
+10. [sort 181 / icône 181] Tremblement
+    images sort/10-181-tremblement.png
+11. [sort 199 / icône 199] Connaissance des Poupées
+    images sort/11-199-connaissance-des-poupees.png
+12. [sort 191 / icône 191] Ronces Multiples du Roi Sadi
+    images sort/12-191-ronces-multiples-du-roi-sadi.png
+13. [sort 186 / icône 186] Arbre
+    images sort/13-186-arbre.png
+14. [sort 196 / icône 196] Vent Empoisonné
+    images sort/14-196-vent-empoisonne.png
+15. [sort 190 / icône 190] La Gonflable
+    images sort/15-190-la-gonflable.png
+16. [sort 194 / icône 194] Ronces Aerienne
+    images sort/16-194-ronces-aerienne.png
+17. [sort 185 / icône 185] Herbe Folle Ichonne
+    images sort/17-185-herbe-folle-ichonne.png
+18. [sort 184 / icône 184] Feu de Brousse
+    images sort/18-184-feu-de-brousse.png
+19. [sort 188 / icône 188] Ronce Insolente
+    images sort/19-188-ronce-insolente.png
+20. [sort 187 / icône 187] La Surpuissante
+    images sort/20-187-la-surpuissante.png
+21. [sort 1910 / icône 1910] Invocation de Dopeul Sadida
+    images sort/21-1910-invocation-de-dopeul-sadida.png

@@ -1,0 +1,431 @@
+{
+  "classId": 2,
+  "className": "Osamodas",
+  "sourceVersions": {
+    "classes": 184,
+    "spells": 441
+  },
+  "spellCount": 21,
+  "spells": [
+    {
+      "order": 1,
+      "spellId": 23,
+      "name": "Fureur Sauvage",
+      "description": "L'Osamodas canalise la puissance brute de la nature. Ses alliés et ses créatures, emplis d'une rage féroce, frappent avec une force décuplée, transformant chaque coup en un impact redoutable et dévastateur.",
+      "iconId": 23,
+      "icon": "images sort/01-23-fureur-sauvage.png",
+      "variants": [
+        "images sort/variantes/01-23-fureur-sauvage-etat-2.png",
+        "images sort/variantes/01-23-fureur-sauvage-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 2,
+      "spellId": 34,
+      "name": "Invocation de Tofu",
+      "description": "Ce sort permet d'invoquer un Tofu qui partira au combat pour vous.",
+      "iconId": 34,
+      "icon": "images sort/02-34-invocation-de-tofu.png",
+      "variants": [
+        "images sort/variantes/02-34-invocation-de-tofu-etat-2.png",
+        "images sort/variantes/02-34-invocation-de-tofu-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 3,
+      "spellId": 21,
+      "name": "Souffle Zéphyr",
+      "description": "Enfant de la brise légère, Souffle Zéphyr caresse d'abord, puis frappe. Ce vent mutin, né d'un murmure ancestral, déferle sur vos ennemis, leur ôtant leur dernier souffle. Une leçon de douceur avant la tempête.",
+      "iconId": 21,
+      "icon": "images sort/03-21-souffle-zephyr.png",
+      "variants": [
+        "images sort/variantes/03-21-souffle-zephyr-etat-2.png",
+        "images sort/variantes/03-21-souffle-zephyr-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 4,
+      "spellId": 26,
+      "name": "Bénédiction Animale",
+      "description": "La Bénédiction Animale permet d'invoquer plus d'une créature en même temps.",
+      "iconId": 26,
+      "icon": "images sort/04-26-benediction-animale.png",
+      "variants": [
+        "images sort/variantes/04-26-benediction-animale-etat-2.png",
+        "images sort/variantes/04-26-benediction-animale-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 5,
+      "spellId": 22,
+      "name": "Patte Agiles",
+      "description": "L'Osamodas, d'un simple geste, insuffle la vélocité de la bête. Ses alliés et invocations sentent leurs muscles se tendre, prêts à bondir et à se déplacer avec une agilité redoutable sur le champ de bataille. Un véritable élan de rapidité pour tous !",
+      "iconId": 22,
+      "icon": "images sort/05-22-patte-agiles.png",
+      "variants": [
+        "images sort/variantes/05-22-patte-agiles-etat-2.png",
+        "images sort/variantes/05-22-patte-agiles-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 6,
+      "spellId": 35,
+      "name": "Invocation de Bouftou",
+      "description": "Permet d'invoquer un Bouftou agressif.",
+      "iconId": 35,
+      "icon": "images sort/06-35-invocation-de-bouftou.png",
+      "variants": [
+        "images sort/variantes/06-35-invocation-de-bouftou-etat-2.png",
+        "images sort/variantes/06-35-invocation-de-bouftou-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 7,
+      "spellId": 28,
+      "name": "Crapaud",
+      "description": "Le Crapaud permet de réduire les dommages reçus par les invocations et dans une moindre mesure, par les alliés.",
+      "iconId": 28,
+      "icon": "images sort/07-28-crapaud.png",
+      "variants": [
+        "images sort/variantes/07-28-crapaud-etat-2.png",
+        "images sort/variantes/07-28-crapaud-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 8,
+      "spellId": 37,
+      "name": "Invocation de Prespic",
+      "description": "Invoque un Prespic spécialisé dans la perte de PA.",
+      "iconId": 37,
+      "icon": "images sort/08-37-invocation-de-prespic.png",
+      "variants": [
+        "images sort/variantes/08-37-invocation-de-prespic-etat-2.png",
+        "images sort/variantes/08-37-invocation-de-prespic-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 9,
+      "spellId": 30,
+      "name": "Fouet",
+      "description": "Ce sort permet de punir une invocation, qu'elle soit amie ou ennemie.",
+      "iconId": 30,
+      "icon": "images sort/09-30-fouet.png",
+      "variants": [
+        "images sort/variantes/09-30-fouet-etat-2.png",
+        "images sort/variantes/09-30-fouet-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 10,
+      "spellId": 27,
+      "name": "Élan de la Bête",
+      "description": "Dans l'effervescence du combat, l'Osamodas murmure des mots ancestraux. Une énergie primordiale jaillit, revigorant à la fois ses fidèles créatures invoquées et ses alliés proches, leur insufflant la force nécessaire pour terrasser l'adversaire.",
+      "iconId": 27,
+      "icon": "images sort/10-27-elan-de-la-bete.png",
+      "variants": [
+        "images sort/variantes/10-27-elan-de-la-bete-etat-2.png",
+        "images sort/variantes/10-27-elan-de-la-bete-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 11,
+      "spellId": 24,
+      "name": "Danse du Cyclone",
+      "description": "Le Zéphyr grandit, ses spirales se font plus menaçantes. Danse du Cyclone, c'est l'évolution du vent espiègle en tourbillon dévastateur. Chaque pas du danseur aérien crée une bourrasque qui emporte les adversaires, les laissant désorientés et vulnérables.",
+      "iconId": 24,
+      "icon": "images sort/11-24-danse-du-cyclone.png",
+      "variants": [
+        "images sort/variantes/11-24-danse-du-cyclone-etat-2.png",
+        "images sort/variantes/11-24-danse-du-cyclone-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 12,
+      "spellId": 33,
+      "name": "Fureur Ouragan",
+      "description": "La danse s'est transformée en rage, l'harmonie en chaos. Fureur Ouragan incarne la puissance brute des éléments déchaînés. Un déluge de vent hurlant s'abat sur la zone ciblée, lacérant tout sur son passage et ne laissant derrière lui que le silence assourdissant de la dévastation.",
+      "iconId": 33,
+      "icon": "images sort/12-33-fureur-ouragan.png",
+      "variants": [
+        "images sort/variantes/12-33-fureur-ouragan-etat-2.png",
+        "images sort/variantes/12-33-fureur-ouragan-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 13,
+      "spellId": 25,
+      "name": "Soin Animal",
+      "description": "Le Soin Animal permet de rendre un peu de PDV perdus aux invocations ou alliés blessés.",
+      "iconId": 25,
+      "icon": "images sort/13-25-soin-animal.png",
+      "variants": [
+        "images sort/variantes/13-25-soin-animal-etat-2.png",
+        "images sort/variantes/13-25-soin-animal-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 14,
+      "spellId": 38,
+      "name": "Invocation de Sanglier",
+      "description": "Invoque un Sanglier qui repousse les adversaires.",
+      "iconId": 38,
+      "icon": "images sort/14-38-invocation-de-sanglier.png",
+      "variants": [
+        "images sort/variantes/14-38-invocation-de-sanglier-etat-2.png",
+        "images sort/variantes/14-38-invocation-de-sanglier-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 15,
+      "spellId": 36,
+      "name": "Apogée de l'Alizé",
+      "description": "Après la fureur, la maîtrise. Apogée de l'Alizé est la quintessence du pouvoir aérien, le point culminant de l'histoire du vent. Ce sort concentre toute l'énergie des cieux en un point unique, libérant une explosion d'air pur qui repousse et écrase les âmes les plus vaillantes.",
+      "iconId": 36,
+      "icon": "images sort/15-36-apogee-de-l-alize.png",
+      "variants": [
+        "images sort/variantes/15-36-apogee-de-l-alize-etat-2.png",
+        "images sort/variantes/15-36-apogee-de-l-alize-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 16,
+      "spellId": 32,
+      "name": "Dernier Espoir",
+      "description": "L'Osamodas, d'un geste bienveillant, insuffle l'énergie vitale de la nature. Ses alliés et invocations, revitalisés par ce souffle puissant, voient leurs points de vie s'accroître, se préparant à encaisser les assauts les plus violents.",
+      "iconId": 32,
+      "icon": "images sort/16-32-dernier-espoir.png",
+      "variants": [
+        "images sort/variantes/16-32-dernier-espoir-etat-2.png",
+        "images sort/variantes/16-32-dernier-espoir-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 17,
+      "spellId": 29,
+      "name": "Rage Bestiale",
+      "description": "L'Osamodas libère la fureur primordiale ! Ses alliés et invocations, galvanisés par cette rage ancestrale, voient leurs coups décuplés, prêts à infliger des dégâts dévastateurs à tout ce qui ose se dresser sur leur chemin.",
+      "iconId": 29,
+      "icon": "images sort/17-29-rage-bestiale.png",
+      "variants": [
+        "images sort/variantes/17-29-rage-bestiale-etat-2.png",
+        "images sort/variantes/17-29-rage-bestiale-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 18,
+      "spellId": 39,
+      "name": "Invocation de Bwork Mage",
+      "description": "Le Bwork Mage permet de lancer des sorts magiques à distance.",
+      "iconId": 39,
+      "icon": "images sort/18-39-invocation-de-bwork-mage.png",
+      "variants": [
+        "images sort/variantes/18-39-invocation-de-bwork-mage-etat-2.png",
+        "images sort/variantes/18-39-invocation-de-bwork-mage-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 19,
+      "spellId": 40,
+      "name": "Invocation de Craqueleur",
+      "description": "Invoque un Craqueleur puissant qui occasionne de nombreux dégâts et étourdit l'ennemi.",
+      "iconId": 40,
+      "icon": "images sort/19-40-invocation-de-craqueleur.png",
+      "variants": [
+        "images sort/variantes/19-40-invocation-de-craqueleur-etat-2.png",
+        "images sort/variantes/19-40-invocation-de-craqueleur-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 20,
+      "spellId": 31,
+      "name": "Invocation de Dragonnet Rouge",
+      "description": "Ce sort permet d'invoquer un dragonnet rouge cracheur de flammes.",
+      "iconId": 31,
+      "icon": "images sort/20-31-invocation-de-dragonnet-rouge.png",
+      "variants": [
+        "images sort/variantes/20-31-invocation-de-dragonnet-rouge-etat-2.png",
+        "images sort/variantes/20-31-invocation-de-dragonnet-rouge-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 21,
+      "spellId": 1902,
+      "name": "Invocation de Dopeul Osamodas",
+      "description": "Ce sort permet d'invoquer un Dopeul Osamodas qui viendra aider son maître pendant les combats.",
+      "iconId": 1902,
+      "icon": "images sort/21-1902-invocation-de-dopeul-osamodas.png",
+      "variants": [
+        "images sort/variantes/21-1902-invocation-de-dopeul-osamodas-etat-2.png",
+        "images sort/variantes/21-1902-invocation-de-dopeul-osamodas-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  ]
+}

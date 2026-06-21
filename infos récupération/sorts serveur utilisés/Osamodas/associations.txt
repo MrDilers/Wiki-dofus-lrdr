@@ -1,0 +1,48 @@
+CLASSE : OSAMODAS
+================================================================================
+Table des classes : classes_fr_184.swf
+Table des sorts : spells_fr_441.swf
+Nombre de sorts utilisés : 21
+
+01. [sort 23 / icône 23] Fureur Sauvage
+    images sort/01-23-fureur-sauvage.png
+02. [sort 34 / icône 34] Invocation de Tofu
+    images sort/02-34-invocation-de-tofu.png
+03. [sort 21 / icône 21] Souffle Zéphyr
+    images sort/03-21-souffle-zephyr.png
+04. [sort 26 / icône 26] Bénédiction Animale
+    images sort/04-26-benediction-animale.png
+05. [sort 22 / icône 22] Patte Agiles
+    images sort/05-22-patte-agiles.png
+06. [sort 35 / icône 35] Invocation de Bouftou
+    images sort/06-35-invocation-de-bouftou.png
+07. [sort 28 / icône 28] Crapaud
+    images sort/07-28-crapaud.png
+08. [sort 37 / icône 37] Invocation de Prespic
+    images sort/08-37-invocation-de-prespic.png
+09. [sort 30 / icône 30] Fouet
+    images sort/09-30-fouet.png
+10. [sort 27 / icône 27] Élan de la Bête
+    images sort/10-27-elan-de-la-bete.png
+11. [sort 24 / icône 24] Danse du Cyclone
+    images sort/11-24-danse-du-cyclone.png
+12. [sort 33 / icône 33] Fureur Ouragan
+    images sort/12-33-fureur-ouragan.png
+13. [sort 25 / icône 25] Soin Animal
+    images sort/13-25-soin-animal.png
+14. [sort 38 / icône 38] Invocation de Sanglier
+    images sort/14-38-invocation-de-sanglier.png
+15. [sort 36 / icône 36] Apogée de l'Alizé
+    images sort/15-36-apogee-de-l-alize.png
+16. [sort 32 / icône 32] Dernier Espoir
+    images sort/16-32-dernier-espoir.png
+17. [sort 29 / icône 29] Rage Bestiale
+    images sort/17-29-rage-bestiale.png
+18. [sort 39 / icône 39] Invocation de Bwork Mage
+    images sort/18-39-invocation-de-bwork-mage.png
+19. [sort 40 / icône 40] Invocation de Craqueleur
+    images sort/19-40-invocation-de-craqueleur.png
+20. [sort 31 / icône 31] Invocation de Dragonnet Rouge
+    images sort/20-31-invocation-de-dragonnet-rouge.png
+21. [sort 1902 / icône 1902] Invocation de Dopeul Osamodas
+    images sort/21-1902-invocation-de-dopeul-osamodas.png

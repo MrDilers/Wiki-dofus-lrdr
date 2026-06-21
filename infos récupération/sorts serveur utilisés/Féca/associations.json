@@ -1,0 +1,431 @@
+{
+  "classId": 1,
+  "className": "Féca",
+  "sourceVersions": {
+    "classes": 184,
+    "spells": 441
+  },
+  "spellCount": 21,
+  "spells": [
+    {
+      "order": 1,
+      "spellId": 3,
+      "name": "Attaque Volcanique",
+      "description": "Quand la Terre gronde de colère et que le Feu danse avec fureur, l'Attaque Volcanique s'abat. Une fissure s'ouvre, libérant une lave ardente et des roches en fusion qui engloutissent vos ennemis.",
+      "iconId": 3,
+      "icon": "images sort/01-3-attaque-volcanique.png",
+      "variants": [
+        "images sort/variantes/01-3-attaque-volcanique-etat-2.png",
+        "images sort/variantes/01-3-attaque-volcanique-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 2,
+      "spellId": 17,
+      "name": "Glyphe Agressif",
+      "description": "Ce glyphe occasionne des dégâts à tous les joueurs.",
+      "iconId": 17,
+      "icon": "images sort/02-17-glyphe-agressif.png",
+      "variants": [
+        "images sort/variantes/02-17-glyphe-agressif-etat-2.png",
+        "images sort/variantes/02-17-glyphe-agressif-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 3,
+      "spellId": 6,
+      "name": "Armure Terrestre",
+      "description": "Cette armure prévient des dégâts neutres et de terre.",
+      "iconId": 6,
+      "icon": "images sort/03-6-armure-terrestre.png",
+      "variants": [
+        "images sort/variantes/03-6-armure-terrestre-etat-2.png",
+        "images sort/variantes/03-6-armure-terrestre-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 4,
+      "spellId": 4,
+      "name": "Renvoi de Sort",
+      "description": "Le Renvoi de Sorts permet de renvoyer un sort occasionnant une perte de PDV ou de PA.",
+      "iconId": 4,
+      "icon": "images sort/04-4-renvoi-de-sort.png",
+      "variants": [
+        "images sort/variantes/04-4-renvoi-de-sort-etat-2.png",
+        "images sort/variantes/04-4-renvoi-de-sort-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 5,
+      "spellId": 2,
+      "name": "Voile des Abysses",
+      "description": "Lors d'un voyage en mer, une brume épaisse et mystérieuse submerge le navire. Les marins, aveuglés par cette nappe océanique insondable, peinent à distinguer les écueils. Ce sort, né des profondeurs, enveloppe l'ennemi d'un voile illusoire, le plongeant dans les ténèbres salines et le désarroi des abysses.",
+      "iconId": 2,
+      "icon": "images sort/05-2-voile-des-abysses.png",
+      "variants": [
+        "images sort/variantes/05-2-voile-des-abysses-etat-2.png",
+        "images sort/variantes/05-2-voile-des-abysses-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 6,
+      "spellId": 1,
+      "name": "Armure Incandescente",
+      "description": "Cette armure prévient des dégâts de Feu.",
+      "iconId": 1,
+      "icon": "images sort/06-1-armure-incandescente.png",
+      "variants": [
+        "images sort/variantes/06-1-armure-incandescente-etat-2.png",
+        "images sort/variantes/06-1-armure-incandescente-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 7,
+      "spellId": 9,
+      "name": "Attaque Orageuse",
+      "description": "L'attaque Orageuse provoque une tornade qui ravage tout sur son passage.",
+      "iconId": 9,
+      "icon": "images sort/07-9-attaque-orageuse.png",
+      "variants": [
+        "images sort/variantes/07-9-attaque-orageuse-etat-2.png",
+        "images sort/variantes/07-9-attaque-orageuse-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 8,
+      "spellId": 18,
+      "name": "Armure Aqueuse",
+      "description": "Cette armure prévient des dégâts d'Eau et octroie une résistance à la perte de PA.",
+      "iconId": 18,
+      "icon": "images sort/08-18-armure-aqueuse.png",
+      "variants": [
+        "images sort/variantes/08-18-armure-aqueuse-etat-2.png",
+        "images sort/variantes/08-18-armure-aqueuse-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 9,
+      "spellId": 20,
+      "name": "Immunité",
+      "description": "L'immunité permet de rendre le lanceur ou un allié invincible pendant quelques tours.",
+      "iconId": 20,
+      "icon": "images sort/09-20-immunite.png",
+      "variants": [
+        "images sort/variantes/09-20-immunite-etat-2.png",
+        "images sort/variantes/09-20-immunite-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 10,
+      "spellId": 14,
+      "name": "Armure Venteuse",
+      "description": "Cette armure prévient des dégâts d'Air et octroie une résistance à la perte de PM.",
+      "iconId": 14,
+      "icon": "images sort/10-14-armure-venteuse.png",
+      "variants": [
+        "images sort/variantes/10-14-armure-venteuse-etat-2.png",
+        "images sort/variantes/10-14-armure-venteuse-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 11,
+      "spellId": 19,
+      "name": "Secousse Lointaine",
+      "description": "De la pointe de vos doigts, la terre répond à votre appel. Une fissure invisible parcourt le sol, traversant les distances, jusqu'à éclater sous les pieds de votre cible. Ce n'est pas un choc direct, mais une onde de choc sourde et puissante, née des profondeurs, qui la frappe sans préavis.",
+      "iconId": 19,
+      "icon": "images sort/11-19-secousse-lointaine.png",
+      "variants": [
+        "images sort/variantes/11-19-secousse-lointaine-etat-2.png",
+        "images sort/variantes/11-19-secousse-lointaine-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 12,
+      "spellId": 5,
+      "name": "Trêve",
+      "description": "Ce sort permet de protéger tous les joueurs présents sur la carte.",
+      "iconId": 5,
+      "icon": "images sort/12-5-treve.png",
+      "variants": [
+        "images sort/variantes/12-5-treve-etat-2.png",
+        "images sort/variantes/12-5-treve-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 13,
+      "spellId": 16,
+      "name": "Science du bâton",
+      "description": "Ce sort permet aux disciples de cette guilde d'augmenter leurs dégâts physiques.",
+      "iconId": 16,
+      "icon": "images sort/13-16-science-du-baton.png",
+      "variants": [
+        "images sort/variantes/13-16-science-du-baton-etat-2.png",
+        "images sort/variantes/13-16-science-du-baton-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 14,
+      "spellId": 8,
+      "name": "Poigne Tellurique",
+      "description": "Alors que la terre tremble sous vos pieds, une main spectrale émerge des profondeurs. Elle ne frappe pas seulement, elle étreint, aspirant la force de ceux qu'elle touche. Comme les racines d'un arbre ancien s'enfonçant dans le sol pour y puiser leur puissance, ce sort consume l'essence de vos ennemis, les laissant affaiblis face à la colère tellurique.",
+      "iconId": 8,
+      "icon": "images sort/14-8-poigne-tellurique.png",
+      "variants": [
+        "images sort/variantes/14-8-poigne-tellurique-etat-2.png",
+        "images sort/variantes/14-8-poigne-tellurique-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 15,
+      "spellId": 12,
+      "name": "Glyphe d'Aveuglement",
+      "description": "Ce glyphe fait perdre des PA.",
+      "iconId": 12,
+      "icon": "images sort/15-12-glyphe-d-aveuglement.png",
+      "variants": [
+        "images sort/variantes/15-12-glyphe-d-aveuglement-etat-2.png",
+        "images sort/variantes/15-12-glyphe-d-aveuglement-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 16,
+      "spellId": 11,
+      "name": "Téléportation",
+      "description": "La Téléportation permet à un joueur de se déplacer rapidement.",
+      "iconId": 11,
+      "icon": "images sort/16-11-teleportation.png",
+      "variants": [
+        "images sort/variantes/16-11-teleportation-etat-2.png",
+        "images sort/variantes/16-11-teleportation-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 17,
+      "spellId": 10,
+      "name": "Glyphe Apocalyptique",
+      "description": "Face au Féca, le sol frémit. Sa Glyphe Apocalyptique, née d'une fureur divine, engloutit tout sur son passage. C'est un vortex d'énergie pure qui transforme l'ennemi en néant. L'anéantissement à portée de sort !",
+      "iconId": 10,
+      "icon": "images sort/17-10-glyphe-apocalyptique.png",
+      "variants": [
+        "images sort/variantes/17-10-glyphe-apocalyptique-etat-2.png",
+        "images sort/variantes/17-10-glyphe-apocalyptique-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 18,
+      "spellId": 7,
+      "name": "Bouclier Féca",
+      "description": "Ce bouclier réduit (en pourcentage) les dégâts reçus.",
+      "iconId": 7,
+      "icon": "images sort/18-7-bouclier-feca.png",
+      "variants": [
+        "images sort/variantes/18-7-bouclier-feca-etat-2.png",
+        "images sort/variantes/18-7-bouclier-feca-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 19,
+      "spellId": 15,
+      "name": "Glyphe d'immobilisation",
+      "description": "Ce glyphe immobilise tous les joueurs, alliés comme ennemis.",
+      "iconId": 15,
+      "icon": "images sort/19-15-glyphe-d-immobilisation.png",
+      "variants": [
+        "images sort/variantes/19-15-glyphe-d-immobilisation-etat-2.png",
+        "images sort/variantes/19-15-glyphe-d-immobilisation-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 20,
+      "spellId": 13,
+      "name": "Glyphe de Silence",
+      "description": "Ce glyphe empêche les joueurs se trouvant dans sa zone de lancer des sorts.",
+      "iconId": 13,
+      "icon": "images sort/20-13-glyphe-de-silence.png",
+      "variants": [
+        "images sort/variantes/20-13-glyphe-de-silence-etat-2.png",
+        "images sort/variantes/20-13-glyphe-de-silence-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 21,
+      "spellId": 1901,
+      "name": "Invocation de Dopeul Féca",
+      "description": "Ce sort permet d'invoquer un Dopeul Féca qui aidera son maître pendant les combats.",
+      "iconId": 1901,
+      "icon": "images sort/21-1901-invocation-de-dopeul-feca.png",
+      "variants": [
+        "images sort/variantes/21-1901-invocation-de-dopeul-feca-etat-2.png",
+        "images sort/variantes/21-1901-invocation-de-dopeul-feca-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  ]
+}

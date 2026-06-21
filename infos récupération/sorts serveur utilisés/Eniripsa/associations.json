@@ -1,0 +1,431 @@
+{
+  "classId": 7,
+  "className": "Eniripsa",
+  "sourceVersions": {
+    "classes": 184,
+    "spells": 441
+  },
+  "spellCount": 21,
+  "spells": [
+    {
+      "order": 1,
+      "spellId": 125,
+      "name": "Mot Interdit",
+      "description": "Le Mot Interdit est une attaque très puissante... pour une Eniripsa.",
+      "iconId": 125,
+      "icon": "images sort/01-125-mot-interdit.png",
+      "variants": [
+        "images sort/variantes/01-125-mot-interdit-etat-2.png",
+        "images sort/variantes/01-125-mot-interdit-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 2,
+      "spellId": 128,
+      "name": "Mot de Frayeur",
+      "description": "Le Mot de Frayeur repousse les ennemis.",
+      "iconId": 128,
+      "icon": "images sort/02-128-mot-de-frayeur.png",
+      "variants": [
+        "images sort/variantes/02-128-mot-de-frayeur-etat-2.png",
+        "images sort/variantes/02-128-mot-de-frayeur-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 3,
+      "spellId": 121,
+      "name": "Mot Curatif",
+      "description": "Le Mot Curatif permet de récupérer des PDV.",
+      "iconId": 121,
+      "icon": "images sort/03-121-mot-curatif.png",
+      "variants": [
+        "images sort/variantes/03-121-mot-curatif-etat-2.png",
+        "images sort/variantes/03-121-mot-curatif-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 4,
+      "spellId": 124,
+      "name": "Mot Soignant",
+      "description": "Le Mot Soignant permet de soigner un allié.",
+      "iconId": 124,
+      "icon": "images sort/04-124-mot-soignant.png",
+      "variants": [
+        "images sort/variantes/04-124-mot-soignant-etat-2.png",
+        "images sort/variantes/04-124-mot-soignant-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 5,
+      "spellId": 122,
+      "name": "Le Baiser Incandescent",
+      "description": "Autrefois, une Eniripsa, lasse des sourires forcés des convalescents, rêva d'une étincelle nouvelle. Un jour, en murmurant un mot ancien, son baiser, d'ordinaire apaisant, se mua en un souffle ardent. Une flamme purificatrice, aussi chaude qu'un amour interdit, capable de consumer les maux... et parfois, les cœurs imprudents.",
+      "iconId": 122,
+      "icon": "images sort/05-122-le-baiser-incandescent.png",
+      "variants": [
+        "images sort/variantes/05-122-le-baiser-incandescent-etat-2.png",
+        "images sort/variantes/05-122-le-baiser-incandescent-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 6,
+      "spellId": 126,
+      "name": "Impulsion Vitale",
+      "description": "D’un souffle puissant, l’Eniripsa prononce un mot sacré, éveillant une énergie brûlante chez ses alliés et levant les chaînes de la fatigue, pour qu’ils se relèvent et combattent avec une force renouvelée.",
+      "iconId": 126,
+      "icon": "images sort/06-126-impulsion-vitale.png",
+      "variants": [
+        "images sort/variantes/06-126-impulsion-vitale-etat-2.png",
+        "images sort/variantes/06-126-impulsion-vitale-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 7,
+      "spellId": 127,
+      "name": "Mot de Prévention",
+      "description": "Le Mot de Prévention prévient des dégâts magiques et de CAC.",
+      "iconId": 127,
+      "icon": "images sort/07-127-mot-de-prevention.png",
+      "variants": [
+        "images sort/variantes/07-127-mot-de-prevention-etat-2.png",
+        "images sort/variantes/07-127-mot-de-prevention-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 8,
+      "spellId": 123,
+      "name": "Mot Drainant",
+      "description": "Le Mot Drainant fait perdre des PA aux ennemis, mais blesse le lanceur du sort. \n",
+      "iconId": 123,
+      "icon": "images sort/08-123-mot-drainant.png",
+      "variants": [
+        "images sort/variantes/08-123-mot-drainant-etat-2.png",
+        "images sort/variantes/08-123-mot-drainant-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 9,
+      "spellId": 130,
+      "name": "Mot Revitalisant",
+      "description": "Le Mot Revitalisant permet de soigner plusieurs personnages.",
+      "iconId": 130,
+      "icon": "images sort/09-130-mot-revitalisant.png",
+      "variants": [
+        "images sort/variantes/09-130-mot-revitalisant-etat-2.png",
+        "images sort/variantes/09-130-mot-revitalisant-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 10,
+      "spellId": 131,
+      "name": "Mot de Régénération",
+      "description": "Ce Mot permet au lanceur du sort d'avoir la faculté de se régénérer.",
+      "iconId": 131,
+      "icon": "images sort/10-131-mot-de-regeneration.png",
+      "variants": [
+        "images sort/variantes/10-131-mot-de-regeneration-etat-2.png",
+        "images sort/variantes/10-131-mot-de-regeneration-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 11,
+      "spellId": 132,
+      "name": "Mot d'Epine",
+      "description": "Le Mot d'Epine permet à son lanceur de renvoyer des dégâts magiques ou physiques.",
+      "iconId": 132,
+      "icon": "images sort/11-132-mot-d-epine.png",
+      "variants": [
+        "images sort/variantes/11-132-mot-d-epine-etat-2.png",
+        "images sort/variantes/11-132-mot-d-epine-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 12,
+      "spellId": 133,
+      "name": "Mot de Jouvence",
+      "description": "Ce sort permet de faire disparaître les envoûtements lancés sur un allié.",
+      "iconId": 133,
+      "icon": "images sort/12-133-mot-de-jouvence.png",
+      "variants": [
+        "images sort/variantes/12-133-mot-de-jouvence-etat-2.png",
+        "images sort/variantes/12-133-mot-de-jouvence-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 13,
+      "spellId": 134,
+      "name": "Larme d'Ondine",
+      "description": "Une Eniripsa, pleurant la perte d'une âme, vit ses larmes se transformer. Chaque goutte, chargée de son chagrin, devint une perle d'eau pure, capable de geler le mal ou d'apaiser les brûlures. Un torrent de tristesse converti en puissance, emportant tout sur son passage, laissant derrière elle une paix glaciale.",
+      "iconId": 134,
+      "icon": "images sort/13-134-larme-d-ondine.png",
+      "variants": [
+        "images sort/variantes/13-134-larme-d-ondine-etat-2.png",
+        "images sort/variantes/13-134-larme-d-ondine-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 14,
+      "spellId": 135,
+      "name": "Mot de Sacrifice",
+      "description": "Ce Mot permet de sacrifier une partie de ses PDV pour les transférer à quelqu'un.",
+      "iconId": 135,
+      "icon": "images sort/14-135-mot-de-sacrifice.png",
+      "variants": [
+        "images sort/variantes/14-135-mot-de-sacrifice-etat-2.png",
+        "images sort/variantes/14-135-mot-de-sacrifice-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 15,
+      "spellId": 129,
+      "name": "Mot d'Amitié",
+      "description": "Le Mot d'Amitié permet d'invoquer un Lapin Guérisseur.",
+      "iconId": 129,
+      "icon": "images sort/15-129-mot-d-amitie.png",
+      "variants": [
+        "images sort/variantes/15-129-mot-d-amitie-etat-2.png",
+        "images sort/variantes/15-129-mot-d-amitie-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 16,
+      "spellId": 136,
+      "name": "Mot d'Immobilisation",
+      "description": "Le Mot d'Immobilisation permet d'empêcher un joueur de se déplacer.",
+      "iconId": 136,
+      "icon": "images sort/16-136-mot-d-immobilisation.png",
+      "variants": [
+        "images sort/variantes/16-136-mot-d-immobilisation-etat-2.png",
+        "images sort/variantes/16-136-mot-d-immobilisation-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 17,
+      "spellId": 137,
+      "name": "Mot d'Envol",
+      "description": "Le Mot d'Envol permet de s'élever dans les airs un bref instant afin d'augmenter sa portée.",
+      "iconId": 137,
+      "icon": "images sort/17-137-mot-d-envol.png",
+      "variants": [
+        "images sort/variantes/17-137-mot-d-envol-etat-2.png",
+        "images sort/variantes/17-137-mot-d-envol-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 18,
+      "spellId": 138,
+      "name": "Mot de Silence",
+      "description": "Le Mot de Silence réduit considérablement les PA de tous ceux qui se trouvent dans sa zone d'effet..",
+      "iconId": 138,
+      "icon": "images sort/18-138-mot-de-silence.png",
+      "variants": [
+        "images sort/variantes/18-138-mot-de-silence-etat-2.png",
+        "images sort/variantes/18-138-mot-de-silence-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 19,
+      "spellId": 139,
+      "name": "Mot d'Altruisme",
+      "description": "Soigne tous les alliés et le lanceur du sort mais interdit l'utilisation des sorts de soin de la classe Eniripsa.",
+      "iconId": 139,
+      "icon": "images sort/19-139-mot-d-altruisme.png",
+      "variants": [
+        "images sort/variantes/19-139-mot-d-altruisme-etat-2.png",
+        "images sort/variantes/19-139-mot-d-altruisme-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 20,
+      "spellId": 140,
+      "name": "Mot de Reconstitution",
+      "description": "Le Mot de Reconstitution permet de restaurer de façon conséquente la vie d'un joueur.",
+      "iconId": 140,
+      "icon": "images sort/20-140-mot-de-reconstitution.png",
+      "variants": [
+        "images sort/variantes/20-140-mot-de-reconstitution-etat-2.png",
+        "images sort/variantes/20-140-mot-de-reconstitution-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 21,
+      "spellId": 1907,
+      "name": "Invocation de Dopeul Eniripsa",
+      "description": "Ce sort permet d'invoquer un Dopeul Eniripsa qui viendra aider son maître pendant les combats.",
+      "iconId": 1907,
+      "icon": "images sort/21-1907-invocation-de-dopeul-eniripsa.png",
+      "variants": [
+        "images sort/variantes/21-1907-invocation-de-dopeul-eniripsa-etat-2.png",
+        "images sort/variantes/21-1907-invocation-de-dopeul-eniripsa-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  ]
+}

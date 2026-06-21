@@ -1,0 +1,431 @@
+{
+  "classId": 11,
+  "className": "Sacrieur",
+  "sourceVersions": {
+    "classes": 184,
+    "spells": 441
+  },
+  "spellCount": 21,
+  "spells": [
+    {
+      "order": 1,
+      "spellId": 431,
+      "name": "Châtiment Forcé",
+      "description": "Augmente la force du Sacrieur lorsqu'il perd des points de vie.",
+      "iconId": 431,
+      "icon": "images sort/01-431-chatiment-force.png",
+      "variants": [
+        "images sort/variantes/01-431-chatiment-force-etat-2.png",
+        "images sort/variantes/01-431-chatiment-force-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 2,
+      "spellId": 432,
+      "name": "Pied du Tsunami",
+      "description": "Ce sort n'est qu'utilisable que lorsque vous voulez créer un Tsunami sur la terre des Douzes et prendre les commandes du Royaume. Sinon, laisser vivre en paix ces pauvres bouftous !",
+      "iconId": 432,
+      "icon": "images sort/02-432-pied-du-tsunami.png",
+      "variants": [
+        "images sort/variantes/02-432-pied-du-tsunami-etat-2.png",
+        "images sort/variantes/02-432-pied-du-tsunami-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 3,
+      "spellId": 434,
+      "name": "Attirance",
+      "description": "Attire une cible vers le Sacrieur.",
+      "iconId": 434,
+      "icon": "images sort/03-434-attirance.png",
+      "variants": [
+        "images sort/variantes/03-434-attirance-etat-2.png",
+        "images sort/variantes/03-434-attirance-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 4,
+      "spellId": 444,
+      "name": "Dérobade",
+      "description": "Permet d'esquiver une attaque lancée au corps à corps.",
+      "iconId": 444,
+      "icon": "images sort/04-444-derobade.png",
+      "variants": [
+        "images sort/variantes/04-444-derobade-etat-2.png",
+        "images sort/variantes/04-444-derobade-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 5,
+      "spellId": 449,
+      "name": "Détour",
+      "description": "Permet d'échanger sa position avec un allié ou un ennemi.",
+      "iconId": 449,
+      "icon": "images sort/05-449-detour.png",
+      "variants": [
+        "images sort/variantes/05-449-detour-etat-2.png",
+        "images sort/variantes/05-449-detour-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 6,
+      "spellId": 436,
+      "name": "Assaut 51",
+      "description": "On parle souvent de la zone 51 mais qu'est ce qui à pu provoquer un tel engouement ? Un Sacrieur est passé par la et a déclenché un Assaut. Depuis cet endroit demeure mystérieux.",
+      "iconId": 436,
+      "icon": "images sort/06-436-assaut-51.png",
+      "variants": [
+        "images sort/variantes/06-436-assaut-51-etat-2.png",
+        "images sort/variantes/06-436-assaut-51-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 7,
+      "spellId": 437,
+      "name": "Châtiment Agile",
+      "description": "Augmente l'agilité du Sacrieur lorsqu'il perd des points de vie.",
+      "iconId": 437,
+      "icon": "images sort/07-437-chatiment-agile.png",
+      "variants": [
+        "images sort/variantes/07-437-chatiment-agile-etat-2.png",
+        "images sort/variantes/07-437-chatiment-agile-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 8,
+      "spellId": 439,
+      "name": "Dissolution des Enfers",
+      "description": "Tout droit venu des enfers, cette dissolution est faite pour taire tous les curieux",
+      "iconId": 439,
+      "icon": "images sort/08-439-dissolution-des-enfers.png",
+      "variants": [
+        "images sort/variantes/08-439-dissolution-des-enfers-etat-2.png",
+        "images sort/variantes/08-439-dissolution-des-enfers-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 9,
+      "spellId": 433,
+      "name": "Châtiment Osé",
+      "description": "Augmente la chance du Sacrieur lorsqu'il perd des points de vie.",
+      "iconId": 433,
+      "icon": "images sort/09-433-chatiment-ose.png",
+      "variants": [
+        "images sort/variantes/09-433-chatiment-ose-etat-2.png",
+        "images sort/variantes/09-433-chatiment-ose-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 10,
+      "spellId": 443,
+      "name": "Châtiment Spirituel",
+      "description": "Augmente l'intelligence du Sacrieur lorsqu'il perd des points de vie.",
+      "iconId": 443,
+      "icon": "images sort/10-443-chatiment-spirituel.png",
+      "variants": [
+        "images sort/variantes/10-443-chatiment-spirituel-etat-2.png",
+        "images sort/variantes/10-443-chatiment-spirituel-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 11,
+      "spellId": 440,
+      "name": "Sacrifice",
+      "description": "Ce sort permet de choisir un allié et de prendre les coups à sa place.",
+      "iconId": 440,
+      "icon": "images sort/11-440-sacrifice.png",
+      "variants": [
+        "images sort/variantes/11-440-sacrifice-etat-2.png",
+        "images sort/variantes/11-440-sacrifice-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 12,
+      "spellId": 442,
+      "name": "Absorption Terrestre",
+      "description": "La terre avait besoin d'un vaillant guerrier pour veiller sur le monde des Douzes. Avec son bras droit le Roi Sadi, ils devaient protéger les terres saintes contre les attaques. Le vaillant guerrier décida d'utiliser son attaque ultime terrestre et depuis..",
+      "iconId": 442,
+      "icon": "images sort/12-442-absorption-terrestre.png",
+      "variants": [
+        "images sort/variantes/12-442-absorption-terrestre-etat-2.png",
+        "images sort/variantes/12-442-absorption-terrestre-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 13,
+      "spellId": 441,
+      "name": "Châtiment Vitalesque",
+      "description": "Augmente la vitalité du Sacrieur lorsqu'il perd des points de vie.",
+      "iconId": 441,
+      "icon": "images sort/13-441-chatiment-vitalesque.png",
+      "variants": [
+        "images sort/variantes/13-441-chatiment-vitalesque-etat-2.png",
+        "images sort/variantes/13-441-chatiment-vitalesque-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 14,
+      "spellId": 445,
+      "name": "Coopération",
+      "description": "Ce sort permet au lanceur d'échanger sa position avec celle d'un ennemi.",
+      "iconId": 445,
+      "icon": "images sort/14-445-cooperation.png",
+      "variants": [
+        "images sort/variantes/14-445-cooperation-etat-2.png",
+        "images sort/variantes/14-445-cooperation-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 15,
+      "spellId": 438,
+      "name": "Transposition",
+      "description": "Permet d'échanger sa position avec celle d'un allié.",
+      "iconId": 438,
+      "icon": "images sort/15-438-transposition.png",
+      "variants": [
+        "images sort/variantes/15-438-transposition-etat-2.png",
+        "images sort/variantes/15-438-transposition-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 16,
+      "spellId": 446,
+      "name": "Punition",
+      "description": "Occasionne des dommages neutres. Plus la vie du Sacrieur est proche de la moitié du total de ses points de vie, plus les dommages occasionnés sont importants.",
+      "iconId": 446,
+      "icon": "images sort/16-446-punition.png",
+      "variants": [
+        "images sort/variantes/16-446-punition-etat-2.png",
+        "images sort/variantes/16-446-punition-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 17,
+      "spellId": 447,
+      "name": "Furie Sanglantes",
+      "description": "Après toutes les guerres, les cicatrices et le sang qui a coulé, le vaillant guerrier était satisfait de ces années sanglantes remplit de cadavres de Cra, Iop et Sram.",
+      "iconId": 447,
+      "icon": "images sort/17-447-furie-sanglantes.png",
+      "variants": [
+        "images sort/variantes/17-447-furie-sanglantes-etat-2.png",
+        "images sort/variantes/17-447-furie-sanglantes-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 18,
+      "spellId": 448,
+      "name": "Epée volante",
+      "description": "Le sacrieur invoque une épée magique qui foncera droit vers l'ennemi afin de l'embrocher",
+      "iconId": 448,
+      "icon": "images sort/18-448-epee-volante.png",
+      "variants": [
+        "images sort/variantes/18-448-epee-volante-etat-2.png",
+        "images sort/variantes/18-448-epee-volante-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 19,
+      "spellId": 435,
+      "name": "Transfert de Vie",
+      "description": "Ce sort permet au lanceur de transférer une partie de ses points de vie à ses alliés.",
+      "iconId": 435,
+      "icon": "images sort/19-435-transfert-de-vie.png",
+      "variants": [
+        "images sort/variantes/19-435-transfert-de-vie-etat-2.png",
+        "images sort/variantes/19-435-transfert-de-vie-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 20,
+      "spellId": 450,
+      "name": "Folie sanguinaire",
+      "description": "Le sacrieur absorbe le sang d'un de ses alliés afin de retrouver des forces. Mais il peut aller jusqu'à le tuer",
+      "iconId": 450,
+      "icon": "images sort/20-450-folie-sanguinaire.png",
+      "variants": [
+        "images sort/variantes/20-450-folie-sanguinaire-etat-2.png",
+        "images sort/variantes/20-450-folie-sanguinaire-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 21,
+      "spellId": 1911,
+      "name": "Invocation de Dopeul Sacrieur",
+      "description": "Ce sort permet d'invoquer un Dopeul Sacrieur qui viendra aider son maître pendant les combats.",
+      "iconId": 1911,
+      "icon": "images sort/21-1911-invocation-de-dopeul-sacrieur.png",
+      "variants": [
+        "images sort/variantes/21-1911-invocation-de-dopeul-sacrieur-etat-2.png",
+        "images sort/variantes/21-1911-invocation-de-dopeul-sacrieur-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  ]
+}

@@ -1,0 +1,431 @@
+{
+  "classId": 8,
+  "className": "Iop",
+  "sourceVersions": {
+    "classes": 184,
+    "spells": 441
+  },
+  "spellCount": 21,
+  "spells": [
+    {
+      "order": 1,
+      "spellId": 142,
+      "name": "Bond",
+      "description": "Ce sort permet de sauter.",
+      "iconId": 142,
+      "icon": "images sort/01-142-bond.png",
+      "variants": [
+        "images sort/variantes/01-142-bond-etat-2.png",
+        "images sort/variantes/01-142-bond-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 2,
+      "spellId": 143,
+      "name": "Intimidation",
+      "description": "Ce sort inflige des dégâts neutres et fait reculer l'ennemi.",
+      "iconId": 143,
+      "icon": "images sort/02-143-intimidation.png",
+      "variants": [
+        "images sort/variantes/02-143-intimidation-etat-2.png",
+        "images sort/variantes/02-143-intimidation-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 3,
+      "spellId": 141,
+      "name": "Pression",
+      "description": "La Pression inflige des dégâts de Terre avec une portée de 2 cases.",
+      "iconId": 141,
+      "icon": "images sort/03-141-pression.png",
+      "variants": [
+        "images sort/variantes/03-141-pression-etat-2.png",
+        "images sort/variantes/03-141-pression-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 4,
+      "spellId": 144,
+      "name": "Compulsion",
+      "description": "La Compulsion permet d'augmenter les dégâts d'un allié.",
+      "iconId": 144,
+      "icon": "images sort/04-144-compulsion.png",
+      "variants": [
+        "images sort/variantes/04-144-compulsion-etat-2.png",
+        "images sort/variantes/04-144-compulsion-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 5,
+      "spellId": 145,
+      "name": "Epée Divine",
+      "description": "Ce sort inflige des dégâts d'Air et augmente les dégâts du lanceur.",
+      "iconId": 145,
+      "icon": "images sort/05-145-epee-divine.png",
+      "variants": [
+        "images sort/variantes/05-145-epee-divine-etat-2.png",
+        "images sort/variantes/05-145-epee-divine-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 6,
+      "spellId": 146,
+      "name": "La Vague du Guerrier",
+      "description": "La Vague du Guerrier jaillit d'un Iop défiant les marées ! Sa colère forge une déferlante colossale qui écrase les ennemis, les submergeant d'une puissance brute et implacable, vestige d'anciennes batailles navales.",
+      "iconId": 146,
+      "icon": "images sort/06-146-la-vague-du-guerrier.png",
+      "variants": [
+        "images sort/variantes/06-146-la-vague-du-guerrier-etat-2.png",
+        "images sort/variantes/06-146-la-vague-du-guerrier-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 7,
+      "spellId": 147,
+      "name": "Guide de Bravoure",
+      "description": "Le Guide de Bravoure permet d'augmenter les points de dégâts physiques du lanceur et de ses alliés.",
+      "iconId": 147,
+      "icon": "images sort/07-147-guide-de-bravoure.png",
+      "variants": [
+        "images sort/variantes/07-147-guide-de-bravoure-etat-2.png",
+        "images sort/variantes/07-147-guide-de-bravoure-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 8,
+      "spellId": 148,
+      "name": "Amplification",
+      "description": "L'Amplification permet à son lanceur d'augmenter les dégâts qu'il inflige à ses ennemis pendant son tour.",
+      "iconId": 148,
+      "icon": "images sort/08-148-amplification.png",
+      "variants": [
+        "images sort/variantes/08-148-amplification-etat-2.png",
+        "images sort/variantes/08-148-amplification-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 9,
+      "spellId": 154,
+      "name": "Flamme Divine",
+      "description": "Le Iop, transcendé, invoque l'essence même du feu. Sa lame n'est plus, seul un brasier sacré consume l'adversaire. La fureur du guerrier atteint son paroxysme, guidée par une puissance ancestrale qui dévore tout.",
+      "iconId": 154,
+      "icon": "images sort/09-154-flamme-divine.png",
+      "variants": [
+        "images sort/variantes/09-154-flamme-divine-etat-2.png",
+        "images sort/variantes/09-154-flamme-divine-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 10,
+      "spellId": 150,
+      "name": "Couper",
+      "description": "Le sort Couper permet de frapper un ennemi et de le ralentir en infligeant des dégâts de type Feu.",
+      "iconId": 150,
+      "icon": "images sort/10-150-couper.png",
+      "variants": [
+        "images sort/variantes/10-150-couper-etat-2.png",
+        "images sort/variantes/10-150-couper-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 11,
+      "spellId": 151,
+      "name": "Souffle",
+      "description": "Ce sort permet de repousser les alliés ou les ennemis situés autour de votre cible.",
+      "iconId": 151,
+      "icon": "images sort/11-151-souffle.png",
+      "variants": [
+        "images sort/variantes/11-151-souffle-etat-2.png",
+        "images sort/variantes/11-151-souffle-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 12,
+      "spellId": 155,
+      "name": "Vitalité",
+      "description": "Cet envoûtement permet d'augmenter la vitalité de son lanceur.",
+      "iconId": 155,
+      "icon": "images sort/12-155-vitalite.png",
+      "variants": [
+        "images sort/variantes/12-155-vitalite-etat-2.png",
+        "images sort/variantes/12-155-vitalite-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 13,
+      "spellId": 152,
+      "name": "Poing Epique",
+      "description": "Lance un coup puissant, réceptacle de la fureur primordiale des Douze Dieux. Jadis, un Iop déchu implora leur pardon et fut touché par cette grâce imprévisible, manifestant tour à tour leur courroux imprévisible.",
+      "iconId": 152,
+      "icon": "images sort/13-152-poing-epique.png",
+      "variants": [
+        "images sort/variantes/13-152-poing-epique-etat-2.png",
+        "images sort/variantes/13-152-poing-epique-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 14,
+      "spellId": 153,
+      "name": "Puissance",
+      "description": "La Puissance permet d'augmenter (en pourcentage) les dégâts infligés par le lanceur ou un allié.",
+      "iconId": 153,
+      "icon": "images sort/14-153-puissance.png",
+      "variants": [
+        "images sort/variantes/14-153-puissance-etat-2.png",
+        "images sort/variantes/14-153-puissance-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 15,
+      "spellId": 149,
+      "name": "Mutilation",
+      "description": "Augmente les dégâts, mais fait perdre de la vie en contre-partie.",
+      "iconId": 149,
+      "icon": "images sort/15-149-mutilation.png",
+      "variants": [
+        "images sort/variantes/15-149-mutilation-etat-2.png",
+        "images sort/variantes/15-149-mutilation-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 16,
+      "spellId": 156,
+      "name": "Tempête de Puissance",
+      "description": "La Tempête de Puissance inflige des dégâts de Feu.",
+      "iconId": 156,
+      "icon": "images sort/16-156-tempete-de-puissance.png",
+      "variants": [
+        "images sort/variantes/16-156-tempete-de-puissance-etat-2.png",
+        "images sort/variantes/16-156-tempete-de-puissance-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 17,
+      "spellId": 157,
+      "name": "Epée Céleste",
+      "description": "L'Épée Céleste inflige des dégâts d'Air en lançant des éclairs sur tous les joueurs se trouvant dans sa zone d'effet.",
+      "iconId": 157,
+      "icon": "images sort/17-157-epee-celeste.png",
+      "variants": [
+        "images sort/variantes/17-157-epee-celeste-etat-2.png",
+        "images sort/variantes/17-157-epee-celeste-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 18,
+      "spellId": 158,
+      "name": "Geyser du Colosse",
+      "description": "Un Iop, après avoir terrassé un Kraken millénaire, absorba son essence. Le Geyser du Colosse jaillit alors de sa rage, projetant une colonne d'eau d'une violence inouïe qui pulvérise l'adversaire. Rien ne résiste à sa fureur.",
+      "iconId": 158,
+      "icon": "images sort/18-158-geyser-du-colosse.png",
+      "variants": [
+        "images sort/variantes/18-158-geyser-du-colosse-etat-2.png",
+        "images sort/variantes/18-158-geyser-du-colosse-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 19,
+      "spellId": 160,
+      "name": "Epée de Iop",
+      "description": "L'Épée de Iop permet d'infliger énormément de dégâts de Terre à plusieurs ennemis.",
+      "iconId": 160,
+      "icon": "images sort/19-160-epee-de-iop.png",
+      "variants": [
+        "images sort/variantes/19-160-epee-de-iop-etat-2.png",
+        "images sort/variantes/19-160-epee-de-iop-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 20,
+      "spellId": 159,
+      "name": "Colère de Iop",
+      "description": "Inflige des dommages d'élément terre et augmente les dommages du sort au quatrième tour après avoir été lancé.",
+      "iconId": 159,
+      "icon": "images sort/20-159-colere-de-iop.png",
+      "variants": [
+        "images sort/variantes/20-159-colere-de-iop-etat-2.png",
+        "images sort/variantes/20-159-colere-de-iop-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 21,
+      "spellId": 1908,
+      "name": "Invocation de Dopeul Iop",
+      "description": "Ce sort permet d'invoquer un Dopeul Iop qui viendra aider son maître pendant les combats.",
+      "iconId": 1908,
+      "icon": "images sort/21-1908-invocation-de-dopeul-iop.png",
+      "variants": [
+        "images sort/variantes/21-1908-invocation-de-dopeul-iop-etat-2.png",
+        "images sort/variantes/21-1908-invocation-de-dopeul-iop-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  ]
+}

@@ -1,0 +1,431 @@
+{
+  "classId": 9,
+  "className": "Crâ",
+  "sourceVersions": {
+    "classes": 184,
+    "spells": 441
+  },
+  "spellCount": 21,
+  "spells": [
+    {
+      "order": 1,
+      "spellId": 169,
+      "name": "Flèche de Recul",
+      "description": "Occasionne des dommages Air et pousse la cible.",
+      "iconId": 169,
+      "icon": "images sort/01-169-fleche-de-recul.png",
+      "variants": [
+        "images sort/variantes/01-169-fleche-de-recul-etat-2.png",
+        "images sort/variantes/01-169-fleche-de-recul-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 2,
+      "spellId": 164,
+      "name": "Souffle de l’Humus",
+      "description": "Dans les marais d’un royaume oublié, un Crâ perdit la raison. Il créa une flèche d’écorce vivante, suintant un poison lent… Elle s’enracine dans la chair, y fait pousser la douleur, jusqu’à étouffer l’âme.",
+      "iconId": 164,
+      "icon": "images sort/02-164-souffle-de-l-humus.png",
+      "variants": [
+        "images sort/variantes/02-164-souffle-de-l-humus-etat-2.png",
+        "images sort/variantes/02-164-souffle-de-l-humus-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 3,
+      "spellId": 161,
+      "name": "Flèche Magique",
+      "description": "Occasionne des dommages Feu et vole la portée de la cible.",
+      "iconId": 161,
+      "icon": "images sort/03-161-fleche-magique.png",
+      "variants": [
+        "images sort/variantes/03-161-fleche-magique-etat-2.png",
+        "images sort/variantes/03-161-fleche-magique-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 4,
+      "spellId": 163,
+      "name": "Flèche Glacée",
+      "description": "Occasionne des dommages Feu et retire des PA.",
+      "iconId": 163,
+      "icon": "images sort/04-163-fleche-glacee.png",
+      "variants": [
+        "images sort/variantes/04-163-fleche-glacee-etat-2.png",
+        "images sort/variantes/04-163-fleche-glacee-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 5,
+      "spellId": 165,
+      "name": "Flèche Enflammée",
+      "description": "Occasionne des dommages Feu et pousse les cibles présentes dans la zone d'effet du sort.",
+      "iconId": 165,
+      "icon": "images sort/05-165-fleche-enflammee.png",
+      "variants": [
+        "images sort/variantes/05-165-fleche-enflammee-etat-2.png",
+        "images sort/variantes/05-165-fleche-enflammee-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 6,
+      "spellId": 172,
+      "name": "Tir Eloigné",
+      "description": "Augmente la portée des cibles présentes dans la zone d'effet.",
+      "iconId": 172,
+      "icon": "images sort/06-172-tir-eloigne.png",
+      "variants": [
+        "images sort/variantes/06-172-tir-eloigne-etat-2.png",
+        "images sort/variantes/06-172-tir-eloigne-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 7,
+      "spellId": 167,
+      "name": "Frisson de l'Abîme",
+      "description": "Un silence glacial enveloppait jadis une forteresse maudite. Quiconque en franchissait le seuil sentait un froid surnaturel s'insinuer, aspirant toute chaleur, toute vie. Ce sort est l'écho de cette terreur gelée, une étreinte de l'abîme qui glacerait même les âmes les plus ardentes.",
+      "iconId": 167,
+      "icon": "images sort/07-167-frisson-de-l-abime.png",
+      "variants": [
+        "images sort/variantes/07-167-frisson-de-l-abime-etat-2.png",
+        "images sort/variantes/07-167-frisson-de-l-abime-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 8,
+      "spellId": 168,
+      "name": "Oeil de Taupe",
+      "description": "Réduit la portée des personnages ciblés et vole de la vie dans l'élément Eau.",
+      "iconId": 168,
+      "icon": "images sort/08-168-oeil-de-taupe.png",
+      "variants": [
+        "images sort/variantes/08-168-oeil-de-taupe-etat-2.png",
+        "images sort/variantes/08-168-oeil-de-taupe-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 9,
+      "spellId": 162,
+      "name": "Tir Critique",
+      "description": "Augmente la probabilité de faire un coup critique.",
+      "iconId": 162,
+      "icon": "images sort/09-162-tir-critique.png",
+      "variants": [
+        "images sort/variantes/09-162-tir-critique-etat-2.png",
+        "images sort/variantes/09-162-tir-critique-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 10,
+      "spellId": 170,
+      "name": "Flèche d'Immobilisation",
+      "description": "Occasionne des dommages Eau et vole des PM à la cible.",
+      "iconId": 170,
+      "icon": "images sort/10-170-fleche-d-immobilisation.png",
+      "variants": [
+        "images sort/variantes/10-170-fleche-d-immobilisation-etat-2.png",
+        "images sort/variantes/10-170-fleche-d-immobilisation-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 11,
+      "spellId": 171,
+      "name": "Flèche Massacrante",
+      "description": "Cette flèche n'est pas qu'un projectile ; elle est une semence de destruction. Lancée par un Crâ vengeur, elle s'enfonce dans le sol, réveillant une rage tellurique ancestrale. L'impact déclenche un séisme localisé, déchaînant des roches acérées et des failles béantes qui engloutissent l'ennemi. Le monde lui-même tremble sous la puissance de cette flèche.",
+      "iconId": 171,
+      "icon": "images sort/11-171-fleche-massacrante.png",
+      "variants": [
+        "images sort/variantes/11-171-fleche-massacrante-etat-2.png",
+        "images sort/variantes/11-171-fleche-massacrante-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 12,
+      "spellId": 166,
+      "name": "Tir Puissant",
+      "description": "Augmente les dommages des sorts et des armes.",
+      "iconId": 166,
+      "icon": "images sort/12-166-tir-puissant.png",
+      "variants": [
+        "images sort/variantes/12-166-tir-puissant-etat-2.png",
+        "images sort/variantes/12-166-tir-puissant-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 13,
+      "spellId": 173,
+      "name": "Flèche des Murmures",
+      "description": "Forgée dans un souffle volé à une banshee, cette flèche glisse dans l’air sans bruit. On dit que ceux qu’elle touche entendent des voix… qui les poussent lentement vers la folie. ",
+      "iconId": 173,
+      "icon": "images sort/13-173-fleche-des-murmures.png",
+      "variants": [
+        "images sort/variantes/13-173-fleche-des-murmures-etat-2.png",
+        "images sort/variantes/13-173-fleche-des-murmures-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 14,
+      "spellId": 174,
+      "name": "Flèche du Revenant",
+      "description": "Lors d’une ancienne guerre, un Crâ tira une flèche en bois maudit qui ne rata jamais sa cible. Depuis, elle erre, guidée par les âmes qu’elle a fauchées… et frappe encore, même d’outre-tombe.",
+      "iconId": 174,
+      "icon": "images sort/14-174-fleche-du-revenant.png",
+      "variants": [
+        "images sort/variantes/14-174-fleche-du-revenant-etat-2.png",
+        "images sort/variantes/14-174-fleche-du-revenant-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 15,
+      "spellId": 176,
+      "name": "Flèche du Néant",
+      "description": "Elle fend l’air sans un son, née d’un pacte avec une entité oubliée. Ceux qu’elle effleure sentent le vent leur voler la vie… et leur dernier souffle murmure encore dans les cieux.",
+      "iconId": 176,
+      "icon": "images sort/15-176-fleche-du-neant.png",
+      "variants": [
+        "images sort/variantes/15-176-fleche-du-neant-etat-2.png",
+        "images sort/variantes/15-176-fleche-du-neant-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 16,
+      "spellId": 175,
+      "name": "Flèche Destructrice",
+      "description": "Occasionne des dommages Terre et réduit les dommages occasionnés par la cible.",
+      "iconId": 175,
+      "icon": "images sort/16-175-fleche-destructrice.png",
+      "variants": [
+        "images sort/variantes/16-175-fleche-destructrice-etat-2.png",
+        "images sort/variantes/16-175-fleche-destructrice-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 17,
+      "spellId": 178,
+      "name": "Flèche du Vent Cisaillant",
+      "description": "Forgée dans les tempêtes des sommets inaccessibles, cette flèche porte la fureur des vents primordiaux. Invisible à l'œil nu, elle tranche l'air et la chair avec une précision mortelle. Ses victimes ne voient rien venir, ne ressentent qu'une douleur aiguë, comme mille lames d'air glacé les découpant de l'intérieur.",
+      "iconId": 178,
+      "icon": "images sort/17-178-fleche-du-vent-cisaillant.png",
+      "variants": [
+        "images sort/variantes/17-178-fleche-du-vent-cisaillant-etat-2.png",
+        "images sort/variantes/17-178-fleche-du-vent-cisaillant-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 18,
+      "spellId": 177,
+      "name": "Flèche Ralentissante",
+      "description": "Occasionne des dommages Eau et retire des PA dans toute la zone d'effet.",
+      "iconId": 177,
+      "icon": "images sort/18-177-fleche-ralentissante.png",
+      "variants": [
+        "images sort/variantes/18-177-fleche-ralentissante-etat-2.png",
+        "images sort/variantes/18-177-fleche-ralentissante-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 19,
+      "spellId": 179,
+      "name": "Flèche Explosive",
+      "description": "Une flèche embrasée qui éclate au moindre impact. Forgée dans les braises des anciens archers, cette attaque libère une détonation ardente capable de consumer plusieurs ennemis à la fois dans une pluie de feu dévastatrice.",
+      "iconId": 179,
+      "icon": "images sort/19-179-fleche-explosive.png",
+      "variants": [
+        "images sort/variantes/19-179-fleche-explosive-etat-2.png",
+        "images sort/variantes/19-179-fleche-explosive-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 20,
+      "spellId": 180,
+      "name": "Maîtrise de l'Arc",
+      "description": "Augmente les dommages.",
+      "iconId": 180,
+      "icon": "images sort/20-180-maitrise-de-l-arc.png",
+      "variants": [
+        "images sort/variantes/20-180-maitrise-de-l-arc-etat-2.png",
+        "images sort/variantes/20-180-maitrise-de-l-arc-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 21,
+      "spellId": 1909,
+      "name": "Invocation de Dopeul Crâ",
+      "description": "Ce sort permet d'invoquer un Dopeul Crâ qui viendra aider son maître pendant les combats.",
+      "iconId": 1909,
+      "icon": "images sort/21-1909-invocation-de-dopeul-cra.png",
+      "variants": [
+        "images sort/variantes/21-1909-invocation-de-dopeul-cra-etat-2.png",
+        "images sort/variantes/21-1909-invocation-de-dopeul-cra-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  ]
+}

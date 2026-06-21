@@ -1,0 +1,431 @@
+{
+  "classId": 4,
+  "className": "Sram",
+  "sourceVersions": {
+    "classes": 184,
+    "spells": 441
+  },
+  "spellCount": 21,
+  "spells": [
+    {
+      "order": 1,
+      "spellId": 65,
+      "name": "Piège Sournois",
+      "description": "Le Piège Sournois inflige des dégâts de Terre à celui qui le déclenche.",
+      "iconId": 65,
+      "icon": "images sort/01-65-piege-sournois.png",
+      "variants": [
+        "images sort/variantes/01-65-piege-sournois-etat-2.png",
+        "images sort/variantes/01-65-piege-sournois-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 2,
+      "spellId": 72,
+      "name": "Invisibilité",
+      "description": "Rend le personnage invisible.",
+      "iconId": 72,
+      "icon": "images sort/02-72-invisibilite.png",
+      "variants": [
+        "images sort/variantes/02-72-invisibilite-etat-2.png",
+        "images sort/variantes/02-72-invisibilite-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 3,
+      "spellId": 61,
+      "name": "Morsure des Profondeurs",
+      "description": "Le Sram, chuchoteur des abîmes, matérialise une dent d'eau pure, aussi tranchante que la glace des profondeurs. Il frappe sa cible unique avec une vélocité insaisissable, lui infligeant des dégâts d'eau massifs et gelant son âme pour un instant, la rendant vulnérable aux assauts futurs.",
+      "iconId": 61,
+      "icon": "images sort/03-61-morsure-des-profondeurs.png",
+      "variants": [
+        "images sort/variantes/03-61-morsure-des-profondeurs-etat-2.png",
+        "images sort/variantes/03-61-morsure-des-profondeurs-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 4,
+      "spellId": 66,
+      "name": "Venin Abyssal",
+      "description": "Le Sram, maître empoisonneur des profondeurs, projette une fléchette d'eau putride imprégnée du venin des créatures abyssales. Elle s'enfonce dans la chair de sa cible unique, libérant un poison aquatique qui corrode lentement ses défenses et lui inflige des dégâts d'eau progressifs à chaque tour. La victime se sent aspirée par les ténèbres.",
+      "iconId": 66,
+      "icon": "images sort/04-66-venin-abyssal.png",
+      "variants": [
+        "images sort/variantes/04-66-venin-abyssal-etat-2.png",
+        "images sort/variantes/04-66-venin-abyssal-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 5,
+      "spellId": 68,
+      "name": "Siphon des Âmes",
+      "description": "Le Sram, pilleur d'essences, projette une vague d'eau sombre et gélatineuse qui s'abat sur sa cible. Ce Siphon des Âmes inflige des dégâts d'Eau considérables, mais son véritable pouvoir réside dans son étreinte drainante. La substance corruptrice siphonne les caractéristiques de Force et de Chance de l'ennemi, affaiblissant sa résistance physique et sa fortune au combat, pour les transférer temporairement au Sram. Un vol insidieux qui dénude l'adversaire de ses propres forces.",
+      "iconId": 68,
+      "icon": "images sort/05-68-siphon-des-ames.png",
+      "variants": [
+        "images sort/variantes/05-68-siphon-des-ames-etat-2.png",
+        "images sort/variantes/05-68-siphon-des-ames-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 6,
+      "spellId": 63,
+      "name": "Coup Sournois",
+      "description": "Inflige des dégâts de Terre à l'adversaire et le fait reculer de plusieurs cases.",
+      "iconId": 63,
+      "icon": "images sort/06-63-coup-sournois.png",
+      "variants": [
+        "images sort/variantes/06-63-coup-sournois-etat-2.png",
+        "images sort/variantes/06-63-coup-sournois-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 7,
+      "spellId": 74,
+      "name": "Double",
+      "description": "Invoque un double qui possède les mêmes caractéristique que l'invocateur, mais qui n'attaque pas.",
+      "iconId": 74,
+      "icon": "images sort/07-74-double.png",
+      "variants": [
+        "images sort/variantes/07-74-double-etat-2.png",
+        "images sort/variantes/07-74-double-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 8,
+      "spellId": 64,
+      "name": "Repérage",
+      "description": "Détecte les pièges, les invisibles et augmente la portée.",
+      "iconId": 64,
+      "icon": "images sort/08-64-reperage.png",
+      "variants": [
+        "images sort/variantes/08-64-reperage-etat-2.png",
+        "images sort/variantes/08-64-reperage-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 9,
+      "spellId": 79,
+      "name": "Piège de Masse",
+      "description": "Le Piège de Masse inflige de sérieux dégâts de terre à celui qui le déclenche et aux joueurs alentours.",
+      "iconId": 79,
+      "icon": "images sort/09-79-piege-de-masse.png",
+      "variants": [
+        "images sort/variantes/09-79-piege-de-masse-etat-2.png",
+        "images sort/variantes/09-79-piege-de-masse-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 10,
+      "spellId": 78,
+      "name": "Invisibilité d'Autrui",
+      "description": "L'Invisibilité d'Autrui permet de rendre invisible un joueur.",
+      "iconId": 78,
+      "icon": "images sort/10-78-invisibilite-d-autrui.png",
+      "variants": [
+        "images sort/variantes/10-78-invisibilite-d-autrui-etat-2.png",
+        "images sort/variantes/10-78-invisibilite-d-autrui-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 11,
+      "spellId": 71,
+      "name": "Piège Empoisonné",
+      "description": "Le Piège Empoisonné empoisonne le joueur qui le déclenche.",
+      "iconId": 71,
+      "icon": "images sort/11-71-piege-empoisonne.png",
+      "variants": [
+        "images sort/variantes/11-71-piege-empoisonne-etat-2.png",
+        "images sort/variantes/11-71-piege-empoisonne-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 12,
+      "spellId": 62,
+      "name": "Concentration de Chakra",
+      "description": "La Concentration de Chakra permet au lanceur d'augmenter considérablement sa force.",
+      "iconId": 62,
+      "icon": "images sort/12-62-concentration-de-chakra.png",
+      "variants": [
+        "images sort/variantes/12-62-concentration-de-chakra-etat-2.png",
+        "images sort/variantes/12-62-concentration-de-chakra-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 13,
+      "spellId": 69,
+      "name": "Piège d'Immobilisation",
+      "description": "Le Piège d'Immobilisation paralyse tous les joueurs dans sa zone d'effet.",
+      "iconId": 69,
+      "icon": "images sort/13-69-piege-d-immobilisation.png",
+      "variants": [
+        "images sort/variantes/13-69-piege-d-immobilisation-etat-2.png",
+        "images sort/variantes/13-69-piege-d-immobilisation-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 14,
+      "spellId": 77,
+      "name": "Piège de Silence",
+      "description": "Le Piège de Silence fait perdre des PA au joueur qui le déclenche.",
+      "iconId": 77,
+      "icon": "images sort/14-77-piege-de-silence.png",
+      "variants": [
+        "images sort/variantes/14-77-piege-de-silence-etat-2.png",
+        "images sort/variantes/14-77-piege-de-silence-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 15,
+      "spellId": 73,
+      "name": "Piège répulsif",
+      "description": "Repousse les alliés et les ennemis.",
+      "iconId": 73,
+      "icon": "images sort/15-73-piege-repulsif.png",
+      "variants": [
+        "images sort/variantes/15-73-piege-repulsif-etat-2.png",
+        "images sort/variantes/15-73-piege-repulsif-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 16,
+      "spellId": 67,
+      "name": "Peur",
+      "description": "Pousse un allié ou un ennemi sur la case ciblée.",
+      "iconId": 67,
+      "icon": "images sort/16-67-peur.png",
+      "variants": [
+        "images sort/variantes/16-67-peur-etat-2.png",
+        "images sort/variantes/16-67-peur-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 17,
+      "spellId": 70,
+      "name": "Pillage Funeste",
+      "description": "Le Sram, fossoyeur cupide des terres profanées, maudit le sol sous les pieds de sa victime. Une main d'argile putride jaillit des profondeurs, frappant la cible unique d'un coup dévastateur de Terre. Au-delà de la douleur, l'énergie impie du sort dépouille l'ennemi d'une partie de ses Kamas, les ramenant directement dans les mains du Sram. Une offrande forcée aux ténèbres.",
+      "iconId": 70,
+      "icon": "images sort/17-70-pillage-funeste.png",
+      "variants": [
+        "images sort/variantes/17-70-pillage-funeste-etat-2.png",
+        "images sort/variantes/17-70-pillage-funeste-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 18,
+      "spellId": 75,
+      "name": "Pulsion de Chakra",
+      "description": "La Pulsion de Chakra permet d'augmenter les coups critiques du lanceur.",
+      "iconId": 75,
+      "icon": "images sort/18-75-pulsion-de-chakra.png",
+      "variants": [
+        "images sort/variantes/18-75-pulsion-de-chakra-etat-2.png",
+        "images sort/variantes/18-75-pulsion-de-chakra-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 19,
+      "spellId": 76,
+      "name": "Profanation de Sanctuaire",
+      "description": "Le Sram, expert en l'art de la corruption, frappe le sol avec une force impie, profanant l'essence même de la terre. Ce coup, la Profanation de Sanctuaire, est une attaque d'une brutalité inouïe. Au niveau 6, l'énergie corruptrice s'étend, déchirant la terre sous une zone entière d'ennemis. Des roches déformées et des racines noueuses jaillissent, infligeant des dégâts de Terre massifs à toutes les cibles. L'impact laisse derrière lui une cicatrice d'énergie sombre, témoin du sacrilège.",
+      "iconId": 76,
+      "icon": "images sort/19-76-profanation-de-sanctuaire.png",
+      "variants": [
+        "images sort/variantes/19-76-profanation-de-sanctuaire-etat-2.png",
+        "images sort/variantes/19-76-profanation-de-sanctuaire-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 20,
+      "spellId": 80,
+      "name": "L'Étreinte des Damnés",
+      "description": "Le Piège Mortel Sram, autrefois simple étreinte terrestre, a absorbé l'essence d'une agonie sans nom. Il frappe désormais comme le souvenir glaciaire de la plus grande des morts, mêlant la brutalité de la terre à une vague d'eau suffocante. Une étreinte fatale, née des profondeurs du Désespoir, prête à engloutir quiconque s'y aventure.",
+      "iconId": 80,
+      "icon": "images sort/20-80-l-etreinte-des-damnes.png",
+      "variants": [
+        "images sort/variantes/20-80-l-etreinte-des-damnes-etat-2.png",
+        "images sort/variantes/20-80-l-etreinte-des-damnes-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 21,
+      "spellId": 1904,
+      "name": "Invocation de Dopeul Sram",
+      "description": "Ce sort permet d'invoquer un Dopeul Sram qui viendra aider son maître pendant les combats.",
+      "iconId": 1904,
+      "icon": "images sort/21-1904-invocation-de-dopeul-sram.png",
+      "variants": [
+        "images sort/variantes/21-1904-invocation-de-dopeul-sram-etat-2.png",
+        "images sort/variantes/21-1904-invocation-de-dopeul-sram-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  ]
+}

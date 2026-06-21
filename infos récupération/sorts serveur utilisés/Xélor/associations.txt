@@ -1,0 +1,48 @@
+CLASSE : XÉLOR
+================================================================================
+Table des classes : classes_fr_184.swf
+Table des sorts : spells_fr_441.swf
+Nombre de sorts utilisés : 21
+
+01. [sort 81 / icône 81] Ralentissement
+    images sort/01-81-ralentissement.png
+02. [sort 83 / icône 83] Aiguille
+    images sort/02-83-aiguille.png
+03. [sort 82 / icône 82] Contre
+    images sort/03-82-contre.png
+04. [sort 84 / icône 84] Gelure Spectral
+    images sort/04-84-gelure-spectral.png
+05. [sort 100 / icône 100] Sablier de Xélor
+    images sort/05-100-sablier-de-xelor.png
+06. [sort 92 / icône 92] Sablier Ensoleillé
+    images sort/06-92-sablier-ensoleille.png
+07. [sort 88 / icône 88] Téléportation
+    images sort/07-88-teleportation.png
+08. [sort 93 / icône 93] Sablier Abyssal
+    images sort/08-93-sablier-abyssal.png
+09. [sort 85 / icône 85] Flou
+    images sort/09-85-flou.png
+10. [sort 96 / icône 96] Poussière Temporelle
+    images sort/10-96-poussiere-temporelle.png
+11. [sort 98 / icône 98] Vol du Temps
+    images sort/11-98-vol-du-temps.png
+12. [sort 86 / icône 86] Aiguille Chercheuse
+    images sort/12-86-aiguille-chercheuse.png
+13. [sort 89 / icône 89] Engrenage Loyal
+    images sort/13-89-engrenage-loyal.png
+14. [sort 90 / icône 90] Fuite
+    images sort/14-90-fuite.png
+15. [sort 87 / icône 87] Démotivation
+    images sort/15-87-demotivation.png
+16. [sort 94 / icône 94] Protection Aveuglante
+    images sort/16-94-protection-aveuglante.png
+17. [sort 99 / icône 99] Momification
+    images sort/17-99-momification.png
+18. [sort 95 / icône 95] Larcin Temporel
+    images sort/18-95-larcin-temporel.png
+19. [sort 91 / icône 91] Sablier Ardent
+    images sort/19-91-sablier-ardent.png
+20. [sort 97 / icône 97] Cadran de Xélor
+    images sort/20-97-cadran-de-xelor.png
+21. [sort 1905 / icône 1905] Invocation de Dopeul Xélor
+    images sort/21-1905-invocation-de-dopeul-xelor.png

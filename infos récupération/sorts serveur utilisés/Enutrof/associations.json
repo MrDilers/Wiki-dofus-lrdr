@@ -1,0 +1,431 @@
+{
+  "classId": 3,
+  "className": "Enutrof",
+  "sourceVersions": {
+    "classes": 184,
+    "spells": 441
+  },
+  "spellCount": 21,
+  "spells": [
+    {
+      "order": 1,
+      "spellId": 51,
+      "name": "Lancer de Pièces",
+      "description": "Ce sort permet de lancer de très loin des pièces d'or factices sur un ennemi, et lui inflige des dégâts d'Eau.",
+      "iconId": 51,
+      "icon": "images sort/01-51-lancer-de-pieces.png",
+      "variants": [
+        "images sort/variantes/01-51-lancer-de-pieces-etat-2.png",
+        "images sort/variantes/01-51-lancer-de-pieces-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 2,
+      "spellId": 41,
+      "name": "Sac Animé",
+      "description": "Ce sort permet à son lanceur de donner vie à son Sac. Ce dernier protégera un de ses alliés jusqu'à sa destruction.",
+      "iconId": 41,
+      "icon": "images sort/02-41-sac-anime.png",
+      "variants": [
+        "images sort/variantes/02-41-sac-anime-etat-2.png",
+        "images sort/variantes/02-41-sac-anime-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 3,
+      "spellId": 43,
+      "name": "Lancer de Pelle",
+      "description": "Le Lancer de Pelle inflige des dégâts de Terre.",
+      "iconId": 43,
+      "icon": "images sort/03-43-lancer-de-pelle.png",
+      "variants": [
+        "images sort/variantes/03-43-lancer-de-pelle-etat-2.png",
+        "images sort/variantes/03-43-lancer-de-pelle-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 4,
+      "spellId": 49,
+      "name": "Flammes Traîtresses",
+      "description": "Issue des entrailles de volcans sous-marins, là où l'eau et le feu s'affrontent en un ballet éternel, voici les Flammes Traîtresses. Ce sort invoque des geysers de magma bouillonnant qui jaillissent pour consumer vos ennemis. Chaque explosion est un rappel de la puissance dévastatrice des abysses, infligeant des brûlures ardentes. Mais gare, car quand la fureur de ce brasier sous-marin atteint son paroxysme, un coup critique attire l'adversaire violemment vers votre allié, le poussant au cœur même de la tourmente. Un piège infernal pour ceux qui osent défier les profondeurs embrasées !",
+      "iconId": 49,
+      "icon": "images sort/04-49-flammes-traitresses.png",
+      "variants": [
+        "images sort/variantes/04-49-flammes-traitresses-etat-2.png",
+        "images sort/variantes/04-49-flammes-traitresses-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 5,
+      "spellId": 42,
+      "name": "Chance",
+      "description": "Ce sort permet au lanceur d'augmenter sa chance.",
+      "iconId": 42,
+      "icon": "images sort/05-42-chance.png",
+      "variants": [
+        "images sort/variantes/05-42-chance-etat-2.png",
+        "images sort/variantes/05-42-chance-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 6,
+      "spellId": 47,
+      "name": "Boîte de Pandore",
+      "description": "La Boîte de Pandore peut rendre des PDV ou augmenter les coups critiques.",
+      "iconId": 47,
+      "icon": "images sort/06-47-boite-de-pandore.png",
+      "variants": [
+        "images sort/variantes/06-47-boite-de-pandore-etat-2.png",
+        "images sort/variantes/06-47-boite-de-pandore-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 7,
+      "spellId": 48,
+      "name": "Rapine Souterraine",
+      "description": "Après avoir dérobé un précieux joyau, le vieux voleur d’Enutrof invoque la terre pour engloutir ses adversaires, emportant leur fortune dans les profondeurs du sol.",
+      "iconId": 48,
+      "icon": "images sort/07-48-rapine-souterraine.png",
+      "variants": [
+        "images sort/variantes/07-48-rapine-souterraine-etat-2.png",
+        "images sort/variantes/07-48-rapine-souterraine-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 8,
+      "spellId": 45,
+      "name": "Clé Réductrice",
+      "description": "La Clé Réductrice permet de réduire la portée des attaques d'un ennemi.",
+      "iconId": 45,
+      "icon": "images sort/08-45-cle-reductrice.png",
+      "variants": [
+        "images sort/variantes/08-45-cle-reductrice-etat-2.png",
+        "images sort/variantes/08-45-cle-reductrice-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 9,
+      "spellId": 53,
+      "name": "Pelle du Marée-Haut",
+      "description": "La Pelle du Marée-Haut n'est pas une arme, c'est l'océan incarné. Frappez l'ennemi avec cette vague solidifiée pour des dégâts Eau colossaux. Son impact crée un reflux qui aspire l'énergie de la cible, lui volant des PM et la laissant échouée. Dictez le rythme du combat !",
+      "iconId": 53,
+      "icon": "images sort/09-53-pelle-du-maree-haut.png",
+      "variants": [
+        "images sort/variantes/09-53-pelle-du-maree-haut-etat-2.png",
+        "images sort/variantes/09-53-pelle-du-maree-haut-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 10,
+      "spellId": 46,
+      "name": "Désinvocation",
+      "description": "La Désinvocation permet d'infliger d'énormes dégâts aux invocations.",
+      "iconId": 46,
+      "icon": "images sort/10-46-desinvocation.png",
+      "variants": [
+        "images sort/variantes/10-46-desinvocation-etat-2.png",
+        "images sort/variantes/10-46-desinvocation-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 11,
+      "spellId": 52,
+      "name": "Cupidité",
+      "description": "La Cupidité rend fou et augmente les dégâts de tous les joueurs, amis comme ennemis.",
+      "iconId": 52,
+      "icon": "images sort/11-52-cupidite.png",
+      "variants": [
+        "images sort/variantes/11-52-cupidite-etat-2.png",
+        "images sort/variantes/11-52-cupidite-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 12,
+      "spellId": 44,
+      "name": "Roulage de Pelle",
+      "description": "Le Roulage de Pelle ne nécessite pas de ligne de vue et inflige des dégâts de Feu.",
+      "iconId": 44,
+      "icon": "images sort/12-44-roulage-de-pelle.png",
+      "variants": [
+        "images sort/variantes/12-44-roulage-de-pelle-etat-2.png",
+        "images sort/variantes/12-44-roulage-de-pelle-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 13,
+      "spellId": 50,
+      "name": "Maladresse",
+      "description": "La Maladresse enlève des PM à un ennemi.",
+      "iconId": 50,
+      "icon": "images sort/13-50-maladresse.png",
+      "variants": [
+        "images sort/variantes/13-50-maladresse-etat-2.png",
+        "images sort/variantes/13-50-maladresse-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 14,
+      "spellId": 54,
+      "name": "Maladresse de Masse",
+      "description": "La Maladresse de Masse fait perdre des PA à tous les ennemis.",
+      "iconId": 54,
+      "icon": "images sort/14-54-maladresse-de-masse.png",
+      "variants": [
+        "images sort/variantes/14-54-maladresse-de-masse-etat-2.png",
+        "images sort/variantes/14-54-maladresse-de-masse-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 15,
+      "spellId": 55,
+      "name": "Accélération",
+      "description": "L'Accélération permet d'augmenter les PM du lanceur ou d'un allié.",
+      "iconId": 55,
+      "icon": "images sort/15-55-acceleration.png",
+      "variants": [
+        "images sort/variantes/15-55-acceleration-etat-2.png",
+        "images sort/variantes/15-55-acceleration-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 16,
+      "spellId": 56,
+      "name": "Pelle du Jugement",
+      "description": "Occasionne des dommages Eau et retire des PM en coup critique.",
+      "iconId": 56,
+      "icon": "images sort/16-56-pelle-du-jugement.png",
+      "variants": [
+        "images sort/variantes/16-56-pelle-du-jugement-etat-2.png",
+        "images sort/variantes/16-56-pelle-du-jugement-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 17,
+      "spellId": 58,
+      "name": "Pelle Terrifiante",
+      "description": "De l'écume des profondeurs, là où les courants murmurent des légendes oubliées, surgit la Pelle Terrifiante. Forgée dans les abysses les plus sombres, elle est le reflet de la mer en colère, capable de déchaîner sa fureur sur quiconque ose s'opposer à elle. À chaque coup, une vague d'énergie aquatique frappe l'ennemi, rappelant la puissance indomptable des océans. Et lorsque la colère de la mer atteint son paroxysme, un coup critique empêche de se déplacer, comme si les vagues elles-mêmes la rejetaient de leurs profondeurs. Attention, car ce n'est pas seulement une pelle, c'est la fureur des flots qui vous submerge !",
+      "iconId": 58,
+      "icon": "images sort/17-58-pelle-terrifiante.png",
+      "variants": [
+        "images sort/variantes/17-58-pelle-terrifiante-etat-2.png",
+        "images sort/variantes/17-58-pelle-terrifiante-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 18,
+      "spellId": 59,
+      "name": "Corruption",
+      "description": "La Corruption fait perdre un tour à un ennemi mais lui rend énormement de PDV",
+      "iconId": 59,
+      "icon": "images sort/18-59-corruption.png",
+      "variants": [
+        "images sort/variantes/18-59-corruption-etat-2.png",
+        "images sort/variantes/18-59-corruption-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 19,
+      "spellId": 57,
+      "name": "Pelle Animée",
+      "description": "Invoque une pelle qui repousse les ennemis et réduit leurs résistances aux pertes de PM.",
+      "iconId": 57,
+      "icon": "images sort/19-57-pelle-animee.png",
+      "variants": [
+        "images sort/variantes/19-57-pelle-animee-etat-2.png",
+        "images sort/variantes/19-57-pelle-animee-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 20,
+      "spellId": 60,
+      "name": "Coffre Animé",
+      "description": "Ce sort fait apparaître un coffre qui permet de récupérer davantage d'objets sur une créature. Plus le Coffre évolue, plus il a de chance d'en récupérer.",
+      "iconId": 60,
+      "icon": "images sort/20-60-coffre-anime.png",
+      "variants": [
+        "images sort/variantes/20-60-coffre-anime-etat-2.png",
+        "images sort/variantes/20-60-coffre-anime-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "order": 21,
+      "spellId": 1903,
+      "name": "Invocation de Dopeul Enutrof",
+      "description": "Ce sort permet d'invoquer un Dopeul Enutrof qui viendra aider son maître pendant les combats.",
+      "iconId": 1903,
+      "icon": "images sort/21-1903-invocation-de-dopeul-enutrof.png",
+      "variants": [
+        "images sort/variantes/21-1903-invocation-de-dopeul-enutrof-etat-2.png",
+        "images sort/variantes/21-1903-invocation-de-dopeul-enutrof-etat-3.png"
+      ],
+      "availableLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  ]
+}
