@@ -102,7 +102,10 @@ function renderSpellCard(spell, index) {
       </div>
 
       <div class="compact-costs"><b>${escapeHtml(data.ap)}</b><b>${escapeHtml(data.range)}</b><span>CC ${escapeHtml(quickStats[0]?.[1] || "-")}</span></div>
-      <p class="compact-description" title="${escapeHtml(data.description)}">${escapeHtml(data.description)}</p>
+      <div class="compact-description-wrap">
+        <p class="compact-description" title="${escapeHtml(data.description)}">${escapeHtml(data.description)}</p>
+        <input class="description-slider" type="range" min="0" max="0" value="0" aria-label="Faire défiler la description de ${escapeHtml(data.name)}" title="Faire défiler la description" hidden>
+      </div>
 
       <div class="compact-effects">
         <section><h4>Normaux</h4><ul>${renderEffects(normal)}</ul></section>
@@ -128,6 +131,21 @@ function renderClassPicker() {
     .join("");
 }
 
+function syncDescriptionSliders(root = document) {
+  window.requestAnimationFrame(() => {
+    root.querySelectorAll(".compact-description-wrap").forEach((wrap) => {
+      const description = wrap.querySelector(".compact-description");
+      const slider = wrap.querySelector(".description-slider");
+      const maxScroll = Math.max(0, description.scrollHeight - description.clientHeight);
+      const hasOverflow = maxScroll > 2;
+      wrap.classList.toggle("has-overflow", hasOverflow);
+      slider.hidden = !hasOverflow;
+      slider.max = String(Math.ceil(maxScroll));
+      slider.value = String(Math.min(description.scrollTop, maxScroll));
+    });
+  });
+}
+
 function renderSpells() {
   const classItem = classes.find((item) => item.id === state.classId) || classes[0];
   if (!classItem) return;
@@ -142,6 +160,7 @@ function renderSpells() {
   $("#testSpellGrid").innerHTML = spells.length
     ? spells.map(renderSpellCard).join("")
     : '<p class="test-empty">Aucun sort ne correspond à la recherche.</p>';
+  syncDescriptionSliders($("#testSpellGrid"));
 }
 
 $("#testClassPicker").addEventListener("click", (event) => {
@@ -162,8 +181,28 @@ $("#testSpellGrid").addEventListener("click", (event) => {
   const spellId = key.slice(key.indexOf(":") + 1);
   const spells = spellsByClass[state.classId] || [];
   const index = spells.findIndex((spell, spellIndex) => String(spell.spellId ?? spell.id ?? spellIndex) === spellId);
-  if (index >= 0) card.outerHTML = renderSpellCard(spells[index], index);
+  if (index >= 0) {
+    card.outerHTML = renderSpellCard(spells[index], index);
+    syncDescriptionSliders($("#testSpellGrid"));
+  }
 });
+
+$("#testSpellGrid").addEventListener("input", (event) => {
+  const slider = event.target.closest(".description-slider");
+  if (!slider) return;
+  const description = slider.closest(".compact-description-wrap").querySelector(".compact-description");
+  description.scrollTop = Number(slider.value);
+});
+
+$("#testSpellGrid").addEventListener(
+  "scroll",
+  (event) => {
+    if (!event.target.classList.contains("compact-description")) return;
+    const slider = event.target.closest(".compact-description-wrap").querySelector(".description-slider");
+    slider.value = String(event.target.scrollTop);
+  },
+  true,
+);
 
 $("#testSearch").addEventListener("input", (event) => {
   state.query = event.target.value.trim();
@@ -173,3 +212,4 @@ $("#testSearch").addEventListener("input", (event) => {
 if (!spellsByClass[state.classId]) state.classId = "cra";
 renderClassPicker();
 renderSpells();
+window.addEventListener("resize", () => syncDescriptionSliders($("#testSpellGrid")), { passive: true });
