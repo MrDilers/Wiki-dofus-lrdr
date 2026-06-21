@@ -414,6 +414,11 @@ small {
   color: #d02722;
 }
 
+.source-tools[hidden],
+label[hidden] {
+  display: none !important;
+}
+
 .source-tools {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
