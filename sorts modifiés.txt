@@ -1,0 +1,110 @@
+SORTS MODIFIÉS - LA REVANCHE DE RÉTRO
+=====================================
+
+Ce fichier recense uniquement les sorts modifiés à présenter dans le wiki.
+Les noms et identifiants ci-dessous correspondent aux données du client du serveur.
+
+CRÂ
+---
+[164] Souffle de l’Humus
+[173] Flèche des Murmures
+[174] Flèche du Revenant
+[176] Flèche du Néant
+[178] Flèche du Vent Cisaillant
+[179] Flèche Explosive
+
+SADIDA
+------
+[183] Ronce Aride
+[200] Ronce du Chaos
+[195] Larme Epineuse
+[198] Ronce des Enfers
+[191] Ronces Multiples du Roi Sadi
+[194] Ronces Aerienne
+[185] Herbe Folle Ichonne
+
+SACRIEUR
+--------
+[432] Pied du Tsunami
+[436] Assaut 51
+[439] Dissolution des Enfers
+[442] Absorption Terrestre
+[447] Furie Sanglantes
+
+PANDAWA
+-------
+[692] Poing de Pierre
+[687] Uppercut à la McGregor
+[690] Tempête Alcoolisée
+[700] Charge Rocailleuse
+[702] Flasque Terrestre
+[703] Pandatak Enflammé
+
+FÉCA
+----
+[3] Attaque Volcanique
+[2] Voile des Abysses
+[9] Attaque Orageuse
+[19] Secousse Lointaine
+[8] Poigne Tellurique
+[10] Glyphe Apocalyptique
+
+OSAMODAS
+--------
+[21] Souffle Zéphyr
+[23] Fureur Sauvage
+[22] Patte Agiles
+[27] Élan de la Bête
+[24] Danse du Cyclone
+[33] Fureur Ouragan
+[36] Apogée de l’Alizé
+[32] Dernier Espoir
+[29] Rage Bestiale
+
+ENUTROF
+-------
+[49] Flammes Traîtresses
+[48] Rapine Souterraine
+[53] Pelle du Marée-Haut
+[58] Pelle Terrifiante
+
+SRAM
+----
+[61] Morsure des Profondeurs
+[66] Venin Abyssal
+[68] Siphon des Âmes
+[70] Pillage Funeste
+[76] Profanation de Sanctuaire
+[80] L’Étreinte des Damnés
+
+XÉLOR
+-----
+[84] Gelure Spectral
+[92] Sablier Ensoleillé
+[93] Sablier Abyssal
+[89] Engrenage Loyal
+[95] Larcin Temporel
+[91] Sablier Ardent
+
+Note pour le wiki : Sablier Ensoleillé remplace Sablier Enraciné.
+
+ECAFLIP
+-------
+[102] Bourrasque du Hasard
+[109] Rafale de Poker
+[108] Esprit Félin
+[110] Vague Céleste
+[114] Quitte ou Double Fatal
+
+ENIRIPSA
+--------
+[122] Le Baiser Incandescent
+[126] Impulsion Vitale
+[134] Larme d’Ondine
+
+IOP
+---
+[146] La Vague du Guerrier
+[154] Flamme Divine
+[152] Poing Epique
+[158] Geyser du Colosse

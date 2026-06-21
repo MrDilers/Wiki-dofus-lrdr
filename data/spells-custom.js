@@ -7701,7 +7701,7 @@ window.LRDR_CUSTOM_SPELLS = {
     },
     {
       "id": "sablier-enracine",
-      "name": "Sablier Enracine",
+      "name": "Sablier Ensoleillé",
       "element": "Eau",
       "icon": "assets/icons/spells/xelor/sablier-enracine.png",
       "requiredLevel": 109,
@@ -7717,7 +7717,7 @@ window.LRDR_CUSTOM_SPELLS = {
       "range": "1 a 9 PO",
       "ap": "4 PA",
       "sourceImage": "assets/spells/xelor/page-13-02-sablier-enracine.png",
-      "description": "Sablier Enracine est un sort modifie de niveau 109, d'une portee de 1 a 9 PO, et coute 4 PA. Vole 13 a 29 PDV (terre) ; Dans 90% des cas : pas d'effet complementaire ; Dans 10% des cas : ajoute +1 PA ; Vole 1 PO (1 tour).",
+      "description": "Sablier Ensoleillé est un sort modifie de niveau 109, d'une portee de 1 a 9 PO, et coute 4 PA. Vole 13 a 29 PDV (terre) ; Dans 90% des cas : pas d'effet complementaire ; Dans 10% des cas : ajoute +1 PA ; Vole 1 PO (1 tour).",
       "tabs": [
         {
           "label": "Normaux",

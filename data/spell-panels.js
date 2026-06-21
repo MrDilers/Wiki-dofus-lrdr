@@ -277,7 +277,7 @@ window.LRDR_SPELL_PANELS = {
       "image": "assets/spells/xelor/page-13-01-gelure-spectrale.png"
     },
     {
-      "name": "Sablier Enracine",
+      "name": "Sablier Ensoleillé",
       "page": 13,
       "image": "assets/spells/xelor/page-13-02-sablier-enracine.png"
     },

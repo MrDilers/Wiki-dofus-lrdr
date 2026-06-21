@@ -98,7 +98,7 @@ const pageNames = {
   ],
   13: [
     "Gelure Spectrale",
-    "Sablier Enracine",
+    "Sablier Ensoleillé",
     "Sablier Abyssal",
     "Engrenage Loyal",
     "Larcin Temporel",
