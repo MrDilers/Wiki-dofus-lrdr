@@ -10,7 +10,7 @@ const state = {
   wikiFilter: "Tous",
 };
 
-const siteVersion = "1.3.6";
+const siteVersion = "1.3.7";
 
 function versionedAsset(path) {
   return `${path}${path.includes("?") ? "&" : "?"}v=${siteVersion}`;
@@ -339,7 +339,6 @@ function renderNav() {
     <div class="nav-section-title">Categories</div>
     <a class="nav-category" href="classes.html"${navCurrent("classes.html")}><span>Classes</span><small>${state.classes.length}</small></a>
     <a class="nav-category" href="classes-test.html"${navCurrent("classes-test.html")}><span>Classes test</span><small>Compact</small></a>
-    <a class="nav-category" href="news.html"${navCurrent("news.html")}><span>News</span><small>Infos</small></a>
     ${wikiLinks}
   `;
 }
