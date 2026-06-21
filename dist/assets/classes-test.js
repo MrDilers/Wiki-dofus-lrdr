@@ -68,8 +68,8 @@ function renderEffects(effects) {
     .map((effect) => `
       <li>
         ${effectIcon(effect.element)}
-        <span>${escapeHtml(effect.text)}</span>
-        ${effect.area ? `<small>${escapeHtml(effect.area)} (C)</small>` : effect.meta ? `<small>${escapeHtml(effect.meta)}</small>` : ""}
+        <span title="${escapeHtml(effect.text)}">${escapeHtml(effect.text)}</span>
+        ${effect.area ? `<small title="Zone de ${escapeHtml(effect.area)} cases">${escapeHtml(effect.area)} (C)</small>` : effect.meta ? `<small title="${escapeHtml(effect.meta)}">${escapeHtml(effect.meta)}</small>` : ""}
       </li>
     `)
     .join("");
@@ -110,8 +110,8 @@ function renderSpellCard(spell, index) {
       </div>
 
       <dl class="compact-rules">
-        ${quickStats.slice(1).map(([label, value]) => `<div><dt title="${escapeHtml(label)}">${escapeHtml(label)}</dt><dd>${escapeHtml(value)}</dd></div>`).join("")}
-        ${rules.map(([label, value]) => `<div><dt title="${escapeHtml(label)}">${escapeHtml(label)}</dt><dd>${ruleValue(value)}</dd></div>`).join("")}
+        ${quickStats.slice(1).map(([label, value]) => `<div><dt title="${escapeHtml(label)}">${escapeHtml(label)}</dt><dd title="${escapeHtml(value)}">${escapeHtml(value)}</dd></div>`).join("")}
+        ${rules.map(([label, value]) => `<div><dt title="${escapeHtml(label)}">${escapeHtml(label)}</dt><dd title="${typeof value === "boolean" ? (value ? "Oui" : "Non") : escapeHtml(value)}">${ruleValue(value)}</dd></div>`).join("")}
       </dl>
     </article>
   `;
